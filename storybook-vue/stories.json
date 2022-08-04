@@ -1,0 +1,2066 @@
+{
+  "v": 3,
+  "stories": {
+    "vue-article--article": {
+      "id": "vue-article--article",
+      "name": "Article",
+      "title": "Vue.js Component/Article",
+      "importPath": "./src/stories/Article/Article.stories.mdx",
+      "kind": "Vue.js Component/Article",
+      "story": "Article",
+      "parameters": {
+        "fileName": "./src/stories/Article/Article.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-article--article",
+        "__isArgsStory": true
+      }
+    },
+    "vuejs-article-design-tokens--page": {
+      "id": "vuejs-article-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Article/Design Tokens",
+      "importPath": "./src/stories/Article/tokens.stories.mdx",
+      "kind": "Vue.js Component/Article/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Article/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vuejs-article-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-badge-status--badge-status-neutral": {
+      "id": "vue-badge-status--badge-status-neutral",
+      "name": "Badge Status Neutral",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Neutral",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-neutral",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-danger": {
+      "id": "vue-badge-status--badge-status-danger",
+      "name": "Badge Status Danger",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Danger",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-danger",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-safe": {
+      "id": "vue-badge-status--badge-status-safe",
+      "name": "Badge Status Safe",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Safe",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-safe",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-invalid": {
+      "id": "vue-badge-status--badge-status-invalid",
+      "name": "Badge Status Invalid",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Invalid",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-invalid",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-valid": {
+      "id": "vue-badge-status--badge-status-valid",
+      "name": "Badge Status Valid",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Valid",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-valid",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-error": {
+      "id": "vue-badge-status--badge-status-error",
+      "name": "Badge Status Error",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Error",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-error",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-warning": {
+      "id": "vue-badge-status--badge-status-warning",
+      "name": "Badge Status Warning",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Warning",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-warning",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-success": {
+      "id": "vue-badge-status--badge-status-success",
+      "name": "Badge Status Success",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Success",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-success",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-inactive": {
+      "id": "vue-badge-status--badge-status-inactive",
+      "name": "Badge Status Inactive",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Inactive",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-inactive",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-active": {
+      "id": "vue-badge-status--badge-status-active",
+      "name": "Badge Status Active",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Active",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatus.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-active",
+        "__isArgsStory": true
+      }
+    },
+    "vue-badge-status--badge-status-default": {
+      "id": "vue-badge-status--badge-status-default",
+      "name": "Badge Status Default",
+      "title": "Vue.js Component/BadgeStatus",
+      "importPath": "./src/stories/BadgeStatus/BadgeStatusDefault.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus",
+      "story": "Badge Status Default",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/BadgeStatusDefault.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-badge-status--badge-status-default",
+        "__isArgsStory": true
+      }
+    },
+    "vuejs-badge-status-design-tokens--page": {
+      "id": "vuejs-badge-status-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/BadgeStatus/Design Tokens",
+      "importPath": "./src/stories/BadgeStatus/tokens.stories.mdx",
+      "kind": "Vue.js Component/BadgeStatus/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/BadgeStatus/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vuejs-badge-status-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-button--button": {
+      "id": "vue-button--button",
+      "name": "Button",
+      "title": "Vue.js Component/Button",
+      "importPath": "./src/stories/Button/Button.stories.mdx",
+      "kind": "Vue.js Component/Button",
+      "story": "Button",
+      "parameters": {
+        "fileName": "./src/stories/Button/Button.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button--button",
+        "__isArgsStory": true
+      }
+    },
+    "vue-button-appearance--primary-button": {
+      "id": "vue-button-appearance--primary-button",
+      "name": "Primary Button",
+      "title": "Vue.js Component/Button/Apearance",
+      "importPath": "./src/stories/Button/ButtonApearance.stories.mdx",
+      "kind": "Vue.js Component/Button/Apearance",
+      "story": "Primary Button",
+      "parameters": {
+        "fileName": "./src/stories/Button/ButtonApearance.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button-appearance--primary-button",
+        "__isArgsStory": true
+      }
+    },
+    "vue-button-appearance--secondary-button": {
+      "id": "vue-button-appearance--secondary-button",
+      "name": "Secondary Button",
+      "title": "Vue.js Component/Button/Apearance",
+      "importPath": "./src/stories/Button/ButtonApearance.stories.mdx",
+      "kind": "Vue.js Component/Button/Apearance",
+      "story": "Secondary Button",
+      "parameters": {
+        "fileName": "./src/stories/Button/ButtonApearance.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button-appearance--secondary-button",
+        "__isArgsStory": true
+      }
+    },
+    "vue-button-appearance--subtle-button": {
+      "id": "vue-button-appearance--subtle-button",
+      "name": "Subtle Button",
+      "title": "Vue.js Component/Button/Apearance",
+      "importPath": "./src/stories/Button/ButtonApearance.stories.mdx",
+      "kind": "Vue.js Component/Button/Apearance",
+      "story": "Subtle Button",
+      "parameters": {
+        "fileName": "./src/stories/Button/ButtonApearance.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button-appearance--subtle-button",
+        "__isArgsStory": true
+      }
+    },
+    "vue-button-states--button-hover": {
+      "id": "vue-button-states--button-hover",
+      "name": "Button Hover",
+      "title": "Vue.js Component/Button/States",
+      "importPath": "./src/stories/Button/ButtonStates.stories.mdx",
+      "kind": "Vue.js Component/Button/States",
+      "story": "Button Hover",
+      "parameters": {
+        "fileName": "./src/stories/Button/ButtonStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button-states--button-hover",
+        "__isArgsStory": true
+      }
+    },
+    "vue-button-states--button-focus": {
+      "id": "vue-button-states--button-focus",
+      "name": "Button Focus",
+      "title": "Vue.js Component/Button/States",
+      "importPath": "./src/stories/Button/ButtonStates.stories.mdx",
+      "kind": "Vue.js Component/Button/States",
+      "story": "Button Focus",
+      "parameters": {
+        "fileName": "./src/stories/Button/ButtonStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button-states--button-focus",
+        "__isArgsStory": true
+      }
+    },
+    "vue-button-states--button-active": {
+      "id": "vue-button-states--button-active",
+      "name": "Button Active",
+      "title": "Vue.js Component/Button/States",
+      "importPath": "./src/stories/Button/ButtonStates.stories.mdx",
+      "kind": "Vue.js Component/Button/States",
+      "story": "Button Active",
+      "parameters": {
+        "fileName": "./src/stories/Button/ButtonStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button-states--button-active",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-button-accessibility--page": {
+      "id": "vue-js-component-button-accessibility--page",
+      "name": "Page",
+      "title": "Vue.js Component/Button/Accessibility",
+      "importPath": "./src/stories/Button/docs/accessibility.stories.mdx",
+      "kind": "Vue.js Component/Button/Accessibility",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Button/docs/accessibility.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-button-accessibility--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-js-component-button-onderzoek--page": {
+      "id": "vue-js-component-button-onderzoek--page",
+      "name": "Page",
+      "title": "Vue.js Component/Button/Onderzoek",
+      "importPath": "./src/stories/Button/docs/onderzoek.stories.mdx",
+      "kind": "Vue.js Component/Button/Onderzoek",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Button/docs/onderzoek.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-button-onderzoek--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-js-component-button-ux-guidelines--page": {
+      "id": "vue-js-component-button-ux-guidelines--page",
+      "name": "Page",
+      "title": "Vue.js Component/Button/UX Guidelines",
+      "importPath": "./src/stories/Button/docs/ux-guidelines.stories.mdx",
+      "kind": "Vue.js Component/Button/UX Guidelines",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Button/docs/ux-guidelines.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-button-ux-guidelines--page",
+        "__isArgsStory": false
+      }
+    },
+    "vuejs-button-design-tokens--page": {
+      "id": "vuejs-button-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Button/Design Tokens",
+      "importPath": "./src/stories/Button/tokens.stories.mdx",
+      "kind": "Vue.js Component/Button/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Button/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vuejs-button-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-button-group--button-group": {
+      "id": "vue-button-group--button-group",
+      "name": "Button Group",
+      "title": "Vue.js Component/Button Group",
+      "importPath": "./src/stories/ButtonGroup/ButtonGroup.stories.mdx",
+      "kind": "Vue.js Component/Button Group",
+      "story": "Button Group",
+      "parameters": {
+        "fileName": "./src/stories/ButtonGroup/ButtonGroup.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-button-group--button-group",
+        "__isArgsStory": true
+      }
+    },
+    "vuejs-button-group-design-tokens--page": {
+      "id": "vuejs-button-group-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Button Group/Design Tokens",
+      "importPath": "./src/stories/ButtonGroup/tokens.stories.mdx",
+      "kind": "Vue.js Component/Button Group/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/ButtonGroup/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vuejs-button-group-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-checkbox--checkbox-default": {
+      "id": "vue-checkbox--checkbox-default",
+      "name": "Checkbox default",
+      "title": "Vue.js Component/Checkbox",
+      "importPath": "./src/stories/Checkbox/Checkbox.stories.mdx",
+      "kind": "Vue.js Component/Checkbox",
+      "story": "Checkbox default",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/Checkbox.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-checkbox--checkbox-default",
+        "__isArgsStory": true
+      }
+    },
+    "vue-checkbox-states--checkbox-checked": {
+      "id": "vue-checkbox-states--checkbox-checked",
+      "name": "Checkbox Checked",
+      "title": "Vue.js Component/Checkbox/States",
+      "importPath": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+      "kind": "Vue.js Component/Checkbox/States",
+      "story": "Checkbox Checked",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-checkbox-states--checkbox-checked",
+        "__isArgsStory": true
+      }
+    },
+    "vue-checkbox-states--checkbox-checked-and-disabled": {
+      "id": "vue-checkbox-states--checkbox-checked-and-disabled",
+      "name": "Checkbox Checked And Disabled",
+      "title": "Vue.js Component/Checkbox/States",
+      "importPath": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+      "kind": "Vue.js Component/Checkbox/States",
+      "story": "Checkbox Checked And Disabled",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-checkbox-states--checkbox-checked-and-disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-checkbox-states--checkbox-disabled": {
+      "id": "vue-checkbox-states--checkbox-disabled",
+      "name": "Checkbox Disabled",
+      "title": "Vue.js Component/Checkbox/States",
+      "importPath": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+      "kind": "Vue.js Component/Checkbox/States",
+      "story": "Checkbox Disabled",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-checkbox-states--checkbox-disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-checkbox-states--checkbox-invalid": {
+      "id": "vue-checkbox-states--checkbox-invalid",
+      "name": "Checkbox Invalid",
+      "title": "Vue.js Component/Checkbox/States",
+      "importPath": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+      "kind": "Vue.js Component/Checkbox/States",
+      "story": "Checkbox Invalid",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/CheckboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-checkbox-states--checkbox-invalid",
+        "__isArgsStory": true
+      }
+    },
+    "vue-checkbox--checkbox-with-fieldset-and-legend": {
+      "id": "vue-checkbox--checkbox-with-fieldset-and-legend",
+      "name": "Checkbox With Fieldset And Legend",
+      "title": "Vue.js Component/Checkbox",
+      "importPath": "./src/stories/Checkbox/CheckboxWithFieldsetAndLegend.stories.mdx",
+      "kind": "Vue.js Component/Checkbox",
+      "story": "Checkbox With Fieldset And Legend",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/CheckboxWithFieldsetAndLegend.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-checkbox--checkbox-with-fieldset-and-legend",
+        "__isArgsStory": true
+      }
+    },
+    "vue-checkbox--checkbox-with-label": {
+      "id": "vue-checkbox--checkbox-with-label",
+      "name": "Checkbox With Label",
+      "title": "Vue.js Component/Checkbox",
+      "importPath": "./src/stories/Checkbox/CheckboxWithLabel.stories.mdx",
+      "kind": "Vue.js Component/Checkbox",
+      "story": "Checkbox With Label",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/CheckboxWithLabel.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-checkbox--checkbox-with-label",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-checkbox-documentation--page": {
+      "id": "vue-js-component-checkbox-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Checkbox/Documentation",
+      "importPath": "./src/stories/Checkbox/docs.stories.mdx",
+      "kind": "Vue.js Component/Checkbox/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-checkbox-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-checkbox-design-tokens--page": {
+      "id": "vue-checkbox-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Checkbox/Design Tokens",
+      "importPath": "./src/stories/Checkbox/tokens.stories.mdx",
+      "kind": "Vue.js Component/Checkbox/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Checkbox/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-checkbox-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-document--document": {
+      "id": "vue-document--document",
+      "name": "Document",
+      "title": "Vue.js Component/Document",
+      "importPath": "./src/stories/Document/Document.stories.mdx",
+      "kind": "Vue.js Component/Document",
+      "story": "Document",
+      "parameters": {
+        "fileName": "./src/stories/Document/Document.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-document--document",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-document-documentation--page": {
+      "id": "vue-js-component-document-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Document/Documentation",
+      "importPath": "./src/stories/Document/docs.stories.mdx",
+      "kind": "Vue.js Component/Document/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Document/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-document-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vuejs-document-design-tokens--page": {
+      "id": "vuejs-document-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Document/Design Tokens",
+      "importPath": "./src/stories/Document/tokens.stories.mdx",
+      "kind": "Vue.js Component/Document/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Document/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vuejs-document-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading--heading-level-16": {
+      "id": "vue-heading--heading-level-16",
+      "name": "Heading level 1-6",
+      "title": "Vue.js Component/Heading",
+      "importPath": "./src/stories/Heading/Heading.stories.mdx",
+      "kind": "Vue.js Component/Heading",
+      "story": "Heading level 1-6",
+      "parameters": {
+        "fileName": "./src/stories/Heading/Heading.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading--heading-level-16",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-level-1--heading-level-1": {
+      "id": "vue-heading-level-1--heading-level-1",
+      "name": "Heading Level 1",
+      "title": "Vue.js Component/Heading/heading Level 1",
+      "importPath": "./src/stories/Heading/HeadingLevel1.stories.mdx",
+      "kind": "Vue.js Component/Heading/heading Level 1",
+      "story": "Heading Level 1",
+      "parameters": {
+        "fileName": "./src/stories/Heading/HeadingLevel1.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-level-1--heading-level-1",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-level-2--heading-level-2": {
+      "id": "vue-heading-level-2--heading-level-2",
+      "name": "Heading Level 2",
+      "title": "Vue.js Component/Heading/Heading Level 2",
+      "importPath": "./src/stories/Heading/HeadingLevel2.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 2",
+      "story": "Heading Level 2",
+      "parameters": {
+        "fileName": "./src/stories/Heading/HeadingLevel2.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-level-2--heading-level-2",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-level-3--heading-level-3": {
+      "id": "vue-heading-level-3--heading-level-3",
+      "name": "Heading Level 3",
+      "title": "Vue.js Component/Heading/Heading Level 3",
+      "importPath": "./src/stories/Heading/HeadingLevel3.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 3",
+      "story": "Heading Level 3",
+      "parameters": {
+        "fileName": "./src/stories/Heading/HeadingLevel3.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-level-3--heading-level-3",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-level-4--heading-level-4": {
+      "id": "vue-heading-level-4--heading-level-4",
+      "name": "Heading Level 4",
+      "title": "Vue.js Component/Heading/Heading Level 4",
+      "importPath": "./src/stories/Heading/HeadingLevel4.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 4",
+      "story": "Heading Level 4",
+      "parameters": {
+        "fileName": "./src/stories/Heading/HeadingLevel4.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-level-4--heading-level-4",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-level-5--heading-level-5": {
+      "id": "vue-heading-level-5--heading-level-5",
+      "name": "Heading Level 5",
+      "title": "Vue.js Component/Heading/Heading Level 5",
+      "importPath": "./src/stories/Heading/HeadingLevel5.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 5",
+      "story": "Heading Level 5",
+      "parameters": {
+        "fileName": "./src/stories/Heading/HeadingLevel5.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-level-5--heading-level-5",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-level-6--heading-level-6": {
+      "id": "vue-heading-level-6--heading-level-6",
+      "name": "Heading Level 6",
+      "title": "Vue.js Component/Heading/Heading Level 6",
+      "importPath": "./src/stories/Heading/HeadingLevel6.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 6",
+      "story": "Heading Level 6",
+      "parameters": {
+        "fileName": "./src/stories/Heading/HeadingLevel6.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-level-6--heading-level-6",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-level-1-design-tokens--page": {
+      "id": "vue-heading-level-1-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading/Heading Level 1/ Design Tokens",
+      "importPath": "./src/stories/Heading/tokensHeadingLevel1.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 1/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading/tokensHeadingLevel1.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-level-1-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-level-2-design-tokens--page": {
+      "id": "vue-heading-level-2-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading/Heading Level 2/ Design Tokens",
+      "importPath": "./src/stories/Heading/tokensHeadingLevel2.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 2/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading/tokensHeadingLevel2.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-level-2-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-level-3-design-tokens--page": {
+      "id": "vue-heading-level-3-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading/Heading Level 3/ Design Tokens",
+      "importPath": "./src/stories/Heading/tokensHeadingLevel3.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 3/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading/tokensHeadingLevel3.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-level-3-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-level-4-design-tokens--page": {
+      "id": "vue-heading-level-4-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading/Heading Level 4/ Design Tokens",
+      "importPath": "./src/stories/Heading/tokensHeadingLevel4.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 4/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading/tokensHeadingLevel4.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-level-4-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-level-5-design-tokens--page": {
+      "id": "vue-heading-level-5-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading/Heading Level 5/ Design Tokens",
+      "importPath": "./src/stories/Heading/tokensHeadingLevel5.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 5/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading/tokensHeadingLevel5.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-level-5-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-level-6-design-tokens--page": {
+      "id": "vue-heading-level-6-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading/Heading Level 6/ Design Tokens",
+      "importPath": "./src/stories/Heading/tokensHeadingLevel6.stories.mdx",
+      "kind": "Vue.js Component/Heading/Heading Level 6/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading/tokensHeadingLevel6.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-level-6-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-1--heading-1": {
+      "id": "vue-heading-1--heading-1",
+      "name": "Heading 1",
+      "title": "Vue.js Component/Heading 1",
+      "importPath": "./src/stories/Heading1/Heading1.stories.mdx",
+      "kind": "Vue.js Component/Heading 1",
+      "story": "Heading 1",
+      "parameters": {
+        "fileName": "./src/stories/Heading1/Heading1.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-1--heading-1",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-1-design-tokens--page": {
+      "id": "vue-heading-1-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading 1/ Design Tokens",
+      "importPath": "./src/stories/Heading1/tokens.stories.mdx",
+      "kind": "Vue.js Component/Heading 1/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading1/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-1-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-2--heading-2": {
+      "id": "vue-heading-2--heading-2",
+      "name": "Heading 2",
+      "title": "Vue.js Component/Heading 2",
+      "importPath": "./src/stories/Heading2/Heading2.stories.mdx",
+      "kind": "Vue.js Component/Heading 2",
+      "story": "Heading 2",
+      "parameters": {
+        "fileName": "./src/stories/Heading2/Heading2.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-2--heading-2",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-2-design-tokens--page": {
+      "id": "vue-heading-2-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading 2/ Design Tokens",
+      "importPath": "./src/stories/Heading2/tokens.stories.mdx",
+      "kind": "Vue.js Component/Heading 2/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading2/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-2-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-3--heading-3": {
+      "id": "vue-heading-3--heading-3",
+      "name": "Heading 3",
+      "title": "Vue.js Component/Heading 3",
+      "importPath": "./src/stories/Heading3/Heading3.stories.mdx",
+      "kind": "Vue.js Component/Heading 3",
+      "story": "Heading 3",
+      "parameters": {
+        "fileName": "./src/stories/Heading3/Heading3.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-3--heading-3",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-3-design-tokens--page": {
+      "id": "vue-heading-3-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading 3/ Design Tokens",
+      "importPath": "./src/stories/Heading3/tokens.stories.mdx",
+      "kind": "Vue.js Component/Heading 3/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading3/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-3-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-4--heading-4": {
+      "id": "vue-heading-4--heading-4",
+      "name": "Heading 4",
+      "title": "Vue.js Component/Heading 4",
+      "importPath": "./src/stories/Heading4/Heading4.stories.mdx",
+      "kind": "Vue.js Component/Heading 4",
+      "story": "Heading 4",
+      "parameters": {
+        "fileName": "./src/stories/Heading4/Heading4.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-4--heading-4",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-4-design-tokens--page": {
+      "id": "vue-heading-4-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading 4/ Design Tokens",
+      "importPath": "./src/stories/Heading4/tokens.stories.mdx",
+      "kind": "Vue.js Component/Heading 4/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading4/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-4-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-5--heading-5": {
+      "id": "vue-heading-5--heading-5",
+      "name": "Heading 5",
+      "title": "Vue.js Component/Heading 5",
+      "importPath": "./src/stories/Heading5/Heading5.stories.mdx",
+      "kind": "Vue.js Component/Heading 5",
+      "story": "Heading 5",
+      "parameters": {
+        "fileName": "./src/stories/Heading5/Heading5.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-5--heading-5",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-5-design-tokens--page": {
+      "id": "vue-heading-5-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading 5/ Design Tokens",
+      "importPath": "./src/stories/Heading5/tokens.stories.mdx",
+      "kind": "Vue.js Component/Heading 5/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading5/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-5-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-heading-6--heading-6": {
+      "id": "vue-heading-6--heading-6",
+      "name": "Heading 6",
+      "title": "Vue.js Component/Heading 6",
+      "importPath": "./src/stories/Heading6/Heading6.stories.mdx",
+      "kind": "Vue.js Component/Heading 6",
+      "story": "Heading 6",
+      "parameters": {
+        "fileName": "./src/stories/Heading6/Heading6.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-heading-6--heading-6",
+        "__isArgsStory": true
+      }
+    },
+    "vue-heading-6-design-tokens--page": {
+      "id": "vue-heading-6-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Heading 6/ Design Tokens",
+      "importPath": "./src/stories/Heading6/tokens.stories.mdx",
+      "kind": "Vue.js Component/Heading 6/ Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Heading6/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-heading-6-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-js-component-component-introduction--page": {
+      "id": "vue-js-component-component-introduction--page",
+      "name": "Page",
+      "title": "Vue.js Component/Component Introduction",
+      "importPath": "./src/stories/Introduction.stories.mdx",
+      "kind": "Vue.js Component/Component Introduction",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Introduction.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-component-introduction--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-link--link": {
+      "id": "vue-link--link",
+      "name": "Link",
+      "title": "Vue.js Component/Link",
+      "importPath": "./src/stories/Link/Link.stories.mdx",
+      "kind": "Vue.js Component/Link",
+      "story": "Link",
+      "parameters": {
+        "fileName": "./src/stories/Link/Link.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link--link",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link--external": {
+      "id": "vue-link--external",
+      "name": "External",
+      "title": "Vue.js Component/Link",
+      "importPath": "./src/stories/Link/Link.stories.mdx",
+      "kind": "Vue.js Component/Link",
+      "story": "External",
+      "parameters": {
+        "fileName": "./src/stories/Link/Link.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link--external",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link--email": {
+      "id": "vue-link--email",
+      "name": "Email",
+      "title": "Vue.js Component/Link",
+      "importPath": "./src/stories/Link/Link.stories.mdx",
+      "kind": "Vue.js Component/Link",
+      "story": "Email",
+      "parameters": {
+        "fileName": "./src/stories/Link/Link.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link--email",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link--telephone": {
+      "id": "vue-link--telephone",
+      "name": "Telephone",
+      "title": "Vue.js Component/Link",
+      "importPath": "./src/stories/Link/Link.stories.mdx",
+      "kind": "Vue.js Component/Link",
+      "story": "Telephone",
+      "parameters": {
+        "fileName": "./src/stories/Link/Link.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link--telephone",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link--alternate-language": {
+      "id": "vue-link--alternate-language",
+      "name": "Alternate Language",
+      "title": "Vue.js Component/Link",
+      "importPath": "./src/stories/Link/Link.stories.mdx",
+      "kind": "Vue.js Component/Link",
+      "story": "Alternate Language",
+      "parameters": {
+        "fileName": "./src/stories/Link/Link.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link--alternate-language",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link--current-language": {
+      "id": "vue-link--current-language",
+      "name": "Current language",
+      "title": "Vue.js Component/Link",
+      "importPath": "./src/stories/Link/Link.stories.mdx",
+      "kind": "Vue.js Component/Link",
+      "story": "Current language",
+      "parameters": {
+        "fileName": "./src/stories/Link/Link.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link--current-language",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link-states--hover": {
+      "id": "vue-link-states--hover",
+      "name": "Hover",
+      "title": "Vue.js Component/Link/States",
+      "importPath": "./src/stories/Link/LinkStates.stories.mdx",
+      "kind": "Vue.js Component/Link/States",
+      "story": "Hover",
+      "parameters": {
+        "fileName": "./src/stories/Link/LinkStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link-states--hover",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link-states--focus": {
+      "id": "vue-link-states--focus",
+      "name": "Focus",
+      "title": "Vue.js Component/Link/States",
+      "importPath": "./src/stories/Link/LinkStates.stories.mdx",
+      "kind": "Vue.js Component/Link/States",
+      "story": "Focus",
+      "parameters": {
+        "fileName": "./src/stories/Link/LinkStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link-states--focus",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link-states--focus-visible": {
+      "id": "vue-link-states--focus-visible",
+      "name": "Focus Visible",
+      "title": "Vue.js Component/Link/States",
+      "importPath": "./src/stories/Link/LinkStates.stories.mdx",
+      "kind": "Vue.js Component/Link/States",
+      "story": "Focus Visible",
+      "parameters": {
+        "fileName": "./src/stories/Link/LinkStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link-states--focus-visible",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link-states--active": {
+      "id": "vue-link-states--active",
+      "name": "Active",
+      "title": "Vue.js Component/Link/States",
+      "importPath": "./src/stories/Link/LinkStates.stories.mdx",
+      "kind": "Vue.js Component/Link/States",
+      "story": "Active",
+      "parameters": {
+        "fileName": "./src/stories/Link/LinkStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link-states--active",
+        "__isArgsStory": true
+      }
+    },
+    "vue-link-states--visited": {
+      "id": "vue-link-states--visited",
+      "name": "Visited",
+      "title": "Vue.js Component/Link/States",
+      "importPath": "./src/stories/Link/LinkStates.stories.mdx",
+      "kind": "Vue.js Component/Link/States",
+      "story": "Visited",
+      "parameters": {
+        "fileName": "./src/stories/Link/LinkStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-link-states--visited",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-link-documentation--page": {
+      "id": "vue-js-component-link-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Link/Documentation",
+      "importPath": "./src/stories/Link/docs.stories.mdx",
+      "kind": "Vue.js Component/Link/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Link/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-link-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vuejs-link-design-tokens--page": {
+      "id": "vuejs-link-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Link/Design Tokens",
+      "importPath": "./src/stories/Link/tokens.stories.mdx",
+      "kind": "Vue.js Component/Link/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Link/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vuejs-link-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page--page-component": {
+      "id": "vue-page--page-component",
+      "name": "Page component",
+      "title": "Vue.js Component/Page",
+      "importPath": "./src/stories/Page/Page.stories.mdx",
+      "kind": "Vue.js Component/Page",
+      "story": "Page component",
+      "parameters": {
+        "fileName": "./src/stories/Page/Page.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-page--page-component",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-page-documentation--page": {
+      "id": "vue-js-component-page-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page/Documentation",
+      "importPath": "./src/stories/Page/docs.stories.mdx",
+      "kind": "Vue.js Component/Page/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Page/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-page-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page-design-tokens--page": {
+      "id": "vue-page-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page/Design Tokens",
+      "importPath": "./src/stories/Page/tokens.stories.mdx",
+      "kind": "Vue.js Component/Page/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Page/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-page-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page-content--page-content": {
+      "id": "vue-page-content--page-content",
+      "name": "PageContent",
+      "title": "Vue.js Component/Page Content",
+      "importPath": "./src/stories/PageContent/PageContent.stories.mdx",
+      "kind": "Vue.js Component/Page Content",
+      "story": "PageContent",
+      "parameters": {
+        "fileName": "./src/stories/PageContent/PageContent.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-page-content--page-content",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-page-content-documentation--page": {
+      "id": "vue-js-component-page-content-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page Content/Documentation",
+      "importPath": "./src/stories/PageContent/docs.stories.mdx",
+      "kind": "Vue.js Component/Page Content/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/PageContent/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-page-content-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page-content-design-tokens--page": {
+      "id": "vue-page-content-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page Content/Design Tokens",
+      "importPath": "./src/stories/PageContent/tokens.stories.mdx",
+      "kind": "Vue.js Component/Page Content/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/PageContent/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-page-content-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page-footer--page-footer": {
+      "id": "vue-page-footer--page-footer",
+      "name": "PageFooter",
+      "title": "Vue.js Component/Page Footer",
+      "importPath": "./src/stories/PageFooter/PageFooter.stories.mdx",
+      "kind": "Vue.js Component/Page Footer",
+      "story": "PageFooter",
+      "parameters": {
+        "fileName": "./src/stories/PageFooter/PageFooter.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-page-footer--page-footer",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-page-footer-documentation--page": {
+      "id": "vue-js-component-page-footer-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page Footer/Documentation",
+      "importPath": "./src/stories/PageFooter/docs.stories.mdx",
+      "kind": "Vue.js Component/Page Footer/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/PageFooter/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-page-footer-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page-footer-design-tokens--page": {
+      "id": "vue-page-footer-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page Footer/Design Tokens",
+      "importPath": "./src/stories/PageFooter/tokens.stories.mdx",
+      "kind": "Vue.js Component/Page Footer/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/PageFooter/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-page-footer-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page-header--page-header": {
+      "id": "vue-page-header--page-header",
+      "name": "PageHeader",
+      "title": "Vue.js Component/Page Header",
+      "importPath": "./src/stories/PageHeader/PageHeader.stories.mdx",
+      "kind": "Vue.js Component/Page Header",
+      "story": "PageHeader",
+      "parameters": {
+        "fileName": "./src/stories/PageHeader/PageHeader.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-page-header--page-header",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-page-header-documentation--page": {
+      "id": "vue-js-component-page-header-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page Header/Documentation",
+      "importPath": "./src/stories/PageHeader/docs.stories.mdx",
+      "kind": "Vue.js Component/Page Header/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/PageHeader/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-page-header-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-page-header-design-tokens--page": {
+      "id": "vue-page-header-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Page Header/Design Tokens",
+      "importPath": "./src/stories/PageHeader/tokens.stories.mdx",
+      "kind": "Vue.js Component/Page Header/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/PageHeader/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-page-header-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-paragraph--default-story": {
+      "id": "vue-paragraph--default-story",
+      "name": "Default",
+      "title": "Vue.js Component/Paragraph",
+      "importPath": "./src/stories/Paragraph/Paragraph.stories.mdx",
+      "kind": "Vue.js Component/Paragraph",
+      "story": "Default",
+      "parameters": {
+        "fileName": "./src/stories/Paragraph/Paragraph.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-paragraph--default-story",
+        "__isArgsStory": true
+      }
+    },
+    "vue-paragraph--lead": {
+      "id": "vue-paragraph--lead",
+      "name": "Lead",
+      "title": "Vue.js Component/Paragraph",
+      "importPath": "./src/stories/Paragraph/Paragraph.stories.mdx",
+      "kind": "Vue.js Component/Paragraph",
+      "story": "Lead",
+      "parameters": {
+        "fileName": "./src/stories/Paragraph/Paragraph.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-paragraph--lead",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-paragraph-documentation--page": {
+      "id": "vue-js-component-paragraph-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Paragraph/Documentation",
+      "importPath": "./src/stories/Paragraph/docs.stories.mdx",
+      "kind": "Vue.js Component/Paragraph/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Paragraph/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-paragraph-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-paragraph-design-tokens--page": {
+      "id": "vue-paragraph-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Paragraph/Design Tokens",
+      "importPath": "./src/stories/Paragraph/tokens.stories.mdx",
+      "kind": "Vue.js Component/Paragraph/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Paragraph/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-paragraph-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-radio-button--default-story": {
+      "id": "vue-radio-button--default-story",
+      "name": "Default",
+      "title": "Vue.js Component/Radio Button",
+      "importPath": "./src/stories/RadioButton/RadioButton.stories.mdx",
+      "kind": "Vue.js Component/Radio Button",
+      "story": "Default",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/RadioButton.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-radio-button--default-story",
+        "__isArgsStory": true
+      }
+    },
+    "vue-radio-button-states--checked": {
+      "id": "vue-radio-button-states--checked",
+      "name": "Checked",
+      "title": "Vue.js Component/Radio Button/States",
+      "importPath": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+      "kind": "Vue.js Component/Radio Button/States",
+      "story": "Checked",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-radio-button-states--checked",
+        "__isArgsStory": true
+      }
+    },
+    "vue-radio-button-states--checked-and-disabled": {
+      "id": "vue-radio-button-states--checked-and-disabled",
+      "name": "Checked And Disabled",
+      "title": "Vue.js Component/Radio Button/States",
+      "importPath": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+      "kind": "Vue.js Component/Radio Button/States",
+      "story": "Checked And Disabled",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-radio-button-states--checked-and-disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-radio-button-states--disabled": {
+      "id": "vue-radio-button-states--disabled",
+      "name": "Disabled",
+      "title": "Vue.js Component/Radio Button/States",
+      "importPath": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+      "kind": "Vue.js Component/Radio Button/States",
+      "story": "Disabled",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-radio-button-states--disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-radio-button-states--invalid": {
+      "id": "vue-radio-button-states--invalid",
+      "name": "Invalid",
+      "title": "Vue.js Component/Radio Button/States",
+      "importPath": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+      "kind": "Vue.js Component/Radio Button/States",
+      "story": "Invalid",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/RadioButtonStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-radio-button-states--invalid",
+        "__isArgsStory": true
+      }
+    },
+    "vue-radio-button-with-field-set-and-legend--radio-button-with-fieldset-and-legend": {
+      "id": "vue-radio-button-with-field-set-and-legend--radio-button-with-fieldset-and-legend",
+      "name": "RadioButton With Fieldset And Legend",
+      "title": "Vue.js Component/Radio Button/ Radio Button With Fieldset And Legend",
+      "importPath": "./src/stories/RadioButton/RadioButtonWithFieldsetAndLegend.stories.mdx",
+      "kind": "Vue.js Component/Radio Button/ Radio Button With Fieldset And Legend",
+      "story": "RadioButton With Fieldset And Legend",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/RadioButtonWithFieldsetAndLegend.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-radio-button-with-field-set-and-legend--radio-button-with-fieldset-and-legend",
+        "__isArgsStory": true
+      }
+    },
+    "vue-radio-button--with-label": {
+      "id": "vue-radio-button--with-label",
+      "name": "With Label",
+      "title": "Vue.js Component/Radio Button",
+      "importPath": "./src/stories/RadioButton/RadioButtonWithLabel.stories.mdx",
+      "kind": "Vue.js Component/Radio Button",
+      "story": "With Label",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/RadioButtonWithLabel.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-radio-button--with-label",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-radio-button-documentation--page": {
+      "id": "vue-js-component-radio-button-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Radio Button/Documentation",
+      "importPath": "./src/stories/RadioButton/docs.stories.mdx",
+      "kind": "Vue.js Component/Radio Button/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/RadioButton/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-radio-button-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-select--default-story": {
+      "id": "vue-select--default-story",
+      "name": "Default",
+      "title": "Vue.js Component/Select",
+      "importPath": "./src/stories/Select/Select.stories.mdx",
+      "kind": "Vue.js Component/Select",
+      "story": "Default",
+      "parameters": {
+        "fileName": "./src/stories/Select/Select.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--default-story",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--select-option-2": {
+      "id": "vue-select--select-option-2",
+      "name": "Select Option #2",
+      "title": "Vue.js Component/Select/States",
+      "importPath": "./src/stories/Select/SelectStates.stories.mdx",
+      "kind": "Vue.js Component/Select/States",
+      "story": "Select Option #2",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--select-option-2",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--select-option-2-and-disabled": {
+      "id": "vue-select--select-option-2-and-disabled",
+      "name": "Select Option #2 And Disabled",
+      "title": "Vue.js Component/Select/States",
+      "importPath": "./src/stories/Select/SelectStates.stories.mdx",
+      "kind": "Vue.js Component/Select/States",
+      "story": "Select Option #2 And Disabled",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--select-option-2-and-disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--disabled": {
+      "id": "vue-select--disabled",
+      "name": "Disabled",
+      "title": "Vue.js Component/Select/States",
+      "importPath": "./src/stories/Select/SelectStates.stories.mdx",
+      "kind": "Vue.js Component/Select/States",
+      "story": "Disabled",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--invalid": {
+      "id": "vue-select--invalid",
+      "name": "Invalid",
+      "title": "Vue.js Component/Select/States",
+      "importPath": "./src/stories/Select/SelectStates.stories.mdx",
+      "kind": "Vue.js Component/Select/States",
+      "story": "Invalid",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--invalid",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--required": {
+      "id": "vue-select--required",
+      "name": "Required",
+      "title": "Vue.js Component/Select/States",
+      "importPath": "./src/stories/Select/SelectStates.stories.mdx",
+      "kind": "Vue.js Component/Select/States",
+      "story": "Required",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--required",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--read-only": {
+      "id": "vue-select--read-only",
+      "name": "Read-only",
+      "title": "Vue.js Component/Select/States",
+      "importPath": "./src/stories/Select/SelectStates.stories.mdx",
+      "kind": "Vue.js Component/Select/States",
+      "story": "Read-only",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--read-only",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--focus": {
+      "id": "vue-select--focus",
+      "name": "Focus",
+      "title": "Vue.js Component/Select/States",
+      "importPath": "./src/stories/Select/SelectStates.stories.mdx",
+      "kind": "Vue.js Component/Select/States",
+      "story": "Focus",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--focus",
+        "__isArgsStory": true
+      }
+    },
+    "vue-select--with-label": {
+      "id": "vue-select--with-label",
+      "name": "With Label",
+      "title": "Vue.js Component/Select",
+      "importPath": "./src/stories/Select/SelectWithLabel.stories.mdx",
+      "kind": "Vue.js Component/Select",
+      "story": "With Label",
+      "parameters": {
+        "fileName": "./src/stories/Select/SelectWithLabel.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-select--with-label",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-select-documentation--page": {
+      "id": "vue-js-component-select-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Select/Documentation",
+      "importPath": "./src/stories/Select/docs.stories.mdx",
+      "kind": "Vue.js Component/Select/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Select/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-select-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-select-design-tokens--page": {
+      "id": "vue-select-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Select/Design Tokens",
+      "importPath": "./src/stories/Select/tokens.stories.mdx",
+      "kind": "Vue.js Component/Select/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Select/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-select-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-table--default-table": {
+      "id": "vue-table--default-table",
+      "name": "Default Table",
+      "title": "Vue.js Component/Table",
+      "importPath": "./src/stories/Table/Table.stories.mdx",
+      "kind": "Vue.js Component/Table",
+      "story": "Default Table",
+      "parameters": {
+        "fileName": "./src/stories/Table/Table.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-table--default-table",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-table-documentation--page": {
+      "id": "vue-js-component-table-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Table/Documentation",
+      "importPath": "./src/stories/Table/docs.stories.mdx",
+      "kind": "Vue.js Component/Table/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Table/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-table-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-table-design-tokens--page": {
+      "id": "vue-table-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Table/Design Tokens",
+      "importPath": "./src/stories/Table/tokens.stories.mdx",
+      "kind": "Vue.js Component/Table/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Table/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-table-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-textarea--default-story": {
+      "id": "vue-textarea--default-story",
+      "name": "Default",
+      "title": "Vue.js Component/Textarea",
+      "importPath": "./src/stories/Textarea/Textarea.stories.mdx",
+      "kind": "Vue.js Component/Textarea",
+      "story": "Default",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/Textarea.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea--default-story",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea--with-placeholder": {
+      "id": "vue-textarea--with-placeholder",
+      "name": "With Placeholder",
+      "title": "Vue.js Component/Textarea",
+      "importPath": "./src/stories/Textarea/Textarea.stories.mdx",
+      "kind": "Vue.js Component/Textarea",
+      "story": "With Placeholder",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/Textarea.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea--with-placeholder",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea-with-form-binding--with-form-binding": {
+      "id": "vue-textarea-with-form-binding--with-form-binding",
+      "name": "With form binding",
+      "title": "Vue.js Component/Textarea",
+      "importPath": "./src/stories/Textarea/TextareaBinding.stories.mdx",
+      "kind": "Vue.js Component/Textarea",
+      "story": "With form binding",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/TextareaBinding.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea-with-form-binding--with-form-binding",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea-states--disabled": {
+      "id": "vue-textarea-states--disabled",
+      "name": "Disabled",
+      "title": "Vue.js Component/Textarea/States",
+      "importPath": "./src/stories/Textarea/TextareaStates.stories.mdx",
+      "kind": "Vue.js Component/Textarea/States",
+      "story": "Disabled",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/TextareaStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea-states--disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea-states--invalid": {
+      "id": "vue-textarea-states--invalid",
+      "name": "Invalid",
+      "title": "Vue.js Component/Textarea/States",
+      "importPath": "./src/stories/Textarea/TextareaStates.stories.mdx",
+      "kind": "Vue.js Component/Textarea/States",
+      "story": "Invalid",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/TextareaStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea-states--invalid",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea-states--read-only": {
+      "id": "vue-textarea-states--read-only",
+      "name": "Read-only",
+      "title": "Vue.js Component/Textarea/States",
+      "importPath": "./src/stories/Textarea/TextareaStates.stories.mdx",
+      "kind": "Vue.js Component/Textarea/States",
+      "story": "Read-only",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/TextareaStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea-states--read-only",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea-states--required": {
+      "id": "vue-textarea-states--required",
+      "name": "Required",
+      "title": "Vue.js Component/Textarea/States",
+      "importPath": "./src/stories/Textarea/TextareaStates.stories.mdx",
+      "kind": "Vue.js Component/Textarea/States",
+      "story": "Required",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/TextareaStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea-states--required",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea-states--focus": {
+      "id": "vue-textarea-states--focus",
+      "name": "Focus",
+      "title": "Vue.js Component/Textarea/States",
+      "importPath": "./src/stories/Textarea/TextareaStates.stories.mdx",
+      "kind": "Vue.js Component/Textarea/States",
+      "story": "Focus",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/TextareaStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea-states--focus",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textarea-states--hover": {
+      "id": "vue-textarea-states--hover",
+      "name": "Hover",
+      "title": "Vue.js Component/Textarea/States",
+      "importPath": "./src/stories/Textarea/TextareaStates.stories.mdx",
+      "kind": "Vue.js Component/Textarea/States",
+      "story": "Hover",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/TextareaStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textarea-states--hover",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-textarea-documentation--page": {
+      "id": "vue-js-component-textarea-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Textarea/Documentation",
+      "importPath": "./src/stories/Textarea/docs.stories.mdx",
+      "kind": "Vue.js Component/Textarea/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-textarea-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-textarea-design-tokens--page": {
+      "id": "vue-textarea-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Textarea/Design Tokens",
+      "importPath": "./src/stories/Textarea/tokens.stories.mdx",
+      "kind": "Vue.js Component/Textarea/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Textarea/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-textarea-design-tokens--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-textbox--default-story": {
+      "id": "vue-textbox--default-story",
+      "name": "Default",
+      "title": "Vue.js Component/Textbox",
+      "importPath": "./src/stories/Textbox/Textbox.stories.mdx",
+      "kind": "Vue.js Component/Textbox",
+      "story": "Default",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/Textbox.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox--default-story",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox--with-placeholder": {
+      "id": "vue-textbox--with-placeholder",
+      "name": "With Placeholder",
+      "title": "Vue.js Component/Textbox",
+      "importPath": "./src/stories/Textbox/Textbox.stories.mdx",
+      "kind": "Vue.js Component/Textbox",
+      "story": "With Placeholder",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/Textbox.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox--with-placeholder",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-states--textbox-disabled": {
+      "id": "vue-textbox-states--textbox-disabled",
+      "name": "Textbox Disabled",
+      "title": "Vue.js Component/Textbox/States",
+      "importPath": "./src/stories/Textbox/TextboxStates.stories.mdx",
+      "kind": "Vue.js Component/Textbox/States",
+      "story": "Textbox Disabled",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-states--textbox-disabled",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-states--textbox-invalid": {
+      "id": "vue-textbox-states--textbox-invalid",
+      "name": "Textbox Invalid",
+      "title": "Vue.js Component/Textbox/States",
+      "importPath": "./src/stories/Textbox/TextboxStates.stories.mdx",
+      "kind": "Vue.js Component/Textbox/States",
+      "story": "Textbox Invalid",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-states--textbox-invalid",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-states--textbox-read-only": {
+      "id": "vue-textbox-states--textbox-read-only",
+      "name": "Textbox Read-only",
+      "title": "Vue.js Component/Textbox/States",
+      "importPath": "./src/stories/Textbox/TextboxStates.stories.mdx",
+      "kind": "Vue.js Component/Textbox/States",
+      "story": "Textbox Read-only",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-states--textbox-read-only",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-states--textbox-required": {
+      "id": "vue-textbox-states--textbox-required",
+      "name": "Textbox Required",
+      "title": "Vue.js Component/Textbox/States",
+      "importPath": "./src/stories/Textbox/TextboxStates.stories.mdx",
+      "kind": "Vue.js Component/Textbox/States",
+      "story": "Textbox Required",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-states--textbox-required",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-states--textbox-focus": {
+      "id": "vue-textbox-states--textbox-focus",
+      "name": "Textbox Focus",
+      "title": "Vue.js Component/Textbox/States",
+      "importPath": "./src/stories/Textbox/TextboxStates.stories.mdx",
+      "kind": "Vue.js Component/Textbox/States",
+      "story": "Textbox Focus",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxStates.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-states--textbox-focus",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-types--textbox-text": {
+      "id": "vue-textbox-types--textbox-text",
+      "name": "Textbox Text",
+      "title": "Vue.js Component/Textbox/Types",
+      "importPath": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Types",
+      "story": "Textbox Text",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-types--textbox-text",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-types--textbox-email": {
+      "id": "vue-textbox-types--textbox-email",
+      "name": "Textbox Email",
+      "title": "Vue.js Component/Textbox/Types",
+      "importPath": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Types",
+      "story": "Textbox Email",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-types--textbox-email",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-types--textbox-password": {
+      "id": "vue-textbox-types--textbox-password",
+      "name": "Textbox Password",
+      "title": "Vue.js Component/Textbox/Types",
+      "importPath": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Types",
+      "story": "Textbox Password",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-types--textbox-password",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-types--textbox-number": {
+      "id": "vue-textbox-types--textbox-number",
+      "name": "Textbox Number",
+      "title": "Vue.js Component/Textbox/Types",
+      "importPath": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Types",
+      "story": "Textbox Number",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-types--textbox-number",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-types--textbox-url": {
+      "id": "vue-textbox-types--textbox-url",
+      "name": "Textbox URL",
+      "title": "Vue.js Component/Textbox/Types",
+      "importPath": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Types",
+      "story": "Textbox URL",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-types--textbox-url",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox-types--textbox-tel": {
+      "id": "vue-textbox-types--textbox-tel",
+      "name": "Textbox Tel",
+      "title": "Vue.js Component/Textbox/Types",
+      "importPath": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Types",
+      "story": "Textbox Tel",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxTypes.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox-types--textbox-tel",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox--with-form-binding": {
+      "id": "vue-textbox--with-form-binding",
+      "name": "With Form Binding",
+      "title": "Vue.js Component/Textbox/With Form Binding",
+      "importPath": "./src/stories/Textbox/TextboxWithFormBinding.stories.mdx",
+      "kind": "Vue.js Component/Textbox/With Form Binding",
+      "story": "With Form Binding",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxWithFormBinding.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox--with-form-binding",
+        "__isArgsStory": true
+      }
+    },
+    "vue-textbox--with-label": {
+      "id": "vue-textbox--with-label",
+      "name": "With Label",
+      "title": "Vue.js Component/Textbox",
+      "importPath": "./src/stories/Textbox/TextboxWithLabel.stories.mdx",
+      "kind": "Vue.js Component/Textbox",
+      "story": "With Label",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/TextboxWithLabel.stories.mdx",
+        "framework": "vue3",
+        "__id": "vue-textbox--with-label",
+        "__isArgsStory": true
+      }
+    },
+    "vue-js-component-textbox-documentation--page": {
+      "id": "vue-js-component-textbox-documentation--page",
+      "name": "Page",
+      "title": "Vue.js Component/Textbox/Documentation",
+      "importPath": "./src/stories/Textbox/docs.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Documentation",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/docs.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-js-component-textbox-documentation--page",
+        "__isArgsStory": false
+      }
+    },
+    "vue-textbox-design-tokens--page": {
+      "id": "vue-textbox-design-tokens--page",
+      "name": "Page",
+      "title": "Vue.js Component/Textbox/Design Tokens",
+      "importPath": "./src/stories/Textbox/tokens.stories.mdx",
+      "kind": "Vue.js Component/Textbox/Design Tokens",
+      "story": "Page",
+      "parameters": {
+        "fileName": "./src/stories/Textbox/tokens.stories.mdx",
+        "docsOnly": true,
+        "framework": "vue3",
+        "__id": "vue-textbox-design-tokens--page",
+        "__isArgsStory": false
+      }
+    }
+  }
+}
