@@ -688,6 +688,25 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, solid);
   outline-width: var(--utrecht-focus-outline-width, 0);
 }
+.utrecht-button-link--html-button:hover {
+  background-color: var(--_utrecht-button-hover-background-color);
+  border-color: var(--_utrecht-button-hover-border-color);
+  color: var(--_utrecht-button-hover-color);
+  transform: scale(var(--utrecht-button-focus-transform-scale, 1));
+}
+.utrecht-button-link--html-button:focus {
+  background-color: var(--_utrecht-button-focus-background-color);
+  border-color: var(--_utrecht-button-focus-border-color);
+  color: var(--_utrecht-button-focus-color);
+}
+.utrecht-button-link--html-button:focus-visible {
+  /* the pseudo-class for `:focus-visible` is implemented via the mixin */
+  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  outline-color: var(--utrecht-focus-outline-color, transparent);
+  outline-offset: var(--utrecht-focus-outline-offset, 0);
+  outline-style: var(--utrecht-focus-outline-style, solid);
+  outline-width: var(--utrecht-focus-outline-width, 0);
+}
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -3259,7 +3278,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Thu, 11 Aug 2022 13:51:01 GMT
+ * Generated on Thu, 11 Aug 2022 13:55:40 GMT
  */
 
 .utrecht-theme {
