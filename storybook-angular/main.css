@@ -1060,8 +1060,8 @@ ol.utrecht-breadcrumb__list {
  */
 .utrecht-digid-button {
   --utrecht-button-min-block-size: var(--utrecht-digid-button-block-size, 50px);
-  --utrecht-logo-max-height: var(--utrecht-digid-button-block-size, 50px);
-  --utrecht-logo-max-width: var(--utrecht-digid-button-block-size, 50px);
+  --utrecht-logo-max-block-size: var(--utrecht-digid-button-block-size, 50px);
+  --utrecht-logo-max-inline-size: var(--utrecht-digid-button-block-size, 50px);
   block-size: var(--utrecht-digid-button-block-size, 50px);
   display: inline-flex;
   gap: var(--utrecht-space-inline-sm);
@@ -1981,8 +1981,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 .utrecht-logo-button {
   --utrecht-button-min-block-size: var(--utrecht-logo-button-block-size, 50px);
-  --utrecht-logo-max-height: var(--utrecht-logo-button-block-size, 50px);
-  --utrecht-logo-max-width: var(--utrecht-logo-button-block-size, 50px);
+  --utrecht-logo-max-block-size: var(--utrecht-logo-button-block-size, 50px);
+  --utrecht-logo-max-inline-size: var(--utrecht-logo-button-block-size, 50px);
   display: inline-flex;
   gap: var(--utrecht-space-inline-sm);
 }
@@ -2003,8 +2003,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 .utrecht-logo {
-  max-height: var(--utrecht-logo-max-height, 192px);
-  max-width: var(--utrecht-logo-max-width, 96px);
+  max-block-size: var(--utrecht-logo-max-block-size, 192px);
+  max-inline-size: var(--utrecht-logo-max-inline-size, 96px);
+  min-block-size: var(--utrecht-logo-min-block-size);
+  min-inline-size: var(--utrecht-logo-min-inline-size);
 }
 .utrecht-logo__decoration-1 {
   fill: var(--utrecht-logo-decoration-1-color, #fff);
@@ -3257,7 +3259,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Thu, 11 Aug 2022 13:29:47 GMT
+ * Generated on Thu, 11 Aug 2022 13:51:01 GMT
  */
 
 .utrecht-theme {
@@ -3407,8 +3409,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-mapcontrolbutton-border-radius: 2px;
   --utrecht-mapcontrolbutton-margin-inline-end: 0;
   --utrecht-mapcontrolbutton-margin-inline-start: 0;
-  --utrecht-logo-max-width: 110.57px;
-  --utrecht-logo-max-height: 58.97px;
+  --utrecht-logo-max-inline-size: 110.57px;
+  --utrecht-logo-max-block-size: 58.97px;
   --utrecht-link-hover-text-decoration-thickness: 3px;
   --utrecht-link-hover-text-decoration: underline;
   --utrecht-link-focus-text-decoration: none;
