@@ -16,18 +16,21 @@
  */
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-article {
   max-inline-size: var(--utrecht-article-max-inline-size);
 }
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-badge-counter {
   background-color: var(--utrecht-badge-counter-background-color, var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%)));
@@ -45,11 +48,13 @@
 }
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-badge-data {
   background-color: var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%));
@@ -71,11 +76,13 @@
 }
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-badge-status {
   background-color: var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%));
@@ -137,11 +144,13 @@
 }
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-backdrop {
   background-color: var(--utrecht-backdrop-background-color);
@@ -3278,7 +3287,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Fri, 12 Aug 2022 14:39:39 GMT
+ * Generated on Fri, 12 Aug 2022 16:07:09 GMT
  */
 
 .utrecht-theme {
@@ -3326,8 +3335,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-typography-scale-sm-font-size: 0.875rem; /* 14px */
   --utrecht-typography-scale-xs-font-size: 0.75rem; /* 12px */
   --utrecht-typography-scale-2xs-font-size: 0.5rem; /* 8px */
-  --utrecht-typography-sans-serif-fallback-font-family: "Arial", sans-serif;
-  --utrecht-typography-sans-serif-font-family: "Lucida Grande";
+  --utrecht-typography-sans-serif-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial", sans-serif;
   --utrecht-color-black: hsl(0 0% 0%);
   --utrecht-color-white: hsl(0 0% 100%);
   --utrecht-color-invalid: #990000;
