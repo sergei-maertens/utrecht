@@ -2910,11 +2910,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   box-shadow: none;
   outline-style: none;
 }
-.utrecht-select--html-select:invalid, .utrecht-select--html-select[aria-invalid=true] {
-  background-color: var(--utrecht-select-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-select-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
-  border-width: var(--utrecht-select-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-input-border-width))));
-}
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -3335,7 +3330,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Mon, 15 Aug 2022 13:22:01 GMT
+ * Generated on Mon, 15 Aug 2022 13:44:07 GMT
  */
 
 .utrecht-theme {
