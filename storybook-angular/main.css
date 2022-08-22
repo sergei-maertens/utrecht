@@ -404,6 +404,7 @@ ol.utrecht-breadcrumb__list {
     --utrecht-button-border-bottom-width,
     var(--utrecht-button-border-width, 0)
   );
+  --utrecht-icon-size: var(--utrecht-button-icon-size, 1em);
   align-items: center;
   background-color: var(--_utrecht-button-background-color);
   border-color: var(--_utrecht-button-border-color);
@@ -418,6 +419,7 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-button-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-button-font-size, var(--utrecht-document-font-family));
   font-weight: var(--utrecht-button-font-weight);
+  gap: var(--utrecht-button-icon-gap);
   inline-size: var(--utrecht-button-inline-size, auto);
   justify-content: center;
   letter-spacing: var(--utrecht-button-letter-spacing);
@@ -656,6 +658,7 @@ ol.utrecht-breadcrumb__list {
     --utrecht-button-border-bottom-width,
     var(--utrecht-button-border-width, 0)
   );
+  --utrecht-icon-size: var(--utrecht-button-icon-size, 1em);
   align-items: center;
   background-color: var(--_utrecht-button-background-color);
   border-color: var(--_utrecht-button-border-color);
@@ -670,6 +673,7 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-button-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-button-font-size, var(--utrecht-document-font-family));
   font-weight: var(--utrecht-button-font-weight);
+  gap: var(--utrecht-button-icon-gap);
   inline-size: var(--utrecht-button-inline-size, auto);
   justify-content: center;
   letter-spacing: var(--utrecht-button-letter-spacing);
@@ -1794,6 +1798,24 @@ ol.utrecht-breadcrumb__list {
 }
 /**
  * @license EUPL-1.2
+ * Copyright (c) 2021-2022 Gemeente Utrecht
+ * Copyright (c) 2021-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021-2022 Gemeente Utrecht
+ * Copyright (c) 2021-2022 Frameless B.V.
+ */
+.utrecht-icon {
+  color: var(--utrecht-icon-color);
+  display: inline-block;
+  height: var(--utrecht-icon-size);
+  inset-block-start: var(--utrecht-icon-inset-block-start, 0);
+  position: relative;
+  width: var(--utrecht-icon-size);
+}
+/**
+ * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
  * Copyright (c) 2020-2022 Frameless B.V.
  */
@@ -1958,13 +1980,18 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration-skip-ink: all;
   text-decoration-thickness: max(var(--utrecht-link-text-decoration-thickness), 1px);
   text-underline-offset: var(--utrecht-link-text-underline-offset);
+  --utrecht-icon-size: var(--utrecht-button-icon-size, 1em);
+  align-items: center;
   cursor: pointer;
   display: inline-flex;
   font-family: var(--utrecht-button-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-button-font-size, var(--utrecht-document-font-family));
   font-weight: var(--utrecht-button-font-weight);
+  gap: var(--utrecht-button-icon-gap);
   inline-size: var(--utrecht-button-inline-size, auto);
+  justify-content: center;
   letter-spacing: var(--utrecht-button-letter-spacing);
+  line-height: inherit;
   min-block-size: var(--utrecht-button-min-block-size, 44px);
   min-inline-size: var(--utrecht-button-min-inline-size, 44px);
   padding-block-end: var(--utrecht-button-padding-block-end);
@@ -2007,6 +2034,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-width: var(--utrecht-focus-outline-width, 0);
 }
 .utrecht-link-button--inline {
+  --utrecht-icon-inset-block-start: var(--utrecht-icon-baseline-inset-block-start);
   min-block-size: auto;
   min-inline-size: auto;
   padding-block-end: 0;
@@ -3506,7 +3534,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Sat, 20 Aug 2022 13:01:31 GMT
+ * Generated on Mon, 22 Aug 2022 19:36:01 GMT
  */
 
 .utrecht-theme {
@@ -3668,6 +3696,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-link-social-size: 40px;
   --utrecht-link-social-border-width: 2px;
   --utrecht-link-list-marker-inline-size: 16px;
+  --utrecht-icon-baseline-inset-block-start: 0.125em;
   --utrecht-icon-size: 48px;
   --utrecht-icon-color: ;
   --utrecht-heading-5-margin-block-start: 1rem;
@@ -4065,6 +4094,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-button-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-disabled-background-color: var(--utrecht-color-grey-90);
+  --utrecht-button-icon-gap: var(--utrecht-space-text-xs);
   --utrecht-button-padding-inline-end: var(--utrecht-space-inline-md);
   --utrecht-button-padding-inline-start: var(--utrecht-space-inline-md);
   --utrecht-button-padding-block-end: var(--utrecht-space-block-xs);
