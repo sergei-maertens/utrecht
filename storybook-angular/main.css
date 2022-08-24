@@ -180,6 +180,8 @@
 .utrecht-blockquote {
   font-family: var(--utrecht-document-font-family);
   font-size: var(--utrecht-blockquote-font-size);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-blockquote-margin-block-start, 0));
   margin-inline-end: var(--utrecht-blockquote-margin-inline-end);
   margin-inline-start: var(--utrecht-blockquote-margin-inline-start);
 }
@@ -194,8 +196,7 @@
   font-size: var(--utrecht-blockquote-content-font-size, inherit);
 }
 .utrecht-blockquote--distanced {
-  margin-block-end: var(--utrecht-blockquote-margin-block-end);
-  margin-block-start: var(--utrecht-blockquote-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -564,6 +565,8 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--utrecht-button-group-background-color);
   display: flex;
   gap: var(--utrecht-button-group-inline-gap, 1em);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-button-group-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-button-group-margin-block-start, 0));
   min-block-size: var(--utrecht-button-block-size);
   padding-block-end: var(--utrecht-button-group-padding-block-end);
   padding-block-start: var(--utrecht-button-group-padding-block-start);
@@ -572,6 +575,8 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--utrecht-button-group-background-color);
   display: flex;
   gap: var(--utrecht-button-group-inline-gap, 1em);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-button-group-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-button-group-margin-block-start, 0));
   min-block-size: var(--utrecht-button-block-size);
   padding-block-end: var(--utrecht-button-group-padding-block-end);
   padding-block-start: var(--utrecht-button-group-padding-block-start);
@@ -1210,8 +1215,8 @@ ol.utrecht-breadcrumb__list {
 .utrecht-data-list {
   /* also set `margin-block` to reset browser styling of <dl> */
   display: block;
-  margin-block-end: calc(var(--utrecht-distance, 0) * var(--utrecht-data-list-margin-block-end));
-  margin-block-start: calc(var(--utrecht-distance, 0) * var(--utrecht-data-list-margin-block-start));
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-data-list-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-data-list-margin-block-start, 0));
 }
 .utrecht-data-list__item-key {
   color: var(--utrecht-data-list-item-key-color);
@@ -1322,10 +1327,11 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form-field-checkbox-group {
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-paragraph-font-size);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
 }
 .utrecht-form-field-checkbox-group--distanced {
-  margin-block-end: var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end));
-  margin-block-start: var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start));
+  --utrecht-space-around: 1;
 }
 .utrecht-form-field-checkbox-group__label {
   margin-block-end: var(--utrecht-paragraph-margin-block-end);
@@ -1345,11 +1351,12 @@ ol.utrecht-breadcrumb__list {
  */
 .utrecht-form-field {
   font-family: var(--utrecht-document-font-family, inherit);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-start, 0));
   max-inline-size: var(--utrecht-form-field-max-inline-size);
 }
 .utrecht-form-field--distanced {
-  margin-block-end: var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end));
-  margin-block-start: var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start));
+  --utrecht-space-around: 1;
 }
 .utrecht-form-field__label--checkbox {
   margin-inline-start: 1ch;
@@ -1367,10 +1374,11 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-form-field-description-font-size, inherit);
   font-style: var(--utrecht-form-field-description-font-style);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-description-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-description-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
 }
 .utrecht-form-field-description--distanced {
-  margin-block-end: var(--utrecht-form-field-description-margin-block-end, var(--utrecht-paragraph-margin-block-end));
-  margin-block-start: var(--utrecht-form-field-description-margin-block-start, var(--utrecht-paragraph-margin-block-start));
+  --utrecht-space-around: 1;
 }
 .utrecht-form-field-description--invalid {
   color: var(--utrecht-form-field-description-invalid-color, var(--utrecht-feedback-invalid-color, var(--utrecht-feedback-danger-color)));
@@ -1388,10 +1396,11 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form-field-radio-group {
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-paragraph-font-size);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
 }
 .utrecht-form-field-radio-group--distanced {
-  margin-block-end: var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end));
-  margin-block-start: var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start));
+  --utrecht-space-around: 1;
 }
 .utrecht-form-field-radio-group__label {
   margin-block-end: var(--utrecht-paragraph-margin-block-end);
@@ -1404,10 +1413,11 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form-field-radio {
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-paragraph-font-size);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
 }
 .utrecht-form-field-radio--distanced {
-  margin-block-end: var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end));
-  margin-block-start: var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start));
+  --utrecht-space-around: 1;
 }
 .utrecht-form-field-radio__label {
   margin-inline-start: 1ch;
@@ -1429,11 +1439,12 @@ ol.utrecht-breadcrumb__list {
  */
 .utrecht-form-field {
   font-family: var(--utrecht-document-font-family, inherit);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-start, 0));
   max-inline-size: var(--utrecht-form-field-max-inline-size);
 }
 .utrecht-form-field--distanced {
-  margin-block-end: var(--utrecht-form-field-margin-block-end, var(--utrecht-paragraph-margin-block-end));
-  margin-block-start: var(--utrecht-form-field-margin-block-start, var(--utrecht-paragraph-margin-block-start));
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -1444,7 +1455,10 @@ ol.utrecht-breadcrumb__list {
  * Copyright (c) 2021 Robbert Broersma
  */
 /* stylelint-disable-next-line block-no-empty */
-/* stylelint-disable-next-line block-no-empty */
+.utrecht-form-fieldset {
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));
+}
 .utrecht-form-fieldset--html-fieldset {
   border: 0;
   margin-inline-end: 0;
@@ -1460,8 +1474,7 @@ ol.utrecht-breadcrumb__list {
   padding-inline-start: 0;
 }
 .utrecht-form-fieldset--distanced {
-  margin-block-end: var(--utrecht-form-fieldset-margin-block-end, 0);
-  margin-block-start: var(--utrecht-form-fieldset-margin-block-start, 0);
+  --utrecht-space-around: 1;
 }
 .utrecht-form-fieldset__legend {
   color: var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));
@@ -1474,8 +1487,8 @@ ol.utrecht-breadcrumb__list {
   text-transform: var(--utrecht-form-fieldset-legend-text-transform);
 }
 .utrecht-form-fieldset__legend--distanced {
-  margin-block-end: var(--utrecht-form-fieldset-legend-margin-block-end);
-  margin-block-start: var(--utrecht-form-fieldset-legend-margin-block-start);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0));
 }
 /**
  * @license EUPL-1.2
@@ -1623,13 +1636,12 @@ ol.utrecht-breadcrumb__list {
   font-weight: var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));
   letter-spacing: var(--utrecht-heading-1-letter-spacing);
   line-height: var(--utrecht-heading-1-line-height);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));
   text-transform: var(--utrecht-heading-1-text-transform, inherit);
 }
 .utrecht-heading-1--distanced {
-  margin-block-end: var(--utrecht-heading-1-margin-block-end);
-  margin-block-start: var(--utrecht-heading-1-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -1656,13 +1668,12 @@ ol.utrecht-breadcrumb__list {
   font-weight: var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));
   letter-spacing: var(--utrecht-heading-2-letter-spacing);
   line-height: var(--utrecht-heading-2-line-height);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));
   text-transform: var(--utrecht-heading-2-text-transform, inherit);
 }
 .utrecht-heading-2--distanced {
-  margin-block-end: var(--utrecht-heading-2-margin-block-end);
-  margin-block-start: var(--utrecht-heading-2-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -1689,13 +1700,12 @@ ol.utrecht-breadcrumb__list {
   font-weight: var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));
   letter-spacing: var(--utrecht-heading-3-letter-spacing);
   line-height: var(--utrecht-heading-3-line-height);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));
   text-transform: var(--utrecht-heading-3-text-transform, inherit);
 }
 .utrecht-heading-3--distanced {
-  margin-block-end: var(--utrecht-heading-3-margin-block-end);
-  margin-block-start: var(--utrecht-heading-3-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -1722,13 +1732,12 @@ ol.utrecht-breadcrumb__list {
   font-weight: var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));
   letter-spacing: var(--utrecht-heading-4-letter-spacing);
   line-height: var(--utrecht-heading-4-line-height);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));
   text-transform: var(--utrecht-heading-4-text-transform, inherit);
 }
 .utrecht-heading-4--distanced {
-  margin-block-end: var(--utrecht-heading-4-margin-block-end);
-  margin-block-start: var(--utrecht-heading-4-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -1755,13 +1764,12 @@ ol.utrecht-breadcrumb__list {
   font-weight: var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));
   letter-spacing: var(--utrecht-heading-5-letter-spacing);
   line-height: var(--utrecht-heading-5-line-height);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));
   text-transform: var(--utrecht-heading-5-text-transform, inherit);
 }
 .utrecht-heading-5--distanced {
-  margin-block-end: var(--utrecht-heading-5-margin-block-end);
-  margin-block-start: var(--utrecht-heading-5-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -1788,13 +1796,12 @@ ol.utrecht-breadcrumb__list {
   font-weight: var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));
   letter-spacing: var(--utrecht-heading-6-letter-spacing);
   line-height: var(--utrecht-heading-6-line-height);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));
   text-transform: var(--utrecht-heading-6-text-transform, inherit);
 }
 .utrecht-heading-6--distanced {
-  margin-block-end: var(--utrecht-heading-6-margin-block-end);
-  margin-block-start: var(--utrecht-heading-6-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -1859,10 +1866,11 @@ ol.utrecht-breadcrumb__list {
   --utrecht-link-text-decoration: none;
   --utrecht-link-hover-text-decoration: underline;
   --utrecht-link-focus-text-decoration: underline;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-link-list-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-link-list-margin-block-start, 0));
 }
 .utrecht-link-list--distanced {
-  margin-block-end: var(--utrecht-link-list-margin-block-end, 0);
-  margin-block-start: var(--utrecht-link-list-margin-block-start, 0);
+  --utrecht-space-around: 1;
 }
 .utrecht-link-list__marker, .utrecht-link-list__item > a::before {
   background-image: var(--utrecht-link-list-marker-background-image);
@@ -2633,13 +2641,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 .utrecht-ordered-list {
   font-family: var(--utrecht-document-font-family, inherit);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));
   padding-inline-start: var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));
 }
 .utrecht-ordered-list--distanced {
-  margin-block-end: var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end));
-  margin-block-start: var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start));
+  --utrecht-space-around: 1;
 }
 .utrecht-ordered-list--arabic {
   list-style: arabic-indic;
@@ -2786,10 +2793,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-pagination {
   font-family: var(--utrecht-pagination-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-pagination-font-size, var(--utrecht-document-font-family));
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-pagination-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-pagination-margin-block-start, 0));
 }
 .utrecht-pagination--distanced {
-  margin-block-end: var(--utrecht-pagination-margin-block-end);
-  margin-block-start: var(--utrecht-pagination-margin-block-start);
+  --utrecht-space-around: 1;
 }
 .utrecht-pagination__relative-link {
   background-color: var(--utrecht-pagination-relative-link-background-color);
@@ -2845,7 +2853,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-pagination-page-link-border-color: var(--utrecht-pagination-page-link-current-border-color);
   --utrecht-pagination-page-link-color: var(--utrecht-pagination-page-link-current-color);
 }
-.utrecht-pagination__page-link--distanced,
 .utrecht-pagination__page-link ~ .utrecht-pagination__page-link {
   margin-inline-start: var(--utrecht-pagination-page-link-distanced-margin-inline-start);
 }
@@ -2883,8 +2890,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-size: var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));
   font-weight: var(--utrecht-paragraph-font-weight, inherit);
   line-height: var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0));
 }
 .utrecht-paragraph--lead {
   color: var(--utrecht-paragraph-lead-color, var(--utrecht-document-color, inherit));
@@ -2893,8 +2900,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   line-height: var(--utrecht-paragraph-lead-line-height, inherit);
 }
 .utrecht-paragraph--distanced {
-  margin-block-end: var(--utrecht-paragraph-margin-block-end);
-  margin-block-start: var(--utrecht-paragraph-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -2908,13 +2914,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-weight: var(--utrecht-pre-heading-font-weight, var(--utrecht-heading-font-weight, bold));
   letter-spacing: var(--utrecht-pre-heading-letter-spacing);
   line-height: var(--utrecht-pre-heading-line-height);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-start, 0));
   text-transform: var(--utrecht-pre-heading-text-transform, inherit);
 }
 .utrecht-pre-heading--distanced {
-  margin-block-end: var(--utrecht-pre-heading-margin-block-end);
-  margin-block-start: var(--utrecht-pre-heading-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -3110,10 +3115,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-color: var(--utrecht-separator-color);
   border-style: solid;
   border-width: 0 0 var(--utrecht-separator-block-size) 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));
 }
 .utrecht-separator--distanced {
-  margin-block-end: var(--utrecht-separator-margin-block-end);
-  margin-block-start: var(--utrecht-separator-margin-block-start);
+  --utrecht-space-around: 1;
 }
 /**
  * @license EUPL-1.2
@@ -3150,11 +3156,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-width: var(--utrecht-table-border-width, 0);
   font-family: var(--utrecht-table-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-table-font-size, inherit);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));
   width: 100%;
 }
 .utrecht-table--distanced {
-  margin-block-end: var(--utrecht-table-margin-block-end);
-  margin-block-start: var(--utrecht-table-margin-block-start);
+  --utrecht-space-around: 1;
 }
 .utrecht-table__caption {
   color: var(--utrecht-table-caption-color);
@@ -3475,13 +3482,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-document-font-size, inherit);
   line-height: var(--utrecht-document-line-height, inherit);
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
   padding-inline-start: var(--utrecht-unordered-list-padding-inline-start, 2ch);
 }
 .utrecht-unordered-list--distanced {
-  margin-block-end: var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end));
-  margin-block-start: var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start));
+  --utrecht-space-around: 1;
 }
 .utrecht-unordered-list--nested {
   margin-block-end: 0;
@@ -3534,7 +3540,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Tue, 23 Aug 2022 17:35:58 GMT
+ * Generated on Wed, 24 Aug 2022 07:09:43 GMT
  */
 
 .utrecht-theme {
@@ -3634,9 +3640,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-table-caption-margin-block-end: 1em;
   --utrecht-table-caption-text-align: start;
   --utrecht-table-caption-font-size: 1.125em;
+  --utrecht-table-margin-block-end: 0;
   --utrecht-separator-block-size: 8px;
   --utrecht-select-border-block-end-width: 3px;
   --utrecht-pre-heading-text-transform: uppercase;
+  --utrecht-paragraph-margin-block-end: 0;
   --utrecht-pagination-relative-link-distanced-margin-inline-start: 0.5em;
   --utrecht-pagination-relative-link-distanced-margin-inline-end: 0.5em;
   --utrecht-pagination-relative-link-text-transform: uppercase;
@@ -3908,14 +3916,18 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-table-header-border-block-end-color: var(--utrecht-color-red-40);
   --utrecht-table-header-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-table-caption-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+  --utrecht-table-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-surface-color: var(--utrecht-color-grey-10);
   --utrecht-surface-background-color: var(--utrecht-color-grey-95);
+  --utrecht-separator-margin-block-start: var(--utrecht-space-block-md);
+  --utrecht-separator-margin-block-end: var(--utrecht-space-block-md);
   --utrecht-separator-color: var(--utrecht-color-grey-90);
   --utrecht-pre-heading-margin-block-start: var(--utrecht-space-row-2xl);
   --utrecht-pre-heading-font-size: var(--utrecht-typography-scale-md-font-size);
   --utrecht-paragraph-lead-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-paragraph-lead-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-paragraph-lead-font-size: var(--utrecht-typography-scale-lg-font-size);
+  --utrecht-paragraph-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-paragraph-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-paragraph-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-paragraph-font-size: var(--utrecht-typography-scale-md-font-size);
