@@ -3559,7 +3559,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Tue, 30 Aug 2022 12:20:01 GMT
+ * Generated on Tue, 30 Aug 2022 13:59:22 GMT
  */
 
 .utrecht-theme {
@@ -3939,6 +3939,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-table-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-surface-color: var(--utrecht-color-grey-10);
   --utrecht-surface-background-color: var(--utrecht-color-grey-95);
+  --utrecht-skip-link-focus-text-decoration: var(--utrecht-link-focus-text-decoration);
+  --utrecht-skip-link-text-decoration: var(--utrecht-link-text-decoration);
   --utrecht-separator-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-separator-margin-block-end: var(--utrecht-space-block-md);
   --utrecht-separator-color: var(--utrecht-color-grey-90);
@@ -4161,6 +4163,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
   --utrecht-toptask-link-color: var(--utrecht-button-primary-action-color);
   --utrecht-toptask-link-background-color: var(--utrecht-button-primary-action-background-color);
+  --utrecht-skip-link-focus-background-color: var(--utrecht-topnav-link-focus-background-color);
+  --utrecht-skip-link-focus-color: var(--utrecht-topnav-link-focus-color);
+  --utrecht-skip-link-padding-inline-end: var(--utrecht-button-padding-inline-end);
+  --utrecht-skip-link-padding-inline-start: var(--utrecht-button-padding-inline-start);
+  --utrecht-skip-link-padding-block-end: var(--utrecht-button-padding-block-end);
+  --utrecht-skip-link-padding-block-start: var(--utrecht-button-padding-block-start);
+  --utrecht-skip-link-color: var(--utrecht-topnav-link-color);
+  --utrecht-skip-link-background-color: var(--utrecht-topnav-list-background-color);
   --utrecht-paragraph-lead-color: var(--utrecht-document-color);
   --utrecht-paragraph-color: var(--utrecht-document-color);
   --utrecht-mapcontrolbutton-focus-border-color: var(--utrecht-focus-border-color);
