@@ -1269,12 +1269,6 @@ ol.utrecht-breadcrumb__list {
   display: inline-flex;
   gap: var(--utrecht-space-inline-sm);
 }
-.utrecht-digid-button__logo {
-  order: 1;
-}
-.utrecht-digid-button__button {
-  order: 2;
-}
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -1993,6 +1987,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-link-button {
+  --utrecht-icon-size: var(--utrecht-link-icon-size, 1em);
   color: var(--utrecht-link-color, blue);
   -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
           text-decoration: var(--utrecht-link-text-decoration, underline);
@@ -2178,6 +2173,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Changing `display: inline` to `inline-block` ensures the focus outline is rendered around the entire box.
  */
 .utrecht-link {
+  --utrecht-icon-size: var(--utrecht-link-icon-size, 1em);
   color: var(--utrecht-link-color, blue);
   -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
           text-decoration: var(--utrecht-link-text-decoration, underline);
@@ -3563,7 +3559,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Mon, 29 Aug 2022 12:21:29 GMT
+ * Generated on Tue, 30 Aug 2022 11:57:44 GMT
  */
 
 .utrecht-theme {
@@ -3718,6 +3714,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-mapcontrolbutton-margin-inline-start: 0;
   --utrecht-logo-max-inline-size: 110.57px;
   --utrecht-logo-max-block-size: 58.97px;
+  --utrecht-link-icon-size: 1.2em;
   --utrecht-link-hover-text-decoration-thickness: 3px;
   --utrecht-link-hover-text-decoration: underline;
   --utrecht-link-focus-text-decoration: none;
