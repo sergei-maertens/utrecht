@@ -3141,6 +3141,79 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 /**
  * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/* stylelint-disable-next-line block-no-empty */
+.utrecht-skip-link {
+  align-items: center;
+  background-color: var(--utrecht-skip-link-background-color);
+  box-sizing: border-box;
+  color: var(--utrecht-skip-link-color);
+  display: inline-flex;
+  justify-content: center;
+  min-block-size: var(--utrecht-skip-link-min-block-size, 44px);
+  min-inline-size: var(--utrecht-skip-link-min-inline-size, 44px);
+  padding-block-end: var(--utrecht-skip-link-padding-block-end);
+  padding-block-start: var(--utrecht-skip-link-padding-block-start);
+  padding-inline-end: var(--utrecht-skip-link-padding-inline-end);
+  padding-inline-start: var(--utrecht-skip-link-padding-inline-start);
+  -webkit-text-decoration: var(--utrecht-skip-link-text-decoration);
+          text-decoration: var(--utrecht-skip-link-text-decoration);
+}
+.utrecht-skip-link--hidden {
+  inset-block-start: -200%;
+  position: fixed;
+}
+.utrecht-skip-link--visible-on-focus {
+  inset-block-start: -200%;
+  position: fixed;
+}
+.utrecht-skip-link--visible-on-focus:focus {
+  /**
+   * WCAG 2.2 / 2.4.12: "No part of the focus indicator is hidden by author-created content".
+   * To go the extra mile, ensure the focus indicator is inside the viewport.
+   * */
+  --_utrecht-skip-link-inset: calc(var(--utrecht-focus-outline-width, 0px) + var(--utrecht-focus-outline-offset, 0px));
+  inset-block-start: var(--_utrecht-skip-link-inset, 0);
+  inset-inline-start: var(--_utrecht-skip-link-inset, 0);
+  position: fixed;
+  z-index: var(--utrecht-skip-link-z-index, var(--utrecht-layer-focus-z-index));
+}
+.utrecht-skip-link--visible {
+  /**
+   * WCAG 2.2 / 2.4.12: "No part of the focus indicator is hidden by author-created content".
+   * To go the extra mile, ensure the focus indicator is inside the viewport.
+   * */
+  --_utrecht-skip-link-inset: calc(var(--utrecht-focus-outline-width, 0px) + var(--utrecht-focus-outline-offset, 0px));
+  inset-block-start: var(--_utrecht-skip-link-inset, 0);
+  inset-inline-start: var(--_utrecht-skip-link-inset, 0);
+  position: fixed;
+  z-index: var(--utrecht-skip-link-z-index, var(--utrecht-layer-focus-z-index));
+}
+.utrecht-skip-link--focus,
+.utrecht-skip-link:focus,
+.utrecht-skip-link:focus-visible {
+  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  outline-color: var(--utrecht-focus-outline-color, transparent);
+  outline-offset: var(--utrecht-focus-outline-offset, 0);
+  outline-style: var(--utrecht-focus-outline-style, solid);
+  outline-width: var(--utrecht-focus-outline-width, 0);
+  -webkit-text-decoration: var(--utrecht-skip-link-focus-text-decoration);
+          text-decoration: var(--utrecht-skip-link-focus-text-decoration);
+}
+/**
+ * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
  */
 /**
@@ -3559,7 +3632,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Tue, 30 Aug 2022 14:26:52 GMT
+ * Generated on Thu, 01 Sep 2022 08:40:36 GMT
  */
 
 .utrecht-theme {
