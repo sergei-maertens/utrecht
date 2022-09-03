@@ -2913,10 +2913,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0));
 }
 .utrecht-paragraph--lead {
-  color: var(--utrecht-paragraph-lead-color, var(--utrecht-document-color, inherit));
-  font-size: var(--utrecht-paragraph-lead-font-size, inherit);
-  font-weight: var(--utrecht-paragraph-lead-font-weight, inherit);
-  line-height: var(--utrecht-paragraph-lead-line-height, inherit);
+  color: var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));
+  font-size: var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));
+  font-weight: var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));
+  line-height: var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit));
 }
 .utrecht-paragraph--distanced {
   --utrecht-space-around: 1;
@@ -3633,7 +3633,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Fri, 02 Sep 2022 09:35:37 GMT
+ * Generated on Sat, 03 Sep 2022 13:19:48 GMT
  */
 
 .utrecht-theme {
