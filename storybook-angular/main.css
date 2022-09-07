@@ -1806,6 +1806,25 @@ ol.utrecht-breadcrumb__list {
 }
 /**
  * @license EUPL-1.2
+ * Copyright (c) 2022 Gemeente Utrecht
+ * Copyright (c) 2022 Robbert Broersma
+ * Copyright (c) 2022 The Knights Who Say NIH! B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2022 Gemeente Utrecht
+ * Copyright (c) 2022 Robbert Broersma
+ * Copyright (c) 2022 The Knights Who Say NIH! B.V.
+ */
+.utrecht-heading-group {
+  --utrecht-pre-heading-order: -1;
+  display: flex;
+  flex-direction: column;
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-group-margin-block-start, 0));
+}
+/**
+ * @license EUPL-1.2
  * Copyright (c) 2021-2022 Gemeente Utrecht
  * Copyright (c) 2021-2022 Frameless B.V.
  */
@@ -2935,6 +2954,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   line-height: var(--utrecht-pre-heading-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-start, 0));
+  order: var(--utrecht-pre-heading-order, 0);
   text-transform: var(--utrecht-pre-heading-text-transform, inherit);
 }
 .utrecht-pre-heading--distanced {
@@ -3633,7 +3653,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Wed, 07 Sep 2022 16:03:30 GMT
+ * Generated on Wed, 07 Sep 2022 16:11:16 GMT
  */
 
 .utrecht-theme {
