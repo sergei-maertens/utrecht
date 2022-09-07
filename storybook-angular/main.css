@@ -16,6 +16,21 @@
  */
 /**
  * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/* Collection of all BEM class names in the component library */
+/*
+ * TODO: Once every component is a separate npm package, these imports should
+ * be updated to use a package reference instead of a relative path.
+ *
+ * For example:
+ *     @import "../../blockquote/index";
+ *
+ * Will become:
+ *     @import "@utrecht/blockquote/index";
+ */
+/**
+ * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
  * Copyright (c) 2020-2022 Frameless B.V.
  */
@@ -3653,7 +3668,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /**
  * Do not edit directly
- * Generated on Wed, 07 Sep 2022 21:43:49 GMT
+ * Generated on Wed, 07 Sep 2022 22:00:53 GMT
  */
 
 .utrecht-theme {
