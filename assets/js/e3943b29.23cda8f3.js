@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_utrecht_docusaurus=self.webpackChunk_utrecht_docusaurus||[]).push([[941],{7085:u=>{u.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);
