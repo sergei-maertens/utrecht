@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 16 Sep 2022 08:24:23 GMT
+ * Generated on Mon, 19 Sep 2022 08:29:35 GMT
  */
 .utrecht-theme {
   --denhaag-process-steps-sub-step-heading-font-weight: utrecht.typography.weight-scale.normal.font-weight;
@@ -248,7 +248,8 @@
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
   --utrecht-document-line-height: 1.4;
-  --utrecht-data-list-item-key-font-weight: bold;
+  --utrecht-data-list-rows-column-min-inline-size: 25ch;
+  --utrecht-data-list-rows-column-inline-size: 80%;
   --utrecht-custom-radio-button-icon-size: 16px;
   --utrecht-custom-radio-button-border-radius: 0;
   --utrecht-custom-radio-button-focus-border-width: 3px;
@@ -558,7 +559,9 @@
   --utrecht-document-background-color: var(--utrecht-color-white);
   --utrecht-data-list-rows-item-value-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-data-list-rows-item-margin-block-start: var(--utrecht-space-block-md);
+  --utrecht-data-list-item-key-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-data-list-margin-block-start: var(--utrecht-space-block-md);
+  --utrecht-data-list-margin-block-end: var(--utrecht-space-block-md);
   --utrecht-custom-radio-button-invalid-color: var(--utrecht-color-white);
   --utrecht-custom-radio-button-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-custom-radio-button-disabled-background-color: var(--utrecht-color-grey-80);
@@ -2287,7 +2290,6 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-data-list-item-key-color);
   font-size: var(--utrecht-data-list-item-key-font-size);
   font-weight: var(--utrecht-data-list-item-key-font-weight);
-  grid-area: label;
   line-height: var(--utrecht-data-list-item-key-line-height);
 }
 .utrecht-data-list__item-value {
@@ -2295,9 +2297,8 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-data-list-item-value-color);
   font-size: var(--utrecht-data-list-item-value-font-size);
   font-weight: var(--utrecht-data-list-item-value-font-weight);
-  grid-area: value;
-  line-height: var(--utrecht-data-list-label-line-height);
-  min-block-size: var(--utrecht-data-list-label-line-height);
+  line-height: var(--utrecht-data-list-item-value-line-height);
+  min-block-size: calc(var(--utrecht-data-list-item-value-line-height) * 1rem);
 }
 .utrecht-data-list__actions--html-dd,
 .utrecht-data-list__item-value--html-dd {
@@ -2308,13 +2309,25 @@ ol.utrecht-breadcrumb__list {
   white-space: pre-line;
 }
 .utrecht-data-list--rows .utrecht-data-list__actions {
-  align-items: last baseline;
+  align-items: baseline;
   display: flex;
+  grid-column: -1;
+  grid-row: 1;
   justify-content: flex-end;
 }
 .utrecht-data-list--rows .utrecht-data-list__item {
+  --_utrecht-minmax: max(
+    var(--utrecht-data-list-rows-column-min-inline-size, 25ch),
+    var(--utrecht-data-list-rows-column-inline-size, 80%)
+  );
+  --_utrecht-auto-col: minmax(var(--_utrecht-minmax), max-content);
+  border-bottom-color: var(--utrecht-data-list-rows-border-bottom-color, transparent);
+  border-bottom-style: solid;
+  border-bottom-width: var(--utrecht-data-list-rows-border-bottom-width, 0);
   display: grid;
-  grid-template-areas: "label actions" "value value";
+  gap: 0 var(--utrecht-data-list-rows-gap);
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, var(--_utrecht-auto-col));
   margin-block-start: var(--utrecht-data-list-rows-item-margin-block-start);
 }
 .utrecht-data-list--rows .utrecht-data-list__item:first-of-type {
