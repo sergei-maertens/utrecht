@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 19 Sep 2022 08:42:28 GMT
+ * Generated on Mon, 19 Sep 2022 08:57:41 GMT
  */
 .utrecht-theme {
   --denhaag-process-steps-sub-step-heading-font-weight: utrecht.typography.weight-scale.normal.font-weight;
@@ -195,6 +195,11 @@
   --utrecht-mapcontrolbutton-margin-inline-start: 0;
   --utrecht-logo-max-inline-size: 110.57px;
   --utrecht-logo-max-block-size: 58.97px;
+  --utrecht-list-social-item-margin-inline-end: 10px;
+  --utrecht-list-social-padding-inline-end: ;
+  --utrecht-list-social-padding-inline-start: ;
+  --utrecht-list-social-margin-block-end: ;
+  --utrecht-list-social-margin-block-start: ;
   --utrecht-link-icon-size: 1.2em;
   --utrecht-link-hover-text-decoration-thickness: 3px;
   --utrecht-link-hover-text-decoration: underline;
@@ -202,6 +207,7 @@
   --utrecht-link-text-underline-offset: 3px;
   --utrecht-link-text-decoration: underline;
   --utrecht-link-social-icon-size: 26px;
+  --utrecht-link-social-hover-transform-scale: 1.1;
   --utrecht-link-social-size: 40px;
   --utrecht-link-social-border-width: 2px;
   --utrecht-link-list-marker-inline-size: 16px;
@@ -3167,8 +3173,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
  */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/* stylelint-disable-next-line block-no-empty */
 .utrecht-link-social {
   --utrecht-icon-size: var(--utrecht-link-social-icon-size);
+  --utrecht-icon-color: currentColor;
   align-items: center;
   background-color: var(--utrecht-link-social-background-color);
   border-color: var(--utrecht-link-social-border-color);
@@ -3179,11 +3192,39 @@ however browsers don't seem to have implemented great looking supixel tweening y
   display: inline-flex;
   height: var(--utrecht-link-social-size);
   justify-content: center;
-  text-align: center;
   width: var(--utrecht-link-social-size);
+}
+.utrecht-link-social:hover {
+  transform: scale(var(--utrecht-link-social-hover-scale));
+}
+.utrecht-link-social:focus-visible {
+  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  outline-color: var(--utrecht-focus-outline-color, transparent);
+  outline-offset: var(--utrecht-focus-outline-offset, 0);
+  outline-style: var(--utrecht-focus-outline-style, solid);
+  outline-width: var(--utrecht-focus-outline-width, 0);
 }
 .utrecht-link-social--distanced {
   margin-inline-start: var(--utrecht-link-social-margin-inline-start);
+}
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+.utrecht-list-social {
+  display: flex;
+  margin-block-end: var(--utrecht-list-social-margin-block-end);
+  margin-block-start: var(--utrecht-list-social-margin-block-start);
+  padding-inline-end: var(--utrecht-list-social-padding-inline-end);
+  padding-inline-start: var(--utrecht-list-social-padding-inline-start);
+}
+.utrecht-list-social__item {
+  list-style-type: none;
+  margin-inline-end: var(--utrecht-list-social-item-margin-inline-end);
+}
+.utrecht-list-social__item:last-child {
+  margin-inline-end: 0;
 }
 /**
  * @license EUPL-1.2
