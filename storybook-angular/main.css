@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 20 Sep 2022 16:47:08 GMT
+ * Generated on Wed, 21 Sep 2022 12:19:50 GMT
  */
 .utrecht-theme {
   --denhaag-process-steps-sub-step-heading-font-weight: utrecht.typography.weight-scale.normal.font-weight;
@@ -59,6 +59,26 @@
   --utrecht-search-bar-textbox-background-size: 1em;
   --utrecht-search-bar-textbox-background-position-y: 50%;
   --utrecht-search-bar-textbox-background-position-x: .5em;
+  --utrecht-calendar-icon-size: 24px;
+  --utrecht-calendar-navigation-label-min-inline-size: 200px;
+  --utrecht-calendar-navigation-padding-block-end: 20px;
+  --utrecht-calendar-navigation-padding-block-start: 20px;
+  --utrecht-calendar-table-days-item-day-disabled-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-selected-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-emphasis-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-is-today-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-is-today-font-weight: 700;
+  --utrecht-calendar-table-days-item-day-out-of-the-month-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-active-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-focus-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-hover-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-border-color: transparent;
+  --utrecht-calendar-table-days-item-day-size: 44px;
+  --utrecht-calendar-table-weeks-item-width: 44px;
+  --utrecht-calendar-table-padding-block-end: 30px;
+  --utrecht-calendar-table-padding-block-start: 30px;
+  --utrecht-calendar-background-color: 425px;
+  --utrecht-calendar-width: 425px;
   --utrecht-badge-counter-padding-inline: 1ex;
   --utrecht-badge-counter-padding-block: 1ex;
   --utrecht-badge-counter-border-radius: 3ex;
@@ -421,6 +441,13 @@
   --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
   --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
   --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+  --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
+  --utrecht-calendar-navigation-color: var(--utrecht-color-white);
+  --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
+  --utrecht-calendar-table-days-item-day-is-today-color: var(--utrecht-color-blue-40);
+  --utrecht-calendar-table-days-item-day-out-of-the-month-color: var(--utrecht-color-grey-80);
+  --utrecht-calendar-table-days-item-day-hover-color: var(--utrecht-color-blue-40);
+  --utrecht-calendar-table-days-item-day-color: var(--utrecht-color-black);
   --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
   --utrecht-badge-counter-color: var(--utrecht-color-white);
   --utrecht-badge-counter-background-color: var(--utrecht-color-red-40);
@@ -1638,6 +1665,124 @@ ol.utrecht-breadcrumb__list {
 .utrecht-button-group--vertical {
   flex-direction: column;
   gap: var(--utrecht-button-group-block-gap, 1em);
+}
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021-2022 Gemeente Utrecht
+ * Copyright (c) 2021-2022 Frameless B.V.
+ */
+.utrecht-calendar {
+  background-color: var(--utrecht-calendar-background-color);
+  width: var(--utrecht-calendar-width);
+}
+.utrecht-calendar__table {
+  margin-inline: auto;
+  padding-block-end: var(--utrecht-calendar-table-padding-block-end);
+  padding-block-start: var(--utrecht-calendar-table-padding-block-start);
+}
+.utrecht-calendar__table-weeks-item {
+  width: var(--utrecht-calendar-table-weeks-item-width);
+}
+.utrecht-calendar__table-days-item-day {
+  --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-border-color);
+  --utrecht-calendar-button-border-width: var(--utrecht-calendar-table-days-item-day-border-width);
+  --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-color);
+  height: var(--utrecht-calendar-table-days-item-day-size);
+  width: var(--utrecht-calendar-table-days-item-day-size);
+}
+.utrecht-calendar__table-days-item-day:hover {
+  --utrecht-calendar-button-hover-background-color: var(--utrecht-calendar-table-days-item-day-hover-background-color);
+  --utrecht-calendar-button-hover-border-color: var(--utrecht-calendar-table-days-item-day-hover-border-color);
+  --utrecht-calendar-button-hover-color: var(--utrecht-calendar-table-days-item-day-hover-color);
+}
+.utrecht-calendar__table-days-item-day:focus {
+  --utrecht-calendar-button-focus-background-color: var(--utrecht-calendar-table-days-item-day-focus-background-color);
+  --utrecht-calendar-button-focus-border-color: var(--utrecht-calendar-table-days-item-day-focus-border-color);
+  --utrecht-calendar-button-focus-color: var(--utrecht-calendar-table-days-item-day-focus-color);
+}
+.utrecht-calendar__table-days-item-day:active {
+  --utrecht-calendar-button-active-background-color: var(
+    --utrecht-calendar-table-days-item-day-active-background-color
+  );
+  --utrecht-calendar-button-active-border-color: var(--utrecht-calendar-table-days-item-day-active-border-color);
+  --utrecht-calendar-button-active-color: var(--utrecht-calendar-table-days-item-day-active-color);
+}
+.utrecht-calendar__table-days-item-day:disabled {
+  --utrecht-calendar-button-disabled-background-color: var(
+    --utrecht-calendar-table-days-item-day-disabled-background-color
+  );
+  --utrecht-calendar-button-disabled-border-color: var(--utrecht-calendar-table-days-item-day-disabled-border-color);
+  --utrecht-calendar-button-disabled-color: var(--utrecht-calendar-table-days-item-day-disabled-color);
+}
+.utrecht-calendar__table-days-item-day--out-of-the-month {
+  --utrecht-calendar-button-background-color: var(
+    --utrecht-calendar-table-days-item-day-out-of-the-month-background-color
+  );
+  --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-out-of-the-month-border-color);
+  --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-out-of-the-month-color);
+}
+.utrecht-calendar__table-days-item-day--is-today {
+  --utrecht-calendar-button-font-weigh: var(--utrecht-calendar-table-days-item-day-is-today-font-weight);
+  --utrecht-calendar-button-background-color: var(--utrecht-calendar-table-days-item-day-is-today-background-color);
+  --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-is-today-border-color);
+  --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-is-today-color);
+}
+.utrecht-calendar__table-days-item-day--emphasis {
+  --utrecht-calendar-button-font-weigh: var(--utrecht-calendar-table-days-item-day-emphasis-font-weight);
+  --utrecht-calendar-button-background-color: var(--utrecht-calendar-table-days-item-day-emphasis-background-color);
+  --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-emphasis-border-color);
+  --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-emphasis-color);
+}
+.utrecht-calendar__table-days-item-day--selected {
+  --utrecht-calendar-button-font-weigh: var(--utrecht-calendar-table-days-item-day-selected-font-weight);
+  --utrecht-calendar-button-background-color: var(--utrecht-calendar-table-days-item-day-selected-background-color);
+  --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-selected-border-color);
+  --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-selected-color);
+}
+.utrecht-calendar__navigation {
+  background-color: var(--utrecht-calendar-navigation-background-color);
+  color: var(--utrecht-calendar-navigation-color);
+  padding-block-end: var(--utrecht-calendar-navigation-padding-block-end);
+  padding-block-start: var(--utrecht-calendar-navigation-padding-block-start);
+}
+.utrecht-calendar__navigation-label {
+  --utrecht-heading-2-color: var(--utrecht-calendar-navigation-label-color);
+  font-size: var(--utrecht-calendar-navigation-label-min-font-size);
+  min-inline-size: var(--utrecht-calendar-navigation-label-min-inline-size);
+  text-align: center;
+}
+.utrecht-calendar__navigation-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.utrecht-calendar__button {
+  --utrecht-button-subtle-color: var(--utrecht-calendar-button-color, currentColor);
+  --utrecht-button-subtle-background-color: var(--utrecht-calendar-button-background-color, transparent);
+  --utrecht-button-subtle-border-color: var(--utrecht-calendar-button-border-color, transparent);
+  --utrecht-button-subtle-border-width: var(--utrecht-calendar-button-border-width);
+  --utrecht-button-font-weigh: var(--utrecht-calendar-button-font-weigh);
+  --utrecht-button-subtle-focus-background-color: var(--utrecht-calendar-button-focus-background-color);
+  --utrecht-button-subtle-focus-border-color: var(--utrecht-calendar-button-focus-border-color);
+  --utrecht-button-subtle-focus-color: var(--utrecht-calendar-button-focus-color);
+  --utrecht-button-subtle-active-background-color: var(--utrecht-calendar-button-active-background-color);
+  --utrecht-button-subtle-active-border-color: var(--utrecht-calendar-button-active-border-color);
+  --utrecht-button-subtle-active-color: var(--utrecht-calendar-button-active-color);
+  --utrecht-button-subtle-hover-background-color: var(--utrecht-calendar-button-hover-background-color);
+  --utrecht-button-subtle-hover-border-color: var(--utrecht-calendar-button-hover-border-color, transparent);
+  --utrecht-button-subtle-hover-color: var(--utrecht-calendar-button-hover-color);
+  --utrecht-button-subtle-disabled-background-color: var(--utrecht-calendar-button-disabled-background-color);
+  --utrecht-button-subtle-disabled-border-color: var(--utrecht-calendar-button-disabled-border-color);
+  --utrecht-button-subtle-disabled-color: var(--utrecht-calendar-button-disabled-color);
+  --utrecht-button-padding-block-end: var(--utrecht-calendar-button-padding-block-end, 0);
+  --utrecht-button-padding-block-start: var(--utrecht-calendar-button-padding-block-start, 0);
+  --utrecht-button-padding-inline-end: var(--utrecht-calendar-button-padding-inline-end, 0);
+  --utrecht-button-padding-inline-start: var(--utrecht-calendar-button-padding-inline-start, 0);
+  cursor: pointer;
+}
+.utrecht-calendar__icon {
+  height: var(--utrecht-calendar-icon-size);
+  width: var(--utrecht-calendar-icon-size);
 }
 /**
  * @license EUPL-1.2
