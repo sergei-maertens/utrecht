@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 23 Sep 2022 11:58:11 GMT
+ * Generated on Fri, 23 Sep 2022 21:37:08 GMT
  */
 .utrecht-theme {
   --denhaag-process-steps-sub-step-heading-font-weight: utrecht.typography.weight-scale.normal.font-weight;
@@ -456,6 +456,7 @@
   --utrecht-toptask-link-padding-inline-end: var(--utrecht-space-inline-xl);
   --utrecht-toptask-link-padding-block-start: var(--utrecht-space-block-xl);
   --utrecht-toptask-link-padding-block-end: var(--utrecht-space-block-xl);
+  --utrecht-textarea-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-table-row-border-block-end-width: var(--utrecht-border-width-sm);
   --utrecht-table-row-border-block-end-color: var(--utrecht-color-grey-90);
   --utrecht-table-header-border-block-end-width: var(--utrecht-border-width-md);
@@ -4640,12 +4641,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-textarea-color, var(--utrecht-form-input-color));
   font-family: var(--utrecht-textarea-font-family, var(--utrecht-form-input-font-family));
   font-size: var(--utrecht-textarea-font-size, var(--utrecht-form-input-font-size, 1em));
+  font-weight: initial; /* harden */
+  height: initial; /* harden */
+  line-height: var(--utrecht-textarea-line-height, initial);
   max-inline-size: var(--utrecht-textarea-max-inline-size, var(--utrecht-form-input-max-inline-size));
   min-block-size: var(--utrecht-textarea-min-block-size);
-  padding-block-end: var(--utrecht-textarea-padding-block-end, var(--utrecht-form-input-padding-block-end));
-  padding-block-start: var(--utrecht-textarea-padding-block-start, var(--utrecht-form-input-padding-block-start));
-  padding-inline-end: var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-input-padding-inline-end));
-  padding-inline-start: var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-input-padding-inline-start));
+  padding-block-end: var(--utrecht-textarea-padding-block-end, var(--utrecht-form-input-padding-block-end, 0));
+  padding-block-start: var(--utrecht-textarea-padding-block-start, var(--utrecht-form-input-padding-block-start, 0));
+  padding-inline-end: var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-input-padding-inline-end, initial));
+  padding-inline-start: var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-input-padding-inline-start, initial));
   resize: vertical;
   width: 100%;
 }
@@ -4747,11 +4751,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-textbox-color, var(--utrecht-form-input-color));
   font-family: var(--utrecht-textbox-font-family, var(--utrecht-form-input-font-family));
   font-size: var(--utrecht-textbox-font-size, var(--utrecht-form-input-font-size, 1em));
+  font-weight: initial; /* harden */
+  height: initial; /* harden */
+  line-height: initial; /* harden */
   max-inline-size: var(--utrecht-textbox-max-inline-size, var(--utrecht-form-input-max-inline-size));
-  padding-block-end: var(--utrecht-textbox-padding-block-end, var(--utrecht-form-input-padding-block-end));
-  padding-block-start: var(--utrecht-textbox-padding-block-start, var(--utrecht-form-input-padding-block-start));
-  padding-inline-end: var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-input-padding-inline-end));
-  padding-inline-start: var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-input-padding-inline-start));
+  padding-block-end: var(--utrecht-textbox-padding-block-end, var(--utrecht-form-input-padding-block-end, 0));
+  padding-block-start: var(--utrecht-textbox-padding-block-start, var(--utrecht-form-input-padding-block-start, 0));
+  padding-inline-end: var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-input-padding-inline-end, initial));
+  padding-inline-start: var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-input-padding-inline-start, initial));
   width: 100%;
 }
 .utrecht-textbox--invalid {
@@ -4844,7 +4851,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-feature-settings: none;
   font-variant-ligatures: none;
 }
-.utrecht-textbox--html-input[type=number i], .utrecht-textbox--html-input[type=tel i], .utrecht-textbox--html-input[inputMode=numeric i], .utrecht-textbox--html-input[inputMode=decimal i], .utrecht-textbox--html-input[inputMode=tel i] {
+.utrecht-textbox--html-input[pattern="\\d*"], .utrecht-textbox--html-input[pattern="[0-9]*"], .utrecht-textbox--html-input[type=number i], .utrecht-textbox--html-input[type=tel i], .utrecht-textbox--html-input[inputMode=numeric i], .utrecht-textbox--html-input[inputMode=decimal i], .utrecht-textbox--html-input[inputMode=tel i] {
   -moz-appearance: textfield; /* avoid spinner input in Firefox */
   font-feature-settings: lining-nums tabular-nums;
   font-variant-numeric: lining-nums tabular-nums;
