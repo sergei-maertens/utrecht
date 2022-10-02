@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 30 Sep 2022 15:35:47 GMT
+ * Generated on Sun, 02 Oct 2022 20:11:12 GMT
  */
 .utrecht-theme {
   --denhaag-process-steps-sub-step-marker-size: 8px;
@@ -244,6 +244,9 @@
   --utrecht-form-fieldset-legend-text-transform: uppercase;
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
+  --utrecht-figure-caption-line-height: 20px;
+  --utrecht-figure-caption-font-size: 14px;
+  --utrecht-figure-caption-color: #727272;
   --utrecht-document-line-height: 1.4;
   --utrecht-data-list-rows-column-min-inline-size: 25ch;
   --utrecht-data-list-rows-column-inline-size: 80%;
