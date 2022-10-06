@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 04 Oct 2022 15:42:27 GMT
+ * Generated on Thu, 06 Oct 2022 23:01:11 GMT
  */
 .utrecht-theme {
   --denhaag-process-steps-sub-step-marker-size: 8px;
@@ -189,6 +189,10 @@
   --utrecht-mapcontrolbutton-border-radius: 2px;
   --utrecht-mapcontrolbutton-margin-inline-end: 0;
   --utrecht-mapcontrolbutton-margin-inline-start: 0;
+  --utrecht-map-marker-icon-size: 30px;
+  --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
+  --utrecht-map-marker-border-width: 3px;
+  --utrecht-map-marker-size: 48px;
   --utrecht-logo-max-inline-size: 110.57px;
   --utrecht-logo-max-block-size: 58.97px;
   --utrecht-list-social-item-margin-inline-end: 10px;
@@ -510,6 +514,9 @@
   --utrecht-mapcontrolbutton-min-inline-size: var(--utrecht-space-block-2xl);
   --utrecht-mapcontrolbutton-min-block-size: var(--utrecht-space-block-2xl);
   --utrecht-mapcontrolbutton-border-width: var(--utrecht-border-width-sm);
+  --utrecht-map-marker-border-color: var(--utrecht-color-white);
+  --utrecht-map-marker-color: var(--utrecht-color-white);
+  --utrecht-map-marker-background-color: var(--utrecht-color-blue-30);
   --utrecht-link-placeholder-color: var(--utrecht-color-grey-40);
   --utrecht-link-focus-color: var(--utrecht-color-blue-40);
   --utrecht-link-color: var(--utrecht-color-blue-35);
@@ -3680,6 +3687,31 @@ however browsers don't seem to have implemented great looking supixel tweening y
   display: block;
   padding-inline-end: var(--utrecht-mapcontrolbutton-label-margin-inline-end);
   padding-inline-start: var(--utrecht-mapcontrolbutton-label-margin-inline-start);
+}
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2022 Gemeente Utrecht
+ * Copyright (c) 2022 Robbert Broersma
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2022 Gemeente Utrecht
+ * Copyright (c) 2022 Robbert Broersma
+ */
+.utrecht-map-marker {
+  --utrecht-icon-size: var(--utrecht-map-marker-icon-size);
+  align-items: center;
+  background-color: var(--utrecht-map-marker-background-color);
+  border-color: var(--utrecht-map-marker-border-color);
+  border-radius: 50%;
+  border-style: solid;
+  border-width: var(--utrecht-map-marker-border-width);
+  box-shadow: 13px 3px 3px -2px var(--utrecht-map-marker-box-shadow-color);
+  color: var(--utrecht-map-marker-color);
+  display: flex;
+  height: var(--utrecht-map-marker-size);
+  justify-content: center;
+  width: var(--utrecht-map-marker-size);
 }
 /**
  * @license EUPL-1.2
