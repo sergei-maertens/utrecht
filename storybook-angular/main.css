@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 11 Oct 2022 07:42:28 GMT
+ * Generated on Wed, 12 Oct 2022 12:40:27 GMT
  */
 .utrecht-theme {
   --denhaag-process-steps-sub-step-marker-size: 8px;
@@ -318,6 +318,7 @@
   --utrecht-space-block-xs: 8px; /* Extra Small */
   --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
   --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
+  --utrecht-focus-outline-style: dotted;
   --utrecht-action-activate-cursor: pointer;
   --utrecht-action-submit-cursor: pointer;
   --utrecht-action-navigate-cursor: pointer;
@@ -496,6 +497,7 @@
   --utrecht-page-footer-color: var(--utrecht-color-white);
   --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
   --utrecht-mapcontrolbutton-hover-background-color: var(--utrecht-color-grey-90);
+  --utrecht-mapcontrolbutton-focus-color: var(--utrecht-color-black);
   --utrecht-mapcontrolbutton-label-margin-inline-end: var(--utrecht-space-inline-xs);
   --utrecht-mapcontrolbutton-label-margin-inline-start: var(--utrecht-space-inline-xs);
   --utrecht-mapcontrolbutton-color: var(--utrecht-color-grey-40);
@@ -609,14 +611,10 @@
   --utrecht-custom-checkbox-checked-border-color: var(--utrecht-color-blue-40);
   --utrecht-custom-checkbox-disabled-background-color: var(--utrecht-color-grey-80);
   --utrecht-custom-checkbox-disabled-border-color: var(--utrecht-color-grey-80);
+  --utrecht-focus-inverse-outline-color: var(--utrecht-color-white);
   --utrecht-focus-outline-width: var(--utrecht-border-width-md);
-  --utrecht-focus-outline-style: var(--utrecht-border-style-dotted);
   --utrecht-focus-outline-color: var(--utrecht-color-black);
-  --utrecht-focus-color: var(--utrecht-color-black);
-  --utrecht-focus-box-shadow-spread-radius: var(--utrecht-border-width-md);
-  --utrecht-focus-box-shadow-color: var(--utrecht-color-white);
-  --utrecht-focus-border-style: var(--utrecht-border-style-dotted);
-  --utrecht-focus-border-color: var(--utrecht-color-black);
+  --utrecht-focus-background-color: var(--utrecht-color-yellow-60);
   --utrecht-feedback-active-fill-color: var(--utrecht-color-white);
   --utrecht-feedback-inactive-fill-color: var(--utrecht-color-white);
   --utrecht-feedback-success-fill-color: var(--utrecht-color-white);
@@ -752,11 +750,6 @@
   --utrecht-search-bar-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
   --utrecht-paragraph-lead-color: var(--utrecht-document-color);
   --utrecht-paragraph-color: var(--utrecht-document-color);
-  --utrecht-mapcontrolbutton-focus-border-color: var(--utrecht-focus-border-color);
-  --utrecht-mapcontrolbutton-focus-outline-color: var(--utrecht-focus-outline-color);
-  --utrecht-mapcontrolbutton-focus-border-style: var(--utrecht-focus-border-style);
-  --utrecht-mapcontrolbutton-focus-box-shadow-color: var(--utrecht-focus-box-shadow-color);
-  --utrecht-mapcontrolbutton-focus-color: var(--utrecht-focus-color);
   --utrecht-link-visited-color: var(--utrecht-link-color);
   --utrecht-link-hover-color: var(--utrecht-link-focus-color);
   --utrecht-link-active-color: var(--utrecht-link-color);
@@ -1373,23 +1366,32 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-button--focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
   outline-width: var(--utrecht-focus-outline-width, 0);
 }
-.utrecht-button--focus {
+.utrecht-button--focus:not(.utrecht-button--disabled) {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
+}
+.utrecht-button:focus {
+  /* Show focus ring even for disabled :focus-visible buttons. *
+  /* For example: <button disabled tabindex="0"> */
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
+  outline-color: var(--utrecht-focus-outline-color, transparent);
+  outline-offset: var(--utrecht-focus-outline-offset, 0);
+  outline-style: var(--utrecht-focus-outline-style, solid);
+  outline-width: var(--utrecht-focus-outline-width, 0);
 }
 .utrecht-button:focus:not(:disabled):not([aria-disabled=true]):not(.utrecht-button--disabled) {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -1402,7 +1404,7 @@ ol.utrecht-breadcrumb__list {
   box-shadow: none;
   outline-style: none;
 }
-.utrecht-button--hover:not(:disabled),
+.utrecht-button--hover:not(:disabled):not(.utrecht-button--disabled),
 .utrecht-button:hover:not(:disabled):not([aria-disabled=true]):not(.utrecht-button--disabled) {
   background-color: var(--_utrecht-button-hover-background-color);
   border-color: var(--_utrecht-button-hover-border-color);
@@ -2041,7 +2043,7 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-button-link--focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -2060,7 +2062,7 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-button-link--html-a:focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -2167,7 +2169,7 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-checkbox--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -2177,7 +2179,7 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-checkbox--html-input:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -2263,7 +2265,7 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-checkbox-focus-border-width, var(--utrecht-custom-checkbox-border-width));
 }
 .utrecht-custom-checkbox--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -2288,7 +2290,7 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-checkbox-focus-border-width, var(--utrecht-custom-checkbox-border-width));
 }
 .utrecht-custom-checkbox--html-input:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -2375,7 +2377,7 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-custom-radio-button-focus-color, var(--utrecht-custom-radio-button-color));
 }
 .utrecht-custom-radio-button--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -2420,7 +2422,7 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-custom-radio-button-focus-color, var(--utrecht-custom-radio-button-color));
 }
 .utrecht-custom-radio-button--html-input:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3323,7 +3325,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 .utrecht-link-button--focus-visible, .utrecht-link-button--html-button:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3372,7 +3374,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   transform: scale(var(--utrecht-link-social-hover-scale));
 }
 .utrecht-link-social:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3538,7 +3540,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 .utrecht-link--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3554,7 +3556,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3662,7 +3664,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-mapcontrolbutton-disabled-color);
 }
 .utrecht-mapcontrolbutton--focus-visible, .utrecht-mapcontrolbutton:focus:not(:disabled):not([aria-disabled=true]):not(.utrecht-mapcontrolbutton--disabled) {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3750,7 +3752,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-menulijst-item-hover-color, var(--utrecht-link-hover-color, red));
 }
 .utrecht-menulijst__link--focus-visible, .utrecht-menulijst__link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3833,7 +3835,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration: underline;
 }
 .utrecht-sidenav__link--focus-visible, .utrecht-sidenav__link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -3983,7 +3985,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-topnav-link-focus-color, var(--utrecht-topnav-link-color));
 }
 .utrecht-topnav__link--focus-visible, .utrecht-topnav__link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4143,7 +4145,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 .utrecht-pagination__page-link:focus,
 .utrecht-pagination__relative-link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4229,7 +4231,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 .utrecht-pagination__page-link:focus,
 .utrecht-pagination__relative-link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4323,7 +4325,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-radio-button--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4333,7 +4335,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-radio-button--html-input:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4438,7 +4440,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-select-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
 }
 .utrecht-select--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4463,7 +4465,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-select-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-select-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4561,7 +4563,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-skip-link--focus,
 .utrecht-skip-link:focus,
 .utrecht-skip-link:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4737,7 +4739,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-textarea-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
 }
 .utrecht-textarea--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4762,7 +4764,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textarea-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textarea-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4845,7 +4847,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-textbox-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
 }
 .utrecht-textbox--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
@@ -4884,7 +4886,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textbox-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textbox-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
-  box-shadow: 0 0 0 var(--utrecht-focus-box-shadow-spread-radius, 0) var(--utrecht-focus-box-shadow-color, transparent);
+  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
   outline-style: var(--utrecht-focus-outline-style, solid);
