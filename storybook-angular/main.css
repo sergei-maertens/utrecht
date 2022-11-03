@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 02 Nov 2022 09:42:30 GMT
+ * Generated on Thu, 03 Nov 2022 12:56:28 GMT
  */
 .utrecht-theme ::-webkit-backdrop {
   --denhaag-process-steps-sub-step-marker-size: 8px;
@@ -132,7 +132,7 @@
   --utrecht-separator-block-size: 8px;
   --utrecht-select-border-block-end-width: 3px;
   --utrecht-search-bar-hover-transform: 1;
-  --utrecht-search-bar-hover-background-color: hsl(359, 65%, 58%);
+  --utrecht-search-bar-hover-background-color: hsl(359 65% 58%);
   --utrecht-search-bar-textbox-background-size: 1em;
   --utrecht-search-bar-textbox-background-position-y: 50%;
   --utrecht-search-bar-textbox-background-position-x: .5em;
@@ -918,7 +918,7 @@
   --utrecht-separator-block-size: 8px;
   --utrecht-select-border-block-end-width: 3px;
   --utrecht-search-bar-hover-transform: 1;
-  --utrecht-search-bar-hover-background-color: hsl(359, 65%, 58%);
+  --utrecht-search-bar-hover-background-color: hsl(359 65% 58%);
   --utrecht-search-bar-textbox-background-size: 1em;
   --utrecht-search-bar-textbox-background-position-y: 50%;
   --utrecht-search-bar-textbox-background-position-x: .5em;
