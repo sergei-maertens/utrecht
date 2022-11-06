@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 04 Nov 2022 10:16:16 GMT
+ * Generated on Sun, 06 Nov 2022 16:59:13 GMT
  */
 .utrecht-theme ::-webkit-backdrop {
   --denhaag-process-steps-sub-step-marker-size: 8px;
@@ -372,6 +372,8 @@
   --utrecht-badge-status-letter-spacing: 0.15ch;
   --utrecht-badge-data-text-transform: uppercase;
   --utrecht-badge-data-letter-spacing: 0.15ch;
+  --utrecht-backdrop-reduced-transparency-opacity: 0.98;
+  --utrecht-backdrop-fade-in-animation-duration: 0.4s;
   --utrecht-backdrop-opacity: 0.8;
   --utrecht-article-max-inline-size: 780px;
   --utrecht-alert-dialog-min-inline-size: 320px;
@@ -1158,6 +1160,8 @@
   --utrecht-badge-status-letter-spacing: 0.15ch;
   --utrecht-badge-data-text-transform: uppercase;
   --utrecht-badge-data-letter-spacing: 0.15ch;
+  --utrecht-backdrop-reduced-transparency-opacity: 0.98;
+  --utrecht-backdrop-fade-in-animation-duration: 0.4s;
   --utrecht-backdrop-opacity: 0.8;
   --utrecht-article-max-inline-size: 780px;
   --utrecht-alert-dialog-min-inline-size: 320px;
@@ -1709,18 +1713,52 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   min-inline-size: var(--utrecht-alert-dialog-min-inline-size);
 }
 .utrecht-alert-dialog::-webkit-backdrop {
+  --_utrecht-backdrop-opacity: var(--utrecht-backdrop-opacity);
+  --_utrecht-backdrop-fade-in-animation-duration: var(--utrecht-backdrop-fade-in-animation-duration, 0);
+  animation-duration: min(var(--utrecht-motion-max-animation-duration, var(--_utrecht-backdrop-fade-in-animation-duration)), var(--_utrecht-backdrop-fade-in-animation-duration, 0));
+  animation-name: utrecht-backdrop-fade-in;
+  animation-timing-function: ease-in-out;
   background-color: var(--utrecht-backdrop-background-color);
   color: var(--utrecht-backdrop-color);
-  opacity: var(--utrecht-backdrop-opacity);
+  opacity: var(--_utrecht-backdrop-opacity);
   -webkit-user-select: none;
           user-select: none;
 }
 .utrecht-alert-dialog::backdrop {
+  --_utrecht-backdrop-opacity: var(--utrecht-backdrop-opacity);
+  --_utrecht-backdrop-fade-in-animation-duration: var(--utrecht-backdrop-fade-in-animation-duration, 0);
+  animation-duration: min(var(--utrecht-motion-max-animation-duration, var(--_utrecht-backdrop-fade-in-animation-duration)), var(--_utrecht-backdrop-fade-in-animation-duration, 0));
+  animation-name: utrecht-backdrop-fade-in;
+  animation-timing-function: ease-in-out;
   background-color: var(--utrecht-backdrop-background-color);
   color: var(--utrecht-backdrop-color);
-  opacity: var(--utrecht-backdrop-opacity);
+  opacity: var(--_utrecht-backdrop-opacity);
   -webkit-user-select: none;
           user-select: none;
+}
+@keyframes utrecht-backdrop-fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: var(--_utrecht-backdrop-opacity);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .utrecht-alert-dialog::-webkit-backdrop {
+    --_utrecht-backdrop-fade-in-animation-duration: 0;
+  }
+  .utrecht-alert-dialog::backdrop {
+    --_utrecht-backdrop-fade-in-animation-duration: 0;
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .utrecht-alert-dialog::-webkit-backdrop {
+    --_utrecht-backdrop-opacity: var(--utrecht-backdrop-reduced-transparency-opacity, 100%);
+  }
+  .utrecht-alert-dialog::backdrop {
+    --_utrecht-backdrop-opacity: var(--utrecht-backdrop-reduced-transparency-opacity, 100%);
+  }
 }
 .utrecht-alert-dialog__icon {
   --utrecht-icon-color: var(--_utrecht-alert-icon-color, var(--utrecht-alert-icon-color));
@@ -1901,9 +1939,14 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-backdrop {
+  --_utrecht-backdrop-opacity: var(--utrecht-backdrop-opacity);
+  --_utrecht-backdrop-fade-in-animation-duration: var(--utrecht-backdrop-fade-in-animation-duration, 0);
+  animation-duration: min(var(--utrecht-motion-max-animation-duration, var(--_utrecht-backdrop-fade-in-animation-duration)), var(--_utrecht-backdrop-fade-in-animation-duration, 0));
+  animation-name: utrecht-backdrop-fade-in;
+  animation-timing-function: ease-in-out;
   background-color: var(--utrecht-backdrop-background-color);
   color: var(--utrecht-backdrop-color);
-  opacity: var(--utrecht-backdrop-opacity);
+  opacity: var(--_utrecht-backdrop-opacity);
   -webkit-user-select: none;
           user-select: none;
   bottom: 0;
@@ -1913,6 +1956,30 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   right: 0;
   top: 0;
   z-index: var(--utrecht-backdrop-z-index);
+}
+@keyframes utrecht-backdrop-fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: var(--_utrecht-backdrop-opacity);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .utrecht-backdrop {
+    --_utrecht-backdrop-fade-in-animation-duration: 0;
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .utrecht-backdrop {
+    --_utrecht-backdrop-opacity: var(--utrecht-backdrop-reduced-transparency-opacity, 100%);
+  }
+}
+.utrecht-backdrop--reduced-motion {
+  --_utrecht-backdrop-fade-in-animation-duration: 0;
+}
+.utrecht-backdrop--reduced-transparency {
+  --_utrecht-backdrop-opacity: var(--utrecht-backdrop-reduced-transparency-opacity, 100%);
 }
 .utrecht-backdrop--viewport {
   position: fixed;
