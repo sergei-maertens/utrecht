@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 09 Nov 2022 11:07:46 GMT
+ * Generated on Fri, 11 Nov 2022 11:16:36 GMT
  */
 .utrecht-theme ::-webkit-backdrop {
   --denhaag-process-steps-sub-step-marker-size: 8px;
@@ -501,6 +501,8 @@
   --utrecht-page-footer-background-image: linear-gradient(45deg, var(--utrecht-color-red-40), var(--utrecht-color-red-40) 50%, hsl(5 54% 59%) 50%);;
   --utrecht-page-footer-background-color: var(--utrecht-color-red-40);
   --utrecht-page-footer-color: var(--utrecht-color-white);
+  --utrecht-mark-color: var(--utrecht-color-black);
+  --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
   --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
   --utrecht-mapcontrolbutton-hover-background-color: var(--utrecht-color-grey-90);
   --utrecht-mapcontrolbutton-focus-color: var(--utrecht-color-black);
@@ -1289,6 +1291,8 @@
   --utrecht-page-footer-background-image: linear-gradient(45deg, var(--utrecht-color-red-40), var(--utrecht-color-red-40) 50%, hsl(5 54% 59%) 50%);;
   --utrecht-page-footer-background-color: var(--utrecht-color-red-40);
   --utrecht-page-footer-color: var(--utrecht-color-white);
+  --utrecht-mark-color: var(--utrecht-color-black);
+  --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
   --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
   --utrecht-mapcontrolbutton-hover-background-color: var(--utrecht-color-grey-90);
   --utrecht-mapcontrolbutton-focus-color: var(--utrecht-color-black);
@@ -1621,6 +1625,9 @@
 }
 .utrecht-alert {
   background-color: var(--_utrecht-alert-background-color, var(--utrecht-alert-background-color));
+  border-color: var(--_utrecht-alert-border-color, var(--utrecht-alert-border-color));
+  border-style: solid;
+  border-width: var(--_utrecht-alert-border-width, var(--utrecht-alert-border-width, 0));
   color: var(--_utrecht-alert-color, var(--utrecht-alert-color));
   display: grid;
   gap: var(--utrecht-alert-icon-gap);
@@ -1643,21 +1650,29 @@
 .utrecht-alert--info {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-info-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-info-background-color);
+  --_utrecht-alert-border-color: var(--utrecht-alert-info-border-color);
+  --_utrecht-alert-border-width: var(--utrecht-alert-info-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-info-color);
 }
 .utrecht-alert--ok {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-ok-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-ok-background-color);
+  --_utrecht-alert-border-color: var(--utrecht-alert-ok-border-color);
+  --_utrecht-alert-border-width: var(--utrecht-alert-ok-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-ok-color);
 }
 .utrecht-alert--warning {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-warning-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-warning-background-color);
+  --_utrecht-alert-border-color: var(--utrecht-alert-warning-border-color);
+  --_utrecht-alert-border-width: var(--utrecht-alert-warning-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-warning-color);
 }
 .utrecht-alert--error {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-error-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-error-background-color);
+  --_utrecht-alert-border-color: var(--utrecht-alert-error-border-color);
+  --_utrecht-alert-border-width: var(--utrecht-alert-error-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-error-color);
 }
 /**
@@ -1691,6 +1706,9 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   --utrecht-alert-dialog-margin-block-start: auto;
   --utrecht-alert-dialog-margin-block-end: auto;
   background-color: var(--_utrecht-alert-background-color, var(--utrecht-alert-background-color));
+  border-color: var(--_utrecht-alert-border-color, var(--utrecht-alert-border-color));
+  border-style: solid;
+  border-width: var(--_utrecht-alert-border-width, var(--utrecht-alert-border-width, 0));
   color: var(--_utrecht-alert-color, var(--utrecht-alert-color));
   display: grid;
   gap: var(--utrecht-alert-icon-gap);
@@ -1770,16 +1788,22 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 .utrecht-alert-dialog--error {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-error-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-error-background-color);
+  --_utrecht-alert-border-color: var(--utrecht-alert-error-border-color);
+  --_utrecht-alert-border-width: var(--utrecht-alert-error-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-error-color);
 }
 .utrecht-alert-dialog--info {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-info-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-info-background-color);
+  --_utrecht-alert-border-color: var(--utrecht-alert-info-border-color);
+  --_utrecht-alert-border-width: var(--utrecht-alert-info-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-info-color);
 }
 .utrecht-alert-dialog--warning {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-warning-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-warning-background-color);
+  --_utrecht-alert-border-color: var(--utrecht-alert-warning-border-color);
+  --_utrecht-alert-border-width: var(--utrecht-alert-warning-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-warning-color);
 }
 /**
