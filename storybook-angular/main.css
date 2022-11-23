@@ -41,7 +41,7 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 22 Nov 2022 15:41:00 GMT
+ * Generated on Wed, 23 Nov 2022 17:25:00 GMT
  */
 .utrecht-theme ::-webkit-backdrop {
   --denhaag-process-steps-sub-step-marker-size: 8px;
@@ -129,6 +129,7 @@
   --utrecht-table-caption-text-align: start;
   --utrecht-table-caption-font-size: 1.125em;
   --utrecht-table-margin-block-end: 0;
+  --utrecht-spotlight-section-warning-background-color: #FFEEBB;
   --utrecht-separator-block-size: 8px;
   --utrecht-select-border-block-end-width: 3px;
   --utrecht-search-bar-hover-transform: 1;
@@ -458,6 +459,13 @@
   --utrecht-table-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-surface-color: var(--utrecht-color-grey-10);
   --utrecht-surface-background-color: var(--utrecht-color-grey-95);
+  --utrecht-spotlight-section-info-background-color: var(--utrecht-color-blue-90);
+  --utrecht-spotlight-section-padding-inline-end: var(--utrecht-space-inline-md);
+  --utrecht-spotlight-section-padding-inline-start: var(--utrecht-space-inline-md);
+  --utrecht-spotlight-section-padding-block-end: var(--utrecht-space-block-sm);
+  --utrecht-spotlight-section-padding-block-start: var(--utrecht-space-block-md);
+  --utrecht-spotlight-section-color: var(--utrecht-color-black);
+  --utrecht-spotlight-section-background-color: var(--utrecht-color-grey-80);
   --utrecht-skip-link-focus-text-decoration: var(--utrecht-link-focus-text-decoration);
   --utrecht-skip-link-text-decoration: var(--utrecht-link-text-decoration);
   --utrecht-separator-margin-block-start: var(--utrecht-space-block-md);
@@ -919,6 +927,7 @@
   --utrecht-table-caption-text-align: start;
   --utrecht-table-caption-font-size: 1.125em;
   --utrecht-table-margin-block-end: 0;
+  --utrecht-spotlight-section-warning-background-color: #FFEEBB;
   --utrecht-separator-block-size: 8px;
   --utrecht-select-border-block-end-width: 3px;
   --utrecht-search-bar-hover-transform: 1;
@@ -1248,6 +1257,13 @@
   --utrecht-table-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-surface-color: var(--utrecht-color-grey-10);
   --utrecht-surface-background-color: var(--utrecht-color-grey-95);
+  --utrecht-spotlight-section-info-background-color: var(--utrecht-color-blue-90);
+  --utrecht-spotlight-section-padding-inline-end: var(--utrecht-space-inline-md);
+  --utrecht-spotlight-section-padding-inline-start: var(--utrecht-space-inline-md);
+  --utrecht-spotlight-section-padding-block-end: var(--utrecht-space-block-sm);
+  --utrecht-spotlight-section-padding-block-start: var(--utrecht-space-block-md);
+  --utrecht-spotlight-section-color: var(--utrecht-color-black);
+  --utrecht-spotlight-section-background-color: var(--utrecht-color-grey-80);
   --utrecht-skip-link-focus-text-decoration: var(--utrecht-link-focus-text-decoration);
   --utrecht-skip-link-text-decoration: var(--utrecht-link-text-decoration);
   --utrecht-separator-margin-block-start: var(--utrecht-space-block-md);
@@ -5765,6 +5781,43 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-width: var(--utrecht-focus-outline-width, 0);
   -webkit-text-decoration: var(--utrecht-skip-link-focus-text-decoration);
           text-decoration: var(--utrecht-skip-link-focus-text-decoration);
+}
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+.utrecht-spotlight-section {
+  background-color: var(--_utrecht-spotlight-section-background-color, var(--utrecht-spotlight-section-background-color));
+  border-color: var(--_utrecht-spotlight-section-border-color, var(--utrecht-spotlight-section-border-color));
+  border-style: solid;
+  border-width: var(--_utrecht-spotlight-section-border-width, var(--utrecht-spotlight-section-border-width, 0));
+  color: var(--_utrecht-spotlight-section-color, var(--utrecht-spotlight-section-color));
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-spotlight-section-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-spotlight-section-margin-block-start, 0));
+  padding-block-end: var(--utrecht-spotlight-section-padding-block-end);
+  padding-block-start: var(--utrecht-spotlight-section-padding-block-start);
+  padding-inline-end: var(--utrecht-spotlight-section-padding-inline-end);
+  padding-inline-start: var(--utrecht-spotlight-section-padding-inline-start);
+}
+.utrecht-spotlight-section--info {
+  --_utrecht-spotlight-section-icon-color: var(--utrecht-spotlight-section-icon-info-color);
+  --_utrecht-spotlight-section-background-color: var(--utrecht-spotlight-section-info-background-color);
+  --_utrecht-spotlight-section-border-color: var(--utrecht-spotlight-section-info-border-color);
+  --_utrecht-spotlight-section-border-width: var(--utrecht-spotlight-section-info-border-width);
+  --_utrecht-spotlight-section-color: var(--utrecht-spotlight-section-info-color);
+}
+.utrecht-spotlight-section--warning {
+  --_utrecht-spotlight-section-icon-color: var(--utrecht-spotlight-section-icon-warning-color);
+  --_utrecht-spotlight-section-background-color: var(--utrecht-spotlight-section-warning-background-color);
+  --_utrecht-spotlight-section-border-color: var(--utrecht-spotlight-section-warning-border-color);
+  --_utrecht-spotlight-section-border-width: var(--utrecht-spotlight-section-warning-border-width);
+  --_utrecht-spotlight-section-color: var(--utrecht-spotlight-section-warning-color);
 }
 /**
  * @license EUPL-1.2
