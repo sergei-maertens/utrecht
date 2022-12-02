@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 29 Nov 2022 09:31:30 GMT
+ * Generated on Fri, 02 Dec 2022 15:40:21 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 29 Nov 2022 09:31:31 GMT
+ * Generated on Fri, 02 Dec 2022 15:40:22 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -114,17 +114,19 @@
   --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
   --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
   --utrecht-color-green-40: hsl(90 30% 40%); /* donker groen */
+  --utrecht-color-green-30: hsl(90 30% 30%); /* donker groen voor darkmode achtergrond */
   --utrecht-color-yellow-80: hsl(48 100% 80%); /* spotlight en uitgelicht */
   --utrecht-color-yellow-60: hsl(48 100% 60%); /* selecteer geel */
   --utrecht-color-yellow-50: hsl(48 100% 50%); /* basis geel #ffcc00 */
   --utrecht-color-yellow-40: hsl(48 100% 40%); /* donker geel */
+  --utrecht-color-yellow-20: hsl(48 100% 20%); /* donker geel voor darkmode achtergrond */
   --utrecht-color-grey-95: hsl(0 0% 95%); /* grijs variant voor achtergrond accordion #f2f2f2 */
   --utrecht-color-grey-90: hsl(0 0% 90%); /* grijs variant voor achtergrond templates #e6e6e6 */
   --utrecht-color-grey-80: hsl(0 0% 80%); /* grijs variant voor achtergrond content #e5e5e5 */
   --utrecht-color-grey-40: hsl(0 0% 40%); /* basis grijs #727272 */
   --utrecht-color-grey-30: hsl(0 0% 30%); /* border grijs #888 */
   --utrecht-color-grey-20: hsl(0 0% 20%); /* experimenteel / beperkt gebruiken */
-  --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / beperkt gebruiken */
+  --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / achtergrond kleur voor darkmode */
   --utrecht-color-grey-10: hsl(0 0% 10%); /* experimenteel / beperkt gebruiken */
   --utrecht-color-blue-90: hsl(211 60% 90%); /* ijsblauw variant achtergrond, spotlight en uitgelicht */
   --utrecht-color-blue-80: hsl(211 60% 80%); /* licht blauw voor achtergrond */
@@ -913,17 +915,19 @@
   --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
   --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
   --utrecht-color-green-40: hsl(90 30% 40%); /* donker groen */
+  --utrecht-color-green-30: hsl(90 30% 30%); /* donker groen voor darkmode achtergrond */
   --utrecht-color-yellow-80: hsl(48 100% 80%); /* spotlight en uitgelicht */
   --utrecht-color-yellow-60: hsl(48 100% 60%); /* selecteer geel */
   --utrecht-color-yellow-50: hsl(48 100% 50%); /* basis geel #ffcc00 */
   --utrecht-color-yellow-40: hsl(48 100% 40%); /* donker geel */
+  --utrecht-color-yellow-20: hsl(48 100% 20%); /* donker geel voor darkmode achtergrond */
   --utrecht-color-grey-95: hsl(0 0% 95%); /* grijs variant voor achtergrond accordion #f2f2f2 */
   --utrecht-color-grey-90: hsl(0 0% 90%); /* grijs variant voor achtergrond templates #e6e6e6 */
   --utrecht-color-grey-80: hsl(0 0% 80%); /* grijs variant voor achtergrond content #e5e5e5 */
   --utrecht-color-grey-40: hsl(0 0% 40%); /* basis grijs #727272 */
   --utrecht-color-grey-30: hsl(0 0% 30%); /* border grijs #888 */
   --utrecht-color-grey-20: hsl(0 0% 20%); /* experimenteel / beperkt gebruiken */
-  --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / beperkt gebruiken */
+  --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / achtergrond kleur voor darkmode */
   --utrecht-color-grey-10: hsl(0 0% 10%); /* experimenteel / beperkt gebruiken */
   --utrecht-color-blue-90: hsl(211 60% 90%); /* ijsblauw variant achtergrond, spotlight en uitgelicht */
   --utrecht-color-blue-80: hsl(211 60% 80%); /* licht blauw voor achtergrond */
@@ -1731,17 +1735,19 @@
     --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
     --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
     --utrecht-color-green-40: hsl(90 30% 40%); /* donker groen */
+    --utrecht-color-green-30: hsl(90 30% 30%); /* donker groen voor darkmode achtergrond */
     --utrecht-color-yellow-80: hsl(48 100% 80%); /* spotlight en uitgelicht */
     --utrecht-color-yellow-60: hsl(48 100% 60%); /* selecteer geel */
     --utrecht-color-yellow-50: hsl(48 100% 50%); /* basis geel #ffcc00 */
     --utrecht-color-yellow-40: hsl(48 100% 40%); /* donker geel */
+    --utrecht-color-yellow-20: hsl(48 100% 20%); /* donker geel voor darkmode achtergrond */
     --utrecht-color-grey-95: hsl(0 0% 95%); /* grijs variant voor achtergrond accordion #f2f2f2 */
     --utrecht-color-grey-90: hsl(0 0% 90%); /* grijs variant voor achtergrond templates #e6e6e6 */
     --utrecht-color-grey-80: hsl(0 0% 80%); /* grijs variant voor achtergrond content #e5e5e5 */
     --utrecht-color-grey-40: hsl(0 0% 40%); /* basis grijs #727272 */
     --utrecht-color-grey-30: hsl(0 0% 30%); /* border grijs #888 */
     --utrecht-color-grey-20: hsl(0 0% 20%); /* experimenteel / beperkt gebruiken */
-    --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / beperkt gebruiken */
+    --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / achtergrond kleur voor darkmode */
     --utrecht-color-grey-10: hsl(0 0% 10%); /* experimenteel / beperkt gebruiken */
     --utrecht-color-blue-90: hsl(211 60% 90%); /* ijsblauw variant achtergrond, spotlight en uitgelicht */
     --utrecht-color-blue-80: hsl(211 60% 80%); /* licht blauw voor achtergrond */
@@ -2532,17 +2538,19 @@
     --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
     --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
     --utrecht-color-green-40: hsl(90 30% 40%); /* donker groen */
+    --utrecht-color-green-30: hsl(90 30% 30%); /* donker groen voor darkmode achtergrond */
     --utrecht-color-yellow-80: hsl(48 100% 80%); /* spotlight en uitgelicht */
     --utrecht-color-yellow-60: hsl(48 100% 60%); /* selecteer geel */
     --utrecht-color-yellow-50: hsl(48 100% 50%); /* basis geel #ffcc00 */
     --utrecht-color-yellow-40: hsl(48 100% 40%); /* donker geel */
+    --utrecht-color-yellow-20: hsl(48 100% 20%); /* donker geel voor darkmode achtergrond */
     --utrecht-color-grey-95: hsl(0 0% 95%); /* grijs variant voor achtergrond accordion #f2f2f2 */
     --utrecht-color-grey-90: hsl(0 0% 90%); /* grijs variant voor achtergrond templates #e6e6e6 */
     --utrecht-color-grey-80: hsl(0 0% 80%); /* grijs variant voor achtergrond content #e5e5e5 */
     --utrecht-color-grey-40: hsl(0 0% 40%); /* basis grijs #727272 */
     --utrecht-color-grey-30: hsl(0 0% 30%); /* border grijs #888 */
     --utrecht-color-grey-20: hsl(0 0% 20%); /* experimenteel / beperkt gebruiken */
-    --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / beperkt gebruiken */
+    --utrecht-color-grey-15: hsl(0 0% 15%); /* experimenteel / achtergrond kleur voor darkmode */
     --utrecht-color-grey-10: hsl(0 0% 10%); /* experimenteel / beperkt gebruiken */
     --utrecht-color-blue-90: hsl(211 60% 90%); /* ijsblauw variant achtergrond, spotlight en uitgelicht */
     --utrecht-color-blue-80: hsl(211 60% 80%); /* licht blauw voor achtergrond */
