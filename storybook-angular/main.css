@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 06 Dec 2022 17:21:22 GMT
+ * Generated on Thu, 08 Dec 2022 16:05:54 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 06 Dec 2022 17:21:24 GMT
+ * Generated on Thu, 08 Dec 2022 16:05:56 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6210,8 +6210,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 /**
  * @license EUPL-1.2
- * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2022 The Knights Who Say NIH! B.V.
+ * Copyright (c) 2022 Gemeente Utrecht
  */
+/* stylelint-disable scss/no-global-function-names */
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6233,10 +6235,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
   justify-content: center;
   width: var(--utrecht-link-social-size);
 }
-.utrecht-link-social:hover {
-  transform: scale(var(--utrecht-link-social-hover-scale));
+.utrecht-link-social:hover,
+.utrecht-link-social--hover {
+  background-color: var(--utrecht-link-social-hover-background-color, var(--utrecht-link-social-background-color));
+  color: var(--utrecht-link-social-hover-color, var(--utrecht-link-social-color));
+  transform: scale(var(--utrecht-link-social-hover-transform-scale));
 }
-.utrecht-link-social:focus-visible {
+.utrecht-link-social:focus-visible,
+.utrecht-link-social--focus-visible {
   box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
   outline-color: var(--utrecht-focus-outline-color, transparent);
   outline-offset: var(--utrecht-focus-outline-offset, 0);
