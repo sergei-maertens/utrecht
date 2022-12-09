@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 08 Dec 2022 18:20:59 GMT
+ * Generated on Fri, 09 Dec 2022 08:09:53 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 08 Dec 2022 18:21:01 GMT
+ * Generated on Fri, 09 Dec 2022 08:09:55 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -73,7 +73,7 @@
   }
 }
 .utrecht-theme ::-webkit-backdrop {
-  --denhaag-process-steps-sub-step-marker-size: 8px;
+  --denhaag-process-steps-sub-step-marker-size: 12px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
   --utrecht-topnav-link-focus-text-decoration: none;
   --utrecht-topnav-link-focus-border-type: dotted;
@@ -419,30 +419,31 @@
   --denhaag-process-steps-step-metadata-font-size: var(--utrecht-typography-scale-sm-font-size);
   --denhaag-process-steps-step-metadata-color: var(--utrecht-color-grey-15);
   --denhaag-process-steps-step-line-warning-color: var(--utrecht-color-invalid);
-  --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-grey-40);
-  --denhaag-process-steps-step-line-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-green-30);
+  --denhaag-process-steps-step-line-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-line-stroke-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-yellow-50);
-  --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-white);
+  --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-warning-color: var(--utrecht-color-invalid);
   --denhaag-process-steps-step-marker-warning-background-color: var(--utrecht-color-white);
   --denhaag-process-steps-step-marker-warning-border-color: var(--utrecht-color-invalid);
-  --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-checked-border-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-yellow-50);
-  --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-white);
+  --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-current-color: var(--utrecht-color-white);
   --denhaag-process-steps-step-marker-current-border-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-grey-15);
-  --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-green-30);
+  --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --denhaag-process-steps-step-marker-font-size: var(--utrecht-typography-scale-sm-font-size);
-  --denhaag-process-steps-step-marker-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-border-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-yellow-50);
-  --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-white);
+  --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-heading-warning-color: var(--utrecht-color-black);
   --denhaag-process-steps-step-heading-not-checked-color: var(--utrecht-color-black);
+  --denhaag-process-steps-step-heading-checked-background-color: var(--utrecht-color-white);
   --denhaag-process-steps-step-heading-checked-color: var(--utrecht-color-black);
   --denhaag-process-steps-step-heading-current-color: var(--utrecht-color-black);
   --denhaag-process-steps-step-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
@@ -874,7 +875,7 @@
 }
 .utrecht-theme,
 .utrecht-theme ::backdrop {
-  --denhaag-process-steps-sub-step-marker-size: 8px;
+  --denhaag-process-steps-sub-step-marker-size: 12px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
   --utrecht-topnav-link-focus-text-decoration: none;
   --utrecht-topnav-link-focus-border-type: dotted;
@@ -1220,30 +1221,31 @@
   --denhaag-process-steps-step-metadata-font-size: var(--utrecht-typography-scale-sm-font-size);
   --denhaag-process-steps-step-metadata-color: var(--utrecht-color-grey-15);
   --denhaag-process-steps-step-line-warning-color: var(--utrecht-color-invalid);
-  --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-grey-40);
-  --denhaag-process-steps-step-line-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-green-30);
+  --denhaag-process-steps-step-line-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-line-stroke-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-yellow-50);
-  --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-white);
+  --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-warning-color: var(--utrecht-color-invalid);
   --denhaag-process-steps-step-marker-warning-background-color: var(--utrecht-color-white);
   --denhaag-process-steps-step-marker-warning-border-color: var(--utrecht-color-invalid);
-  --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-checked-border-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-yellow-50);
-  --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-white);
+  --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-current-color: var(--utrecht-color-white);
   --denhaag-process-steps-step-marker-current-border-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-grey-15);
-  --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-green-30);
+  --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --denhaag-process-steps-step-marker-font-size: var(--utrecht-typography-scale-sm-font-size);
-  --denhaag-process-steps-step-marker-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-marker-border-width: var(--utrecht-border-width-md);
-  --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-yellow-50);
-  --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-grey-15);
+  --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-white);
+  --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-green-30);
   --denhaag-process-steps-step-heading-warning-color: var(--utrecht-color-black);
   --denhaag-process-steps-step-heading-not-checked-color: var(--utrecht-color-black);
+  --denhaag-process-steps-step-heading-checked-background-color: var(--utrecht-color-white);
   --denhaag-process-steps-step-heading-checked-color: var(--utrecht-color-black);
   --denhaag-process-steps-step-heading-current-color: var(--utrecht-color-black);
   --denhaag-process-steps-step-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
@@ -1694,7 +1696,7 @@
 }
 @media (prefers-color-scheme: dark) {
   .utrecht-theme--media-query ::-webkit-backdrop, .utrecht-theme--media-query-color-scheme ::-webkit-backdrop {
-    --denhaag-process-steps-sub-step-marker-size: 8px;
+    --denhaag-process-steps-sub-step-marker-size: 12px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
     --utrecht-topnav-link-focus-text-decoration: none;
     --utrecht-topnav-link-focus-border-type: dotted;
@@ -2040,30 +2042,31 @@
     --denhaag-process-steps-step-metadata-font-size: var(--utrecht-typography-scale-sm-font-size);
     --denhaag-process-steps-step-metadata-color: var(--utrecht-color-grey-15);
     --denhaag-process-steps-step-line-warning-color: var(--utrecht-color-invalid);
-    --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-grey-40);
-    --denhaag-process-steps-step-line-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-green-30);
+    --denhaag-process-steps-step-line-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-line-stroke-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-yellow-50);
-    --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-white);
+    --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-warning-color: var(--utrecht-color-invalid);
     --denhaag-process-steps-step-marker-warning-background-color: var(--utrecht-color-white);
     --denhaag-process-steps-step-marker-warning-border-color: var(--utrecht-color-invalid);
-    --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-checked-border-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-yellow-50);
-    --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-white);
+    --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-current-color: var(--utrecht-color-white);
     --denhaag-process-steps-step-marker-current-border-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-grey-15);
-    --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-green-30);
+    --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --denhaag-process-steps-step-marker-font-size: var(--utrecht-typography-scale-sm-font-size);
-    --denhaag-process-steps-step-marker-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-border-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-yellow-50);
-    --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-white);
+    --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-heading-warning-color: var(--utrecht-color-black);
     --denhaag-process-steps-step-heading-not-checked-color: var(--utrecht-color-black);
+    --denhaag-process-steps-step-heading-checked-background-color: var(--utrecht-color-white);
     --denhaag-process-steps-step-heading-checked-color: var(--utrecht-color-black);
     --denhaag-process-steps-step-heading-current-color: var(--utrecht-color-black);
     --denhaag-process-steps-step-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
@@ -2497,7 +2500,7 @@
 .utrecht-theme--media-query ::backdrop,
 .utrecht-theme--media-query-color-scheme,
 .utrecht-theme--media-query-color-scheme ::backdrop {
-    --denhaag-process-steps-sub-step-marker-size: 8px;
+    --denhaag-process-steps-sub-step-marker-size: 12px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
     --utrecht-topnav-link-focus-text-decoration: none;
     --utrecht-topnav-link-focus-border-type: dotted;
@@ -2843,30 +2846,31 @@
     --denhaag-process-steps-step-metadata-font-size: var(--utrecht-typography-scale-sm-font-size);
     --denhaag-process-steps-step-metadata-color: var(--utrecht-color-grey-15);
     --denhaag-process-steps-step-line-warning-color: var(--utrecht-color-invalid);
-    --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-grey-40);
-    --denhaag-process-steps-step-line-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-line-checked-color: var(--utrecht-color-green-30);
+    --denhaag-process-steps-step-line-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-line-stroke-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-yellow-50);
-    --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-sub-step-marker-background-color: var(--utrecht-color-white);
+    --denhaag-process-steps-sub-step-marker-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-warning-color: var(--utrecht-color-invalid);
     --denhaag-process-steps-step-marker-warning-background-color: var(--utrecht-color-white);
     --denhaag-process-steps-step-marker-warning-border-color: var(--utrecht-color-invalid);
-    --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-checked-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-checked-border-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-yellow-50);
-    --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-checked-background-color: var(--utrecht-color-white);
+    --denhaag-process-steps-step-marker-checked-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-current-color: var(--utrecht-color-white);
     --denhaag-process-steps-step-marker-current-border-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-grey-15);
-    --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-current-background-color: var(--utrecht-color-green-30);
+    --denhaag-process-steps-step-marker-current-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --denhaag-process-steps-step-marker-font-size: var(--utrecht-typography-scale-sm-font-size);
-    --denhaag-process-steps-step-marker-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-marker-border-width: var(--utrecht-border-width-md);
-    --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-yellow-50);
-    --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-grey-15);
+    --denhaag-process-steps-step-marker-background-color: var(--utrecht-color-white);
+    --denhaag-process-steps-step-marker-border-color: var(--utrecht-color-green-30);
     --denhaag-process-steps-step-heading-warning-color: var(--utrecht-color-black);
     --denhaag-process-steps-step-heading-not-checked-color: var(--utrecht-color-black);
+    --denhaag-process-steps-step-heading-checked-background-color: var(--utrecht-color-white);
     --denhaag-process-steps-step-heading-checked-color: var(--utrecht-color-black);
     --denhaag-process-steps-step-heading-current-color: var(--utrecht-color-black);
     --denhaag-process-steps-step-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
