@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 09 Dec 2022 08:20:43 GMT
+ * Generated on Sat, 10 Dec 2022 14:32:55 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 09 Dec 2022 08:20:45 GMT
+ * Generated on Sat, 10 Dec 2022 14:32:56 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -4123,11 +4123,17 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-button--focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-button--focus:not(.utrecht-button--disabled) {
   background-color: var(--_utrecht-button-focus-background-color);
@@ -4137,29 +4143,41 @@ ol.utrecht-breadcrumb__list {
 .utrecht-button:focus {
   /* Show focus ring even for disabled :focus-visible buttons. *
   /* For example: <button disabled tabindex="0"> */
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-button:focus:not(:disabled):not([aria-disabled=true]):not(.utrecht-button--disabled) {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 /* override the `:focus` selector above */
 /* stylelint-disable-next-line no-descending-specificity */
 .utrecht-button:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 .utrecht-button--hover:not(:disabled):not(.utrecht-button--disabled),
 .utrecht-button:hover:not(:disabled):not([aria-disabled=true]):not(.utrecht-button--disabled) {
@@ -4805,11 +4823,17 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-button-link--focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-button-link--placeholder {
   background-color: var(--_utrecht-button-disabled-background-color);
@@ -4829,11 +4853,17 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-button-link--html-a:focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-button-link--html-a:link:hover {
   background-color: var(--_utrecht-button-hover-background-color);
@@ -4937,26 +4967,38 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
 .utrecht-checkbox--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-checkbox--html-input:disabled {
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
 .utrecht-checkbox--html-input:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-checkbox--html-input:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 /**
  * @license EUPL-1.2
@@ -5049,11 +5091,17 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-checkbox--custom.utrecht-checkbox--focus-visible,
 .utrecht-custom-checkbox--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-checkbox--custom.utrecht-checkbox--html-input:disabled,
 .utrecht-custom-checkbox--html-input:disabled {
@@ -5085,11 +5133,17 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-checkbox--custom.utrecht-checkbox--html-input:focus-visible,
 .utrecht-custom-checkbox--html-input:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-checkbox--custom.utrecht-checkbox--html-input:invalid, .utrecht-checkbox--custom.utrecht-checkbox--html-input[aria-invalid=true],
 .utrecht-custom-checkbox--html-input:invalid,
@@ -5182,11 +5236,17 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-radio-button--custom.utrecht-radio-button--focus-visible,
 .utrecht-custom-radio-button--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-radio-button--custom.utrecht-radio-button--disabled,
 .utrecht-custom-radio-button--disabled {
@@ -5243,11 +5303,17 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-radio-button--custom.utrecht-radio-button--html-input:focus-visible,
 .utrecht-custom-radio-button--html-input:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-radio-button--custom.utrecht-radio-button--html-input:invalid, .utrecht-radio-button--custom.utrecht-radio-button--html-input[aria-invalid=true],
 .utrecht-custom-radio-button--html-input:invalid,
@@ -6182,11 +6248,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 .utrecht-link-button--focus-visible, .utrecht-link-button--html-button:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-link-button--inline {
   --utrecht-icon-inset-block-start: var(--utrecht-icon-baseline-inset-block-start);
@@ -6247,11 +6319,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 .utrecht-link-social:focus-visible,
 .utrecht-link-social--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-link-social--distanced {
   margin-inline-start: var(--utrecht-link-social-margin-inline-start);
@@ -6413,11 +6491,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 .utrecht-link--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-link:focus {
   background-color: var(--utrecht-link-focus-background-color, transparent);
@@ -6429,16 +6513,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 .utrecht-link--telephone {
   white-space: nowrap;
@@ -6537,11 +6627,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-mapcontrolbutton-disabled-color);
 }
 .utrecht-mapcontrolbutton--focus-visible, .utrecht-mapcontrolbutton:focus:not(:disabled):not([aria-disabled=true]):not(.utrecht-mapcontrolbutton--disabled) {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-mapcontrolbutton--focus, .utrecht-mapcontrolbutton:focus:not(:disabled):not([aria-disabled=true]):not(.utrecht-mapcontrolbutton--disabled) {
   --utrecht-icon-color: var(--utrecht-mapcontrolbutton-focus-color, var(--utrecht-mapcontrolbutton-color));
@@ -6551,7 +6647,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-mapcontrolbutton:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 .utrecht-mapcontrolbutton--hover:not(:disabled),
 .utrecht-mapcontrolbutton:hover:not(:disabled):not(.utrecht-mapcontrolbutton--disabled) {
@@ -6625,16 +6721,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-menulijst-item-hover-color, var(--utrecht-link-hover-color, red));
 }
 .utrecht-menulijst__link--focus-visible, .utrecht-menulijst__link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-menulijst__link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 /**
  * @license EUPL-1.2
@@ -6708,11 +6810,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration: underline;
 }
 .utrecht-sidenav__link--focus-visible, .utrecht-sidenav__link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 /* Remove bottom padding form first item in list with children */
 .utrecht-sidenav__link--parent {
@@ -6797,7 +6905,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-sidenav__link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 /**
  * @license EUPL-1.2
@@ -6858,16 +6966,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-topnav-link-focus-color, var(--utrecht-topnav-link-color));
 }
 .utrecht-topnav__link--focus-visible, .utrecht-topnav__link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-topnav__link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 /**
  * @license EUPL-1.2
@@ -7023,17 +7137,23 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 .utrecht-pagination__page-link:focus,
 .utrecht-pagination__relative-link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-pagination__page-link:focus:not(:focus-visible),
 .utrecht-pagination__relative-link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 .utrecht-pagination {
   font-family: var(--utrecht-pagination-font-family, var(--utrecht-document-font-family));
@@ -7109,17 +7229,23 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 .utrecht-pagination__page-link:focus,
 .utrecht-pagination__relative-link:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-pagination__page-link:focus:not(:focus-visible),
 .utrecht-pagination__relative-link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 /**
  * @license EUPL-1.2
@@ -7204,26 +7330,38 @@ however browsers don't seem to have implemented great looking supixel tweening y
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
 .utrecht-radio-button--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-radio-button--html-input:disabled {
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
 .utrecht-radio-button--html-input:focus {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-radio-button--html-input:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 /**
  * @license EUPL-1.2
@@ -7319,11 +7457,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-select-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
 }
 .utrecht-select--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-select--invalid {
   background-color: var(--utrecht-select-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
@@ -7344,16 +7488,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-select-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-select-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-select--html-select:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 /**
  * @license EUPL-1.2
@@ -7442,11 +7592,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-skip-link--focus,
 .utrecht-skip-link:focus,
 .utrecht-skip-link:focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
   -webkit-text-decoration: var(--utrecht-skip-link-focus-text-decoration);
           text-decoration: var(--utrecht-skip-link-focus-text-decoration);
 }
@@ -7656,11 +7812,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-textarea-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
 }
 .utrecht-textarea--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-textarea--read-only {
   border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-input-border-color))));
@@ -7681,16 +7843,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textarea-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textarea-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-textarea--html-textarea:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 .utrecht-textarea--html-textarea:invalid, .utrecht-textarea--html-textarea[aria-invalid=true] {
   background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
@@ -7764,11 +7932,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-textbox-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
 }
 .utrecht-textbox--focus-visible {
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-textbox--read-only {
   border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color))));
@@ -7803,16 +7977,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textbox-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textbox-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
-  box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0) var(--utrecht-focus-inverse-outline-color, transparent);
-  outline-color: var(--utrecht-focus-outline-color, transparent);
-  outline-offset: var(--utrecht-focus-outline-offset, 0);
-  outline-style: var(--utrecht-focus-outline-style, solid);
-  outline-width: var(--utrecht-focus-outline-width, 0);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 .utrecht-textbox--html-input:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
-  outline-style: none;
+  outline-style: revert;
 }
 .utrecht-textbox--html-input:invalid, .utrecht-textbox--html-input[aria-invalid=true] {
   background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-input-background-color))));
