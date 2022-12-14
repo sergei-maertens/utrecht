@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 13 Dec 2022 23:23:06 GMT
+ * Generated on Wed, 14 Dec 2022 12:44:53 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 13 Dec 2022 23:23:07 GMT
+ * Generated on Wed, 14 Dec 2022 12:44:55 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -351,6 +351,7 @@
   --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
   --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
   --utrecht-focus-outline-style: dotted;
+  --utrecht-action-inert-cursor: default;
   --utrecht-action-activate-cursor: pointer;
   --utrecht-action-submit-cursor: pointer;
   --utrecht-action-navigate-cursor: pointer;
@@ -1153,6 +1154,7 @@
   --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
   --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
   --utrecht-focus-outline-style: dotted;
+  --utrecht-action-inert-cursor: default;
   --utrecht-action-activate-cursor: pointer;
   --utrecht-action-submit-cursor: pointer;
   --utrecht-action-navigate-cursor: pointer;
@@ -1974,6 +1976,7 @@
     --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
     --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
     --utrecht-focus-outline-style: dotted;
+    --utrecht-action-inert-cursor: default;
     --utrecht-action-activate-cursor: pointer;
     --utrecht-action-submit-cursor: pointer;
     --utrecht-action-navigate-cursor: pointer;
@@ -2778,6 +2781,7 @@
     --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
     --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
     --utrecht-focus-outline-style: dotted;
+    --utrecht-action-inert-cursor: default;
     --utrecht-action-activate-cursor: pointer;
     --utrecht-action-submit-cursor: pointer;
     --utrecht-action-navigate-cursor: pointer;
