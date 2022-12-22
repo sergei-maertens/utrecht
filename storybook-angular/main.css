@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 21 Dec 2022 14:55:15 GMT
+ * Generated on Thu, 22 Dec 2022 15:53:56 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 21 Dec 2022 14:55:16 GMT
+ * Generated on Thu, 22 Dec 2022 15:53:58 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -685,6 +685,8 @@
   --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
   --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
   --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+  --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
+  --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
   --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -1488,6 +1490,8 @@
   --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
   --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
   --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+  --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
+  --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
   --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -2310,6 +2314,8 @@
     --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
     --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
     --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+    --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
+    --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
     --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -3115,6 +3121,8 @@
     --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
     --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
     --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+    --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
+    --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
     --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -4579,6 +4587,72 @@ ol.utrecht-breadcrumb__list {
 .utrecht-calendar__icon {
   height: var(--utrecht-calendar-icon-size);
   width: var(--utrecht-calendar-icon-size);
+}
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+.utrecht-code {
+  /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
+  background-color: var(--utrecht-code-background-color);
+  color: var(--utrecht-code-color);
+  font-family: var(--utrecht-code-font-family, monospace), monospace;
+  font-size: var(--utrecht-code-font-size);
+  font-feature-settings: none;
+  font-variant-ligatures: none;
+  line-height: var(--utrecht-code-line-height);
+}
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+.utrecht-code-block {
+  /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
+  background-color: var(--utrecht-code-background-color);
+  color: var(--utrecht-code-color);
+  font-family: var(--utrecht-code-font-family, monospace), monospace;
+  font-size: var(--utrecht-code-font-size);
+  font-feature-settings: none;
+  font-variant-ligatures: none;
+  line-height: var(--utrecht-code-line-height);
+  --utrecht-code-color: var(--utrecht-code-block-color, inherit);
+  --utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);
+  --utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);
+  --utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);
+  --utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);
+  background-color: var(--utrecht-code-block-background-color);
+  display: block;
+  margin-block-end: var(--utrecht-code-block-margin-block-end);
+  margin-block-start: var(--utrecht-code-block-margin-block-start);
+  margin-inline-end: var(--utrecht-code-block-margin-inline-end);
+  margin-inline-start: var(--utrecht-code-block-margin-inline-start);
+  padding-block-end: var(--utrecht-code-block-padding-block-end);
+  padding-block-start: var(--utrecht-code-block-padding-block-start);
+  padding-inline-end: var(--utrecht-code-block-padding-inline-end);
+  padding-inline-start: var(--utrecht-code-block-padding-inline-start);
+  white-space: pre;
+}
+.utrecht-code-block__content {
+  /* reset effect of <code> */
+  font-family: inherit;
+  font-size: inherit;
 }
 /**
  * @license EUPL-1.2
