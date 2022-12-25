@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sat, 24 Dec 2022 20:12:01 GMT
+ * Generated on Sun, 25 Dec 2022 10:52:28 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sat, 24 Dec 2022 20:12:03 GMT
+ * Generated on Sun, 25 Dec 2022 10:52:30 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3754,18 +3754,18 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after,
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before {
+  block-size: 0;
   border-block-end-width: var(--utrecht-breadcrumb-block-size);
   border-block-start-width: var(--utrecht-breadcrumb-block-size);
   border-color: transparent;
   border-style: solid;
   content: " ";
   display: block;
-  height: 0;
-  left: 100%;
+  inline-size: 0;
+  inset-block-start: 50%;
+  inset-inline-start: 100%;
   margin-block-start: calc(-1 * var(--utrecht-breadcrumb-block-size));
   position: absolute;
-  top: 50%;
-  width: 0;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after {
   border-inline-start-color: var(--utrecht-breadcrumb-link-background-color);
