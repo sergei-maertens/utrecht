@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 25 Dec 2022 11:07:49 GMT
+ * Generated on Mon, 26 Dec 2022 09:41:09 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 25 Dec 2022 11:07:50 GMT
+ * Generated on Mon, 26 Dec 2022 09:41:11 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3806,6 +3806,9 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-breadcrumb-font-size);
   text-transform: var(--utrecht-document-text-transform, inherit);
+}
+.utrecht-breadcrumb__heading {
+  display: none;
 }
 .utrecht-breadcrumb__list {
   block-size: var(--utrecht-breadcrumb-block-size);
