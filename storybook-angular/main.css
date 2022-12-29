@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 28 Dec 2022 13:33:14 GMT
+ * Generated on Thu, 29 Dec 2022 13:16:22 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 28 Dec 2022 13:33:15 GMT
+ * Generated on Thu, 29 Dec 2022 13:16:24 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -107,6 +107,16 @@
   --utrecht-typography-scale-xs-font-size: 0.75rem; /* 12px */
   --utrecht-typography-scale-2xs-font-size: 0.5rem; /* 8px */
   --utrecht-typography-sans-serif-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial", sans-serif;
+  --utrecht-icon-scale-4xl: 48px;
+  --utrecht-icon-scale-3xl: 36px; /* Formaat voor toptaks iconen */
+  --utrecht-icon-scale-2xl: 30px; /* Formaat voor marker iconen */
+  --utrecht-icon-scale-xl: 26px; /* Formaat social media iconen */
+  --utrecht-icon-scale-lg: 24px; /* Voor kalender iconen */
+  --utrecht-icon-scale-md: 16px; /* Formaat voor radio button */
+  --utrecht-icon-scale-sm: 12px;
+  --utrecht-icon-scale-xs: 8px;
+  --utrecht-icon-scale-2xs: 4px;
+  --utrecht-icon-scale-3xs: 1px;
   --utrecht-color-black: hsl(0 0% 0%);
   --utrecht-color-white: hsl(0 0% 100%);
   --utrecht-color-invalid: #990000;
@@ -912,6 +922,16 @@
   --utrecht-typography-scale-xs-font-size: 0.75rem; /* 12px */
   --utrecht-typography-scale-2xs-font-size: 0.5rem; /* 8px */
   --utrecht-typography-sans-serif-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial", sans-serif;
+  --utrecht-icon-scale-4xl: 48px;
+  --utrecht-icon-scale-3xl: 36px; /* Formaat voor toptaks iconen */
+  --utrecht-icon-scale-2xl: 30px; /* Formaat voor marker iconen */
+  --utrecht-icon-scale-xl: 26px; /* Formaat social media iconen */
+  --utrecht-icon-scale-lg: 24px; /* Voor kalender iconen */
+  --utrecht-icon-scale-md: 16px; /* Formaat voor radio button */
+  --utrecht-icon-scale-sm: 12px;
+  --utrecht-icon-scale-xs: 8px;
+  --utrecht-icon-scale-2xs: 4px;
+  --utrecht-icon-scale-3xs: 1px;
   --utrecht-color-black: hsl(0 0% 0%);
   --utrecht-color-white: hsl(0 0% 100%);
   --utrecht-color-invalid: #990000;
@@ -1736,6 +1756,16 @@
     --utrecht-typography-scale-xs-font-size: 0.75rem; /* 12px */
     --utrecht-typography-scale-2xs-font-size: 0.5rem; /* 8px */
     --utrecht-typography-sans-serif-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial", sans-serif;
+    --utrecht-icon-scale-4xl: 48px;
+    --utrecht-icon-scale-3xl: 36px; /* Formaat voor toptaks iconen */
+    --utrecht-icon-scale-2xl: 30px; /* Formaat voor marker iconen */
+    --utrecht-icon-scale-xl: 26px; /* Formaat social media iconen */
+    --utrecht-icon-scale-lg: 24px; /* Voor kalender iconen */
+    --utrecht-icon-scale-md: 16px; /* Formaat voor radio button */
+    --utrecht-icon-scale-sm: 12px;
+    --utrecht-icon-scale-xs: 8px;
+    --utrecht-icon-scale-2xs: 4px;
+    --utrecht-icon-scale-3xs: 1px;
     --utrecht-color-black: hsl(0 0% 0%);
     --utrecht-color-white: hsl(0 0% 100%);
     --utrecht-color-invalid: #990000;
@@ -2543,6 +2573,16 @@
     --utrecht-typography-scale-xs-font-size: 0.75rem; /* 12px */
     --utrecht-typography-scale-2xs-font-size: 0.5rem; /* 8px */
     --utrecht-typography-sans-serif-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Arial", sans-serif;
+    --utrecht-icon-scale-4xl: 48px;
+    --utrecht-icon-scale-3xl: 36px; /* Formaat voor toptaks iconen */
+    --utrecht-icon-scale-2xl: 30px; /* Formaat voor marker iconen */
+    --utrecht-icon-scale-xl: 26px; /* Formaat social media iconen */
+    --utrecht-icon-scale-lg: 24px; /* Voor kalender iconen */
+    --utrecht-icon-scale-md: 16px; /* Formaat voor radio button */
+    --utrecht-icon-scale-sm: 12px;
+    --utrecht-icon-scale-xs: 8px;
+    --utrecht-icon-scale-2xs: 4px;
+    --utrecht-icon-scale-3xs: 1px;
     --utrecht-color-black: hsl(0 0% 0%);
     --utrecht-color-white: hsl(0 0% 100%);
     --utrecht-color-invalid: #990000;
