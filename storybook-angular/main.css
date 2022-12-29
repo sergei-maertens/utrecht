@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 29 Dec 2022 16:50:24 GMT
+ * Generated on Thu, 29 Dec 2022 18:03:49 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 29 Dec 2022 16:50:26 GMT
+ * Generated on Thu, 29 Dec 2022 18:03:51 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -82,6 +82,11 @@
   --utrecht-badge-counter-border-radius: 3ex;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
+  --utrecht-border-radius-none: 0;
+  --utrecht-border-radius-round: 999px;
+  --utrecht-border-radius-lg: 8px;
+  --utrecht-border-radius-md: 4px;
+  --utrecht-border-radius-sm: 2px;
   --utrecht-border-width-md: 2px;
   --utrecht-border-width-sm: 1px;
   --utrecht-typography-text-transform-uppercase: uppercase;
@@ -897,6 +902,11 @@
   --utrecht-badge-counter-border-radius: 3ex;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
+  --utrecht-border-radius-none: 0;
+  --utrecht-border-radius-round: 999px;
+  --utrecht-border-radius-lg: 8px;
+  --utrecht-border-radius-md: 4px;
+  --utrecht-border-radius-sm: 2px;
   --utrecht-border-width-md: 2px;
   --utrecht-border-width-sm: 1px;
   --utrecht-typography-text-transform-uppercase: uppercase;
@@ -1731,6 +1741,11 @@
     --utrecht-badge-counter-border-radius: 3ex;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
+    --utrecht-border-radius-none: 0;
+    --utrecht-border-radius-round: 999px;
+    --utrecht-border-radius-lg: 8px;
+    --utrecht-border-radius-md: 4px;
+    --utrecht-border-radius-sm: 2px;
     --utrecht-border-width-md: 2px;
     --utrecht-border-width-sm: 1px;
     --utrecht-typography-text-transform-uppercase: uppercase;
@@ -2548,6 +2563,11 @@
     --utrecht-badge-counter-border-radius: 3ex;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
+    --utrecht-border-radius-none: 0;
+    --utrecht-border-radius-round: 999px;
+    --utrecht-border-radius-lg: 8px;
+    --utrecht-border-radius-md: 4px;
+    --utrecht-border-radius-sm: 2px;
     --utrecht-border-width-md: 2px;
     --utrecht-border-width-sm: 1px;
     --utrecht-typography-text-transform-uppercase: uppercase;
