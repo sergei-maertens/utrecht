@@ -46,11 +46,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sat, 31 Dec 2022 14:14:31 GMT
+ * Generated on Sun, 01 Jan 2023 13:26:17 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sat, 31 Dec 2022 14:14:33 GMT
+ * Generated on Sun, 01 Jan 2023 13:26:18 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -60,20 +60,21 @@
 /* stylelint-disable no-duplicate-selectors */
 @media (min-width: 35em) {
   .utrecht-theme--media-query,
-.utrecht-theme--media-query-viewport {
+  .utrecht-theme--media-query-viewport {
     --utrecht-heading-1-font-size: 28px; /* 28px on tablet min-width-35e */
     --utrecht-paragraph-lead-font-size: 1.25em; /* 20px on tablet min-width-35e */
   }
 }
 @media (min-width: 60em) {
   .utrecht-theme--media-query,
-.utrecht-theme--media-query-viewport {
+  .utrecht-theme--media-query-viewport {
     --utrecht-heading-1-font-size: 32px; /* 32px on desktop min-width-60em */
     --utrecht-paragraph-lead-font-size: 1.25em; /* 20px on desktop min-width-60em */
   }
 }
 .utrecht-theme ::-webkit-backdrop {
   --denhaag-process-steps-sub-step-marker-size: 12px;
+  --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
   --utrecht-topnav-link-focus-text-decoration: none;
   --utrecht-topnav-link-focus-border-type: dotted;
@@ -894,6 +895,7 @@
 .utrecht-theme,
 .utrecht-theme ::backdrop {
   --denhaag-process-steps-sub-step-marker-size: 12px;
+  --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
   --utrecht-topnav-link-focus-text-decoration: none;
   --utrecht-topnav-link-focus-border-type: dotted;
@@ -1733,6 +1735,7 @@
 @media (prefers-color-scheme: dark) {
   .utrecht-theme--media-query ::-webkit-backdrop, .utrecht-theme--media-query-color-scheme ::-webkit-backdrop {
     --denhaag-process-steps-sub-step-marker-size: 12px;
+    --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
     --utrecht-topnav-link-focus-text-decoration: none;
     --utrecht-topnav-link-focus-border-type: dotted;
@@ -2551,10 +2554,11 @@
     --utrecht-feedback-valid-fill-background-color: var(--utrecht-feedback-valid-background-color);
   }
   .utrecht-theme--media-query,
-.utrecht-theme--media-query ::backdrop,
-.utrecht-theme--media-query-color-scheme,
-.utrecht-theme--media-query-color-scheme ::backdrop {
+  .utrecht-theme--media-query ::backdrop,
+  .utrecht-theme--media-query-color-scheme,
+  .utrecht-theme--media-query-color-scheme ::backdrop {
     --denhaag-process-steps-sub-step-marker-size: 12px;
+    --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
     --utrecht-topnav-link-focus-text-decoration: none;
     --utrecht-topnav-link-focus-border-type: dotted;
@@ -5169,8 +5173,7 @@ ol.utrecht-breadcrumb__list {
   height: var(--utrecht-custom-checkbox-size);
   margin-block-start: var(--utrecht-custom-checkbox-margin-block-start);
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
-       print-color-adjust: exact;
+  print-color-adjust: exact;
   vertical-align: top;
   width: var(--utrecht-custom-checkbox-size);
 }
@@ -5346,8 +5349,7 @@ ol.utrecht-breadcrumb__list {
   height: var(--utrecht-custom-radio-button-size);
   margin-block-start: var(--utrecht-custom-radio-button-margin-block-start);
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
-       print-color-adjust: exact;
+  print-color-adjust: exact;
   vertical-align: top;
   width: var(--utrecht-custom-radio-button-size);
 }
@@ -7039,6 +7041,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-sidenav__marker--child.utrecht-sidenav__marker--hover, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker--child.utrecht-sidenav__link:hover::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker--hover.utrecht-sidenav__link--child::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--child.utrecht-sidenav__link:hover::before, .utrecht-sidenav__link:hover .utrecht-sidenav__marker--child.utrecht-sidenav__marker, .utrecht-sidenav__link:hover .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker.utrecht-sidenav__link--child::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover .utrecht-sidenav__marker.utrecht-sidenav__link--child::before, .utrecht-sidenav__link:hover .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker--child.utrecht-sidenav__link::before, .utrecht-sidenav__link:hover .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link.utrecht-sidenav__link--child::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover .utrecht-sidenav__marker--child.utrecht-sidenav__link::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover .utrecht-sidenav__link.utrecht-sidenav__link--child::before {
   background-color: var(--utrecht-sidenav-link-hover-color);
   border: 2px solid var(--utrecht-sidenav-link-hover-color);
+}
+.utrecht-sidenav--pseudo-elements {
+  /* stylelint-disable selector-pseudo-class-parentheses-space-inside */
+  /* stylelint-enable selector-pseudo-class-parentheses-space-inside */
 }
 .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--child::after {
   display: none;
