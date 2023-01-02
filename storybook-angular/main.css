@@ -1,44 +1,3 @@
-@charset "UTF-8";
-/**
- * @license EUPL-1.2
- * Copyright (c) 2021 Gemeente Utrecht
- */
-/* Collection of all BEM class names in the component library */
-/*
- * TODO: Once every component is a separate npm package, these imports should
- * be updated to use a package reference instead of a relative path.
- *
- * For example:
- *     @import "../../blockquote/index";
- *
- * Will become:
- *     @import "@utrecht/blockquote/index";
- */
-/**
- * @license EUPL-1.2
- * Copyright (c) 2021 Gemeente Utrecht
- */
-/* Collection of all BEM class names in the component library */
-/*
- * TODO: Once every component is a separate npm package, these imports should
- * be updated to use a package reference instead of a relative path.
- *
- * For example:
- *     @import "../../blockquote/index";
- *
- * Will become:
- *     @import "@utrecht/blockquote/index";
- */
-/**
- * @license EUPL-1.2
- * Copyright (c) 2020-2022 Gemeente Utrecht
- * Copyright (c) 2020-2022 Frameless B.V.
- */
-/**
- * @license EUPL-1.2
- * Copyright (c) 2020-2022 Gemeente Utrecht
- * Copyright (c) 2020-2022 Frameless B.V.
- */
 /**
  * @license SEE LICENSE.md
  * Copyright (c) 2021 Gemeente Utrecht
@@ -46,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 02 Jan 2023 14:07:56 GMT
+ * Generated on Mon, 02 Jan 2023 16:35:13 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 02 Jan 2023 14:07:58 GMT
+ * Generated on Mon, 02 Jan 2023 16:35:14 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -1732,6 +1691,7 @@
   --utrecht-heading-3-font-size: 1.125em;
   --utrecht-heading-3-font-weight: normal;
 }
+
 @media (prefers-color-scheme: dark) {
   .utrecht-theme--media-query ::-webkit-backdrop, .utrecht-theme--media-query-color-scheme ::-webkit-backdrop {
     --denhaag-process-steps-sub-step-marker-size: 12px;
@@ -3377,6 +3337,48 @@
     --utrecht-feedback-valid-fill-background-color: var(--utrecht-feedback-valid-background-color);
   }
 }
+
+@charset "UTF-8";
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/* Collection of all BEM class names in the component library */
+/*
+ * TODO: Once every component is a separate npm package, these imports should
+ * be updated to use a package reference instead of a relative path.
+ *
+ * For example:
+ *     @import "../../blockquote/index";
+ *
+ * Will become:
+ *     @import "@utrecht/blockquote/index";
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/* Collection of all BEM class names in the component library */
+/*
+ * TODO: Once every component is a separate npm package, these imports should
+ * be updated to use a package reference instead of a relative path.
+ *
+ * For example:
+ *     @import "../../blockquote/index";
+ *
+ * Will become:
+ *     @import "@utrecht/blockquote/index";
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
 .utrecht-alert {
   background-color: var(--_utrecht-alert-background-color, var(--utrecht-alert-background-color));
   border-color: var(--_utrecht-alert-border-color, var(--utrecht-alert-border-color));
@@ -3394,13 +3396,16 @@
   padding-inline-end: var(--utrecht-alert-padding-inline-end);
   padding-inline-start: var(--utrecht-alert-padding-inline-start);
 }
+
 .utrecht-alert__icon {
   --utrecht-icon-color: var(--_utrecht-alert-icon-color, var(--utrecht-alert-icon-color));
   grid-area: icon;
 }
+
 .utrecht-alert__message {
   grid-area: message;
 }
+
 .utrecht-alert--info {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-info-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-info-background-color);
@@ -3408,6 +3413,7 @@
   --_utrecht-alert-border-width: var(--utrecht-alert-info-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-info-color);
 }
+
 .utrecht-alert--ok {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-ok-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-ok-background-color);
@@ -3415,6 +3421,7 @@
   --_utrecht-alert-border-width: var(--utrecht-alert-ok-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-ok-color);
 }
+
 .utrecht-alert--warning {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-warning-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-warning-background-color);
@@ -3422,6 +3429,7 @@
   --_utrecht-alert-border-width: var(--utrecht-alert-warning-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-warning-color);
 }
+
 .utrecht-alert--error {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-error-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-error-background-color);
@@ -3429,6 +3437,7 @@
   --_utrecht-alert-border-width: var(--utrecht-alert-error-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-error-color);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -3484,6 +3493,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   min-block-size: var(--utrecht-alert-dialog-min-block-size);
   min-inline-size: var(--utrecht-alert-dialog-min-inline-size);
 }
+
 .utrecht-alert-dialog::-webkit-backdrop {
   --_utrecht-backdrop-opacity: var(--utrecht-backdrop-opacity);
   --_utrecht-backdrop-fade-in-animation-duration: var(--utrecht-backdrop-fade-in-animation-duration, 0);
@@ -3496,6 +3506,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   -webkit-user-select: none;
           user-select: none;
 }
+
 .utrecht-alert-dialog::backdrop {
   --_utrecht-backdrop-opacity: var(--utrecht-backdrop-opacity);
   --_utrecht-backdrop-fade-in-animation-duration: var(--utrecht-backdrop-fade-in-animation-duration, 0);
@@ -3532,13 +3543,16 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
     --_utrecht-backdrop-opacity: var(--utrecht-backdrop-reduced-transparency-opacity, 100%);
   }
 }
+
 .utrecht-alert-dialog__icon {
   --utrecht-icon-color: var(--_utrecht-alert-icon-color, var(--utrecht-alert-icon-color));
   grid-area: icon;
 }
+
 .utrecht-alert-dialog__message {
   grid-area: message;
 }
+
 .utrecht-alert-dialog--error {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-error-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-error-background-color);
@@ -3546,6 +3560,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   --_utrecht-alert-border-width: var(--utrecht-alert-error-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-error-color);
 }
+
 .utrecht-alert-dialog--info {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-info-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-info-background-color);
@@ -3553,6 +3568,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   --_utrecht-alert-border-width: var(--utrecht-alert-info-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-info-color);
 }
+
 .utrecht-alert-dialog--warning {
   --_utrecht-alert-icon-color: var(--utrecht-alert-icon-warning-color);
   --_utrecht-alert-background-color: var(--utrecht-alert-warning-background-color);
@@ -3560,6 +3576,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   --_utrecht-alert-border-width: var(--utrecht-alert-warning-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-warning-color);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -3578,6 +3595,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   */
   display: none;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -3591,6 +3609,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 .utrecht-article {
   max-inline-size: var(--utrecht-article-max-inline-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -3610,6 +3629,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   padding-inline-start: var(--utrecht-badge-counter-padding-inline, var(--utrecht-badge-padding-inline, 0.5ch));
   text-decoration: none; /* no inheritance */
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -3638,6 +3658,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   letter-spacing: var(--utrecht-badge-data-letter-spacing, inherit);
   text-transform: var(--utrecht-badge-data-text-transform, inherit);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -3666,46 +3687,57 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   letter-spacing: var(--utrecht-badge-status-letter-spacing, inherit);
   text-transform: var(--utrecht-badge-status-text-transform, inherit);
 }
+
 .utrecht-badge-status--danger {
   background-color: var(--utrecht-feedback-danger-fill-background-color, hsl(0deg, 100%, 50%));
   color: var(--utrecht-feedback-danger-fill-color, white);
 }
+
 .utrecht-badge-status--warning {
   background-color: var(--utrecht-feedback-warning-fill-background-color, hsl(39deg, 100%, 50%));
   color: var(--utrecht-feedback-warning-fill-color, white);
 }
+
 .utrecht-badge-status--safe {
   background-color: var(--utrecht-feedback-safe-fill-background-color, hsl(120deg, 100%, 25%));
   color: var(--utrecht-feedback-safe-fill-color, white);
 }
+
 .utrecht-badge-status--neutral {
   background-color: var(--utrecht-feedback-neutral-fill-background-color, black);
   color: var(--utrecht-feedback-neutral-fill-color, white);
 }
+
 .utrecht-badge-status--valid {
   background-color: var(--utrecht-feedback-valid-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(0deg, 100%, 50%)));
   color: var(--utrecht-feedback-valid-fill-color, var(--utrecht-feedback-safe-fill-color, white));
 }
+
 .utrecht-badge-status--invalid {
   background-color: var(--utrecht-feedback-invalid-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(39deg, 100%, 50%)));
   color: var(--utrecht-feedback-invalid-fill-color, var(--utrecht-feedback-danger-fill-color, white));
 }
+
 .utrecht-badge-status--error {
   background-color: var(--utrecht-feedback-error-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(39deg, 100%, 50%)));
   color: var(--utrecht-feedback-error-fill-color, var(--utrecht-feedback-danger-fill-color, white));
 }
+
 .utrecht-badge-status--success {
   background-color: var(--utrecht-feedback-success-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(39deg, 100%, 50%)));
   color: var(--utrecht-feedback-success-fill-color, var(--utrecht-feedback-safe-fill-color, white));
 }
+
 .utrecht-badge-status--active {
   background-color: var(--utrecht-feedback-active-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(39deg, 100%, 50%)));
   color: var(--utrecht-feedback-active-fill-color, var(--utrecht-feedback-safe-fill-color, white));
 }
+
 .utrecht-badge-status--inactive {
   background-color: var(--utrecht-feedback-inactive-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(39deg, 100%, 50%)));
   color: var(--utrecht-feedback-inactive-fill-color, var(--utrecht-feedback-danger-fill-color, white));
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -3753,15 +3785,19 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
     --_utrecht-backdrop-opacity: var(--utrecht-backdrop-reduced-transparency-opacity, 100%);
   }
 }
+
 .utrecht-backdrop--reduced-motion {
   --_utrecht-backdrop-fade-in-animation-duration: 0;
 }
+
 .utrecht-backdrop--reduced-transparency {
   --_utrecht-backdrop-opacity: var(--utrecht-backdrop-reduced-transparency-opacity, 100%);
 }
+
 .utrecht-backdrop--viewport {
   position: fixed;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -3785,19 +3821,23 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   padding-inline-end: var(--utrecht-blockquote-padding-inline-end);
   padding-inline-start: var(--utrecht-blockquote-padding-inline-start);
 }
+
 .utrecht-blockquote__attribution {
   color: var(--utrecht-blockquote-attribution-color, inherit);
   font-size: var(--utrecht-blockquote-attribution-font-size, inherit);
 }
+
 .utrecht-blockquote__content {
   --utrecht-document-color: var(--utrecht-blockquote-content-color, inherit);
   --utrecht-paragraph-font-size: var(--utrecht-blockquote-content-font-size, inherit);
   color: var(--utrecht-blockquote-content-color, inherit);
   font-size: var(--utrecht-blockquote-content-font-size, inherit);
 }
+
 .utrecht-blockquote--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -3854,9 +3894,11 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__item ~ .utrecht-breadcrumb__item .utrecht-breadcrumb__link {
   padding-inline-start: calc(var(--utrecht-breadcrumb-item-padding-inline-start) + var(--utrecht-breadcrumb-arrow-size));
 }
+
 .utrecht-breadcrumb__item ~ .utrecht-breadcrumb__item {
   margin-inline-start: var(--utrecht-breadcrumb-item-divider-inline-size);
 }
+
 .utrecht-breadcrumb {
   --utrecht-focus-background-color: var(--utrecht-breadcrumb-link-focus-background-color);
   --utrecht-link-background-color: var(--utrecht-breadcrumb-link-background-color);
@@ -3871,22 +3913,27 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   font-size: var(--utrecht-breadcrumb-font-size);
   text-transform: var(--utrecht-document-text-transform, inherit);
 }
+
 .utrecht-breadcrumb__heading {
   display: none;
 }
+
 .utrecht-breadcrumb__list {
   block-size: var(--utrecht-breadcrumb-block-size);
   display: flex;
 }
+
 ol.utrecht-breadcrumb__list {
   list-style: none;
   margin-block-end: 0;
   margin-block-start: 0;
   padding-inline-start: 0;
 }
+
 .utrecht-breadcrumb__item {
   block-size: 100%;
 }
+
 .utrecht-breadcrumb__link {
   background-color: var(--utrecht-breadcrumb-link-background-color);
   display: block;
@@ -3895,6 +3942,7 @@ ol.utrecht-breadcrumb__list {
   padding-inline-end: var(--utrecht-breadcrumb-item-padding-inline-end, 8px);
   padding-inline-start: var(--utrecht-breadcrumb-item-padding-inline-start, 8px);
 }
+
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-breadcrumb--arrows {
   /* https://css-tricks.com/triangle-breadcrumbs/ */
@@ -3943,9 +3991,11 @@ ol.utrecht-breadcrumb__list {
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__item ~ .utrecht-breadcrumb__item .utrecht-breadcrumb__link {
   padding-inline-start: calc(var(--utrecht-breadcrumb-item-padding-inline-start) + var(--utrecht-breadcrumb-arrow-size));
 }
+
 .utrecht-breadcrumb__item ~ .utrecht-breadcrumb__item {
   margin-inline-start: var(--utrecht-breadcrumb-item-divider-inline-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 The Knights Who Say NIH! B.V.
@@ -4163,19 +4213,23 @@ ol.utrecht-breadcrumb__list {
   -webkit-user-select: none;
           user-select: none;
 }
+
 .utrecht-button--distanced {
   margin-block-end: var(--utrecht-button-margin-block-end);
   margin-block-start: var(--utrecht-button-margin-block-start);
   margin-inline-end: var(--utrecht-button-margin-inline-end);
   margin-inline-start: var(--utrecht-button-margin-inline-start);
 }
+
 .utrecht-button--submit {
   /* lower priority specificty than busy and disabled cursor */
   cursor: var(--utrecht-action-submit-cursor);
 }
+
 .utrecht-button--busy {
   cursor: var(--utrecht-action-busy-cursor);
 }
+
 .utrecht-button--pressed {
   /* Copy `active` styles for now.
   Later we can decide to:
@@ -4187,6 +4241,7 @@ ol.utrecht-breadcrumb__list {
   border-color: var(--_utrecht-button-active-border-color);
   color: var(--_utrecht-button-active-color);
 }
+
 .utrecht-button:disabled,
 .utrecht-button--disabled {
   background-color: var(--_utrecht-button-disabled-background-color);
@@ -4194,12 +4249,14 @@ ol.utrecht-breadcrumb__list {
   color: var(--_utrecht-button-disabled-color);
   cursor: var(--utrecht-action-disabled-cursor);
 }
+
 .utrecht-button:active:not(:disabled, [aria-disabled=true], .utrecht-button--disabled),
 .utrecht-button--active {
   background-color: var(--_utrecht-button-active-background-color);
   border-color: var(--_utrecht-button-active-border-color);
   color: var(--_utrecht-button-active-color);
 }
+
 .utrecht-button--focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
@@ -4214,11 +4271,13 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-button--focus:not(.utrecht-button--disabled) {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
 }
+
 .utrecht-button:focus {
   /* Show focus ring even for disabled :focus-visible buttons. *
   /* For example: <button disabled tabindex="0"> */
@@ -4234,6 +4293,7 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-button:focus:not(:disabled, [aria-disabled=true], .utrecht-button--disabled) {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
@@ -4251,6 +4311,7 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 /* override the `:focus` selector above */
 /* stylelint-disable-next-line no-descending-specificity */
 .utrecht-button:focus:not(:focus-visible) {
@@ -4258,6 +4319,7 @@ ol.utrecht-breadcrumb__list {
   box-shadow: none;
   outline-style: revert;
 }
+
 .utrecht-button--hover:not(:disabled, .utrecht-button--disabled),
 .utrecht-button:hover:not(:disabled, [aria-disabled=true], .utrecht-button--disabled) {
   background-color: var(--_utrecht-button-hover-background-color);
@@ -4265,6 +4327,7 @@ ol.utrecht-breadcrumb__list {
   color: var(--_utrecht-button-hover-color);
   transform: scale(var(--utrecht-button-focus-transform-scale, 1));
 }
+
 .utrecht-button--primary-action {
   --_utrecht-button-appearance-active-background-color: var(--utrecht-button-primary-action-active-background-color);
   --_utrecht-button-appearance-active-border-color: var(--utrecht-button-primary-action-active-border-color);
@@ -4286,6 +4349,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-primary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-primary-action-hover-color);
 }
+
 .utrecht-button--secondary-action {
   --_utrecht-button-appearance-active-background-color: var(--utrecht-button-secondary-action-active-background-color);
   --_utrecht-button-appearance-active-border-color: var(--utrecht-button-secondary-action-active-border-color);
@@ -4307,6 +4371,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-secondary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-secondary-action-hover-color);
 }
+
 .utrecht-button--subtle {
   --_utrecht-button-appearance-active-background-color: var(--utrecht-button-subtle-active-background-color);
   --_utrecht-button-appearance-active-border-color: var(--utrecht-button-subtle-active-border-color);
@@ -4328,6 +4393,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-subtle-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-subtle-hover-color);
 }
+
 .utrecht-button--primary-action.utrecht-button--danger {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-primary-action-danger-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-primary-action-danger-active-border-color);
@@ -4347,6 +4413,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-primary-action-danger-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-primary-action-danger-hover-color);
 }
+
 .utrecht-button--primary-action.utrecht-button--ready {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-primary-action-ready-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-primary-action-ready-active-border-color);
@@ -4366,6 +4433,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-primary-action-ready-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-primary-action-ready-hover-color);
 }
+
 .utrecht-button--primary-action.utrecht-button--warning {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-primary-action-warning-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-primary-action-warning-active-border-color);
@@ -4385,6 +4453,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-primary-action-warning-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-primary-action-warning-hover-color);
 }
+
 .utrecht-button--secondary-action.utrecht-button--danger {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-secondary-action-danger-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-secondary-action-danger-active-border-color);
@@ -4404,6 +4473,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-secondary-action-danger-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-secondary-action-danger-hover-color);
 }
+
 .utrecht-button--secondary-action.utrecht-button--ready {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-secondary-action-ready-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-secondary-action-ready-active-border-color);
@@ -4423,6 +4493,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-secondary-action-ready-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-secondary-action-ready-hover-color);
 }
+
 .utrecht-button--secondary-action.utrecht-button--warning {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-secondary-action-warning-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-secondary-action-warning-active-border-color);
@@ -4442,6 +4513,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-secondary-action-warning-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-secondary-action-warning-hover-color);
 }
+
 .utrecht-button--subtle.utrecht-button--danger {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-subtle-danger-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-subtle-danger-active-border-color);
@@ -4461,6 +4533,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-subtle-danger-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-subtle-danger-hover-color);
 }
+
 .utrecht-button--subtle.utrecht-button--ready {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-subtle-ready-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-subtle-ready-active-border-color);
@@ -4480,6 +4553,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-subtle-ready-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-subtle-ready-hover-color);
 }
+
 .utrecht-button--subtle.utrecht-button--warning {
   --_utrecht-button-hint-active-background-color: var(--utrecht-button-subtle-warning-active-background-color);
   --_utrecht-button-hint-active-border-color: var(--utrecht-button-subtle-warning-active-border-color);
@@ -4499,6 +4573,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-subtle-warning-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-subtle-warning-hover-color);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2022 Frameless B.V.
@@ -4517,6 +4592,7 @@ ol.utrecht-breadcrumb__list {
   padding-block-end: var(--utrecht-button-group-padding-block-end);
   padding-block-start: var(--utrecht-button-group-padding-block-start);
 }
+
 .utrecht-button-group--distanced {
   background-color: var(--utrecht-button-group-background-color);
   display: flex;
@@ -4527,16 +4603,19 @@ ol.utrecht-breadcrumb__list {
   padding-block-end: var(--utrecht-button-group-padding-block-end);
   padding-block-start: var(--utrecht-button-group-padding-block-start);
 }
+
 .utrecht-button-group__button-link--horizontal,
 .utrecht-button-group--horizontal .utrecht-button-link,
 .utrecht-button-group:not(.utrecht-button-group--vertical) .utrecht-button-link {
   --utrecht-button-padding-inline-end: 0;
   --utrecht-button-padding-inline-start: 0;
 }
+
 .utrecht-button-group--vertical {
   flex-direction: column;
   gap: var(--utrecht-button-group-block-gap, 1em);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021-2022 Gemeente Utrecht
@@ -4546,14 +4625,17 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--utrecht-calendar-background-color);
   width: var(--utrecht-calendar-width);
 }
+
 .utrecht-calendar__table {
   margin-inline: auto;
   padding-block-end: var(--utrecht-calendar-table-padding-block-end);
   padding-block-start: var(--utrecht-calendar-table-padding-block-start);
 }
+
 .utrecht-calendar__table-weeks-item {
   width: var(--utrecht-calendar-table-weeks-item-width);
 }
+
 .utrecht-calendar__table-days-item-day {
   --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-border-color);
   --utrecht-calendar-button-border-width: var(--utrecht-calendar-table-days-item-day-border-width);
@@ -4561,16 +4643,19 @@ ol.utrecht-breadcrumb__list {
   height: var(--utrecht-calendar-table-days-item-day-size);
   width: var(--utrecht-calendar-table-days-item-day-size);
 }
+
 .utrecht-calendar__table-days-item-day:hover {
   --utrecht-calendar-button-hover-background-color: var(--utrecht-calendar-table-days-item-day-hover-background-color);
   --utrecht-calendar-button-hover-border-color: var(--utrecht-calendar-table-days-item-day-hover-border-color);
   --utrecht-calendar-button-hover-color: var(--utrecht-calendar-table-days-item-day-hover-color);
 }
+
 .utrecht-calendar__table-days-item-day:focus {
   --utrecht-calendar-button-focus-background-color: var(--utrecht-calendar-table-days-item-day-focus-background-color);
   --utrecht-calendar-button-focus-border-color: var(--utrecht-calendar-table-days-item-day-focus-border-color);
   --utrecht-calendar-button-focus-color: var(--utrecht-calendar-table-days-item-day-focus-color);
 }
+
 .utrecht-calendar__table-days-item-day:active {
   --utrecht-calendar-button-active-background-color: var(
     --utrecht-calendar-table-days-item-day-active-background-color
@@ -4578,6 +4663,7 @@ ol.utrecht-breadcrumb__list {
   --utrecht-calendar-button-active-border-color: var(--utrecht-calendar-table-days-item-day-active-border-color);
   --utrecht-calendar-button-active-color: var(--utrecht-calendar-table-days-item-day-active-color);
 }
+
 .utrecht-calendar__table-days-item-day:disabled {
   --utrecht-calendar-button-disabled-background-color: var(
     --utrecht-calendar-table-days-item-day-disabled-background-color
@@ -4585,6 +4671,7 @@ ol.utrecht-breadcrumb__list {
   --utrecht-calendar-button-disabled-border-color: var(--utrecht-calendar-table-days-item-day-disabled-border-color);
   --utrecht-calendar-button-disabled-color: var(--utrecht-calendar-table-days-item-day-disabled-color);
 }
+
 .utrecht-calendar__table-days-item-day--out-of-the-month {
   --utrecht-calendar-button-background-color: var(
     --utrecht-calendar-table-days-item-day-out-of-the-month-background-color
@@ -4592,41 +4679,48 @@ ol.utrecht-breadcrumb__list {
   --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-out-of-the-month-border-color);
   --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-out-of-the-month-color);
 }
+
 .utrecht-calendar__table-days-item-day--is-today {
   --utrecht-calendar-button-font-weigh: var(--utrecht-calendar-table-days-item-day-is-today-font-weight);
   --utrecht-calendar-button-background-color: var(--utrecht-calendar-table-days-item-day-is-today-background-color);
   --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-is-today-border-color);
   --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-is-today-color);
 }
+
 .utrecht-calendar__table-days-item-day--emphasis {
   --utrecht-calendar-button-font-weigh: var(--utrecht-calendar-table-days-item-day-emphasis-font-weight);
   --utrecht-calendar-button-background-color: var(--utrecht-calendar-table-days-item-day-emphasis-background-color);
   --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-emphasis-border-color);
   --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-emphasis-color);
 }
+
 .utrecht-calendar__table-days-item-day--selected {
   --utrecht-calendar-button-font-weigh: var(--utrecht-calendar-table-days-item-day-selected-font-weight);
   --utrecht-calendar-button-background-color: var(--utrecht-calendar-table-days-item-day-selected-background-color);
   --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-selected-border-color);
   --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-selected-color);
 }
+
 .utrecht-calendar__navigation {
   background-color: var(--utrecht-calendar-navigation-background-color);
   color: var(--utrecht-calendar-navigation-color);
   padding-block-end: var(--utrecht-calendar-navigation-padding-block-end);
   padding-block-start: var(--utrecht-calendar-navigation-padding-block-start);
 }
+
 .utrecht-calendar__navigation-label {
   --utrecht-heading-2-color: var(--utrecht-calendar-navigation-label-color);
   font-size: var(--utrecht-calendar-navigation-label-min-font-size);
   min-inline-size: var(--utrecht-calendar-navigation-label-min-inline-size);
   text-align: center;
 }
+
 .utrecht-calendar__navigation-buttons {
   align-items: center;
   display: flex;
   justify-content: center;
 }
+
 .utrecht-calendar__button {
   --utrecht-button-subtle-color: var(--utrecht-calendar-button-color, currentColor);
   --utrecht-button-subtle-background-color: var(--utrecht-calendar-button-background-color, transparent);
@@ -4651,10 +4745,12 @@ ol.utrecht-breadcrumb__list {
   --utrecht-button-padding-inline-start: var(--utrecht-calendar-button-padding-inline-start, 0);
   cursor: pointer;
 }
+
 .utrecht-calendar__icon {
   height: var(--utrecht-calendar-icon-size);
   width: var(--utrecht-calendar-icon-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -4671,10 +4767,10 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-code-color);
   font-family: var(--utrecht-code-font-family, monospace), monospace;
   font-size: var(--utrecht-code-font-size);
-  font-feature-settings: none;
   font-variant-ligatures: none;
   line-height: var(--utrecht-code-line-height);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -4696,7 +4792,6 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-code-color);
   font-family: var(--utrecht-code-font-family, monospace), monospace;
   font-size: var(--utrecht-code-font-size);
-  font-feature-settings: none;
   font-variant-ligatures: none;
   line-height: var(--utrecht-code-line-height);
   --utrecht-code-color: var(--utrecht-code-block-color, inherit);
@@ -4716,11 +4811,13 @@ ol.utrecht-breadcrumb__list {
   padding-inline-start: var(--utrecht-code-block-padding-inline-start);
   white-space: pre;
 }
+
 .utrecht-code-block__content {
   /* reset effect of <code> */
   font-family: inherit;
   font-size: inherit;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 The Knights Who Say NIH! B.V.
@@ -4950,22 +5047,26 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-navigate-cursor, pointer);
   text-decoration: none;
 }
+
 .utrecht-button-link--active {
   background-color: var(--_utrecht-button-active-background-color);
   border-color: var(--_utrecht-button-active-border-color);
   color: var(--_utrecht-button-active-color);
 }
+
 .utrecht-button-link--hover {
   background-color: var(--_utrecht-button-hover-background-color);
   border-color: var(--_utrecht-button-hover-border-color);
   color: var(--_utrecht-button-hover-color);
   transform: scale(var(--utrecht-button-focus-transform-scale, 1));
 }
+
 .utrecht-button-link--focus {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
 }
+
 .utrecht-button-link--focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
@@ -4980,12 +5081,14 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-button-link--placeholder {
   background-color: var(--_utrecht-button-disabled-background-color);
   border-color: var(--_utrecht-button-disabled-border-color);
   color: var(--_utrecht-button-disabled-color);
   cursor: var(--utrecht-action-disabled-cursor);
 }
+
 .utrecht-button-link--html-a:active {
   background-color: var(--_utrecht-button-active-background-color);
   border-color: var(--_utrecht-button-active-border-color);
@@ -5016,6 +5119,7 @@ ol.utrecht-breadcrumb__list {
   color: var(--_utrecht-button-hover-color);
   transform: scale(var(--utrecht-button-focus-transform-scale, 1));
 }
+
 .utrecht-button-link--primary-action {
   --_utrecht-button-appearance-active-background-color: var(--utrecht-button-primary-action-active-background-color);
   --_utrecht-button-appearance-active-border-color: var(--utrecht-button-primary-action-active-border-color);
@@ -5037,6 +5141,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-primary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-primary-action-hover-color);
 }
+
 .utrecht-button-link--secondary-action {
   --_utrecht-button-appearance-active-background-color: var(--utrecht-button-secondary-action-active-background-color);
   --_utrecht-button-appearance-active-border-color: var(--utrecht-button-secondary-action-active-border-color);
@@ -5058,6 +5163,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-secondary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-secondary-action-hover-color);
 }
+
 .utrecht-button-link--subtle {
   --_utrecht-button-appearance-active-background-color: var(--utrecht-button-subtle-active-background-color);
   --_utrecht-button-appearance-active-border-color: var(--utrecht-button-subtle-active-border-color);
@@ -5079,6 +5185,7 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-subtle-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-subtle-hover-color);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5107,10 +5214,12 @@ ol.utrecht-breadcrumb__list {
   margin-inline-start: 0;
   cursor: var(--utrecht-action-activate-cursor, revert);
 }
+
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-checkbox--disabled {
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
+
 .utrecht-checkbox--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -5124,6 +5233,7 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-checkbox--html-input:disabled {
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
@@ -5145,6 +5255,7 @@ ol.utrecht-breadcrumb__list {
   box-shadow: none;
   outline-style: revert;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5177,6 +5288,7 @@ ol.utrecht-breadcrumb__list {
   vertical-align: top;
   width: var(--utrecht-custom-checkbox-size);
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--checked,
 .utrecht-custom-checkbox--checked {
   background-color: var(--utrecht-custom-checkbox-checked-background-color, var(--utrecht-custom-checkbox-background-color));
@@ -5184,6 +5296,7 @@ ol.utrecht-breadcrumb__list {
   border-color: var(--utrecht-custom-checkbox-checked-border-color, var(--utrecht-custom-checkbox-border-color));
   border-width: var(--utrecht-custom-checkbox-checked-border-width, var(--utrecht-custom-checkbox-border-width));
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--disabled,
 .utrecht-custom-checkbox--disabled {
   border-color: var(--utrecht-custom-checkbox-disabled-border-color, var(--utrecht-custom-checkbox-border-color));
@@ -5199,6 +5312,7 @@ ol.utrecht-breadcrumb__list {
 .utrecht-custom-checkbox--disabled:active {
   border-color: var(--utrecht-custom-checkbox-disabled-border-color, var(--utrecht-custom-checkbox-border-color));
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--indeterminate,
 .utrecht-custom-checkbox--indeterminate {
   background-color: var(--utrecht-custom-checkbox-indeterminate-background-color, var(--utrecht-custom-checkbox-background-color));
@@ -5207,11 +5321,13 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-checkbox-indeterminate-border-width, var(--utrecht-custom-checkbox-border-width));
   color: var(--utrecht-custom-checkbox-indeterminate-color, var(--utrecht-custom-checkbox-color));
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--invalid,
 .utrecht-custom-checkbox--invalid {
   border-color: var(--utrecht-custom-checkbox-invalid-border-color, var(--utrecht-custom-checkbox-border-color));
   border-width: var(--utrecht-custom-checkbox-invalid-border-width, var(--utrecht-custom-checkbox-border-width));
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--active,
 .utrecht-custom-checkbox--active {
   background-color: var(--utrecht-custom-checkbox-active-background-color, var(--utrecht-custom-checkbox-background-color));
@@ -5220,12 +5336,14 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-checkbox-active-border-width, var(--utrecht-custom-checkbox-border-width));
   color: var(--utrecht-custom-checkbox-active-color, var(--utrecht-custom-checkbox-color));
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--hover,
 .utrecht-custom-checkbox--hover {
   background-color: var(--utrecht-custom-checkbox-hover-background-color, var(--utrecht-custom-checkbox-background-color));
   border-color: var(--utrecht-custom-checkbox-hover-border-color, var(--utrecht-custom-checkbox-border-color));
   border-width: var(--utrecht-custom-checkbox-hover-border-width, var(--utrecht-custom-checkbox-border-width));
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--focus,
 .utrecht-custom-checkbox--focus {
   background-color: var(--utrecht-custom-checkbox-focus-background-color, var(--utrecht-custom-checkbox-background-color));
@@ -5233,6 +5351,7 @@ ol.utrecht-breadcrumb__list {
   border-color: var(--utrecht-custom-checkbox-focus-border-color, var(--utrecht-custom-checkbox-border-color));
   border-width: var(--utrecht-custom-checkbox-focus-border-width, var(--utrecht-custom-checkbox-border-width));
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--focus-visible,
 .utrecht-custom-checkbox--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
@@ -5247,6 +5366,7 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-checkbox--custom.utrecht-checkbox--html-input:disabled,
 .utrecht-custom-checkbox--html-input:disabled {
   border-color: var(--utrecht-custom-checkbox-disabled-border-color, var(--utrecht-custom-checkbox-border-color));
@@ -5318,6 +5438,7 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-checkbox-indeterminate-border-width, var(--utrecht-custom-checkbox-border-width));
   color: var(--utrecht-custom-checkbox-indeterminate-color, var(--utrecht-custom-checkbox-color));
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5353,6 +5474,7 @@ ol.utrecht-breadcrumb__list {
   vertical-align: top;
   width: var(--utrecht-custom-radio-button-size);
 }
+
 .utrecht-radio-button--custom.utrecht-radio-button--checked,
 .utrecht-custom-radio-button--checked {
   background-color: var(--utrecht-custom-radio-button-checked-background-color, var(--utrecht-custom-radio-button-background-color));
@@ -5361,6 +5483,7 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-radio-button-checked-border-width, var(--utrecht-custom-radio-button-border-width));
   color: var(--utrecht-custom-radio-button-checked-color, var(--utrecht-custom-radio-button-color));
 }
+
 .utrecht-radio-button--custom.utrecht-radio-button--active,
 .utrecht-custom-radio-button--active {
   background-color: var(--utrecht-custom-radio-button-active-background-color, var(--utrecht-custom-radio-button-background-color));
@@ -5369,6 +5492,7 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-radio-button-active-border-width, var(--utrecht-custom-radio-button-border-width));
   color: var(--utrecht-custom-radio-button-active-color, var(--utrecht-custom-radio-button-color));
 }
+
 .utrecht-radio-button--custom.utrecht-radio-button--focus,
 .utrecht-custom-radio-button--focus {
   background-color: var(--utrecht-custom-radio-button-focus-background-color, var(--utrecht-custom-radio-button-background-color));
@@ -5377,6 +5501,7 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-radio-button-focus-border-width, var(--utrecht-custom-radio-button-border-width));
   color: var(--utrecht-custom-radio-button-focus-color, var(--utrecht-custom-radio-button-color));
 }
+
 .utrecht-radio-button--custom.utrecht-radio-button--focus-visible,
 .utrecht-custom-radio-button--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
@@ -5391,6 +5516,7 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-radio-button--custom.utrecht-radio-button--disabled,
 .utrecht-custom-radio-button--disabled {
   border-color: var(--utrecht-custom-radio-button-disabled-border-color, var(--utrecht-custom-radio-button-border-color));
@@ -5407,12 +5533,14 @@ ol.utrecht-breadcrumb__list {
 .utrecht-custom-radio-button--disabled:active {
   border-color: var(--utrecht-custom-radio-button-disabled-border-color, var(--utrecht-custom-radio-button-border-color));
 }
+
 .utrecht-radio-button--custom.utrecht-radio-button--invalid,
 .utrecht-custom-radio-button--invalid {
   border-color: var(--utrecht-custom-radio-button-invalid-border-color, var(--utrecht-custom-radio-button-border-color));
   border-width: var(--utrecht-custom-radio-button-invalid-border-width, var(--utrecht-custom-radio-button-border-width));
   color: var(--utrecht-custom-radio-button-invalid-color, var(--utrecht-custom-radio-button-color));
 }
+
 .utrecht-radio-button--custom.utrecht-radio-button--html-input:disabled,
 .utrecht-custom-radio-button--html-input:disabled {
   border-color: var(--utrecht-custom-radio-button-disabled-border-color, var(--utrecht-custom-radio-button-border-color));
@@ -5481,6 +5609,7 @@ ol.utrecht-breadcrumb__list {
   border-width: var(--utrecht-custom-radio-button-checked-border-width, var(--utrecht-custom-radio-button-border-width));
   color: var(--utrecht-custom-radio-button-checked-color, var(--utrecht-custom-radio-button-color));
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021-2022 Gemeente Utrecht
@@ -5497,12 +5626,14 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-data-list-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-data-list-margin-block-start, 0));
 }
+
 .utrecht-data-list__item-key {
   color: var(--utrecht-data-list-item-key-color);
   font-size: var(--utrecht-data-list-item-key-font-size);
   font-weight: var(--utrecht-data-list-item-key-font-weight);
   line-height: var(--utrecht-data-list-item-key-line-height);
 }
+
 .utrecht-data-list__item-value {
   /* configure `min-block-size` in case the value is empty */
   color: var(--utrecht-data-list-item-value-color);
@@ -5511,14 +5642,17 @@ ol.utrecht-breadcrumb__list {
   line-height: var(--utrecht-data-list-item-value-line-height);
   min-block-size: calc(var(--utrecht-data-list-item-value-line-height) * 1rem);
 }
+
 .utrecht-data-list__actions--html-dd,
 .utrecht-data-list__item-value--html-dd {
   /* reset browser styling of <dd> */
   margin-inline-start: 0;
 }
+
 .utrecht-data-list__item-value--multiline {
   white-space: pre-line;
 }
+
 .utrecht-data-list--rows .utrecht-data-list__actions {
   align-items: baseline;
   display: flex;
@@ -5547,6 +5681,7 @@ ol.utrecht-breadcrumb__list {
 .utrecht-data-list--rows .utrecht-data-list__item-value {
   margin-block-start: var(--utrecht-data-list-rows-item-value-margin-block-start);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5559,6 +5694,7 @@ ol.utrecht-breadcrumb__list {
   display: inline-flex;
   gap: var(--utrecht-space-inline-sm);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5580,9 +5716,11 @@ ol.utrecht-breadcrumb__list {
   /* `letter-spacing` design tokens break Arabic text rendering, avoid that */
   letter-spacing: 0 !important;
 }
+
 .utrecht-document--surface {
   background-color: var(--utrecht-document-background-color, inherit);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5594,9 +5732,11 @@ ol.utrecht-breadcrumb__list {
 .utrecht-emphasis--stressed {
   font-style: var(--utrecht-emphasis-stressed-font-style, italic);
 }
+
 .utrecht-emphasis--strong {
   font-weight: var(--utrecht-emphasis-strong-font-weight, bold);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -5610,6 +5750,7 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form {
   max-inline-size: var(--utrecht-form-max-inline-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5630,18 +5771,23 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form-field-description > * {
   --utrecht-space-around: 1;
 }
+
 .utrecht-form-field-description--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-form-field-description--invalid {
   color: var(--utrecht-form-field-description-invalid-color, var(--utrecht-feedback-invalid-color, var(--utrecht-feedback-danger-color)));
 }
+
 .utrecht-form-field-description--valid {
   color: var(--utrecht-form-field-description-valid-color, var(--utrecht-feedback-valid-color, var(--utrecht-feedback-safe-color)));
 }
+
 .utrecht-form-field-description--warning {
   color: var(--utrecht-form-field-description-warning-color, var(--utrecht-feedback-warning-color));
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5658,15 +5804,18 @@ ol.utrecht-breadcrumb__list {
   max-inline-size: var(--utrecht-form-field-max-inline-size);
   page-break-inside: avoid;
 }
+
 .utrecht-form-field--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-form-field--invalid {
   border-inline-start-color: var(--utrecht-form-field-invalid-border-inline-start-color);
   border-inline-start-style: solid;
   border-inline-start-width: var(--utrecht-form-field-invalid-border-inline-start-width);
   padding-inline-start: var(--utrecht-form-field-invalid-padding-inline-start);
 }
+
 .utrecht-form-field--checkbox {
   display: grid;
   gap: 0 var(--utrecht-custom-checkbox-margin-inline-end, 12px);
@@ -5687,6 +5836,7 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form-field--checkbox .utrecht-form-field__label .utrecht-form-field__input {
   margin-inline-end: var(--utrecht-custom-checkbox-margin-inline-end, 12px);
 }
+
 .utrecht-form-field--radio {
   display: grid;
   gap: 0 var(--utrecht-custom-radio-button-margin-inline-end, 12px);
@@ -5707,10 +5857,12 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form-field--radio .utrecht-form-field__label .utrecht-form-field__input {
   margin-inline-end: var(--utrecht-custom-radio-button-margin-inline-end, 12px);
 }
+
 .utrecht-form-field__input {
   grid-area: input;
   order: 5;
 }
+
 .utrecht-form-field__label {
   /* Assign the margin-block-end to padding instead, so the clickable area of the label increases
   and we avoid a small gap between the label and input that cannot be clicked to focus the input. */
@@ -5719,26 +5871,31 @@ ol.utrecht-breadcrumb__list {
   margin-block-start: 0;
   order: 1;
 }
+
 .utrecht-form-field .utrecht-form-field-description {
   grid-area: description;
   margin-block-end: var(--utrecht-form-field-description-margin-block-end);
   margin-block-start: var(--utrecht-form-field-description-margin-block-start);
   order: 2;
 }
+
 .utrecht-form-field .utrecht-form-field-description--invalid {
   grid-area: description-invalid;
   order: 3;
 }
+
 .utrecht-form-field__description {
   grid-area: description;
   margin-block-end: var(--utrecht-form-field-description-margin-block-end);
   margin-block-start: var(--utrecht-form-field-description-margin-block-start);
   order: 2;
 }
+
 .utrecht-form-field__description--before {
   grid-area: description-before;
   order: 4;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5756,6 +5913,7 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-margin-block-start, 0));
 }
+
 .utrecht-form-fieldset--html-fieldset,
 .utrecht-form-fieldset__fieldset--html-fieldset {
   all: revert;
@@ -5768,19 +5926,23 @@ ol.utrecht-breadcrumb__list {
   padding-inline-end: 0;
   padding-inline-start: 0;
 }
+
 .utrecht-form-fieldset__legend--html-legend {
   display: table;
   inline-size: 100%;
   padding-inline-end: 0;
   padding-inline-start: 0;
 }
+
 .utrecht-form-fieldset--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-form-fieldset--section {
   background-color: var(--utrecht-form-fieldset-section-background-color);
   color: var(--utrecht-form-fieldset-section-color);
 }
+
 .utrecht-form-fieldset__legend {
   color: var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));
   font-family: var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));
@@ -5791,19 +5953,23 @@ ol.utrecht-breadcrumb__list {
   page-break-inside: avoid;
   text-transform: var(--utrecht-form-fieldset-legend-text-transform);
 }
+
 .utrecht-form-fieldset__legend--disabled {
   color: var(--utrecht-form-fieldset-legend-disabled-color, var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit)));
 }
+
 .utrecht-form-fieldset__legend--distanced {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-fieldset-legend-margin-block-start, 0));
 }
+
 .utrecht-form-fieldset--invalid {
   border-inline-start-color: var(--utrecht-form-fieldset-invalid-border-inline-start-color, var(--utrecht-form-field-invalid-border-inline-start-color));
   border-inline-start-style: solid;
   border-inline-start-width: var(--utrecht-form-fieldset-invalid-border-inline-start-width, var(--utrecht-form-field-invalid-border-inline-start-width));
   padding-inline-start: var(--utrecht-form-fieldset-invalid-padding-inline-start, var(--utrecht-form-field-invalid-padding-inline-start));
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5817,23 +5983,28 @@ ol.utrecht-breadcrumb__list {
   font-size: var(--utrecht-form-label-font-size);
   font-weight: var(--utrecht-form-label-font-weight);
 }
+
 .utrecht-form-label--checkbox {
   color: var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));
   cursor: var(--utrecht-action-activate-cursor, revert);
   font-weight: var(--utrecht-form-label-checkbox-font-weight, var(--utrecht-form-label-font-weight));
 }
+
 .utrecht-form-label--checked {
   font-weight: var(--utrecht-form-label-checked-font-weight, var(--utrecht-form-label-font-weight));
 }
+
 .utrecht-form-label--disabled {
   cursor: var(--utrecht-action-disabled-cursor, revert);
   font-weight: var(--utrecht-form-label-disabled-color, var(--utrecht-form-label-color));
 }
+
 .utrecht-form-label--radio {
   color: var(--utrecht-form-label-checkbox-color, var(--utrecht-form-label-color));
   cursor: var(--utrecht-action-activate-cursor, revert);
   font-weight: var(--utrecht-form-label-radio-font-weight, var(--utrecht-form-label-font-weight));
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -5857,21 +6028,25 @@ ol.utrecht-breadcrumb__list {
           user-select: none;
   width: var(--utrecht-form-toggle-width, 6em);
 }
+
 .utrecht-form-toggle--focus {
   border-color: var(--utrecht-form-toggle-focus-border-color, var(--utrecht-form-toggle-border-color, currentColor));
   border-style: var(--utrecht-form-toggle-focus-border-style, var(--utrecht-form-toggle-border-style, solid));
   border-width: var(--utrecht-form-toggle-focus-border-width, var(--utrecht-form-toggle-border-width, 1px));
 }
+
 .utrecht-form-toggle--hover {
   background-color: var(--utrecht-form-toggle-hover-background-color, var(--utrecht-form-toggle-background-color));
   color: var(--utrecht-form-toggle-hover-color, var(--utrecht-form-toggle-color));
 }
+
 .utrecht-form-toggle--disabled {
   border-color: var(--utrecht-form-toggle-disabled-border-color, var(--utrecht-form-toggle-border-color, currentColor));
   border-style: var(--utrecht-form-toggle-disabled-border-style, var(--utrecht-form-toggle-border-style, solid));
   border-width: var(--utrecht-form-toggle-disabled-border-width, var(--utrecht-form-toggle-border-width, 1px));
   cursor: var(--utrecht-action-disabled-cursor);
 }
+
 .utrecht-form-toggle__thumb {
   /* To have a circle or square by default (1:1 aspect ratio) we use the `min-inline-size` design token for both `inline` and `block` direction. */
   background-color: var(--utrecht-form-toggle-thumb-background-color, currentColor);
@@ -5883,16 +6058,20 @@ ol.utrecht-breadcrumb__list {
   min-inline-size: var(--utrecht-form-toggle-thumb-min-inline-size, 1.5em);
   z-index: 20;
 }
+
 .utrecht-form-toggle__thumb--checked, .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:checked ~ .utrecht-form-toggle__track .utrecht-form-toggle__thumb {
   margin-inline-start: auto;
 }
+
 .utrecht-form-toggle__thumb--not-checked, .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:not(:checked) ~ .utrecht-form-toggle__track .utrecht-form-toggle__thumb {
   margin-inline-end: auto;
 }
+
 .utrecht-form-toggle__thumb--disabled, .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:disabled ~ .utrecht-form-toggle__track .utrecht-form-toggle__thumb {
   background-color: var(--utrecht-form-toggle-thumb-disabled-background-color, #aaa);
   box-shadow: var(--utrecht-form-toggle-thumb-disabled-box-shadow, 0);
 }
+
 .utrecht-form-toggle__track {
   align-items: center;
   background-color: var(--utrecht-form-toggle-accent-color);
@@ -5901,13 +6080,16 @@ ol.utrecht-breadcrumb__list {
   height: 100%;
   width: 100%;
 }
+
 .utrecht-form-toggle__track--checked, .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:checked ~ .utrecht-form-toggle__track {
   background-color: var(--utrecht-form-toggle-checked-accent-color, var(--utrecht-form-toggle-accent-color));
 }
+
 .utrecht-form-toggle__track--disabled, .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:disabled ~ .utrecht-form-toggle__track {
   background-color: var(--utrecht-form-toggle-background-disabled-background-color, #ddd);
   color: var(--utrecht-form-toggle-disabled-color, black);
 }
+
 .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox {
   /* Source: https://kittygiraudel.com/snippets/sr-only-class/ */
   border: 0 !important;
@@ -5958,9 +6140,11 @@ ol.utrecht-breadcrumb__list {
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-1-text-transform, inherit);
 }
+
 .utrecht-heading-1--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -5991,9 +6175,11 @@ ol.utrecht-breadcrumb__list {
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-2-text-transform, inherit);
 }
+
 .utrecht-heading-2--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6024,9 +6210,11 @@ ol.utrecht-breadcrumb__list {
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-3-text-transform, inherit);
 }
+
 .utrecht-heading-3--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6057,9 +6245,11 @@ ol.utrecht-breadcrumb__list {
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-4-text-transform, inherit);
 }
+
 .utrecht-heading-4--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6090,9 +6280,11 @@ ol.utrecht-breadcrumb__list {
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-5-text-transform, inherit);
 }
+
 .utrecht-heading-5--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6123,9 +6315,11 @@ ol.utrecht-breadcrumb__list {
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-6-text-transform, inherit);
 }
+
 .utrecht-heading-6--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2022 Gemeente Utrecht
@@ -6148,6 +6342,7 @@ ol.utrecht-breadcrumb__list {
 .utrecht-heading-group > * {
   --utrecht-space-around: 0;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021-2022 Gemeente Utrecht
@@ -6166,6 +6361,7 @@ ol.utrecht-breadcrumb__list {
   position: relative;
   width: var(--utrecht-icon-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -6180,15 +6376,18 @@ ol.utrecht-breadcrumb__list {
   height: auto;
   width: auto;
 }
+
 .utrecht-img--scale-down {
   /* use this class name with caution, text contained in image might become too small to read */
   max-height: 100%;
   max-width: 100%;
 }
+
 .utrecht-img--photo {
   max-height: 100%;
   max-width: 100%;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6207,6 +6406,7 @@ ol.utrecht-breadcrumb__list {
 .utrecht-link-list--html-ul > li {
   list-style: none;
 }
+
 .utrecht-link-list {
   --utrecht-link-text-decoration: none;
   --utrecht-link-hover-text-decoration: underline;
@@ -6214,9 +6414,11 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-link-list-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-link-list-margin-block-start, 0));
 }
+
 .utrecht-link-list--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-link-list__marker, .utrecht-link-list__item > a::before {
   background-image: var(--utrecht-link-list-marker-background-image);
   background-position-x: left;
@@ -6225,21 +6427,26 @@ ol.utrecht-breadcrumb__list {
   display: inline-block;
   inline-size: var(--utrecht-link-list-marker-inline-size);
 }
+
 .utrecht-link-list__item {
   display: block;
   font-weight: var(--utrecht-link-list-item-font-weight);
 }
+
 .utrecht-link-list__item + .utrecht-link-list__item {
   margin-block-start: var(--utrecht-link-list-item-margin-block-start);
 }
+
 .utrecht-link-list__item > a {
   display: block;
 }
+
 .utrecht-link-list__item > a::before {
   content: "";
   display: inline-block;
   height: 1em;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2022 Robbert Broersma
@@ -6361,6 +6568,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-user-select: none;
           user-select: none;
 }
+
 .utrecht-link-button--hover, .utrecht-link-button--html-button:hover {
   color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
   -webkit-text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
@@ -6371,14 +6579,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
+
 .utrecht-link-button--active, .utrecht-link-button--html-button:active {
   color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
+
 .utrecht-link-button--disabled {
   color: var(--utrecht-link-placeholder-color, var(--utrecht-link-color));
   cursor: var(--utrecht-action-disabled-cursor);
   text-decoration: none;
 }
+
 .utrecht-link-button--focus, .utrecht-link-button--html-button:focus {
   background-color: var(--utrecht-link-focus-background-color, transparent);
   color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
@@ -6390,6 +6601,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
+
 .utrecht-link-button--focus-visible, .utrecht-link-button--html-button:focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -6403,6 +6615,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-link-button--inline {
   --utrecht-icon-inset-block-start: var(--utrecht-icon-baseline-inset-block-start);
   min-block-size: auto;
@@ -6412,6 +6625,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: 0;
   padding-inline-start: 0;
 }
+
 .utrecht-link-button--pressed {
   /* Copy `active` styles for now.
   Later we can decide to:
@@ -6422,6 +6636,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   */
   color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
+
 .utrecht-link-button--html-button {
   background-color: transparent;
   /* reset <button> styling */
@@ -6454,12 +6669,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
   justify-content: center;
   width: var(--utrecht-link-social-size);
 }
+
 .utrecht-link-social:hover,
 .utrecht-link-social--hover {
   background-color: var(--utrecht-link-social-hover-background-color, var(--utrecht-link-social-background-color));
   color: var(--utrecht-link-social-hover-color, var(--utrecht-link-social-color));
   transform: scale(var(--utrecht-link-social-hover-transform-scale));
 }
+
 .utrecht-link-social:focus-visible,
 .utrecht-link-social--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
@@ -6474,9 +6691,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-link-social--distanced {
   margin-inline-start: var(--utrecht-link-social-margin-inline-start);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 The Knights Who Say NIH! B.V.
@@ -6489,6 +6708,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-list-social-padding-inline-end);
   padding-inline-start: var(--utrecht-list-social-padding-inline-start);
 }
+
 .utrecht-list-social__item {
   list-style-type: none;
   margin-inline-end: var(--utrecht-list-social-item-margin-inline-end);
@@ -6496,6 +6716,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-list-social__item:last-child {
   margin-inline-end: 0;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 The Knights Who Say NIH! B.V.
@@ -6594,6 +6815,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: max(var(--utrecht-link-text-decoration-thickness), 1px);
   text-underline-offset: var(--utrecht-link-text-underline-offset);
 }
+
 .utrecht-link--icon-left {
   background-image: var(--utrecht-link-icon-left-background-image, none);
   background-position: 0 0.25em;
@@ -6603,10 +6825,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-space-block-md);
   text-decoration: none;
 }
+
 .utrecht-link:visited,
 .utrecht-link--visited {
   color: var(--utrecht-link-visited-color, var(--utrecht-link-color));
 }
+
 .utrecht-link:link:hover,
 .utrecht-link--hover {
   color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
@@ -6618,10 +6842,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
+
 .utrecht-link:link:active,
 .utrecht-link--active {
   color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
+
 .utrecht-link--focus {
   background-color: var(--utrecht-link-focus-background-color, transparent);
   color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
@@ -6633,6 +6859,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
+
 .utrecht-link--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -6646,6 +6873,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-link:focus {
   background-color: var(--utrecht-link-focus-background-color, transparent);
   color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
@@ -6668,14 +6896,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
+
 .utrecht-link--telephone {
   white-space: nowrap;
 }
+
 .utrecht-link--box-content {
   color: unset;
   display: inline-block;
@@ -6685,11 +6916,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: unset;
   text-underline-offset: unset;
 }
+
 .utrecht-link--placeholder {
   color: var(--utrecht-link-placeholder-color, var(--utrecht-link-color));
   cursor: var(--utrecht-action-disabled-cursor);
   text-decoration: none;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -6701,12 +6934,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
   display: inline-flex;
   gap: var(--utrecht-space-inline-sm);
 }
+
 .utrecht-logo-button__logo {
   order: 1;
 }
+
 .utrecht-logo-button__button {
   order: 2;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6723,15 +6959,19 @@ however browsers don't seem to have implemented great looking supixel tweening y
   min-block-size: var(--utrecht-logo-min-block-size);
   min-inline-size: var(--utrecht-logo-min-inline-size);
 }
+
 .utrecht-logo__decoration-1 {
   fill: var(--utrecht-logo-decoration-1-color, #fff);
 }
+
 .utrecht-logo__decoration-2 {
   fill: var(--utrecht-logo-decoration-2-color, #c00);
 }
+
 .utrecht-logo__decoration-3 {
   fill: var(--utrecht-logo-decoration-3-color, #ffb70b);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6762,6 +7002,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: 0;
   padding-inline-start: 0;
 }
+
 .utrecht-mapcontrolbutton:disabled,
 .utrecht-mapcontrolbutton--disabled {
   --utrecht-icon-color: var(--utrecht-mapcontrolbutton-disabled-color, var(--utrecht-mapcontrolbutton-color));
@@ -6769,6 +7010,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-color: var(--utrecht-mapcontrolbutton-disabled-border-color);
   color: var(--utrecht-mapcontrolbutton-disabled-color);
 }
+
 .utrecht-mapcontrolbutton--focus-visible, .utrecht-mapcontrolbutton:focus:not(:disabled, [aria-disabled=true], .utrecht-mapcontrolbutton--disabled) {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -6782,9 +7024,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-mapcontrolbutton--focus, .utrecht-mapcontrolbutton:focus:not(:disabled, [aria-disabled=true], .utrecht-mapcontrolbutton--disabled) {
   --utrecht-icon-color: var(--utrecht-mapcontrolbutton-focus-color, var(--utrecht-mapcontrolbutton-color));
 }
+
 /* override the `:focus` selector above */
 /* stylelint-disable-next-line no-descending-specificity */
 .utrecht-mapcontrolbutton:focus:not(:focus-visible) {
@@ -6792,16 +7036,19 @@ however browsers don't seem to have implemented great looking supixel tweening y
   box-shadow: none;
   outline-style: revert;
 }
+
 .utrecht-mapcontrolbutton--hover:not(:disabled),
 .utrecht-mapcontrolbutton:hover:not(:disabled, .utrecht-mapcontrolbutton--disabled) {
   background-color: var(--utrecht-mapcontrolbutton-hover-background-color);
   color: var(--utrecht-mapcontrolbutton-color);
 }
+
 .utrecht-mapcontrolbutton__label {
   display: block;
   padding-inline-end: var(--utrecht-mapcontrolbutton-label-margin-inline-end);
   padding-inline-start: var(--utrecht-mapcontrolbutton-label-margin-inline-start);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2022 Gemeente Utrecht
@@ -6827,6 +7074,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   justify-content: center;
   width: var(--utrecht-map-marker-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -6845,11 +7093,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-block-start: var(--utrecht-space-block-sm);
   padding-inline-start: 0;
 }
+
 .utrecht-menulijst__item {
   list-style: none;
   margin-block-end: var(--utrecht-space-block-sm);
   margin-block-start: var(--utrecht-space-block-sm);
 }
+
 .utrecht-menulijst__item a:link {
   background-image: var(--utrecht-menulijst-item-background-image, none);
   background-position: 0 0.25em;
@@ -6860,9 +7110,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-space-block-md);
   text-decoration: none;
 }
+
 .utrecht-menulijst__item a:hover {
   color: var(--utrecht-menulijst-item-hover-color, var(--utrecht-link-hover-color, red));
 }
+
 .utrecht-menulijst__link--focus-visible, .utrecht-menulijst__link:focus {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -6876,11 +7128,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-menulijst__link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 The Knights Who Say NIH! B.V.
@@ -6908,6 +7162,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-block-start: 0;
   width: 19rem;
 }
+
 .utrecht-sidenav__list {
   margin-block-end: 0;
   margin-block-start: 0.2rem;
@@ -6915,22 +7170,27 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-block-start: 0;
   padding-inline-start: 0;
 }
+
 .utrecht-sidenav__list--child {
   margin-block-start: 0;
   padding-inline-end: 0;
   padding-inline-start: 1.4rem;
 }
+
 .utrecht-sidenav__item {
   list-style: none;
   margin-inline-start: 0;
   position: relative;
 }
+
 .utrecht-sidenav__item--current {
   color: var(--utrecht-sidenav-item-hover-color, var(--utrecht-link-hover-color, red));
 }
+
 .utrecht-sidenav__item--last {
   border-block-end: none;
 }
+
 /* draw the li item box bottom line */
 .utrecht-sidenav__item-separator:not(.utrecht-sidenav__item--last .utrecht-sidenav__item-separator) {
   /* .utrecht-sidenav__item--parent span */
@@ -6938,6 +7198,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   display: block;
   margin-inline-start: var(--utrecht-space-inline-lg);
 }
+
 .utrecht-sidenav__link {
   color: var(--utrecht-sidenav-link-color, var(--utrecht-link-color, blue));
   display: block;
@@ -6948,10 +7209,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-space-inline-lg);
   text-decoration: none;
 }
+
 .utrecht-sidenav__link:hover {
   color: var(--utrecht-sidenav-link-hover-color, var(--utrecht-link-hover-color, red));
   text-decoration: underline;
 }
+
 .utrecht-sidenav__link--focus-visible, .utrecht-sidenav__link:focus {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -6965,10 +7228,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 /* Remove bottom padding form first item in list with children */
 .utrecht-sidenav__link--parent {
   padding-block-end: 0;
 }
+
 /* Draw metro connection lines on sidenav link items */
 .utrecht-sidenav__connection, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:not(.utrecht-sidenav__link--sibling,
 .utrecht-sidenav__link--parent,
@@ -6985,11 +7250,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   width: var(--utrecht-sidenav-connection-inline-size);
   z-index: 5;
 }
+
 .utrecht-sidenav__connection--last,
 .utrecht-sidenav__connection--parent,
 .utrecht-sidenav__connection--sibling {
   display: none;
 }
+
 /* Dot for link with siblings */
 /* Little fix to move the dot to the right */
 .utrecht-sidenav__marker, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link::before {
@@ -7005,6 +7272,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   width: 8px;
   z-index: 10;
 }
+
 /* Add dot bullets on child links */
 .utrecht-sidenav__marker--child, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--child::before {
   background-color: transparent;
@@ -7015,11 +7283,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   transform: translateY(-50%) translateX(-19.5px);
   width: 4px;
 }
+
 /* selector must override .utrecht-sidenav__marker--child */
 .utrecht-sidenav__marker--current, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--current::before,
 .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--current-child::before {
   background-color: var(--utrecht-sidenav-marker-current-color);
 }
+
 .utrecht-sidenav__link--child,
 .utrecht-sidenav__link--current-child {
   color: var(--utrecht-sidenav-link-color, var(--utrecht-link-color, blue));
@@ -7031,19 +7301,23 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-space-inline-lg);
   text-decoration: none;
 }
+
 .utrecht-sidenav__link--current,
 .utrecht-sidenav__link--current-child {
   font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
 }
+
 /* Hover layout for mousover on sidenav__link */
 .utrecht-sidenav__marker--hover, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover::before, .utrecht-sidenav__link:hover .utrecht-sidenav__marker, .utrecht-sidenav__link:hover .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover .utrecht-sidenav__link::before {
   background-color: var(--utrecht-sidenav-link-hover-color);
 }
+
 /* Hover layout for mousover on child__link */
 .utrecht-sidenav__marker--child.utrecht-sidenav__marker--hover, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker--child.utrecht-sidenav__link:hover::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker--hover.utrecht-sidenav__link--child::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--child.utrecht-sidenav__link:hover::before, .utrecht-sidenav__link:hover .utrecht-sidenav__marker--child.utrecht-sidenav__marker, .utrecht-sidenav__link:hover .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker.utrecht-sidenav__link--child::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover .utrecht-sidenav__marker.utrecht-sidenav__link--child::before, .utrecht-sidenav__link:hover .utrecht-sidenav--pseudo-elements .utrecht-sidenav__marker--child.utrecht-sidenav__link::before, .utrecht-sidenav__link:hover .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link.utrecht-sidenav__link--child::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover .utrecht-sidenav__marker--child.utrecht-sidenav__link::before, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link:hover .utrecht-sidenav__link.utrecht-sidenav__link--child::before {
   background-color: var(--utrecht-sidenav-link-hover-color);
   border: 2px solid var(--utrecht-sidenav-link-hover-color);
 }
+
 .utrecht-sidenav--pseudo-elements {
   /* stylelint-disable selector-pseudo-class-parentheses-space-inside */
   /* stylelint-enable selector-pseudo-class-parentheses-space-inside */
@@ -7051,11 +7325,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--child::after {
   display: none;
 }
+
 .utrecht-sidenav__link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -7070,6 +7346,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-navhtml {
   font-family: var(--utrecht-font-family-sans-serif);
 }
+
 .utrecht-topnav__list {
   background-color: var(--utrecht-topnav-list-background-color);
   display: flex;
@@ -7084,16 +7361,19 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: 0;
   padding-inline-start: 0;
 }
+
 .utrecht-topnav__item {
   border-inline-end: 1px solid var(--utrecht-topnav-list-border-color);
   flex: 1 0 auto;
   margin-inline-start: 0;
   text-align: center;
 }
+
 .utrecht-topnav__item li:first-child {
   border-inline-start: 1px solid var(--utrecht-topnav-list-border-color);
   padding-inline-start: 0;
 }
+
 .utrecht-topnav__link {
   color: var(--utrecht-topnav-link-color);
   display: block;
@@ -7101,19 +7381,23 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-block-start: 1rem;
   text-decoration: none;
 }
+
 .utrecht-topnav__link:hover {
   background-color: var(--utrecht-topnav-link-hover-background-color);
   color: var(--utrecht-topnav-link-color);
   text-decoration: underline;
 }
+
 .utrecht-topnav__link--current {
   background-color: var(--utrecht-topnav-list-background-active);
   text-decoration: underline;
 }
+
 .utrecht-topnav__link--focus, .utrecht-topnav__link:focus {
   background-color: var(--utrecht-topnav-link-focus-background-color, var(--utrecht-topnav-link-background-color));
   color: var(--utrecht-topnav-link-focus-color, var(--utrecht-topnav-link-color));
 }
+
 .utrecht-topnav__link--focus-visible, .utrecht-topnav__link:focus {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -7127,11 +7411,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-topnav__link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -7151,12 +7437,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));
   padding-inline-start: var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));
 }
+
 .utrecht-ordered-list--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-ordered-list--arabic {
   list-style: arabic-indic;
 }
+
 .utrecht-ordered-list--html-content > li,
 .utrecht-ordered-list--html-content ol > li,
 .utrecht-ordered-list__item {
@@ -7164,6 +7453,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-start: var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));
   padding-inline-start: var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch));
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7180,12 +7470,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-page-padding-inline-end);
   padding-inline-start: var(--utrecht-page-padding-inline-start);
 }
+
 .utrecht-page-content__main {
   grid-area: main;
 }
+
 .utrecht-page-content__aside {
   grid-area: aside;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7214,18 +7507,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-page-footer-padding-inline-end);
   padding-inline-start: var(--utrecht-page-footer-padding-inline-start);
 }
+
 .utrecht-page-footer .utrecht-link--telephone {
   color: #fff;
 }
+
 .utrecht-page-footer .utrecht-paragraph {
   color: #fff;
 }
+
 .utrecht-page-footer__address--reset-address {
   /* reset <address> */
   font-style: inherit;
   margin-block-end: 0;
   margin-block-start: 0;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7245,9 +7542,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-page-padding-inline-end);
   padding-inline-start: var(--utrecht-page-padding-inline-start);
 }
+
 .utrecht-page-header__content {
   max-inline-size: var(--utrecht-page-max-inline-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7265,11 +7564,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-page-margin-inline-end);
   padding-inline-start: var(--utrecht-page-margin-inline-start);
 }
+
 .utrecht-page__content {
   background-color: var(--utrecht-page-background-color);
   color: var(--utrecht-page-color);
   max-inline-size: var(--utrecht-page-max-inline-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -7298,21 +7599,25 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-pagination__page-link:focus:not(:focus-visible),
 .utrecht-pagination__relative-link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
+
 .utrecht-pagination {
   font-family: var(--utrecht-pagination-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-pagination-font-size, var(--utrecht-document-font-family));
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-pagination-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-pagination-margin-block-start, 0));
 }
+
 .utrecht-pagination--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-pagination__relative-link {
   background-color: var(--utrecht-pagination-relative-link-background-color);
   border-color: var(--utrecht-pagination-relative-link-border-color);
@@ -7330,22 +7635,27 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration: var(--utrecht-pagination-relative-link-text-decoration);
   text-transform: var(--utrecht-pagination-relative-link-text-transform);
 }
+
 .utrecht-pagination__relative-link--next {
   margin-inline-start: var(--utrecht-pagination-relative-link-distanced-margin-inline-start);
 }
+
 .utrecht-pagination__relative-link--prev {
   margin-inline-end: var(--utrecht-pagination-relative-link-distanced-margin-inline-end);
 }
+
 .utrecht-pagination__relative-link--disabled {
   background-color: var(--utrecht-pagination-relative-link-disabled-background-color, var(--utrecht-pagination-relative-link-background-color));
   color: var(--utrecht-pagination-relative-link-disabled-color, var(--utrecht-pagination-relative-link-color));
 }
+
 .utrecht-pagination__relative-link--hover,
 .utrecht-pagination__relative-link:hover {
   background-color: var(--utrecht-pagination-relative-link-hover-background-color, var(--utrecht-pagination-relative-link-background-color));
   border-color: var(--utrecht-pagination-relative-link-hover-border-color, var(--utrecht-pagination-relative-link-border-color));
   color: var(--utrecht-pagination-relative-link-hover-color, var(--utrecht-pagination-relative-link-color));
 }
+
 .utrecht-pagination__page-link {
   background-color: var(--utrecht-pagination-page-link-background-color);
   border-color: var(--utrecht-pagination-page-link-border-color, 0);
@@ -7362,20 +7672,24 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-text-decoration: var(--utrecht-pagination-page-link-text-decoration);
           text-decoration: var(--utrecht-pagination-page-link-text-decoration);
 }
+
 .utrecht-pagination__page-link--current {
   --utrecht-pagination-page-link-background-color: var(--utrecht-pagination-page-link-current-background-color);
   --utrecht-pagination-page-link-border-color: var(--utrecht-pagination-page-link-current-border-color);
   --utrecht-pagination-page-link-color: var(--utrecht-pagination-page-link-current-color);
 }
+
 .utrecht-pagination__page-link ~ .utrecht-pagination__page-link {
   margin-inline-start: var(--utrecht-pagination-page-link-distanced-margin-inline-start);
 }
+
 .utrecht-pagination__page-link--hover,
 .utrecht-pagination__page-link:hover {
   background-color: var(--utrecht-pagination-page-link-hover-background-color, var(--utrecht-pagination-page-link-background-color));
   border-color: var(--utrecht-pagination-page-link-hover-border-color, var(--utrecht-pagination-page-link-border-color));
   color: var(--utrecht-pagination-page-link-hover-color, var(--utrecht-pagination-page-link-color));
 }
+
 .utrecht-pagination__page-link:focus,
 .utrecht-pagination__relative-link:focus {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
@@ -7390,12 +7704,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-pagination__page-link:focus:not(:focus-visible),
 .utrecht-pagination__relative-link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 The Knights Who Say NIH! B.V.
@@ -7413,24 +7729,29 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0));
 }
+
 .utrecht-paragraph--lead {
   color: var(--utrecht-paragraph-lead-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));
   font-size: var(--utrecht-paragraph-lead-font-size, var(--utrecht-paragraph-font-size, inherit));
   font-weight: var(--utrecht-paragraph-lead-font-weight, var(--utrecht-paragraph-font-weight, inherit));
   line-height: var(--utrecht-paragraph-lead-line-height, var(--utrecht-paragraph-line-height, inherit));
 }
+
 .utrecht-paragraph--small {
   color: var(--utrecht-paragraph-small-color, var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit)));
   font-size: var(--utrecht-paragraph-small-font-size, var(--utrecht-paragraph-font-size, inherit));
   font-weight: var(--utrecht-paragraph-small-font-weight, var(--utrecht-paragraph-font-weight, inherit));
   line-height: var(--utrecht-paragraph-small-line-height, var(--utrecht-paragraph-line-height, inherit));
 }
+
 .utrecht-paragraph__small {
   font-size: inherit;
 }
+
 .utrecht-paragraph--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7448,9 +7769,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   order: var(--utrecht-pre-heading-order, 0);
   text-transform: var(--utrecht-pre-heading-text-transform, inherit);
 }
+
 .utrecht-pre-heading--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7474,10 +7797,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-inline-start: 0;
   cursor: var(--utrecht-action-activate-cursor, revert);
 }
+
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-radio-button--disabled {
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
+
 .utrecht-radio-button--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -7491,6 +7816,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-radio-button--html-input:disabled {
   cursor: var(--utrecht-action-disabled-cursor, revert);
 }
@@ -7512,6 +7838,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   box-shadow: none;
   outline-style: revert;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7541,6 +7868,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-textbox-border-bottom-width: var(--utrecht-search-bar-textbox-border-bottom-width);
   display: flex;
 }
+
 .utrecht-search-bar__input {
   background-image: var(--utrecht-search-bar-input-background-image, none);
   background-position-x: var(--utrecht-search-bar-textbox-background-position-x);
@@ -7548,6 +7876,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-repeat: no-repeat;
   background-size: var(--utrecht-search-bar-textbox-background-size);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -7594,17 +7923,20 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-select-padding-inline-start, var(--utrecht-form-input-padding-inline-start));
   width: 100%;
 }
+
 .utrecht-select--disabled {
   background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-select-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
+
 .utrecht-select--focus {
   background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-select-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-select-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
 }
+
 .utrecht-select--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -7618,11 +7950,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-select--invalid {
   background-color: var(--utrecht-select-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-select-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
   border-width: var(--utrecht-select-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-input-border-width))));
 }
+
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-select--html-select {
   /* <select> does not support :read-only */
@@ -7654,6 +7988,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   box-shadow: none;
   outline-style: revert;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
@@ -7673,9 +8008,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-separator-margin-block-start, 0));
 }
+
 .utrecht-separator--distanced {
   --utrecht-space-around: 1;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -7708,14 +8045,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-text-decoration: var(--utrecht-skip-link-text-decoration);
           text-decoration: var(--utrecht-skip-link-text-decoration);
 }
+
 .utrecht-skip-link--hidden {
   inset-block-start: -200%;
   position: fixed;
 }
+
 .utrecht-skip-link--visible-on-focus {
   inset-block-start: -200%;
   position: fixed;
 }
+
 .utrecht-skip-link--visible-on-focus:focus {
   /**
    * WCAG 2.2 / 2.4.12: "No part of the focus indicator is hidden by author-created content".
@@ -7727,6 +8067,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   position: fixed;
   z-index: var(--utrecht-skip-link-z-index, var(--utrecht-layer-focus-z-index));
 }
+
 .utrecht-skip-link--visible {
   /**
    * WCAG 2.2 / 2.4.12: "No part of the focus indicator is hidden by author-created content".
@@ -7738,6 +8079,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   position: fixed;
   z-index: var(--utrecht-skip-link-z-index, var(--utrecht-layer-focus-z-index));
 }
+
 .utrecht-skip-link--focus,
 .utrecht-skip-link:focus,
 .utrecht-skip-link:focus-visible {
@@ -7755,6 +8097,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-text-decoration: var(--utrecht-skip-link-focus-text-decoration);
           text-decoration: var(--utrecht-skip-link-focus-text-decoration);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -7778,6 +8121,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-spotlight-section-padding-inline-end);
   padding-inline-start: var(--utrecht-spotlight-section-padding-inline-start);
 }
+
 .utrecht-spotlight-section--info {
   --_utrecht-spotlight-section-icon-color: var(--utrecht-spotlight-section-icon-info-color);
   --_utrecht-spotlight-section-background-color: var(--utrecht-spotlight-section-info-background-color);
@@ -7785,6 +8129,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --_utrecht-spotlight-section-border-width: var(--utrecht-spotlight-section-info-border-width);
   --_utrecht-spotlight-section-color: var(--utrecht-spotlight-section-info-color);
 }
+
 .utrecht-spotlight-section--warning {
   --_utrecht-spotlight-section-icon-color: var(--utrecht-spotlight-section-icon-warning-color);
   --_utrecht-spotlight-section-background-color: var(--utrecht-spotlight-section-warning-background-color);
@@ -7792,6 +8137,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --_utrecht-spotlight-section-border-width: var(--utrecht-spotlight-section-warning-border-width);
   --_utrecht-spotlight-section-color: var(--utrecht-spotlight-section-warning-color);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -7804,12 +8150,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-surface-background-color, inherit);
   color: var(--utrecht-surface-color, inherit);
 }
+
 .utrecht-surface--html-body {
   margin-block-end: 0;
   margin-block-start: 0;
   margin-inline-end: 0;
   margin-inline-start: 0;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -7831,9 +8179,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));
   width: 100%;
 }
+
 .utrecht-table--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-table__caption {
   color: var(--utrecht-table-caption-color);
   font-family: var(--utrecht-table-caption-font-family);
@@ -7844,6 +8194,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   page-break-after: avoid;
   text-align: var(--utrecht-table-caption-text-align, center);
 }
+
 .utrecht-table__header {
   background-color: var(--utrecht-table-header-background-color);
   color: var(--utrecht-table-header-color);
@@ -7852,14 +8203,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-transform: var(--utrecht-table-header-text-transform);
   vertical-align: bottom;
 }
+
 .utrecht-table__cell--last-header-row {
   border-block-end-color: var(--utrecht-table-header-border-block-end-color, transparent);
   border-block-end-style: solid;
   border-block-end-width: var(--utrecht-table-header-border-block-end-width, 0);
 }
+
 .utrecht-table__body {
   vertical-align: baseline;
 }
+
 .utrecht-table__header-cell {
   color: var(--utrecht-table-header-cell-color);
   font-size: var(--utrecht-table-header-cell-font-size);
@@ -7867,6 +8221,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-align: start;
   text-transform: var(--utrecht-table-header-cell-text-transform);
 }
+
 .utrecht-table__cell {
   border-block-end-color: var(--utrecht-table-row-border-block-end-color, transparent);
   border-block-end-style: solid;
@@ -7878,29 +8233,35 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-table-cell-padding-inline-start, 0);
   text-align: start;
 }
+
 .utrecht-table__cell--first {
   padding-inline-start: var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0));
 }
+
 .utrecht-table__cell--last {
   padding-inline-end: var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0));
 }
+
 .utrecht-table__header-cell--numeric-column,
 .utrecht-table__cell--numeric-column {
   /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   text-align: right;
 }
+
 .utrecht-table__cell--numeric-data {
-  font-feature-settings: lining-nums tabular-nums;
   font-variant-numeric: lining-nums tabular-nums;
 }
+
 .utrecht-table__row--alternate-odd {
   background-color: var(--utrecht-table-row-alternate-odd-background-color);
   color: var(--utrecht-table-row-alternate-odd-color);
 }
+
 .utrecht-table__row--alternate-even {
   background-color: var(--utrecht-table-row-alternate-even-background-color);
   color: var(--utrecht-table-row-alternate-even-color);
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -7944,22 +8305,26 @@ however browsers don't seem to have implemented great looking supixel tweening y
   resize: vertical;
   width: 100%;
 }
+
 .utrecht-textarea--invalid {
   background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   border-width: var(--utrecht-textarea-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-input-border-width))));
 }
+
 .utrecht-textarea--disabled {
   background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
+
 .utrecht-textarea--focus {
   background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textarea-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textarea-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
 }
+
 .utrecht-textarea--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -7973,15 +8338,18 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-textarea--read-only {
   border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-input-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
 }
+
 .utrecht-textarea__placeholder {
   color: var(--utrecht-textarea-placeholder-color, var(--utrecht-form-input-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
   font-style: var(--utrecht-form-input-placeholder-font-style);
   opacity: 100%;
 }
+
 .utrecht-textarea--html-textarea:disabled {
   background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
@@ -8023,6 +8391,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-style: var(--utrecht-form-input-placeholder-font-style);
   opacity: 100%;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -8064,22 +8433,26 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-input-padding-inline-start, initial));
   width: 100%;
 }
+
 .utrecht-textbox--invalid {
   background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color))));
   border-width: var(--utrecht-textbox-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-input-border-width))));
 }
+
 .utrecht-textbox--disabled {
   background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
+
 .utrecht-textbox--focus {
   background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textbox-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textbox-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
 }
+
 .utrecht-textbox--focus-visible {
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -8093,29 +8466,32 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
+
 .utrecht-textbox--read-only {
   border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color))));
   color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-input-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-input-color))));
 }
+
 .utrecht-textbox__placeholder {
   color: var(--utrecht-textbox-placeholder-color, var(--utrecht-form-input-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-input-color))));
   font-style: var(--utrecht-form-input-placeholder-font-style);
   opacity: 100%;
 }
+
 .utrecht-textbox--numeric {
   -moz-appearance: textfield; /* avoid spinner input in Firefox */
-  font-feature-settings: lining-nums tabular-nums;
   font-variant-numeric: lining-nums tabular-nums;
 }
+
 .utrecht-textbox--password {
-  font-feature-settings: none, "zero";
   font-variant-ligatures: none;
   font-variant-numeric: slashed-zero;
 }
+
 .utrecht-textbox--url {
-  font-feature-settings: none;
   font-variant-ligatures: none;
 }
+
 .utrecht-textbox--html-input:disabled {
   background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
   border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
@@ -8158,19 +8534,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   opacity: 100%;
 }
 .utrecht-textbox--html-input[type=password i] {
-  font-feature-settings: none, "zero";
   font-variant-ligatures: none;
   font-variant-numeric: slashed-zero;
 }
 .utrecht-textbox--html-input[type=url i], .utrecht-textbox--html-input[type=email i], .utrecht-textbox--html-input[inputMode=email i], .utrecht-textbox--html-input[inputMode=url i] {
-  font-feature-settings: none;
   font-variant-ligatures: none;
 }
 .utrecht-textbox--html-input[pattern="\\d*"], .utrecht-textbox--html-input[pattern="[0-9]*"], .utrecht-textbox--html-input[type=number i], .utrecht-textbox--html-input[type=tel i], .utrecht-textbox--html-input[inputMode=numeric i], .utrecht-textbox--html-input[inputMode=decimal i], .utrecht-textbox--html-input[inputMode=tel i] {
   -moz-appearance: textfield; /* avoid spinner input in Firefox */
-  font-feature-settings: lining-nums tabular-nums;
   font-variant-numeric: lining-nums tabular-nums;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -8190,14 +8564,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
   padding-inline-start: var(--utrecht-unordered-list-padding-inline-start, 2ch);
 }
+
 .utrecht-unordered-list--distanced {
   --utrecht-space-around: 1;
 }
+
 .utrecht-unordered-list--nested,
 .utrecht-unordered-list--html-content ul {
   margin-block-end: 0;
   margin-inline-start: 2ch;
 }
+
 .utrecht-unordered-list--html-content > li,
 .utrecht-unordered-list--html-content ul > li,
 .utrecht-unordered-list__item {
@@ -8205,6 +8582,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-start: var(--utrecht-unordered-list-item-margin-block-start);
   padding-inline-start: var(--utrecht-unordered-list-item-padding-inline-start, 1ch);
 }
+
 .utrecht-unordered-list--html-content > li::marker,
 .utrecht-unordered-list--html-content ul > li::marker,
 .utrecht-unordered-list__item::marker,
@@ -8212,6 +8590,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-unordered-list-marker-color);
   content: "●";
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
@@ -8223,9 +8602,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Gemeente Utrecht
  */
 .utrecht-url {
-  font-feature-settings: none;
   font-variant-ligatures: none;
 }
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
@@ -8237,12 +8616,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-value-number {
-  font-feature-settings: lining-nums tabular-nums;
   font-variant-numeric: lining-nums tabular-nums;
 }
+
 .utrecht-value-number--positive {
   color: var(--utrecht-value-number-positive-color);
 }
+
 .utrecht-value-number--negative {
   color: var(--utrecht-value-number-negative-color);
 }
