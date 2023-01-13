@@ -1,0 +1,2 @@
+const t={"heading-1":{color:{css:{syntax:"<color>",inherits:!0}},"font-family":{css:{syntax:"*",inherits:!0}},"font-size":{css:{syntax:"<length>",inherits:!0}},"font-weight":{css:{syntax:"<number>",inherits:!0}},"line-height":{css:{syntax:"<length>",inherits:!0}},"margin-block-end":{css:{syntax:"<length>",inherits:!0}},"margin-block-start":{css:{syntax:"<length>",inherits:!0}}}},s={utrecht:t};export{s as t};
+//# sourceMappingURL=tokens-bf10c141.js.map
