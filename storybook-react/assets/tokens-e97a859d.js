@@ -1,0 +1,2 @@
+const s={"alert-dialog":{"border-color":{css:{syntax:"<color>",inherits:!0}},"border-radius":{css:{syntax:"<length>",inherits:!0}},"border-width":{css:{syntax:"<length>",inherits:!0}},"box-shadow":{css:{syntax:"*",inherits:!0}},"max-block-size":{css:{syntax:"<length>",inherits:!0}},"max-inline-size":{css:{syntax:"<length>",inherits:!0}},"min-block-size":{css:{syntax:"<length>",inherits:!0}},"min-inline-size":{css:{syntax:"<length>",inherits:!0}}}},t={utrecht:s};export{t};
+//# sourceMappingURL=tokens-e97a859d.js.map

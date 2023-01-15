@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime-670450c2.js";import"./index-f1f749bf.js";import"./_commonjsHelpers-042e6b4d.js";const s=[o=>t("div",{className:"utrecht-document utrecht-theme",children:o()})],a={actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}},docs:{source:{state:"open"}}};export{s as decorators,a as parameters};
+//# sourceMappingURL=preview-a0b05efb.js.map
