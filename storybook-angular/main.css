@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 15 Jan 2023 23:58:52 GMT
+ * Generated on Thu, 19 Jan 2023 16:57:34 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 15 Jan 2023 23:58:54 GMT
+ * Generated on Thu, 19 Jan 2023 16:57:36 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6564,6 +6564,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-link-color, blue);
   -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
           text-decoration: var(--utrecht-link-text-decoration, underline);
+  text-decoration-color: var(--utrecht-link-text-decoration-color, currentColor);
   -webkit-text-decoration-skip-ink: all;
           text-decoration-skip-ink: all;
   text-decoration-thickness: max(var(--utrecht-link-text-decoration-thickness), 1px);
@@ -6832,6 +6833,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-link-color, blue);
   -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
           text-decoration: var(--utrecht-link-text-decoration, underline);
+  text-decoration-color: var(--utrecht-link-text-decoration-color, currentColor);
   -webkit-text-decoration-skip-ink: all;
           text-decoration-skip-ink: all;
   text-decoration-thickness: max(var(--utrecht-link-text-decoration-thickness), 1px);

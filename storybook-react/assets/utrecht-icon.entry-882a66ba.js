@@ -1,0 +1,2 @@
+import{r,h as o}from"./index-e61b4b29-e1559b0c.js";import"./preload-helper-41c905a7.js";const s=":host{color:var(--utrecht-icon-color);display:inline-block;height:var(--utrecht-icon-size);inset-block-start:var(--utrecht-icon-inset-block-start, 0);position:relative;width:var(--utrecht-icon-size)}",c=class{constructor(t){r(this,t)}render(){return o("slot",null)}};c.style=s;export{c as utrecht_icon};
+//# sourceMappingURL=utrecht-icon.entry-882a66ba.js.map
