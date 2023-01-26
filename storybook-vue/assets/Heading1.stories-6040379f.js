@@ -1,7 +1,0 @@
-import{M as e,c as o}from"./util-336a407e.js";import{t as a}from"./tokens-bf10c141.js";import"./vue.esm-bundler-3980e320.js";import"./index-2812c619.js";import"./_commonjsHelpers-725317a4.js";import"./chunk-MA2MUXQN-66659f83.js";import"./preload-helper-41c905a7.js";import"./index-62c31eed.js";import"./chunk-GWAJ4KRU-d69fdc61.js";import"./index-90100987.js";import"./index-d475d2ea.js";import"./memoizerific-a8c4a000.js";import"./index-eb3dc4e7.js";import"./chunk-XHUUYXNA-8149cd2a.js";import"./chunk-FD4M6EBV-8d27da22.js";import"./chunk-NNAAFZ4U-67fa674f.js";import"./chunk-BVZGY62N-610dc239.js";import"./_getTag-e861206b.js";import"./_baseIsEqual-4d7f9b7e.js";import"./index-8f5d6c0d.js";import"./chunk-R4NKYYJA-96bb58e6.js";const m={id:"vue-heading-1",title:"Vue.js Component/Heading 1",component:e,tags:["autodocs"],argTypes:{},args:{},parameters:{status:{type:"ALPHA"},tokens:a,tokenPrefix:"utrecht-heading-1",docs:{source:{code:'<UtrechtHeading1 v-bind="$props"><slot></slot></UtrechtHeading1>'}}}},t=o(m,{name:"Heading 1",args:{textContent:"The Quick Brown Fox Jumps Over The Lazy Dog"}});var r;t.parameters={...t.parameters,storySource:{source:`createStory(meta, {
-  name: 'Heading 1',
-  args: {
-    textContent: 'The Quick Brown Fox Jumps Over The Lazy Dog'
-  }
-})`,...(r=t.parameters)==null?void 0:r.storySource}};const O=["Default"];export{t as Default,O as __namedExportsOrder,m as default};
-//# sourceMappingURL=Heading1.stories-6040379f.js.map
