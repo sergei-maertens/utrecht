@@ -1,0 +1,2 @@
+import{r,h as t}from"./index-e61b4b29-c9d63045.js";import"./preload-helper-41c905a7.js";const s=".utrecht-article{max-inline-size:var(--utrecht-article-max-inline-size)}:host{display:block}:host([hidden]){display:none !important}",i=class{constructor(e){r(this,e)}render(){return t("article",{class:"utrecht-article"},t("slot",null))}};i.style=s;export{i as utrecht_article};
+//# sourceMappingURL=utrecht-article.entry-5f63d4f2.js.map
