@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 15 Feb 2023 09:03:45 GMT
+ * Generated on Wed, 15 Feb 2023 10:54:22 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 15 Feb 2023 09:03:47 GMT
+ * Generated on Wed, 15 Feb 2023 10:54:24 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -7185,7 +7185,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-navhtml {
-  font-family: var(--utrecht-font-family-sans-serif);
+  font-family: var(--utrecht-document-font-family);
 }
 
 .utrecht-topnav__list {
