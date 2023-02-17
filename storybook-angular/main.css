@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 17 Feb 2023 09:51:41 GMT
+ * Generated on Fri, 17 Feb 2023 09:57:02 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 17 Feb 2023 09:51:43 GMT
+ * Generated on Fri, 17 Feb 2023 09:57:03 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8116,6 +8116,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-space-around: 1;
 }
 
+.utrecht-table--html-table > caption,
 .utrecht-table__caption {
   color: var(--utrecht-table-caption-color);
   font-family: var(--utrecht-table-caption-font-family);
@@ -8127,6 +8128,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-align: var(--utrecht-table-caption-text-align, center);
 }
 
+.utrecht-table--html-table > thead,
 .utrecht-table__header {
   background-color: var(--utrecht-table-header-background-color);
   color: var(--utrecht-table-header-color);
@@ -8136,16 +8138,33 @@ however browsers don't seem to have implemented great looking supixel tweening y
   vertical-align: bottom;
 }
 
+.utrecht-table--html-table > thead > tr:last-of-type,
 .utrecht-table__cell--last-header-row {
   border-block-end-color: var(--utrecht-table-header-border-block-end-color, transparent);
   border-block-end-style: solid;
   border-block-end-width: var(--utrecht-table-header-border-block-end-width, 0);
 }
 
+.utrecht-table--html-table > tbody,
 .utrecht-table__body {
   vertical-align: baseline;
 }
 
+/* `.utrecht-table--html-table` should not affect nested tables.
+ * We will use the `>` direct descendant selector so the styling doesn't affect nested tables. */
+/* stylelint-disable no-descending-specificity */
+.utrecht-table--html-table > tr,
+.utrecht-table--html-table > thead > tr,
+.utrecht-table--html-table > tbody > tr,
+.utrecht-table--html-table > tfoot > tr,
+.utrecht-table__row {
+  page-break-inside: avoid;
+}
+
+.utrecht-table--html-table > tr > th,
+.utrecht-table--html-table > thead > tr > th,
+.utrecht-table--html-table > tbody > tr > th,
+.utrecht-table--html-table > tfoot > tr > th,
 .utrecht-table__header-cell {
   color: var(--utrecht-table-header-cell-color);
   font-size: var(--utrecht-table-header-cell-font-size);
@@ -8154,6 +8173,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-transform: var(--utrecht-table-header-cell-text-transform);
 }
 
+.utrecht-table--html-table > tr > td,
+.utrecht-table--html-table > thead > tr > td,
+.utrecht-table--html-table > tbody > tr > td,
+.utrecht-table--html-table > tfoot > tr > td,
 .utrecht-table__cell {
   border-block-end-color: var(--utrecht-table-row-border-block-end-color, transparent);
   border-block-end-style: solid;
@@ -8166,14 +8189,23 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-align: start;
 }
 
+.utrecht-table--html-table > tr > td:first-child,
+.utrecht-table--html-table > thead > tr > td:first-child,
+.utrecht-table--html-table > tbody > tr > td:first-child,
+.utrecht-table--html-table > tfoot > tr > td:first-child,
 .utrecht-table__cell--first {
   padding-inline-start: var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0));
 }
 
+.utrecht-table--html-table > tr > td:last-child,
+.utrecht-table--html-table > thead > tr > td:last-child,
+.utrecht-table--html-table > tbody > tr > td:last-child,
+.utrecht-table--html-table > tfoot > tr > td:last-child,
 .utrecht-table__cell--last {
   padding-inline-end: var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0));
 }
 
+/* stylelint-enable no-descending-specificity */
 .utrecht-table__header-cell--numeric-column,
 .utrecht-table__cell--numeric-column {
   /* stylelint-disable-next-line declaration-property-value-disallowed-list */
