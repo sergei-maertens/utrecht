@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 15 Feb 2023 11:05:08 GMT
+ * Generated on Fri, 17 Feb 2023 08:19:12 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 15 Feb 2023 11:05:10 GMT
+ * Generated on Fri, 17 Feb 2023 08:19:14 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8535,6 +8535,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 .utrecht-url {
   font-variant-ligatures: none;
+  -webkit-hyphens: none;
+          hyphens: none;
+  page-break-inside: avoid;
 }
 
 /**
