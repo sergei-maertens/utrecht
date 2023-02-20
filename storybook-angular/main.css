@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 17 Feb 2023 10:08:19 GMT
+ * Generated on Mon, 20 Feb 2023 17:55:01 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 17 Feb 2023 10:08:20 GMT
+ * Generated on Mon, 20 Feb 2023 17:55:02 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -333,6 +333,12 @@
   --utrecht-action-navigate-cursor: pointer;
   --utrecht-action-disabled-cursor: not-allowed;
   --utrecht-action-busy-cursor: wait;
+  --utrecht-code-block-padding-inline-end: 20px;
+  --utrecht-code-block-padding-inline-start: 20px;
+  --utrecht-code-block-padding-block-end: 20px;
+  --utrecht-code-block-padding-block-start: 20px;
+  --utrecht-code-block-line-height: 24px;
+  --utrecht-code-block-font-size: 16px;
   --utrecht-calendar-icon-size: 24px;
   --utrecht-calendar-navigation-label-min-inline-size: 200px;
   --utrecht-calendar-navigation-padding-block-end: 20px;
@@ -663,6 +669,8 @@
   --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
   --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
   --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
+  --utrecht-code-block-color: var(--utrecht-color-black);
+  --utrecht-code-block-background-color: var(--utrecht-color-grey-95);
   --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -1151,6 +1159,12 @@
   --utrecht-action-navigate-cursor: pointer;
   --utrecht-action-disabled-cursor: not-allowed;
   --utrecht-action-busy-cursor: wait;
+  --utrecht-code-block-padding-inline-end: 20px;
+  --utrecht-code-block-padding-inline-start: 20px;
+  --utrecht-code-block-padding-block-end: 20px;
+  --utrecht-code-block-padding-block-start: 20px;
+  --utrecht-code-block-line-height: 24px;
+  --utrecht-code-block-font-size: 16px;
   --utrecht-calendar-icon-size: 24px;
   --utrecht-calendar-navigation-label-min-inline-size: 200px;
   --utrecht-calendar-navigation-padding-block-end: 20px;
@@ -1481,6 +1495,8 @@
   --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
   --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
   --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
+  --utrecht-code-block-color: var(--utrecht-color-black);
+  --utrecht-code-block-background-color: var(--utrecht-color-grey-95);
   --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-color: var(--utrecht-color-white);
   --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -1988,6 +2004,12 @@
     --utrecht-action-navigate-cursor: pointer;
     --utrecht-action-disabled-cursor: not-allowed;
     --utrecht-action-busy-cursor: wait;
+    --utrecht-code-block-padding-inline-end: 20px;
+    --utrecht-code-block-padding-inline-start: 20px;
+    --utrecht-code-block-padding-block-end: 20px;
+    --utrecht-code-block-padding-block-start: 20px;
+    --utrecht-code-block-line-height: 24px;
+    --utrecht-code-block-font-size: 16px;
     --utrecht-calendar-icon-size: 24px;
     --utrecht-calendar-navigation-label-min-inline-size: 200px;
     --utrecht-calendar-navigation-padding-block-end: 20px;
@@ -2323,6 +2345,8 @@
     --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
     --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
     --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
+    --utrecht-code-block-color: var(--utrecht-color-black);
+    --utrecht-code-block-background-color: var(--utrecht-color-grey-95);
     --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -2819,6 +2843,12 @@
     --utrecht-action-navigate-cursor: pointer;
     --utrecht-action-disabled-cursor: not-allowed;
     --utrecht-action-busy-cursor: wait;
+    --utrecht-code-block-padding-inline-end: 20px;
+    --utrecht-code-block-padding-inline-start: 20px;
+    --utrecht-code-block-padding-block-end: 20px;
+    --utrecht-code-block-padding-block-start: 20px;
+    --utrecht-code-block-line-height: 24px;
+    --utrecht-code-block-font-size: 16px;
     --utrecht-calendar-icon-size: 24px;
     --utrecht-calendar-navigation-label-min-inline-size: 200px;
     --utrecht-calendar-navigation-padding-block-end: 20px;
@@ -3154,6 +3184,8 @@
     --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
     --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
     --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
+    --utrecht-code-block-color: var(--utrecht-color-black);
+    --utrecht-code-block-background-color: var(--utrecht-color-grey-95);
     --utrecht-calendar-navigation-label-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-color: var(--utrecht-color-white);
     --utrecht-calendar-navigation-background-color: var(--utrecht-color-black);
@@ -4811,6 +4843,8 @@ ol.utrecht-breadcrumb__list {
   --utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);
   background-color: var(--utrecht-code-block-background-color);
   display: block;
+  font-size: var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));
+  line-height: var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));
   margin-block-end: var(--utrecht-code-block-margin-block-end);
   margin-block-start: var(--utrecht-code-block-margin-block-start);
   margin-inline-end: var(--utrecht-code-block-margin-inline-end);
@@ -8592,4 +8626,647 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 .utrecht-value-number--negative {
   color: var(--utrecht-value-number-negative-color);
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/* stylelint-disable-next-line block-no-empty */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/* stylelint-disable scss/no-global-function-names */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/* stylelint-disable-next-line block-no-empty */
+/*
+
+# CSS implementation
+
+## `text-decoration-skip`
+
+`text-decoration-skip` can be helpful to avoid making some texts unreadable.
+For example by obscuring Arabic diacritics.
+
+However, the combination of a greater thickness and skipping this thick underline
+leads to a very unappealing rendering of the underline. To avoid this,
+`text-decoration-skip` is disabled for interactive states.
+
+For design token configurations that have identical thickness for normal and interactive
+states, this will lead to the (undesirable) effect that the focus/hover effect is switching
+from an interrupted to an uninterrupted underline (for some texts).
+
+Apart from making `skip-ink` configurable for normal/focus/hover, there is no good solution yet.
+
+---
+
+Disabling `text-decoration-skip` for interactive states obscures some texts, and we assume for now
+that moving the pointer away from a link or having focus elsewhere first is simple enough to
+not make this too inconvenient.
+
+---
+
+Some folks implement the underline of links using `border-bottom` or even using a finely crafted
+`linear-gradient()` with a solid color at the bottom and transparent behind the text. These approaches
+would unfortunately not be able to provide the improved readability of `text-decoration-skip`.
+
+## `text-decoration-thickness`
+
+Varying `text-decoration-thickness` can be used to distinguish interactive states.
+
+---
+
+`text-decoration-thickness` appears to have rendering differences between Chrome and Safari.
+In Safari the line becomes thicker with extra pixels added to the bottom, while in Chrome
+the underline offset also seems to increase along with the thickness, which effectively means
+the underline is closer to the next line than in Safari.
+
+---
+
+It might be nice to use font-relative units for `text-decoration-thickness`, and that is why we
+use the `max()` function to ensure the underline remains visible for every font size.
+
+## `transition`
+
+`text-decoration-thickness` could be a candidate for animating between interactive states,
+however browsers don't seem to have implemented great looking supixel tweening yet.
+
+`text-decoration-skip` also makes the transition more challenging to implement.
+
+*/
+/* stylelint-disable-next-line block-no-empty */
+/* stylelint-disable-next-line block-no-empty */
+/* stylelint-disable-next-line block-no-empty */
+/* stylelint-disable-next-line block-no-empty */
+/**
+ * Link for elements such as `<img>` or `<article>`, that are not inline elements or plain text.
+ * 
+ * Changing `display: inline` to `inline-block` ensures the focus outline is rendered around the entire box.
+ */
+/* allow `sbdocs` prefix */
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable no-descending-specificity */
+/* allow `nldesignsystem` prefix */
+/* stylelint-disable custom-property-pattern */
+.docs-story {
+  background-color: var(--utrecht-document-background-color);
+  color: var(--utrecht-document-color);
+}
+
+.utrecht-reduced-motion {
+  --utrecht-motion-max-animation-duration: 0;
+}
+
+.no-style .docs-story,
+.no-style .docs-story * {
+  all: revert !important;
+}
+
+.sbdocs * {
+  -webkit-font-smoothing: initial !important;
+  -moz-osx-font-smoothing: initial !important;
+  --utrecht-paragraph-margin-block-start: 1em;
+  --utrecht-paragraph-margin-block-end: 1em;
+}
+
+.sbdocs h1,
+.sbdocs h2,
+.sbdocs h3,
+.sbdocs h4,
+.sbdocs p,
+.sbdocs table:not(.docblock-argstable),
+.sbdocs .sbdocs-content ul:not([class]),
+.sbdocs .sbdocs-content ol:not([class]),
+.sbdocs .sbdocs-p,
+.sbdocs .sbdocs-h1,
+.sbdocs .sbdocs-h2,
+.sbdocs .sbdocs-h3,
+.sbdocs .sbdocs-h4,
+.sbdocs .sbdocs-ul,
+.sbdocs .sbdocs-ol,
+.sbdocs-content > :not(.sb-anchor, .sbdocs-preview, :has(.docblock-argstable, .sbdocs-pre)) {
+  margin-inline-end: auto !important;
+  margin-inline-start: auto !important;
+  max-inline-size: 800px; /* approximately 80ch in 18px Fira Sans */
+}
+
+.sbdocs .sbdocs-content {
+  --utrecht-space-around: 1;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  max-inline-size: none;
+}
+
+.sbdocs h1,
+.sbdocs h1.sbdocs-title {
+  --utrecht-space-around: 1;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  color: var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
+  font-family: var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
+  font-size: var(--utrecht-heading-1-font-size, revert);
+  font-weight: var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));
+  letter-spacing: var(--utrecht-heading-1-letter-spacing);
+  line-height: var(--utrecht-heading-1-line-height);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));
+  page-break-after: avoid;
+  text-transform: var(--utrecht-heading-1-text-transform, inherit);
+}
+
+.sbdocs h2 {
+  --utrecht-space-around: 1;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  color: var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
+  font-family: var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
+  font-size: var(--utrecht-heading-2-font-size, revert);
+  font-weight: var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));
+  letter-spacing: var(--utrecht-heading-2-letter-spacing);
+  line-height: var(--utrecht-heading-2-line-height);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));
+  page-break-after: avoid;
+  text-transform: var(--utrecht-heading-2-text-transform, inherit);
+}
+
+.sbdocs h3 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  color: var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
+  font-family: var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
+  font-size: var(--utrecht-heading-3-font-size, revert);
+  font-weight: var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));
+  letter-spacing: var(--utrecht-heading-3-letter-spacing);
+  line-height: var(--utrecht-heading-3-line-height);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));
+  page-break-after: avoid;
+  text-transform: var(--utrecht-heading-3-text-transform, inherit);
+}
+
+.sbdocs h4 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  color: var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
+  font-family: var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
+  font-size: var(--utrecht-heading-4-font-size, revert);
+  font-weight: var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));
+  letter-spacing: var(--utrecht-heading-4-letter-spacing);
+  line-height: var(--utrecht-heading-4-line-height);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));
+  page-break-after: avoid;
+  text-transform: var(--utrecht-heading-4-text-transform, inherit);
+}
+
+.sbdocs p,
+.sbdocs .sbdocs-p {
+  --utrecht-space-around: 1;
+  color: var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));
+  font-family: var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));
+  font-size: var(--utrecht-paragraph-font-size, var(--utrecht-document-font-size, inherit));
+  font-weight: var(--utrecht-paragraph-font-weight, inherit);
+  line-height: var(--utrecht-paragraph-line-height, var(--utrecht-document-line-height, inherit));
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0));
+}
+
+.sbdocs-content ul:not([class]),
+.sbdocs .sbdocs-ul {
+  font-family: var(--utrecht-document-font-family, inherit);
+  font-size: var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));
+  line-height: var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-unordered-list-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
+  padding-inline-start: var(--utrecht-unordered-list-padding-inline-start, 2ch);
+  box-sizing: border-box;
+  color: var(--utrecht-document-color);
+}
+
+.sbdocs-content ul:not([class]) > li,
+.sbdocs .sbdocs-ul > .sbdocs-li {
+  margin-block-end: var(--utrecht-unordered-list-item-margin-block-end);
+  margin-block-start: var(--utrecht-unordered-list-item-margin-block-start);
+  padding-inline-start: var(--utrecht-unordered-list-item-padding-inline-start, 1ch);
+  color: inherit; /* reset */
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.sbdocs-content ol:not([class]),
+.sbdocs .sbdocs-ol {
+  font-family: var(--utrecht-document-font-family, inherit);
+  font-size: var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));
+  line-height: var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit)));
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-end, var(--utrecht-unordered-list-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-ordered-list-margin-block-start, var(--utrecht-unordered-list-margin-block-start, 0)));
+  padding-inline-start: var(--utrecht-ordered-list-padding-inline-start, var(--utrecht-unordered-list-padding-inline-start, 2ch));
+  box-sizing: border-box;
+}
+
+.sbdocs-content ol:not([class]) > li,
+.sbdocs .sbdocs-ol > .sbdocs-li {
+  margin-block-end: var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));
+  margin-block-start: var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));
+  padding-inline-start: var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch));
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.sbdocs .sbdocs-code,
+.sbdocs samp,
+.sbdocs pre {
+  font-feature-settings: "cv13", "cv20", "ss01", "ss02", "ss03";
+  font-variant-ligatures: initial !important;
+}
+
+.sbdocs .sbdocs-code {
+  border-inline-end: 0;
+  border-inline-start: 0;
+  border-width: 0;
+}
+
+.sbdocs .sbdocs-code,
+.sbdocs samp {
+  /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
+  background-color: var(--utrecht-code-background-color);
+  color: var(--utrecht-code-color);
+  font-family: var(--utrecht-code-font-family, monospace), monospace;
+  font-size: var(--utrecht-code-font-size);
+  font-variant-ligatures: none;
+  line-height: var(--utrecht-code-line-height);
+  display: inline;
+  font-size: inherit;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  padding-block-end: 0;
+  padding-block-start: 0;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+  vertical-align: 1%;
+}
+
+.sbdocs pre:not(.prismjs, .sbdocs-pre) {
+  /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
+  background-color: var(--utrecht-code-background-color);
+  color: var(--utrecht-code-color);
+  font-family: var(--utrecht-code-font-family, monospace), monospace;
+  font-size: var(--utrecht-code-font-size);
+  font-variant-ligatures: none;
+  line-height: var(--utrecht-code-line-height);
+  --utrecht-code-color: var(--utrecht-code-block-color, inherit);
+  --utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);
+  --utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);
+  --utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);
+  --utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);
+  background-color: var(--utrecht-code-block-background-color);
+  display: block;
+  font-size: var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));
+  line-height: var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));
+  margin-block-end: var(--utrecht-code-block-margin-block-end);
+  margin-block-start: var(--utrecht-code-block-margin-block-start);
+  margin-inline-end: var(--utrecht-code-block-margin-inline-end);
+  margin-inline-start: var(--utrecht-code-block-margin-inline-start);
+  padding-block-end: var(--utrecht-code-block-padding-block-end);
+  padding-block-start: var(--utrecht-code-block-padding-block-start);
+  padding-inline-end: var(--utrecht-code-block-padding-inline-end);
+  padding-inline-start: var(--utrecht-code-block-padding-inline-start);
+  white-space: pre;
+}
+
+.sbdocs .prismjs {
+  font-size: var(--utrecht-code-block-font-size) !important;
+  line-height: var(--utrecht-code-block-line-height) !important;
+}
+
+.sbdocs .sbdocs-pre > * {
+  border-radius: 0;
+}
+
+.sbdocs pre * .token {
+  font-family: inherit;
+}
+
+.sbdocs-content a,
+.sbdocs a.sbdocs-a {
+  --utrecht-icon-size: var(--utrecht-link-icon-size, 1em);
+  color: var(--utrecht-link-color, blue);
+  -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
+          text-decoration: var(--utrecht-link-text-decoration, underline);
+  text-decoration-color: var(--utrecht-link-text-decoration-color, currentColor);
+  -webkit-text-decoration-skip-ink: all;
+          text-decoration-skip-ink: all;
+  text-decoration-thickness: max(var(--utrecht-link-text-decoration-thickness), 1px);
+  text-underline-offset: var(--utrecht-link-text-underline-offset);
+  font-family: inherit;
+}
+.sbdocs-content a:visited,
+.sbdocs a.sbdocs-a:visited {
+  color: var(--utrecht-link-visited-color, var(--utrecht-link-color));
+}
+.sbdocs-content a:link:hover,
+.sbdocs a.sbdocs-a:link:hover {
+  color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
+  -webkit-text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
+          text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
+  -webkit-text-decoration-skip: none;
+          text-decoration-skip: none;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
+}
+.sbdocs-content a:link:active,
+.sbdocs a.sbdocs-a:link:active {
+  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
+}
+.sbdocs-content a:focus,
+.sbdocs a.sbdocs-a:focus {
+  background-color: var(--utrecht-link-focus-background-color, transparent);
+  color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
+  -webkit-text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
+          text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
+  -webkit-text-decoration-skip: none;
+          text-decoration-skip: none;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
+}
+.sbdocs-content a:focus:not(:focus-visible),
+.sbdocs a.sbdocs-a:focus:not(:focus-visible) {
+  /* undo focus ring */
+  box-shadow: none;
+  outline-style: revert;
+}
+
+.sbdocs .sbdocs-preview,
+.sbdocs div:has(.docblock-argstable:only-child) {
+  margin-inline-end: auto !important;
+  margin-inline-start: auto !important;
+  max-inline-size: calc(1084px + var(--utrecht-code-block-padding-inline-end) + var(--utrecht-code-block-padding-inline-start));
+}
+
+.sbdocs .sbdocs-pre {
+  /* 1084px is approximately 100 characters in Fira Code 18px */
+}
+.sbdocs .sbdocs-pre > .sbdocs-code:only-child, .sbdocs .sbdocs-pre > div, .sbdocs .sbdocs-pre > sbdocs-code {
+  /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
+  background-color: var(--utrecht-code-background-color);
+  color: var(--utrecht-code-color);
+  font-family: var(--utrecht-code-font-family, monospace), monospace;
+  font-size: var(--utrecht-code-font-size);
+  font-variant-ligatures: none;
+  line-height: var(--utrecht-code-line-height);
+  --utrecht-code-color: var(--utrecht-code-block-color, inherit);
+  --utrecht-code-background-color: var(--utrecht-code-block-background-color, inherit);
+  --utrecht-code-font-weight: var(--utrecht-code-block-font-weight, inherit);
+  --utrecht-code-font-size: var(--utrecht-code-block-font-size, inherit);
+  --utrecht-code-font-family: var(--utrecht-code-block-font-family, monospace);
+  background-color: var(--utrecht-code-block-background-color);
+  display: block;
+  font-size: var(--utrecht-code-block-font-size, var(--utrecht-code-font-size));
+  line-height: var(--utrecht-code-block-line-height, var(--utrecht-code-line-height));
+  margin-block-end: var(--utrecht-code-block-margin-block-end);
+  margin-block-start: var(--utrecht-code-block-margin-block-start);
+  margin-inline-end: var(--utrecht-code-block-margin-inline-end);
+  margin-inline-start: var(--utrecht-code-block-margin-inline-start);
+  padding-block-end: var(--utrecht-code-block-padding-block-end);
+  padding-block-start: var(--utrecht-code-block-padding-block-start);
+  padding-inline-end: var(--utrecht-code-block-padding-inline-end);
+  padding-inline-start: var(--utrecht-code-block-padding-inline-start);
+  white-space: pre;
+  margin-inline-end: auto !important;
+  margin-inline-start: auto !important;
+  max-inline-size: calc(1084px + var(--utrecht-code-block-padding-inline-end) + var(--utrecht-code-block-padding-inline-start));
+  border: 0;
+  box-shadow: none;
+  padding-inline-end: var(--utrecht-code-block-padding-inline-end);
+  padding-inline-start: var(--utrecht-code-block-padding-inline-start);
+}
+.sbdocs .sbdocs-pre pre.prismjs {
+  padding-block-end: 0;
+  padding-block-start: 0;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.prismjs {
+  --utrecht-code-background-color: auto;
+  --utrecht-code-color: auto;
+}
+
+.sbdocs dfn {
+  font-style: normal;
+  /* HTML element we add ourselves in markdown */
+  /* styled to be less bold than <strong> */
+  font-weight: 500;
+}
+
+.sbdocs table:not([class]),
+.sbdocs .sbdocs-table {
+  border-collapse: collapse;
+  border-color: var(--utrecht-table-border-color, 0);
+  border-style: solid;
+  border-width: var(--utrecht-table-border-width, 0);
+  font-family: var(--utrecht-table-font-family, var(--utrecht-document-font-family));
+  font-size: var(--utrecht-table-font-size, inherit);
+  line-height: var(--utrecht-table-line-height, inherit);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));
+  width: 100%;
+  /* stylelint-disable no-descending-specificity */
+  /* stylelint-enable no-descending-specificity */
+}
+.sbdocs table:not([class]) > caption,
+.sbdocs .sbdocs-table > caption {
+  color: var(--utrecht-table-caption-color);
+  font-family: var(--utrecht-table-caption-font-family);
+  font-size: var(--utrecht-table-caption-font-size);
+  font-weight: var(--utrecht-table-caption-font-weight);
+  line-height: var(--utrecht-table-caption-line-height);
+  margin-block-end: var(--utrecht-table-caption-margin-block-end);
+  page-break-after: avoid;
+  text-align: var(--utrecht-table-caption-text-align, center);
+}
+.sbdocs table:not([class]) > thead,
+.sbdocs .sbdocs-table > thead {
+  background-color: var(--utrecht-table-header-background-color);
+  color: var(--utrecht-table-header-color);
+  font-weight: var(--utrecht-table-header-font-weight);
+  page-break-inside: avoid;
+  text-transform: var(--utrecht-table-header-text-transform);
+  vertical-align: bottom;
+}
+.sbdocs table:not([class]) > tbody,
+.sbdocs .sbdocs-table > tbody {
+  vertical-align: baseline;
+}
+.sbdocs table:not([class]) > tr, .sbdocs table:not([class]) > thead > tr, .sbdocs table:not([class]) > tbody > tr, .sbdocs table:not([class]) > tfoot > tr,
+.sbdocs .sbdocs-table > tr,
+.sbdocs .sbdocs-table > thead > tr,
+.sbdocs .sbdocs-table > tbody > tr,
+.sbdocs .sbdocs-table > tfoot > tr {
+  page-break-inside: avoid;
+}
+.sbdocs table:not([class]) > thead > tr:last-of-type,
+.sbdocs .sbdocs-table > thead > tr:last-of-type {
+  border-block-end-color: var(--utrecht-table-header-border-block-end-color, transparent);
+  border-block-end-style: solid;
+  border-block-end-width: var(--utrecht-table-header-border-block-end-width, 0);
+}
+.sbdocs table:not([class]) > tr > th, .sbdocs table:not([class]) > thead > tr > th, .sbdocs table:not([class]) > tbody > tr > th, .sbdocs table:not([class]) > tfoot > tr > th,
+.sbdocs .sbdocs-table > tr > th,
+.sbdocs .sbdocs-table > thead > tr > th,
+.sbdocs .sbdocs-table > tbody > tr > th,
+.sbdocs .sbdocs-table > tfoot > tr > th {
+  color: var(--utrecht-table-header-cell-color);
+  font-size: var(--utrecht-table-header-cell-font-size);
+  font-weight: var(--utrecht-table-header-cell-font-weight);
+  text-align: start;
+  text-transform: var(--utrecht-table-header-cell-text-transform);
+}
+.sbdocs table:not([class]) > tr > td, .sbdocs table:not([class]) > thead > tr > td, .sbdocs table:not([class]) > tbody > tr > td, .sbdocs table:not([class]) > tfoot > tr > td,
+.sbdocs .sbdocs-table > tr > td,
+.sbdocs .sbdocs-table > thead > tr > td,
+.sbdocs .sbdocs-table > tbody > tr > td,
+.sbdocs .sbdocs-table > tfoot > tr > td {
+  border-block-end-color: var(--utrecht-table-row-border-block-end-color, transparent);
+  border-block-end-style: solid;
+  border-block-end-width: var(--utrecht-table-row-border-block-end-width, 0);
+  line-height: var(--utrecht-table-cell-line-height, inherit);
+  padding-block-end: var(--utrecht-table-cell-padding-block-end, 0);
+  padding-block-start: var(--utrecht-table-cell-padding-block-start, 0);
+  padding-inline-end: var(--utrecht-table-cell-padding-inline-end, 0);
+  padding-inline-start: var(--utrecht-table-cell-padding-inline-start, 0);
+  text-align: start;
+}
+.sbdocs table:not([class]) > tr > td:last-child, .sbdocs table:not([class]) > thead > tr > td:last-child, .sbdocs table:not([class]) > tbody > tr > td:last-child, .sbdocs table:not([class]) > tfoot > tr > td:last-child,
+.sbdocs .sbdocs-table > tr > td:last-child,
+.sbdocs .sbdocs-table > thead > tr > td:last-child,
+.sbdocs .sbdocs-table > tbody > tr > td:last-child,
+.sbdocs .sbdocs-table > tfoot > tr > td:last-child {
+  padding-inline-end: var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0));
+}
+.sbdocs table:not([class]) > tr > td:first-child, .sbdocs table:not([class]) > thead > tr > td:first-child, .sbdocs table:not([class]) > tbody > tr > td:first-child, .sbdocs table:not([class]) > tfoot > tr > td:first-child,
+.sbdocs .sbdocs-table > tr > td:first-child,
+.sbdocs .sbdocs-table > thead > tr > td:first-child,
+.sbdocs .sbdocs-table > tbody > tr > td:first-child,
+.sbdocs .sbdocs-table > tfoot > tr > td:first-child {
+  padding-inline-start: var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0));
+}
+.sbdocs table:not([class]) > tr, .sbdocs table:not([class]) > thead > tr, .sbdocs table:not([class]) > tbody > tr, .sbdocs table:not([class]) > tfoot > tr,
+.sbdocs .sbdocs-table > tr,
+.sbdocs .sbdocs-table > thead > tr,
+.sbdocs .sbdocs-table > tbody > tr,
+.sbdocs .sbdocs-table > tfoot > tr {
+  background-color: transparent;
+  border-top-width: 0;
+}
+.sbdocs table:not([class]) > tr > th, .sbdocs table:not([class]) > thead > tr > th, .sbdocs table:not([class]) > tbody > tr > th, .sbdocs table:not([class]) > tfoot > tr > th,
+.sbdocs .sbdocs-table > tr > th,
+.sbdocs .sbdocs-table > thead > tr > th,
+.sbdocs .sbdocs-table > tbody > tr > th,
+.sbdocs .sbdocs-table > tfoot > tr > th {
+  border: 0;
+}
+.sbdocs table:not([class]) > tr > td, .sbdocs table:not([class]) > thead > tr > td, .sbdocs table:not([class]) > tbody > tr > td, .sbdocs table:not([class]) > tfoot > tr > td,
+.sbdocs .sbdocs-table > tr > td,
+.sbdocs .sbdocs-table > thead > tr > td,
+.sbdocs .sbdocs-table > tbody > tr > td,
+.sbdocs .sbdocs-table > tfoot > tr > td {
+  background-color: none;
+  border: 0;
 }
