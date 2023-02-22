@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 20 Feb 2023 18:06:15 GMT
+ * Generated on Wed, 22 Feb 2023 11:28:44 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 20 Feb 2023 18:06:17 GMT
+ * Generated on Wed, 22 Feb 2023 11:28:46 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -369,7 +369,8 @@
   --utrecht-button-primary-action-ready-border-color: transparent;
   --utrecht-button-primary-action-hover-border-color: transparent;
   --utrecht-button-primary-action-border-color: transparent;
-  --utrecht-button-focus-transform-scale: 1.02;
+  --utrecht-button-hover-scale: 1.02;
+  --utrecht-button-focus-scale: 1.02;
   --utrecht-button-margin-inline-end: 0;
   --utrecht-button-margin-inline-start: 0;
   --utrecht-button-border-width: 1px;
@@ -1195,7 +1196,8 @@
   --utrecht-button-primary-action-ready-border-color: transparent;
   --utrecht-button-primary-action-hover-border-color: transparent;
   --utrecht-button-primary-action-border-color: transparent;
-  --utrecht-button-focus-transform-scale: 1.02;
+  --utrecht-button-hover-scale: 1.02;
+  --utrecht-button-focus-scale: 1.02;
   --utrecht-button-margin-inline-end: 0;
   --utrecht-button-margin-inline-start: 0;
   --utrecht-button-border-width: 1px;
@@ -2040,7 +2042,8 @@
     --utrecht-button-primary-action-ready-border-color: transparent;
     --utrecht-button-primary-action-hover-border-color: transparent;
     --utrecht-button-primary-action-border-color: transparent;
-    --utrecht-button-focus-transform-scale: 1.02;
+    --utrecht-button-hover-scale: 1.02;
+    --utrecht-button-focus-scale: 1.02;
     --utrecht-button-margin-inline-end: 0;
     --utrecht-button-margin-inline-start: 0;
     --utrecht-button-border-width: 1px;
@@ -2879,7 +2882,8 @@
     --utrecht-button-primary-action-ready-border-color: transparent;
     --utrecht-button-primary-action-hover-border-color: transparent;
     --utrecht-button-primary-action-border-color: transparent;
-    --utrecht-button-focus-transform-scale: 1.02;
+    --utrecht-button-hover-scale: 1.02;
+    --utrecht-button-focus-scale: 1.02;
     --utrecht-button-margin-inline-end: 0;
     --utrecht-button-margin-inline-start: 0;
     --utrecht-button-border-width: 1px;
@@ -4318,6 +4322,7 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
+  scale: var(--utrecht-button-focus-scale, 1);
 }
 
 .utrecht-button:focus {
@@ -4340,6 +4345,7 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
+  scale: var(--utrecht-button-focus-scale, 1);
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -4367,7 +4373,7 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--_utrecht-button-hover-background-color);
   border-color: var(--_utrecht-button-hover-border-color);
   color: var(--_utrecht-button-hover-color);
-  transform: scale(var(--utrecht-button-focus-transform-scale, 1));
+  scale: var(--utrecht-button-hover-scale, 1);
 }
 
 .utrecht-button--primary-action {
@@ -5102,13 +5108,14 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--_utrecht-button-hover-background-color);
   border-color: var(--_utrecht-button-hover-border-color);
   color: var(--_utrecht-button-hover-color);
-  transform: scale(var(--utrecht-button-focus-transform-scale, 1));
+  scale: var(--utrecht-button-hover-scale, 1);
 }
 
 .utrecht-button-link--focus {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
+  scale: var(--utrecht-button-focus-scale, 1);
 }
 
 .utrecht-button-link--focus-visible {
@@ -5142,6 +5149,7 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
+  scale: var(--utrecht-button-focus-scale, 1);
 }
 .utrecht-button-link--html-a:focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
@@ -5161,7 +5169,7 @@ ol.utrecht-breadcrumb__list {
   background-color: var(--_utrecht-button-hover-background-color);
   border-color: var(--_utrecht-button-hover-border-color);
   color: var(--_utrecht-button-hover-color);
-  transform: scale(var(--utrecht-button-focus-transform-scale, 1));
+  scale: var(--utrecht-button-hover-scale, 1);
 }
 
 .utrecht-button-link--primary-action {
@@ -6548,7 +6556,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-link-social--hover {
   background-color: var(--utrecht-link-social-hover-background-color, var(--utrecht-link-social-background-color));
   color: var(--utrecht-link-social-hover-color, var(--utrecht-link-social-color));
-  transform: scale(var(--utrecht-link-social-hover-transform-scale));
+  transform: var(--utrecht-link-social-hover-transform-scale);
 }
 
 .utrecht-link-social:focus-visible,
@@ -7821,7 +7829,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-search-bar {
   --utrecht-button-border-color: var(--utrecht-search-bar-button-border-color);
-  --utrecht-button-focus-transform-scale: var(--utrecht-search-bar-hover-transform);
+  --utrecht-button-hover-scale: var(--utrecht-search-bar-hover-transform);
   --utrecht-button-font-size: var(--utrecht-search-bar-button-font-size);
   --utrecht-button-font-weight: var(--utrecht-search-bar-button-font-weight);
   --utrecht-button-letter-spacing: var(--utrecht-search-bar-button-letter-spacing);
