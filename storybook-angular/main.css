@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 22 Feb 2023 11:39:24 GMT
+ * Generated on Wed, 22 Feb 2023 13:48:48 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 22 Feb 2023 11:39:26 GMT
+ * Generated on Wed, 22 Feb 2023 13:48:50 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -4652,9 +4652,9 @@ ol.utrecht-breadcrumb__list {
   padding-block-start: var(--utrecht-button-group-padding-block-start);
 }
 
-.utrecht-button-group__button-link--horizontal,
-.utrecht-button-group--horizontal .utrecht-button-link,
-.utrecht-button-group:not(.utrecht-button-group--vertical) .utrecht-button-link {
+.utrecht-button-group__link-button--horizontal,
+.utrecht-button-group--horizontal .utrecht-link-button,
+.utrecht-button-group:not(.utrecht-button-group--vertical) .utrecht-link-button {
   --utrecht-button-padding-inline-end: 0;
   --utrecht-button-padding-inline-start: 0;
 }
