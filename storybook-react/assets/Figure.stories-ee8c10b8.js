@@ -1,0 +1,11 @@
+import{j as e,a as u}from"./jsx-runtime-670450c2.js";import{F as p,I as g,L as d,r as h}from"./index-8b643457.js";import{t as y,d as x}from"./util-6c63fb0a.js";import"./index-f1f749bf.js";import"./_commonjsHelpers-042e6b4d.js";import"./clsx.m-ace26a20.js";import"./extends-98964cd2.js";import"./index-4d501b15.js";const f=`<!-- @license CC0-1.0 -->
+
+# Figure
+`,k={figure:{"margin-block-end":{$extensions:{"nl.nldesignsystem.css.property":{syntax:"<length>",inherits:!0}}},"margin-block-start":{$extensions:{"nl.nldesignsystem.css.property":{syntax:"<length>",inherits:!0}}},caption:{color:{$extensions:{"nl.nldesignsystem.css.property":{syntax:"<color>",inherits:!0}}},"font-size":{$extensions:{"nl.nldesignsystem.css.property":{syntax:"<length>",inherits:!0}}},"line-height":{$extensions:{"nl.nldesignsystem.css.property":{syntax:"<length>",inherits:!0}}}}}},j={utrecht:k},F={title:"React Component/Figure",id:"react-figure",component:p,argTypes:{caption:{type:{name:"string",required:!0}}},tags:["autodocs"],parameters:{tokensPrefix:"utrecht-figure",tokens:y,tokensDefinition:j,docs:{description:{component:f}}}},b=({caption:l,children:m})=>u(p,{children:[m,e(h,{children:l})]}),t=b.bind({});t.args={children:e(g,{src:"example/photo-nijntje-vuelta.jpg",width:2048,height:1536,photo:!0,alt:"Nijntje mascotte met Vuelta 2022 t-shirt bij het Utrecht stadskantoor"}),caption:["Fotograaf: Gemeente Utrecht",e("br",{}),"Titel: Nijntje Vuelta",e("br",{}),"Locatie: Stadsplateau",e("br",{}),"Geplaatst: 17 augustus 2022",e("br",{}),e(d,{href:"https://www.flickr.com/photos/gemeenteutrecht/52287504255/in/dateposted-public/",external:!0,title:"'Nijntje / Vuelta' op Flickr",children:"Bron: Flickr"})]};const r=x(F);var s,n,o;t.parameters={...t.parameters,docs:{...(s=t.parameters)==null?void 0:s.docs,source:{originalSource:`({
+  caption,
+  children
+}) => <Figure>
+    {children}
+    <FigureCaption>{caption}</FigureCaption>
+  </Figure>`,...(o=(n=t.parameters)==null?void 0:n.docs)==null?void 0:o.source}}};var i,a,c;r.parameters={...r.parameters,docs:{...(i=r.parameters)==null?void 0:i.docs,source:{originalSource:"designTokenStory(meta)",...(c=(a=r.parameters)==null?void 0:a.docs)==null?void 0:c.source}}};const V=["Default","DesignTokens"];export{t as Default,r as DesignTokens,V as __namedExportsOrder,F as default};
+//# sourceMappingURL=Figure.stories-ee8c10b8.js.map
