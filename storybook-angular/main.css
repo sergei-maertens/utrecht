@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 17 Mar 2023 09:56:08 GMT
+ * Generated on Fri, 17 Mar 2023 10:43:57 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 17 Mar 2023 09:56:11 GMT
+ * Generated on Fri, 17 Mar 2023 10:43:58 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -805,6 +805,7 @@
   --utrecht-alert-color: var(--utrecht-color-black);
   --utrecht-alert-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+  --of-layout-background: var(--utrecht-document-color);
   --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
   --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
   --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
@@ -845,6 +846,7 @@
   --utrecht-feedback-warning-background-color: var(--utrecht-feedback-warning-color);
   --utrecht-feedback-danger-border-color: var(--utrecht-feedback-danger-color);
   --utrecht-feedback-danger-background-color: var(--utrecht-feedback-danger-color);
+  --of-layout-bg: var(--of-layout-background);
   --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
   --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
   --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
@@ -1643,6 +1645,7 @@
   --utrecht-alert-color: var(--utrecht-color-black);
   --utrecht-alert-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+  --of-layout-background: var(--utrecht-document-color);
   --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
   --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
   --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
@@ -1683,6 +1686,7 @@
   --utrecht-feedback-warning-background-color: var(--utrecht-feedback-warning-color);
   --utrecht-feedback-danger-border-color: var(--utrecht-feedback-danger-color);
   --utrecht-feedback-danger-background-color: var(--utrecht-feedback-danger-color);
+  --of-layout-bg: var(--of-layout-background);
   --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
   --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
   --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
@@ -2502,6 +2506,7 @@
     --utrecht-alert-color: var(--utrecht-color-white);
     --utrecht-alert-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+    --of-layout-background: var(--utrecht-document-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
     --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
@@ -2552,6 +2557,7 @@
     --utrecht-button-secondary-action-hover-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-background-color: var(--utrecht-page-background-color);
+    --of-layout-bg: var(--of-layout-background);
     --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
     --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
     --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
@@ -3353,6 +3359,7 @@
     --utrecht-alert-color: var(--utrecht-color-white);
     --utrecht-alert-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+    --of-layout-background: var(--utrecht-document-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
     --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
@@ -3403,6 +3410,7 @@
     --utrecht-button-secondary-action-hover-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-background-color: var(--utrecht-page-background-color);
+    --of-layout-bg: var(--of-layout-background);
     --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
     --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
     --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
