@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 21 Mar 2023 15:53:02 GMT
+ * Generated on Tue, 21 Mar 2023 17:28:56 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 21 Mar 2023 15:53:03 GMT
+ * Generated on Tue, 21 Mar 2023 17:28:58 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -396,6 +396,14 @@
   --utrecht-alert-dialog-min-inline-size: 320px;
   --utrecht-alert-dialog-min-block-size: 100px;
   --utrecht-alert-dialog-max-block-size: 80vh;
+  --utrecht-accordion-body-padding-inline-end: 10px;
+  --utrecht-accordion-body-padding-inline-start: 10px;
+  --utrecht-accordion-body-padding-block-end: 10px;
+  --utrecht-accordion-body-padding-block-start: 10px;
+  --utrecht-accordion-body-border-width: 2px;
+  --utrecht-accordion-button-icon-size: 24px;
+  --utrecht-accordion-button-border-width: 0;
+  --utrecht-accordion-button-padding-inline-end: 30px;
   --denhaag-process-steps-sub-step-heading-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --denhaag-process-steps-sub-step-heading-font-size: var(--utrecht-typography-scale-sm-font-size);
   --denhaag-process-steps-sub-step-heading-color: var(--utrecht-color-grey-15);
@@ -805,6 +813,13 @@
   --utrecht-alert-color: var(--utrecht-color-black);
   --utrecht-alert-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+  --utrecht-accordion-body-border-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-icon-background-color: var(--utrecht-color-yellow-50);
+  --utrecht-accordion-button-hover-border-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-hover-background-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
+  --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
   --of-layout-background: var(--utrecht-document-color);
   --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
   --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
@@ -1236,6 +1251,14 @@
   --utrecht-alert-dialog-min-inline-size: 320px;
   --utrecht-alert-dialog-min-block-size: 100px;
   --utrecht-alert-dialog-max-block-size: 80vh;
+  --utrecht-accordion-body-padding-inline-end: 10px;
+  --utrecht-accordion-body-padding-inline-start: 10px;
+  --utrecht-accordion-body-padding-block-end: 10px;
+  --utrecht-accordion-body-padding-block-start: 10px;
+  --utrecht-accordion-body-border-width: 2px;
+  --utrecht-accordion-button-icon-size: 24px;
+  --utrecht-accordion-button-border-width: 0;
+  --utrecht-accordion-button-padding-inline-end: 30px;
   --denhaag-process-steps-sub-step-heading-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --denhaag-process-steps-sub-step-heading-font-size: var(--utrecht-typography-scale-sm-font-size);
   --denhaag-process-steps-sub-step-heading-color: var(--utrecht-color-grey-15);
@@ -1645,6 +1668,13 @@
   --utrecht-alert-color: var(--utrecht-color-black);
   --utrecht-alert-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+  --utrecht-accordion-body-border-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-icon-background-color: var(--utrecht-color-yellow-50);
+  --utrecht-accordion-button-hover-border-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-hover-background-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
+  --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
+  --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
   --of-layout-background: var(--utrecht-document-color);
   --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
   --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
@@ -2097,6 +2127,14 @@
     --utrecht-alert-dialog-min-inline-size: 320px;
     --utrecht-alert-dialog-min-block-size: 100px;
     --utrecht-alert-dialog-max-block-size: 80vh;
+    --utrecht-accordion-body-padding-inline-end: 10px;
+    --utrecht-accordion-body-padding-inline-start: 10px;
+    --utrecht-accordion-body-padding-block-end: 10px;
+    --utrecht-accordion-body-padding-block-start: 10px;
+    --utrecht-accordion-body-border-width: 2px;
+    --utrecht-accordion-button-icon-size: 24px;
+    --utrecht-accordion-button-border-width: 0;
+    --utrecht-accordion-button-padding-inline-end: 30px;
     --denhaag-process-steps-sub-step-heading-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --denhaag-process-steps-sub-step-heading-font-size: var(--utrecht-typography-scale-sm-font-size);
     --denhaag-process-steps-sub-step-heading-color: var(--utrecht-color-grey-15);
@@ -2506,6 +2544,13 @@
     --utrecht-alert-color: var(--utrecht-color-white);
     --utrecht-alert-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+    --utrecht-accordion-body-border-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-icon-background-color: var(--utrecht-color-yellow-50);
+    --utrecht-accordion-button-hover-border-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-hover-background-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
+    --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
     --of-layout-background: var(--utrecht-document-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
@@ -2950,6 +2995,14 @@
     --utrecht-alert-dialog-min-inline-size: 320px;
     --utrecht-alert-dialog-min-block-size: 100px;
     --utrecht-alert-dialog-max-block-size: 80vh;
+    --utrecht-accordion-body-padding-inline-end: 10px;
+    --utrecht-accordion-body-padding-inline-start: 10px;
+    --utrecht-accordion-body-padding-block-end: 10px;
+    --utrecht-accordion-body-padding-block-start: 10px;
+    --utrecht-accordion-body-border-width: 2px;
+    --utrecht-accordion-button-icon-size: 24px;
+    --utrecht-accordion-button-border-width: 0;
+    --utrecht-accordion-button-padding-inline-end: 30px;
     --denhaag-process-steps-sub-step-heading-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --denhaag-process-steps-sub-step-heading-font-size: var(--utrecht-typography-scale-sm-font-size);
     --denhaag-process-steps-sub-step-heading-color: var(--utrecht-color-grey-15);
@@ -3359,6 +3412,13 @@
     --utrecht-alert-color: var(--utrecht-color-white);
     --utrecht-alert-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
+    --utrecht-accordion-body-border-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-icon-background-color: var(--utrecht-color-yellow-50);
+    --utrecht-accordion-button-hover-border-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-hover-background-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
+    --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
+    --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
     --of-layout-background: var(--utrecht-document-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
@@ -3467,6 +3527,63 @@
  * Will become:
  *     @import "@utrecht/blockquote/index";
  */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/* stylelint-disable-next-line block-no-empty */
+.utrecht-accordion__button {
+  --utrecht-button-focus-scale: 1;
+  --utrecht-button-hover-scale: 1;
+  --utrecht-button-inline-size: 100%;
+  --utrecht-button-subtle-background-color: var(--utrecht-accordion-button-background-color);
+  --utrecht-button-subtle-color: var(--utrecht-accordion-button-color);
+  --utrecht-button-subtle-hover-background-color: var(--utrecht-accordion-button-hover-background-color);
+  --utrecht-button-subtle-hover-border-color: var(--utrecht-accordion-button-hover-border-color);
+  --utrecht-button-subtle-border-color: var(--utrecht-accordion-button-border-color);
+  --utrecht-button-subtle-border-width: var(--utrecht-accordion-button-border-width);
+  justify-content: start !important;
+  padding-inline-end: var(--utrecht-accordion-button-padding-inline-end);
+  position: relative;
+}
+.utrecht-accordion__button[aria-expanded]::after {
+  background-color: var(--utrecht-accordion-button-icon-background-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  height: var(--utrecht-accordion-button-icon-size);
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  position: absolute;
+  width: var(--utrecht-accordion-button-icon-size);
+}
+.utrecht-accordion__button[aria-expanded=false]::after {
+  background-image: var(--utrecht-accordion-icon-arrow-down, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.39' height='14.39'%3E%3Cpath fill='none' stroke='%231D1D1D' stroke-width='3' stroke-miterlimit='10' d='M15.866 4.135l-5.32 5.322-5.322-5.322'/%3E%3C/svg%3E"));
+}
+.utrecht-accordion__button[aria-expanded=true]::after {
+  background-image: var(--utrecht-accordion-icon-arrow-up, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.39' height='14.39'%3E%3Cpath fill='none' stroke='%231D1D1D' stroke-width='3' stroke-miterlimit='10' d='M5.223 9.457l5.32-5.322 5.322 5.322'/%3E%3C/svg%3E"));
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.utrecht-accordion__body {
+  border-color: var(--utrecht-accordion-body-border-color);
+  border-style: solid;
+  border-top: none;
+  border-width: var(--utrecht-accordion-body-border-width);
+  padding-block-end: var(--utrecht-accordion-body-padding-block-end);
+  padding-block-start: var(--utrecht-accordion-body-padding-block-start);
+  padding-inline-end: var(--utrecht-accordion-body-padding-inline-end);
+  padding-inline-start: var(--utrecht-accordion-body-padding-inline-start);
+}
+
 /**
  * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
