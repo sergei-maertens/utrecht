@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 23 Mar 2023 15:43:02 GMT
+ * Generated on Fri, 24 Mar 2023 13:47:49 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 23 Mar 2023 15:43:04 GMT
+ * Generated on Fri, 24 Mar 2023 13:47:51 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -250,17 +250,17 @@
   --utrecht-form-toggle-border-color: transparent;
   --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
   --utrecht-form-label-font-size: 1em;
-  --utrecht-form-input-block-size: 42px;
-  --utrecht-form-input-padding-inline-start: 12px;
-  --utrecht-form-input-padding-inline-end: 12px;
-  --utrecht-form-input-padding-block-start: 8px;
-  --utrecht-form-input-padding-block-end: 8px;
-  --utrecht-form-input-max-inline-size: 28em;
-  --utrecht-form-input-border-radius: 0;
   --utrecht-form-fieldset-legend-text-transform: uppercase;
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
   --utrecht-form-field-invalid-border-inline-start-width: 3px;
+  --utrecht-form-control-block-size: 42px;
+  --utrecht-form-control-padding-inline-start: 12px;
+  --utrecht-form-control-padding-inline-end: 12px;
+  --utrecht-form-control-padding-block-start: 8px;
+  --utrecht-form-control-padding-block-end: 8px;
+  --utrecht-form-control-max-inline-size: 28em;
+  --utrecht-form-control-border-radius: 0;
   --utrecht-figure-caption-line-height: 20px;
   --utrecht-figure-caption-font-size: 14px;
   --utrecht-figure-caption-color: #727272;
@@ -326,6 +326,7 @@
   --utrecht-space-block-xs: 8px; /* Extra Small */
   --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
   --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
+  --utrecht-pointer-target-min-size: 44px;
   --utrecht-focus-outline-style: dotted;
   --utrecht-action-inert-cursor: default;
   --utrecht-action-activate-cursor: pointer;
@@ -621,14 +622,6 @@
   --utrecht-form-label-radio-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-form-label-checkbox-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-form-label-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-  --utrecht-form-input-focus-border-color: var(--utrecht-color-grey-80);
-  --utrecht-form-input-placeholder-font-style: var(--utrecht-typography-font-style-normal);
-  --utrecht-form-input-placeholder-color: var(--utrecht-color-grey-40);
-  --utrecht-form-input-font-size: var(--utrecht-typography-scale-md-font-size);
-  --utrecht-form-input-color: var(--utrecht-color-black);
-  --utrecht-form-input-border-width: var(--utrecht-border-width-sm);
-  --utrecht-form-input-border-color: var(--utrecht-color-grey-30);
-  --utrecht-form-input-background-color: var(--utrecht-color-white);
   --utrecht-form-fieldset-legend-disabled-color: var(--utrecht-color-grey-40);
   --utrecht-form-fieldset-legend-margin-block-start: var(--utrecht-space-block-xl);
   --utrecht-form-fieldset-legend-margin-block-end: var(--utrecht-space-block-sm);
@@ -643,6 +636,14 @@
   --utrecht-form-field-invalid-padding-inline-start: var(--utrecht-space-block-sm);
   --utrecht-form-field-margin-block-end: var(--utrecht-space-block-2xs);
   --utrecht-form-field-margin-block-start: var(--utrecht-space-block-2xs);
+  --utrecht-form-control-focus-border-color: var(--utrecht-color-grey-80);
+  --utrecht-form-control-placeholder-font-style: var(--utrecht-typography-font-style-normal);
+  --utrecht-form-control-placeholder-color: var(--utrecht-color-grey-40);
+  --utrecht-form-control-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-form-control-color: var(--utrecht-color-black);
+  --utrecht-form-control-border-width: var(--utrecht-border-width-sm);
+  --utrecht-form-control-border-color: var(--utrecht-color-grey-30);
+  --utrecht-form-control-background-color: var(--utrecht-color-white);
   --utrecht-emphasis-strong-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-document-font-size: var(--utrecht-typography-scale-md-font-size);
   --utrecht-document-font-family: var(--utrecht-typography-sans-serif-font-family);
@@ -835,20 +836,20 @@
   --utrecht-skip-link-color: var(--utrecht-topnav-link-color);
   --utrecht-skip-link-background-color: var(--utrecht-topnav-list-background-color);
   --utrecht-search-bar-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-  --utrecht-radio-button-color: var(--utrecht-form-input-color);
-  --utrecht-radio-button-border-color: var(--utrecht-form-input-border-color);
-  --utrecht-radio-button-background-color: var(--utrecht-form-input-background-color);
+  --utrecht-radio-button-color: var(--utrecht-form-control-color);
+  --utrecht-radio-button-border-color: var(--utrecht-form-control-border-color);
+  --utrecht-radio-button-background-color: var(--utrecht-form-control-background-color);
   --utrecht-paragraph-lead-color: var(--utrecht-document-color);
   --utrecht-link-visited-color: var(--utrecht-link-color);
   --utrecht-link-hover-color: var(--utrecht-link-focus-color);
   --utrecht-link-active-color: var(--utrecht-link-color);
-  --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-  --utrecht-form-input-font-family: var(--utrecht-document-font-family);
   --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
   --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
-  --utrecht-custom-checkbox-color: var(--utrecht-form-input-color);
-  --utrecht-custom-checkbox-border-color: var(--utrecht-form-input-border-color);
-  --utrecht-custom-checkbox-background-color: var(--utrecht-form-input-background-color);
+  --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
+  --utrecht-form-control-font-family: var(--utrecht-document-font-family);
+  --utrecht-custom-checkbox-color: var(--utrecht-form-control-color);
+  --utrecht-custom-checkbox-border-color: var(--utrecht-form-control-border-color);
+  --utrecht-custom-checkbox-background-color: var(--utrecht-form-control-background-color);
   --utrecht-feedback-active-color: var(--utrecht-feedback-safe-color);
   --utrecht-feedback-inactive-color: var(--utrecht-feedback-danger-color);
   --utrecht-feedback-success-color: var(--utrecht-feedback-safe-color);
@@ -862,10 +863,10 @@
   --utrecht-feedback-danger-border-color: var(--utrecht-feedback-danger-color);
   --utrecht-feedback-danger-background-color: var(--utrecht-feedback-danger-color);
   --of-layout-bg: var(--of-layout-background);
-  --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
-  --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
+  --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
+  --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
   --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
-  --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
+  --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
   --utrecht-feedback-active-border-color: var(--utrecht-feedback-safe-border-color);
   --utrecht-feedback-active-background-color: var(--utrecht-feedback-safe-background-color);
   --utrecht-feedback-inactive-border-color: var(--utrecht-feedback-danger-border-color);
@@ -1105,17 +1106,17 @@
   --utrecht-form-toggle-border-color: transparent;
   --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
   --utrecht-form-label-font-size: 1em;
-  --utrecht-form-input-block-size: 42px;
-  --utrecht-form-input-padding-inline-start: 12px;
-  --utrecht-form-input-padding-inline-end: 12px;
-  --utrecht-form-input-padding-block-start: 8px;
-  --utrecht-form-input-padding-block-end: 8px;
-  --utrecht-form-input-max-inline-size: 28em;
-  --utrecht-form-input-border-radius: 0;
   --utrecht-form-fieldset-legend-text-transform: uppercase;
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
   --utrecht-form-field-invalid-border-inline-start-width: 3px;
+  --utrecht-form-control-block-size: 42px;
+  --utrecht-form-control-padding-inline-start: 12px;
+  --utrecht-form-control-padding-inline-end: 12px;
+  --utrecht-form-control-padding-block-start: 8px;
+  --utrecht-form-control-padding-block-end: 8px;
+  --utrecht-form-control-max-inline-size: 28em;
+  --utrecht-form-control-border-radius: 0;
   --utrecht-figure-caption-line-height: 20px;
   --utrecht-figure-caption-font-size: 14px;
   --utrecht-figure-caption-color: #727272;
@@ -1181,6 +1182,7 @@
   --utrecht-space-block-xs: 8px; /* Extra Small */
   --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
   --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
+  --utrecht-pointer-target-min-size: 44px;
   --utrecht-focus-outline-style: dotted;
   --utrecht-action-inert-cursor: default;
   --utrecht-action-activate-cursor: pointer;
@@ -1476,14 +1478,6 @@
   --utrecht-form-label-radio-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-form-label-checkbox-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-form-label-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-  --utrecht-form-input-focus-border-color: var(--utrecht-color-grey-80);
-  --utrecht-form-input-placeholder-font-style: var(--utrecht-typography-font-style-normal);
-  --utrecht-form-input-placeholder-color: var(--utrecht-color-grey-40);
-  --utrecht-form-input-font-size: var(--utrecht-typography-scale-md-font-size);
-  --utrecht-form-input-color: var(--utrecht-color-black);
-  --utrecht-form-input-border-width: var(--utrecht-border-width-sm);
-  --utrecht-form-input-border-color: var(--utrecht-color-grey-30);
-  --utrecht-form-input-background-color: var(--utrecht-color-white);
   --utrecht-form-fieldset-legend-disabled-color: var(--utrecht-color-grey-40);
   --utrecht-form-fieldset-legend-margin-block-start: var(--utrecht-space-block-xl);
   --utrecht-form-fieldset-legend-margin-block-end: var(--utrecht-space-block-sm);
@@ -1498,6 +1492,14 @@
   --utrecht-form-field-invalid-padding-inline-start: var(--utrecht-space-block-sm);
   --utrecht-form-field-margin-block-end: var(--utrecht-space-block-2xs);
   --utrecht-form-field-margin-block-start: var(--utrecht-space-block-2xs);
+  --utrecht-form-control-focus-border-color: var(--utrecht-color-grey-80);
+  --utrecht-form-control-placeholder-font-style: var(--utrecht-typography-font-style-normal);
+  --utrecht-form-control-placeholder-color: var(--utrecht-color-grey-40);
+  --utrecht-form-control-font-size: var(--utrecht-typography-scale-md-font-size);
+  --utrecht-form-control-color: var(--utrecht-color-black);
+  --utrecht-form-control-border-width: var(--utrecht-border-width-sm);
+  --utrecht-form-control-border-color: var(--utrecht-color-grey-30);
+  --utrecht-form-control-background-color: var(--utrecht-color-white);
   --utrecht-emphasis-strong-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-document-font-size: var(--utrecht-typography-scale-md-font-size);
   --utrecht-document-font-family: var(--utrecht-typography-sans-serif-font-family);
@@ -1690,20 +1692,20 @@
   --utrecht-skip-link-color: var(--utrecht-topnav-link-color);
   --utrecht-skip-link-background-color: var(--utrecht-topnav-list-background-color);
   --utrecht-search-bar-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-  --utrecht-radio-button-color: var(--utrecht-form-input-color);
-  --utrecht-radio-button-border-color: var(--utrecht-form-input-border-color);
-  --utrecht-radio-button-background-color: var(--utrecht-form-input-background-color);
+  --utrecht-radio-button-color: var(--utrecht-form-control-color);
+  --utrecht-radio-button-border-color: var(--utrecht-form-control-border-color);
+  --utrecht-radio-button-background-color: var(--utrecht-form-control-background-color);
   --utrecht-paragraph-lead-color: var(--utrecht-document-color);
   --utrecht-link-visited-color: var(--utrecht-link-color);
   --utrecht-link-hover-color: var(--utrecht-link-focus-color);
   --utrecht-link-active-color: var(--utrecht-link-color);
-  --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-  --utrecht-form-input-font-family: var(--utrecht-document-font-family);
   --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
   --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
-  --utrecht-custom-checkbox-color: var(--utrecht-form-input-color);
-  --utrecht-custom-checkbox-border-color: var(--utrecht-form-input-border-color);
-  --utrecht-custom-checkbox-background-color: var(--utrecht-form-input-background-color);
+  --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
+  --utrecht-form-control-font-family: var(--utrecht-document-font-family);
+  --utrecht-custom-checkbox-color: var(--utrecht-form-control-color);
+  --utrecht-custom-checkbox-border-color: var(--utrecht-form-control-border-color);
+  --utrecht-custom-checkbox-background-color: var(--utrecht-form-control-background-color);
   --utrecht-feedback-active-color: var(--utrecht-feedback-safe-color);
   --utrecht-feedback-inactive-color: var(--utrecht-feedback-danger-color);
   --utrecht-feedback-success-color: var(--utrecht-feedback-safe-color);
@@ -1717,10 +1719,10 @@
   --utrecht-feedback-danger-border-color: var(--utrecht-feedback-danger-color);
   --utrecht-feedback-danger-background-color: var(--utrecht-feedback-danger-color);
   --of-layout-bg: var(--of-layout-background);
-  --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
-  --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
+  --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
+  --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
   --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
-  --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
+  --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
   --utrecht-feedback-active-border-color: var(--utrecht-feedback-safe-border-color);
   --utrecht-feedback-active-background-color: var(--utrecht-feedback-safe-background-color);
   --utrecht-feedback-inactive-border-color: var(--utrecht-feedback-danger-border-color);
@@ -1979,17 +1981,17 @@
     --utrecht-form-toggle-border-color: transparent;
     --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
     --utrecht-form-label-font-size: 1em;
-    --utrecht-form-input-block-size: 42px;
-    --utrecht-form-input-padding-inline-start: 12px;
-    --utrecht-form-input-padding-inline-end: 12px;
-    --utrecht-form-input-padding-block-start: 8px;
-    --utrecht-form-input-padding-block-end: 8px;
-    --utrecht-form-input-max-inline-size: 28em;
-    --utrecht-form-input-border-radius: 0;
     --utrecht-form-fieldset-legend-text-transform: uppercase;
     --utrecht-form-fieldset-legend-line-height: 1.4;
     --utrecht-form-fieldset-legend-font-size: 1rem;
     --utrecht-form-field-invalid-border-inline-start-width: 3px;
+    --utrecht-form-control-block-size: 42px;
+    --utrecht-form-control-padding-inline-start: 12px;
+    --utrecht-form-control-padding-inline-end: 12px;
+    --utrecht-form-control-padding-block-start: 8px;
+    --utrecht-form-control-padding-block-end: 8px;
+    --utrecht-form-control-max-inline-size: 28em;
+    --utrecht-form-control-border-radius: 0;
     --utrecht-figure-caption-line-height: 20px;
     --utrecht-figure-caption-font-size: 14px;
     --utrecht-figure-caption-color: #727272;
@@ -2055,6 +2057,7 @@
     --utrecht-space-block-xs: 8px; /* Extra Small */
     --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
     --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
+    --utrecht-pointer-target-min-size: 44px;
     --utrecht-focus-outline-style: dotted;
     --utrecht-action-inert-cursor: default;
     --utrecht-action-activate-cursor: pointer;
@@ -2175,6 +2178,11 @@
     --denhaag-process-steps-step-heading-font-family: var(--utrecht-typography-sans-serif-font-family);
     --denhaag-process-steps-step-heading-color: var(--utrecht-color-black);
     --denhaag-process-steps-font-family: var(--utrecht-typography-sans-serif-font-family);
+    --utrecht-form-input-focus-border-color: var(--utrecht-color-grey-80);
+    --utrecht-form-input-placeholder-color: var(--utrecht-color-grey-80);
+    --utrecht-form-input-border-color: var(--utrecht-color-grey-95);
+    --utrecht-form-input-color: var(--utrecht-color-grey-95);
+    --utrecht-form-input-background-color: var(--utrecht-color-grey-20);
     --utrecht-toptask-nav-gap: var(--utrecht-space-column-md);
     --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
     --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
@@ -2355,14 +2363,6 @@
     --utrecht-form-label-radio-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-form-label-checkbox-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-form-label-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-    --utrecht-form-input-focus-border-color: var(--utrecht-color-grey-80);
-    --utrecht-form-input-placeholder-font-style: var(--utrecht-typography-font-style-normal);
-    --utrecht-form-input-placeholder-color: var(--utrecht-color-grey-80);
-    --utrecht-form-input-font-size: var(--utrecht-typography-scale-md-font-size);
-    --utrecht-form-input-color: var(--utrecht-color-grey-95);
-    --utrecht-form-input-border-width: var(--utrecht-border-width-sm);
-    --utrecht-form-input-border-color: var(--utrecht-color-grey-95);
-    --utrecht-form-input-background-color: var(--utrecht-color-grey-20);
     --utrecht-form-fieldset-legend-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-form-fieldset-legend-margin-block-start: var(--utrecht-space-block-xl);
     --utrecht-form-fieldset-legend-margin-block-end: var(--utrecht-space-block-sm);
@@ -2377,6 +2377,14 @@
     --utrecht-form-field-invalid-padding-inline-start: var(--utrecht-space-block-sm);
     --utrecht-form-field-margin-block-end: var(--utrecht-space-block-2xs);
     --utrecht-form-field-margin-block-start: var(--utrecht-space-block-2xs);
+    --utrecht-form-control-focus-border-color: var(--utrecht-color-grey-80);
+    --utrecht-form-control-placeholder-font-style: var(--utrecht-typography-font-style-normal);
+    --utrecht-form-control-placeholder-color: var(--utrecht-color-grey-40);
+    --utrecht-form-control-font-size: var(--utrecht-typography-scale-md-font-size);
+    --utrecht-form-control-color: var(--utrecht-color-black);
+    --utrecht-form-control-border-width: var(--utrecht-border-width-sm);
+    --utrecht-form-control-border-color: var(--utrecht-color-grey-30);
+    --utrecht-form-control-background-color: var(--utrecht-color-white);
     --utrecht-emphasis-strong-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-document-font-size: var(--utrecht-typography-scale-md-font-size);
     --utrecht-document-font-family: var(--utrecht-typography-sans-serif-font-family);
@@ -2553,6 +2561,7 @@
     --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
     --of-layout-background: var(--utrecht-document-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
+    --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
     --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
     --utrecht-toptask-link-color: var(--utrecht-button-primary-action-color);
@@ -2566,20 +2575,20 @@
     --utrecht-skip-link-color: var(--utrecht-topnav-link-color);
     --utrecht-skip-link-background-color: var(--utrecht-topnav-list-background-color);
     --utrecht-search-bar-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-    --utrecht-radio-button-color: var(--utrecht-form-input-color);
-    --utrecht-radio-button-border-color: var(--utrecht-form-input-border-color);
-    --utrecht-radio-button-background-color: var(--utrecht-form-input-background-color);
+    --utrecht-radio-button-color: var(--utrecht-form-control-color);
+    --utrecht-radio-button-border-color: var(--utrecht-form-control-border-color);
+    --utrecht-radio-button-background-color: var(--utrecht-form-control-background-color);
     --utrecht-paragraph-lead-color: var(--utrecht-document-color);
     --utrecht-link-visited-color: var(--utrecht-link-color);
     --utrecht-link-hover-color: var(--utrecht-link-focus-color);
     --utrecht-link-active-color: var(--utrecht-link-color);
-    --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-    --utrecht-form-input-font-family: var(--utrecht-document-font-family);
     --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
     --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
-    --utrecht-custom-checkbox-color: var(--utrecht-form-input-color);
-    --utrecht-custom-checkbox-border-color: var(--utrecht-form-input-border-color);
-    --utrecht-custom-checkbox-background-color: var(--utrecht-form-input-background-color);
+    --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
+    --utrecht-form-control-font-family: var(--utrecht-document-font-family);
+    --utrecht-custom-checkbox-color: var(--utrecht-form-control-color);
+    --utrecht-custom-checkbox-border-color: var(--utrecht-form-control-border-color);
+    --utrecht-custom-checkbox-background-color: var(--utrecht-form-control-background-color);
     --utrecht-feedback-active-color: var(--utrecht-feedback-safe-color);
     --utrecht-feedback-inactive-color: var(--utrecht-feedback-danger-color);
     --utrecht-feedback-success-color: var(--utrecht-feedback-safe-color);
@@ -2603,10 +2612,10 @@
     --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-background-color: var(--utrecht-page-background-color);
     --of-layout-bg: var(--of-layout-background);
-    --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
-    --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
+    --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
+    --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
     --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
-    --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
+    --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
     --utrecht-feedback-active-border-color: var(--utrecht-feedback-safe-border-color);
     --utrecht-feedback-active-background-color: var(--utrecht-feedback-safe-background-color);
     --utrecht-feedback-inactive-border-color: var(--utrecht-feedback-danger-border-color);
@@ -2847,17 +2856,17 @@
     --utrecht-form-toggle-border-color: transparent;
     --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
     --utrecht-form-label-font-size: 1em;
-    --utrecht-form-input-block-size: 42px;
-    --utrecht-form-input-padding-inline-start: 12px;
-    --utrecht-form-input-padding-inline-end: 12px;
-    --utrecht-form-input-padding-block-start: 8px;
-    --utrecht-form-input-padding-block-end: 8px;
-    --utrecht-form-input-max-inline-size: 28em;
-    --utrecht-form-input-border-radius: 0;
     --utrecht-form-fieldset-legend-text-transform: uppercase;
     --utrecht-form-fieldset-legend-line-height: 1.4;
     --utrecht-form-fieldset-legend-font-size: 1rem;
     --utrecht-form-field-invalid-border-inline-start-width: 3px;
+    --utrecht-form-control-block-size: 42px;
+    --utrecht-form-control-padding-inline-start: 12px;
+    --utrecht-form-control-padding-inline-end: 12px;
+    --utrecht-form-control-padding-block-start: 8px;
+    --utrecht-form-control-padding-block-end: 8px;
+    --utrecht-form-control-max-inline-size: 28em;
+    --utrecht-form-control-border-radius: 0;
     --utrecht-figure-caption-line-height: 20px;
     --utrecht-figure-caption-font-size: 14px;
     --utrecht-figure-caption-color: #727272;
@@ -2923,6 +2932,7 @@
     --utrecht-space-block-xs: 8px; /* Extra Small */
     --utrecht-space-block-2xs: 4px; /* Extra Small 2 */
     --utrecht-space-block-3xs: 2px; /* Extra Small 3 */
+    --utrecht-pointer-target-min-size: 44px;
     --utrecht-focus-outline-style: dotted;
     --utrecht-action-inert-cursor: default;
     --utrecht-action-activate-cursor: pointer;
@@ -3043,6 +3053,11 @@
     --denhaag-process-steps-step-heading-font-family: var(--utrecht-typography-sans-serif-font-family);
     --denhaag-process-steps-step-heading-color: var(--utrecht-color-black);
     --denhaag-process-steps-font-family: var(--utrecht-typography-sans-serif-font-family);
+    --utrecht-form-input-focus-border-color: var(--utrecht-color-grey-80);
+    --utrecht-form-input-placeholder-color: var(--utrecht-color-grey-80);
+    --utrecht-form-input-border-color: var(--utrecht-color-grey-95);
+    --utrecht-form-input-color: var(--utrecht-color-grey-95);
+    --utrecht-form-input-background-color: var(--utrecht-color-grey-20);
     --utrecht-toptask-nav-gap: var(--utrecht-space-column-md);
     --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
     --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
@@ -3223,14 +3238,6 @@
     --utrecht-form-label-radio-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-form-label-checkbox-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-form-label-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-    --utrecht-form-input-focus-border-color: var(--utrecht-color-grey-80);
-    --utrecht-form-input-placeholder-font-style: var(--utrecht-typography-font-style-normal);
-    --utrecht-form-input-placeholder-color: var(--utrecht-color-grey-80);
-    --utrecht-form-input-font-size: var(--utrecht-typography-scale-md-font-size);
-    --utrecht-form-input-color: var(--utrecht-color-grey-95);
-    --utrecht-form-input-border-width: var(--utrecht-border-width-sm);
-    --utrecht-form-input-border-color: var(--utrecht-color-grey-95);
-    --utrecht-form-input-background-color: var(--utrecht-color-grey-20);
     --utrecht-form-fieldset-legend-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-form-fieldset-legend-margin-block-start: var(--utrecht-space-block-xl);
     --utrecht-form-fieldset-legend-margin-block-end: var(--utrecht-space-block-sm);
@@ -3245,6 +3252,14 @@
     --utrecht-form-field-invalid-padding-inline-start: var(--utrecht-space-block-sm);
     --utrecht-form-field-margin-block-end: var(--utrecht-space-block-2xs);
     --utrecht-form-field-margin-block-start: var(--utrecht-space-block-2xs);
+    --utrecht-form-control-focus-border-color: var(--utrecht-color-grey-80);
+    --utrecht-form-control-placeholder-font-style: var(--utrecht-typography-font-style-normal);
+    --utrecht-form-control-placeholder-color: var(--utrecht-color-grey-40);
+    --utrecht-form-control-font-size: var(--utrecht-typography-scale-md-font-size);
+    --utrecht-form-control-color: var(--utrecht-color-black);
+    --utrecht-form-control-border-width: var(--utrecht-border-width-sm);
+    --utrecht-form-control-border-color: var(--utrecht-color-grey-30);
+    --utrecht-form-control-background-color: var(--utrecht-color-white);
     --utrecht-emphasis-strong-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-document-font-size: var(--utrecht-typography-scale-md-font-size);
     --utrecht-document-font-family: var(--utrecht-typography-sans-serif-font-family);
@@ -3421,6 +3436,7 @@
     --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
     --of-layout-background: var(--utrecht-document-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
+    --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
     --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
     --utrecht-toptask-link-color: var(--utrecht-button-primary-action-color);
@@ -3434,20 +3450,20 @@
     --utrecht-skip-link-color: var(--utrecht-topnav-link-color);
     --utrecht-skip-link-background-color: var(--utrecht-topnav-list-background-color);
     --utrecht-search-bar-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-    --utrecht-radio-button-color: var(--utrecht-form-input-color);
-    --utrecht-radio-button-border-color: var(--utrecht-form-input-border-color);
-    --utrecht-radio-button-background-color: var(--utrecht-form-input-background-color);
+    --utrecht-radio-button-color: var(--utrecht-form-control-color);
+    --utrecht-radio-button-border-color: var(--utrecht-form-control-border-color);
+    --utrecht-radio-button-background-color: var(--utrecht-form-control-background-color);
     --utrecht-paragraph-lead-color: var(--utrecht-document-color);
     --utrecht-link-visited-color: var(--utrecht-link-color);
     --utrecht-link-hover-color: var(--utrecht-link-focus-color);
     --utrecht-link-active-color: var(--utrecht-link-color);
-    --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
-    --utrecht-form-input-font-family: var(--utrecht-document-font-family);
     --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
     --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
-    --utrecht-custom-checkbox-color: var(--utrecht-form-input-color);
-    --utrecht-custom-checkbox-border-color: var(--utrecht-form-input-border-color);
-    --utrecht-custom-checkbox-background-color: var(--utrecht-form-input-background-color);
+    --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
+    --utrecht-form-control-font-family: var(--utrecht-document-font-family);
+    --utrecht-custom-checkbox-color: var(--utrecht-form-control-color);
+    --utrecht-custom-checkbox-border-color: var(--utrecht-form-control-border-color);
+    --utrecht-custom-checkbox-background-color: var(--utrecht-form-control-background-color);
     --utrecht-feedback-active-color: var(--utrecht-feedback-safe-color);
     --utrecht-feedback-inactive-color: var(--utrecht-feedback-danger-color);
     --utrecht-feedback-success-color: var(--utrecht-feedback-safe-color);
@@ -3471,10 +3487,10 @@
     --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-background-color: var(--utrecht-page-background-color);
     --of-layout-bg: var(--of-layout-background);
-    --utrecht-radio-button-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
-    --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-input-invalid-border-color);
+    --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
+    --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
     --utrecht-form-field-description-valid-color: var(--utrecht-feedback-valid-color);
-    --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-input-invalid-border-color);
+    --utrecht-custom-checkbox-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
     --utrecht-feedback-active-border-color: var(--utrecht-feedback-safe-border-color);
     --utrecht-feedback-active-background-color: var(--utrecht-feedback-safe-background-color);
     --utrecht-feedback-inactive-border-color: var(--utrecht-feedback-danger-border-color);
@@ -8044,40 +8060,40 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-select {
   -webkit-appearance: none;
   appearance: none;
-  background-color: var(--utrecht-select-background-color, var(--utrecht-form-input-background-color));
+  background-color: var(--utrecht-select-background-color, var(--utrecht-form-control-background-color));
   background-image: var(--utrecht-select-background-image);
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 1.4em;
-  border-block-end-width: var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-input-border-width)));
-  border-block-start-width: var(--utrecht-select-border-width, var(--utrecht-form-input-border-width));
-  border-color: var(--utrecht-select-border-color, var(--utrecht-form-input-border-color));
-  border-inline-end-width: var(--utrecht-select-border-width, var(--utrecht-form-input-border-width));
-  border-inline-start-width: var(--utrecht-select-border-width, var(--utrecht-form-input-border-width));
-  border-radius: var(--utrecht-select-border-radius, var(--utrecht-form-input-border-radius, 0));
+  border-block-end-width: var(--utrecht-select-border-block-end-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width)));
+  border-block-start-width: var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));
+  border-color: var(--utrecht-select-border-color, var(--utrecht-form-control-border-color));
+  border-inline-end-width: var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));
+  border-inline-start-width: var(--utrecht-select-border-width, var(--utrecht-form-control-border-width));
+  border-radius: var(--utrecht-select-border-radius, var(--utrecht-form-control-border-radius, 0));
   border-style: solid;
-  color: var(--utrecht-select-color, var(--utrecht-form-input-color));
-  font-family: var(--utrecht-select-font-family, var(--utrecht-form-input-font-family));
-  font-size: var(--utrecht-select-font-size, var(--utrecht-form-input-font-size));
-  max-inline-size: var(--utrecht-select-max-inline-size, var(--utrecht-form-input-max-inline-size));
-  padding-block-end: var(--utrecht-select-padding-block-end, var(--utrecht-form-input-padding-block-end));
-  padding-block-start: var(--utrecht-select-padding-block-start, var(--utrecht-form-input-padding-block-start));
-  padding-inline-end: var(--utrecht-select-padding-inline-end, var(--utrecht-form-input-padding-inline-end));
-  padding-inline-start: var(--utrecht-select-padding-inline-start, var(--utrecht-form-input-padding-inline-start));
+  color: var(--utrecht-select-color, var(--utrecht-form-control-color));
+  font-family: var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));
+  font-size: var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));
+  max-inline-size: var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));
+  padding-block-end: var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));
+  padding-block-start: var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));
+  padding-inline-end: var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));
+  padding-inline-start: var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start));
   width: 100%;
 }
 
 .utrecht-select--disabled {
-  background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-select-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
 
 .utrecht-select--focus {
-  background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-select-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-select-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
 }
 
 .utrecht-select--focus-visible {
@@ -8095,9 +8111,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-select--invalid {
-  background-color: var(--utrecht-select-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-select-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
-  border-width: var(--utrecht-select-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-input-border-width))));
+  background-color: var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
+  border-width: var(--utrecht-select-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-select-border-width, var(--utrecht-form-control-border-width))));
 }
 
 /* stylelint-disable-next-line block-no-empty */
@@ -8105,15 +8121,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
   /* <select> does not support :read-only */
 }
 .utrecht-select--html-select:disabled {
-  background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-select-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-select--html-select:focus {
-  background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-select-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-select-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-select-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-select-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-select-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
    *   can combine it with the focus ring box shadow.
@@ -8458,46 +8474,46 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-textarea {
-  background-color: var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color));
-  border-width: var(--utrecht-textarea-border-width, var(--utrecht-form-input-border-width));
-  border-bottom-width: var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-input-border-width)));
-  border-color: var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color));
-  border-radius: var(--utrecht-textarea-border-radius, var(--utrecht-form-input-border-radius, 0));
+  background-color: var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));
+  border-width: var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));
+  border-bottom-width: var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));
+  border-color: var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));
+  border-radius: var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));
   border-style: solid;
   box-sizing: border-box;
-  color: var(--utrecht-textarea-color, var(--utrecht-form-input-color));
-  font-family: var(--utrecht-textarea-font-family, var(--utrecht-form-input-font-family));
-  font-size: var(--utrecht-textarea-font-size, var(--utrecht-form-input-font-size, 1em));
+  color: var(--utrecht-textarea-color, var(--utrecht-form-control-color));
+  font-family: var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));
+  font-size: var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, 1em));
   font-weight: initial; /* harden */
   height: initial; /* harden */
   line-height: var(--utrecht-textarea-line-height, initial);
-  max-inline-size: var(--utrecht-textarea-max-inline-size, var(--utrecht-form-input-max-inline-size));
+  max-inline-size: var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));
   min-block-size: var(--utrecht-textarea-min-block-size);
-  padding-block-end: var(--utrecht-textarea-padding-block-end, var(--utrecht-form-input-padding-block-end, 0));
-  padding-block-start: var(--utrecht-textarea-padding-block-start, var(--utrecht-form-input-padding-block-start, 0));
-  padding-inline-end: var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-input-padding-inline-end, initial));
-  padding-inline-start: var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-input-padding-inline-start, initial));
+  padding-block-end: var(--utrecht-textarea-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));
+  padding-block-start: var(--utrecht-textarea-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));
+  padding-inline-end: var(--utrecht-textarea-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));
+  padding-inline-start: var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));
   resize: vertical;
   width: 100%;
 }
 
 .utrecht-textarea--invalid {
-  background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  border-width: var(--utrecht-textarea-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-input-border-width))));
+  background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  border-width: var(--utrecht-textarea-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width))));
 }
 
 .utrecht-textarea--disabled {
-  background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
 
 .utrecht-textarea--focus {
-  background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textarea-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textarea-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 
 .utrecht-textarea--focus-visible {
@@ -8515,26 +8531,26 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-textarea--read-only {
-  border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-input-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 
 .utrecht-textarea__placeholder {
-  color: var(--utrecht-textarea-placeholder-color, var(--utrecht-form-input-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
-  font-style: var(--utrecht-form-input-placeholder-font-style);
+  color: var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
+  font-style: var(--utrecht-form-control-placeholder-font-style);
   opacity: 100%;
 }
 
 .utrecht-textarea--html-textarea:disabled {
-  background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-textarea--html-textarea:focus {
-  background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textarea-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textarea-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textarea-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textarea-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
    *   can combine it with the focus ring box shadow.
@@ -8553,17 +8569,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: revert;
 }
 .utrecht-textarea--html-textarea:invalid, .utrecht-textarea--html-textarea[aria-invalid=true] {
-  background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  border-width: var(--utrecht-textarea-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-input-border-width))));
+  background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  border-width: var(--utrecht-textarea-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width))));
 }
 .utrecht-textarea--html-textarea:read-only {
-  border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-input-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 .utrecht-textarea--html-textarea::placeholder {
-  color: var(--utrecht-textarea-placeholder-color, var(--utrecht-form-input-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
-  font-style: var(--utrecht-form-input-placeholder-font-style);
+  color: var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
+  font-style: var(--utrecht-form-control-placeholder-font-style);
   opacity: 100%;
 }
 
@@ -8588,44 +8604,44 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-textbox {
-  background-color: var(--utrecht-textbox-background-color, var(--utrecht-form-input-background-color));
-  border-width: var(--utrecht-textbox-border-width, var(--utrecht-form-input-border-width));
-  border-bottom-width: var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-input-border-width)));
-  border-color: var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color));
-  border-radius: var(--utrecht-textbox-border-radius, var(--utrecht-form-input-border-radius, 0));
+  background-color: var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));
+  border-width: var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));
+  border-bottom-width: var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));
+  border-color: var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));
+  border-radius: var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));
   border-style: solid;
   box-sizing: border-box;
-  color: var(--utrecht-textbox-color, var(--utrecht-form-input-color));
-  font-family: var(--utrecht-textbox-font-family, var(--utrecht-form-input-font-family));
-  font-size: var(--utrecht-textbox-font-size, var(--utrecht-form-input-font-size, 1em));
+  color: var(--utrecht-textbox-color, var(--utrecht-form-control-color));
+  font-family: var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));
+  font-size: var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, 1em));
   font-weight: initial; /* harden */
   height: initial; /* harden */
   line-height: initial; /* harden */
-  max-inline-size: var(--utrecht-textbox-max-inline-size, var(--utrecht-form-input-max-inline-size));
-  padding-block-end: var(--utrecht-textbox-padding-block-end, var(--utrecht-form-input-padding-block-end, 0));
-  padding-block-start: var(--utrecht-textbox-padding-block-start, var(--utrecht-form-input-padding-block-start, 0));
-  padding-inline-end: var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-input-padding-inline-end, initial));
-  padding-inline-start: var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-input-padding-inline-start, initial));
+  max-inline-size: var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));
+  padding-block-end: var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));
+  padding-block-start: var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));
+  padding-inline-end: var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));
+  padding-inline-start: var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));
   width: 100%;
 }
 
 .utrecht-textbox--invalid {
-  background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color))));
-  border-width: var(--utrecht-textbox-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-input-border-width))));
+  background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
+  border-width: var(--utrecht-textbox-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width))));
 }
 
 .utrecht-textbox--disabled {
-  background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
 
 .utrecht-textbox--focus {
-  background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textbox-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textbox-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 
 .utrecht-textbox--focus-visible {
@@ -8643,13 +8659,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-textbox--read-only {
-  border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-input-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-input-color))));
+  border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
 
 .utrecht-textbox__placeholder {
-  color: var(--utrecht-textbox-placeholder-color, var(--utrecht-form-input-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-input-color))));
-  font-style: var(--utrecht-form-input-placeholder-font-style);
+  color: var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
+  font-style: var(--utrecht-form-control-placeholder-font-style);
   opacity: 100%;
 }
 
@@ -8668,15 +8684,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-textbox--html-input:disabled {
-  background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-input-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-input-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-input-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
   cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-textbox--html-input:focus {
-  background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-input-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textbox-focus-border-color, var(--utrecht-form-input-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textbox-focus-color, var(--utrecht-form-input-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-input-color))));
+  background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textbox-focus-border-color, var(--utrecht-form-control-focus-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textbox-focus-color, var(--utrecht-form-control-focus-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
    *   can combine it with the focus ring box shadow.
@@ -8695,17 +8711,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: revert;
 }
 .utrecht-textbox--html-input:invalid, .utrecht-textbox--html-input[aria-invalid=true] {
-  background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-input-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-input-background-color))));
-  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-input-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color))));
-  border-width: var(--utrecht-textbox-invalid-border-width, var(--utrecht-form-input-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-input-border-width))));
+  background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
+  border-width: var(--utrecht-textbox-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width))));
 }
 .utrecht-textbox--html-input:read-only {
-  border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-input-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-input-border-color))));
-  color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-input-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-input-color))));
+  border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
 .utrecht-textbox--html-input::placeholder {
-  color: var(--utrecht-textbox-placeholder-color, var(--utrecht-form-input-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-input-color))));
-  font-style: var(--utrecht-form-input-placeholder-font-style);
+  color: var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
+  font-style: var(--utrecht-form-control-placeholder-font-style);
   opacity: 100%;
 }
 .utrecht-textbox--html-input[type=password i] {
