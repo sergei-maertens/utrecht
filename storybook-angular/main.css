@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 24 Mar 2023 13:59:12 GMT
+ * Generated on Fri, 24 Mar 2023 16:11:49 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 24 Mar 2023 13:59:14 GMT
+ * Generated on Fri, 24 Mar 2023 16:11:50 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -37,9 +37,6 @@
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
   --utrecht-topnav-link-focus-text-decoration: none;
   --utrecht-topnav-link-focus-border-type: dotted;
-  --utrecht-badge-counter-padding-inline: 1ex;
-  --utrecht-badge-counter-padding-block: 1ex;
-  --utrecht-badge-counter-border-radius: 3ex;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
   --utrecht-border-radius-none: 0;
@@ -390,6 +387,9 @@
   --utrecht-badge-status-letter-spacing: 0.15ch;
   --utrecht-badge-data-text-transform: uppercase;
   --utrecht-badge-data-letter-spacing: 0.15ch;
+  --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
+  --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
+  --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
   --utrecht-backdrop-reduced-transparency-opacity: 0.98;
   --utrecht-backdrop-fade-in-animation-duration: 0.4s;
   --utrecht-backdrop-opacity: 0.8;
@@ -466,9 +466,6 @@
   --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
   --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
-  --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
-  --utrecht-badge-counter-color: var(--utrecht-color-white);
-  --utrecht-badge-counter-background-color: var(--utrecht-color-red-40);
   --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
   --utrecht-unordered-list-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-toptask-link-padding-inline-start: var(--utrecht-space-inline-xl);
@@ -791,6 +788,9 @@
   --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
   --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
   --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+  --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
+  --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
+  --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
   --utrecht-backdrop-color: var(--utrecht-color-black);
   --utrecht-backdrop-background-color: var(--utrecht-color-white);
   --utrecht-alert-info-color: var(--utrecht-color-black);
@@ -893,9 +893,6 @@
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
   --utrecht-topnav-link-focus-text-decoration: none;
   --utrecht-topnav-link-focus-border-type: dotted;
-  --utrecht-badge-counter-padding-inline: 1ex;
-  --utrecht-badge-counter-padding-block: 1ex;
-  --utrecht-badge-counter-border-radius: 3ex;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
   --utrecht-border-radius-none: 0;
@@ -1246,6 +1243,9 @@
   --utrecht-badge-status-letter-spacing: 0.15ch;
   --utrecht-badge-data-text-transform: uppercase;
   --utrecht-badge-data-letter-spacing: 0.15ch;
+  --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
+  --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
+  --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
   --utrecht-backdrop-reduced-transparency-opacity: 0.98;
   --utrecht-backdrop-fade-in-animation-duration: 0.4s;
   --utrecht-backdrop-opacity: 0.8;
@@ -1322,9 +1322,6 @@
   --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
   --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
-  --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
-  --utrecht-badge-counter-color: var(--utrecht-color-white);
-  --utrecht-badge-counter-background-color: var(--utrecht-color-red-40);
   --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
   --utrecht-unordered-list-margin-block-start: var(--utrecht-space-block-md);
   --utrecht-toptask-link-padding-inline-start: var(--utrecht-space-inline-xl);
@@ -1647,6 +1644,9 @@
   --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
   --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
   --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+  --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
+  --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
+  --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
   --utrecht-backdrop-color: var(--utrecht-color-black);
   --utrecht-backdrop-background-color: var(--utrecht-color-white);
   --utrecht-alert-info-color: var(--utrecht-color-black);
@@ -1769,9 +1769,6 @@
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
     --utrecht-topnav-link-focus-text-decoration: none;
     --utrecht-topnav-link-focus-border-type: dotted;
-    --utrecht-badge-counter-padding-inline: 1ex;
-    --utrecht-badge-counter-padding-block: 1ex;
-    --utrecht-badge-counter-border-radius: 3ex;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
     --utrecht-border-radius-none: 0;
@@ -2121,6 +2118,9 @@
     --utrecht-badge-status-letter-spacing: 0.15ch;
     --utrecht-badge-data-text-transform: uppercase;
     --utrecht-badge-data-letter-spacing: 0.15ch;
+    --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
+    --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
+    --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
     --utrecht-backdrop-reduced-transparency-opacity: 0.98;
     --utrecht-backdrop-fade-in-animation-duration: 0.4s;
     --utrecht-backdrop-opacity: 0.8;
@@ -2204,9 +2204,6 @@
     --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
     --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
-    --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
-    --utrecht-badge-counter-color: var(--utrecht-color-white);
-    --utrecht-badge-counter-background-color: var(--utrecht-color-red-40);
     --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
     --utrecht-unordered-list-margin-block-start: var(--utrecht-space-block-md);
     --utrecht-toptask-link-padding-inline-start: var(--utrecht-space-inline-xl);
@@ -2529,6 +2526,9 @@
     --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
     --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
     --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+    --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
+    --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
+    --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
     --utrecht-backdrop-color: var(--utrecht-color-white);
     --utrecht-backdrop-background-color: var(--utrecht-color-black);
     --utrecht-alert-invalid-color: var(--utrecht-color-white);
@@ -2644,9 +2644,6 @@
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
     --utrecht-topnav-link-focus-text-decoration: none;
     --utrecht-topnav-link-focus-border-type: dotted;
-    --utrecht-badge-counter-padding-inline: 1ex;
-    --utrecht-badge-counter-padding-block: 1ex;
-    --utrecht-badge-counter-border-radius: 3ex;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
     --utrecht-border-radius-none: 0;
@@ -2996,6 +2993,9 @@
     --utrecht-badge-status-letter-spacing: 0.15ch;
     --utrecht-badge-data-text-transform: uppercase;
     --utrecht-badge-data-letter-spacing: 0.15ch;
+    --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
+    --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
+    --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
     --utrecht-backdrop-reduced-transparency-opacity: 0.98;
     --utrecht-backdrop-fade-in-animation-duration: 0.4s;
     --utrecht-backdrop-opacity: 0.8;
@@ -3079,9 +3079,6 @@
     --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
     --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
-    --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
-    --utrecht-badge-counter-color: var(--utrecht-color-white);
-    --utrecht-badge-counter-background-color: var(--utrecht-color-red-40);
     --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
     --utrecht-unordered-list-margin-block-start: var(--utrecht-space-block-md);
     --utrecht-toptask-link-padding-inline-start: var(--utrecht-space-inline-xl);
@@ -3404,6 +3401,9 @@
     --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
     --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
     --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+    --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
+    --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
+    --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
     --utrecht-backdrop-color: var(--utrecht-color-white);
     --utrecht-backdrop-background-color: var(--utrecht-color-black);
     --utrecht-alert-invalid-color: var(--utrecht-color-white);
