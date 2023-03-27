@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 11:40:12 GMT
+ * Generated on Mon, 27 Mar 2023 18:01:48 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 11:40:14 GMT
+ * Generated on Mon, 27 Mar 2023 18:01:50 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8331,6 +8331,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 /* stylelint-disable-next-line block-no-empty */
+/* stylelint-disable-next-line block-no-empty */
 .utrecht-table {
   border-collapse: collapse;
   border-color: var(--utrecht-table-border-color, 0);
@@ -8362,12 +8363,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 .utrecht-table--html-table > thead,
 .utrecht-table__header {
+  --_utrecht-table-header-cell-vertical-align: bottom;
   background-color: var(--utrecht-table-header-background-color);
   color: var(--utrecht-table-header-color);
   font-weight: var(--utrecht-table-header-font-weight);
   page-break-inside: avoid;
   text-transform: var(--utrecht-table-header-text-transform);
-  vertical-align: bottom;
 }
 
 .utrecht-table--html-table > thead > tr:last-of-type,
@@ -8375,11 +8376,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-block-end-color: var(--utrecht-table-header-border-block-end-color, transparent);
   border-block-end-style: solid;
   border-block-end-width: var(--utrecht-table-header-border-block-end-width, 0);
-}
-
-.utrecht-table--html-table > tbody,
-.utrecht-table__body {
-  vertical-align: baseline;
 }
 
 /* `.utrecht-table--html-table` should not affect nested tables.
@@ -8403,6 +8399,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-weight: var(--utrecht-table-header-cell-font-weight);
   text-align: start;
   text-transform: var(--utrecht-table-header-cell-text-transform);
+  vertical-align: var(--_utrecht-table-header-cell-vertical-align, top);
 }
 
 .utrecht-table--html-table > tr > td,
@@ -8419,6 +8416,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-table-cell-padding-inline-end, 0);
   padding-inline-start: var(--utrecht-table-cell-padding-inline-start, 0);
   text-align: start;
+  vertical-align: top;
 }
 
 .utrecht-table--html-table > tr > td:first-child,
@@ -8506,6 +8504,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--utrecht-textarea-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width))));
+  color: var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 
 .utrecht-textarea--disabled {
@@ -8536,6 +8535,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-textarea--read-only {
+  background-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
@@ -8577,8 +8577,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--utrecht-textarea-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width))));
+  color: var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 .utrecht-textarea--html-textarea:read-only {
+  background-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
@@ -8634,6 +8636,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--utrecht-textbox-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width))));
+  color: var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
 
 .utrecht-textbox--disabled {
@@ -8664,6 +8667,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-textbox--read-only {
+  background-color: var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
@@ -8719,8 +8723,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--utrecht-textbox-invalid-border-width, var(--utrecht-form-control-invalid-border-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width))));
+  color: var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
 .utrecht-textbox--html-input:read-only {
+  background-color: var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
@@ -8904,6 +8910,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
  */
+/* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
 /**
  * @license EUPL-1.2
@@ -9381,16 +9388,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 .sbdocs table:not([class]) > thead,
 .sbdocs .sbdocs-table > thead {
+  --_utrecht-table-header-cell-vertical-align: bottom;
   background-color: var(--utrecht-table-header-background-color);
   color: var(--utrecht-table-header-color);
   font-weight: var(--utrecht-table-header-font-weight);
   page-break-inside: avoid;
   text-transform: var(--utrecht-table-header-text-transform);
-  vertical-align: bottom;
-}
-.sbdocs table:not([class]) > tbody,
-.sbdocs .sbdocs-table > tbody {
-  vertical-align: baseline;
 }
 .sbdocs table:not([class]) > tr, .sbdocs table:not([class]) > thead > tr, .sbdocs table:not([class]) > tbody > tr, .sbdocs table:not([class]) > tfoot > tr,
 .sbdocs .sbdocs-table > tr,
@@ -9415,6 +9418,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-weight: var(--utrecht-table-header-cell-font-weight);
   text-align: start;
   text-transform: var(--utrecht-table-header-cell-text-transform);
+  vertical-align: var(--_utrecht-table-header-cell-vertical-align, top);
 }
 .sbdocs table:not([class]) > tr > td, .sbdocs table:not([class]) > thead > tr > td, .sbdocs table:not([class]) > tbody > tr > td, .sbdocs table:not([class]) > tfoot > tr > td,
 .sbdocs .sbdocs-table > tr > td,
@@ -9430,6 +9434,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-table-cell-padding-inline-end, 0);
   padding-inline-start: var(--utrecht-table-cell-padding-inline-start, 0);
   text-align: start;
+  vertical-align: top;
 }
 .sbdocs table:not([class]) > tr > td:last-child, .sbdocs table:not([class]) > thead > tr > td:last-child, .sbdocs table:not([class]) > tbody > tr > td:last-child, .sbdocs table:not([class]) > tfoot > tr > td:last-child,
 .sbdocs .sbdocs-table > tr > td:last-child,
