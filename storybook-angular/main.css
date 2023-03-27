@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 24 Mar 2023 16:23:06 GMT
+ * Generated on Mon, 27 Mar 2023 11:40:12 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 24 Mar 2023 16:23:08 GMT
+ * Generated on Mon, 27 Mar 2023 11:40:14 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -5325,18 +5325,18 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-disabled-cursor);
 }
 
-.utrecht-button-link--html-a:active {
+.utrecht-button-link--html-a:link:active {
   background-color: var(--_utrecht-button-active-background-color);
   border-color: var(--_utrecht-button-active-border-color);
   color: var(--_utrecht-button-active-color);
 }
-.utrecht-button-link--html-a:focus {
+.utrecht-button-link--html-a:link:focus {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
   scale: var(--utrecht-button-focus-scale, 1);
 }
-.utrecht-button-link--html-a:focus-visible {
+.utrecht-button-link--html-a:link:focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -6636,7 +6636,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
           user-select: none;
 }
 
-.utrecht-link-button--hover, .utrecht-link-button--html-button:hover {
+.utrecht-link-button--hover, .utrecht-link-button--html-button:not(:disabled):hover {
   color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
   -webkit-text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
           text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
@@ -6647,7 +6647,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 
-.utrecht-link-button--active, .utrecht-link-button--html-button:active {
+.utrecht-link-button--active, .utrecht-link-button--html-button:not(:disabled):active {
   color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
 
@@ -6657,7 +6657,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration: none;
 }
 
-.utrecht-link-button--focus, .utrecht-link-button--html-button:focus {
+.utrecht-link-button--focus, .utrecht-link-button--html-button:not(:disabled):focus {
   background-color: var(--utrecht-link-focus-background-color, transparent);
   color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
   -webkit-text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
@@ -7820,6 +7820,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-space-around: 1;
 }
 
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ */
 /**
  * @license EUPL-1.2
  * Copyright (c) 2021 Gemeente Utrecht
