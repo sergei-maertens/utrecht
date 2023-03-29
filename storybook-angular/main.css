@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 29 Mar 2023 11:23:10 GMT
+ * Generated on Wed, 29 Mar 2023 12:02:45 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 29 Mar 2023 11:23:12 GMT
+ * Generated on Wed, 29 Mar 2023 12:02:47 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -821,7 +821,7 @@
   --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
   --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
   --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
-  --of-layout-background: var(--utrecht-document-color);
+  --of-layout-background: var(--utrecht-document-background-color);
   --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
   --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
   --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
@@ -1677,7 +1677,7 @@
   --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
   --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
   --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
-  --of-layout-background: var(--utrecht-document-color);
+  --of-layout-background: var(--utrecht-document-background-color);
   --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
   --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
   --utrecht-toptask-link-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
@@ -2559,7 +2559,7 @@
     --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
     --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
     --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
-    --of-layout-background: var(--utrecht-document-color);
+    --of-layout-background: var(--utrecht-document-background-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
     --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
@@ -3434,7 +3434,7 @@
     --utrecht-accordion-button-border-color: var(--utrecht-color-grey-95);
     --utrecht-accordion-button-color: var(--utrecht-color-grey-10);
     --utrecht-accordion-button-background-color: var(--utrecht-color-grey-95);
-    --of-layout-background: var(--utrecht-document-color);
+    --of-layout-background: var(--utrecht-document-background-color);
     --denhaag-process-steps-sub-step-line-color: var(--denhaag-process-steps-step-line-color);
     --utrecht-form-input-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
     --utrecht-toptask-link-hover-color: var(--utrecht-button-primary-action-hover-color);
