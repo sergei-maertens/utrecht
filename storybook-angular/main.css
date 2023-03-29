@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 18:01:48 GMT
+ * Generated on Wed, 29 Mar 2023 11:23:10 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 18:01:50 GMT
+ * Generated on Wed, 29 Mar 2023 11:23:12 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -385,8 +385,6 @@
   --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
   --utrecht-badge-status-text-transform: uppercase;
   --utrecht-badge-status-letter-spacing: 0.15ch;
-  --utrecht-badge-data-text-transform: uppercase;
-  --utrecht-badge-data-letter-spacing: 0.15ch;
   --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
   --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
   --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
@@ -788,6 +786,8 @@
   --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
   --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
   --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+  --utrecht-badge-list-item-margin-inline: var(--utrecht-space-block-sm);
+  --utrecht-badge-list-item-margin-block: var(--utrecht-space-block-xs);
   --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
   --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
   --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
@@ -1241,8 +1241,6 @@
   --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
   --utrecht-badge-status-text-transform: uppercase;
   --utrecht-badge-status-letter-spacing: 0.15ch;
-  --utrecht-badge-data-text-transform: uppercase;
-  --utrecht-badge-data-letter-spacing: 0.15ch;
   --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
   --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
   --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
@@ -1644,6 +1642,8 @@
   --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
   --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
   --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+  --utrecht-badge-list-item-margin-inline: var(--utrecht-space-block-sm);
+  --utrecht-badge-list-item-margin-block: var(--utrecht-space-block-xs);
   --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
   --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
   --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
@@ -2116,8 +2116,6 @@
     --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
     --utrecht-badge-status-text-transform: uppercase;
     --utrecht-badge-status-letter-spacing: 0.15ch;
-    --utrecht-badge-data-text-transform: uppercase;
-    --utrecht-badge-data-letter-spacing: 0.15ch;
     --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
     --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
     --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
@@ -2526,6 +2524,8 @@
     --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
     --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
     --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+    --utrecht-badge-list-item-margin-inline: var(--utrecht-space-block-sm);
+    --utrecht-badge-list-item-margin-block: var(--utrecht-space-block-xs);
     --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
     --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
     --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
@@ -2991,8 +2991,6 @@
     --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
     --utrecht-badge-status-text-transform: uppercase;
     --utrecht-badge-status-letter-spacing: 0.15ch;
-    --utrecht-badge-data-text-transform: uppercase;
-    --utrecht-badge-data-letter-spacing: 0.15ch;
     --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
     --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
     --utrecht-badge-counter-border-radius: 3ex; /* Default corner radius for badge components */
@@ -3401,6 +3399,8 @@
     --utrecht-badge-padding-block: var(--utrecht-space-block-xs); /* Default block padding for badge components */
     --utrecht-badge-color: var(--utrecht-color-white); /* Default text color for badge components */
     --utrecht-badge-background-color: var(--utrecht-color-grey-30); /* Default background color for badge components */
+    --utrecht-badge-list-item-margin-inline: var(--utrecht-space-block-sm);
+    --utrecht-badge-list-item-margin-block: var(--utrecht-space-block-xs);
     --utrecht-badge-counter-font-style: var(--utrecht-typography-font-style-normal);
     --utrecht-badge-counter-color: var(--utrecht-color-white); /* Default text color for badge components */
     --utrecht-badge-counter-background-color: var(--utrecht-color-red-40); /* Default background color for badge components */
@@ -3846,6 +3846,11 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2020-2022 Gemeente Utrecht
  * Copyright (c) 2020-2022 Frameless B.V.
  */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
 .utrecht-badge-counter {
   background-color: var(--utrecht-badge-counter-background-color, var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%)));
   border-radius: var(--utrecht-badge-counter-border-radius, var(--utrecht-badge-border-radius, 0.5ch));
@@ -3871,7 +3876,13 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2020-2022 Gemeente Utrecht
  * Copyright (c) 2020-2022 Frameless B.V.
  */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
 .utrecht-badge-data {
+  /* `line-height` has a default value, so `line-height` can be used on a parent element to add vertical space between badges */
   background-color: var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%));
   border-radius: var(--utrecht-badge-border-radius, 0.5ch);
   color: var(--utrecht-badge-color, hsl(0deg, 0%, 100%));
@@ -3880,7 +3891,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   font-size: var(--utrecht-badge-font-size, inherit);
   font-style: var(--utrecht-badge-font-style, normal); /* no inheritance */
   font-weight: var(--utrecht-badge-font-weight, bold); /* no inheritance */
-  line-height: var(--utrecht-badge-line-height);
+  line-height: var(--utrecht-badge-line-height, 1em);
   padding-block-end: var(--utrecht-badge-padding-block, 0.5ex);
   padding-block-start: var(--utrecht-badge-padding-block, 0.5ex);
   padding-inline-end: var(--utrecht-badge-padding-inline, 0.5ch);
@@ -3900,7 +3911,24 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2020-2022 Gemeente Utrecht
  * Copyright (c) 2020-2022 Frameless B.V.
  */
+.utrecht-badge-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--utrecht-badge-list-item-margin-block) var(--utrecht-badge-list-item-margin-inline);
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
 .utrecht-badge-status {
+  /* `line-height` has a default value, so `line-height` can be used on a parent element to add vertical space between badges */
   background-color: var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%));
   border-radius: var(--utrecht-badge-border-radius, 0.5ch);
   color: var(--utrecht-badge-color, hsl(0deg, 0%, 100%));
@@ -3909,7 +3937,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   font-size: var(--utrecht-badge-font-size, inherit);
   font-style: var(--utrecht-badge-font-style, normal); /* no inheritance */
   font-weight: var(--utrecht-badge-font-weight, bold); /* no inheritance */
-  line-height: var(--utrecht-badge-line-height);
+  line-height: var(--utrecht-badge-line-height, 1em);
   padding-block-end: var(--utrecht-badge-padding-block, 0.5ex);
   padding-block-start: var(--utrecht-badge-padding-block, 0.5ex);
   padding-inline-end: var(--utrecht-badge-padding-inline, 0.5ch);
