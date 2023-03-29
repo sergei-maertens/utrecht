@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 29 Mar 2023 12:02:45 GMT
+ * Generated on Wed, 29 Mar 2023 14:41:33 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 29 Mar 2023 12:02:47 GMT
+ * Generated on Wed, 29 Mar 2023 14:41:34 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -7024,19 +7024,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 .utrecht-logo-button {
+  --utrecht-icon-size: var(--utrecht-logo-button-icon, 50px);
   --utrecht-button-min-block-size: var(--utrecht-logo-button-block-size, 50px);
   --utrecht-logo-max-block-size: var(--utrecht-logo-button-block-size, 50px);
   --utrecht-logo-max-inline-size: var(--utrecht-logo-button-block-size, 50px);
+  align-items: flex-start;
   display: inline-flex;
   gap: var(--utrecht-space-inline-sm);
-}
-
-.utrecht-logo-button__logo {
-  order: 1;
-}
-
-.utrecht-logo-button__button {
-  order: 2;
 }
 
 /**
