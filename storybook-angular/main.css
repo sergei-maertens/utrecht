@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 04 Apr 2023 07:42:14 GMT
+ * Generated on Tue, 04 Apr 2023 09:47:41 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 04 Apr 2023 07:42:16 GMT
+ * Generated on Tue, 04 Apr 2023 09:47:43 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -9093,43 +9093,40 @@ however browsers don't seem to have implemented great looking supixel tweening y
   all: revert !important;
 }
 
-.sbdocs * {
+.sbdocs:not(:has(.sbdocs-preview)) * {
   -webkit-font-smoothing: initial !important;
   -moz-osx-font-smoothing: initial !important;
   --utrecht-paragraph-margin-block-start: 1em;
   --utrecht-paragraph-margin-block-end: 1em;
 }
-
-.sbdocs h1,
-.sbdocs h2,
-.sbdocs h3,
-.sbdocs h4,
-.sbdocs p,
-.sbdocs table:not(.docblock-argstable),
-.sbdocs .sbdocs-content ul:not([class]),
-.sbdocs .sbdocs-content ol:not([class]),
-.sbdocs .sbdocs-p,
-.sbdocs .sbdocs-h1,
-.sbdocs .sbdocs-h2,
-.sbdocs .sbdocs-h3,
-.sbdocs .sbdocs-h4,
-.sbdocs .sbdocs-ul,
-.sbdocs .sbdocs-ol,
-.sbdocs-content > :not(.sb-anchor, .sbdocs-preview, :has(.docblock-argstable, .sbdocs-pre)) {
+.sbdocs:not(:has(.sbdocs-preview)) h1,
+.sbdocs:not(:has(.sbdocs-preview)) h2,
+.sbdocs:not(:has(.sbdocs-preview)) h3,
+.sbdocs:not(:has(.sbdocs-preview)) h4,
+.sbdocs:not(:has(.sbdocs-preview)) p,
+.sbdocs:not(:has(.sbdocs-preview)) table:not(.docblock-argstable),
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content ul:not([class]),
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content ol:not([class]),
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-p,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-h1,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-h2,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-h3,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-h4,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-ul,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-ol,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content > :not(.sb-anchor, .sbdocs-preview, :has(.docblock-argstable, .sbdocs-pre)) {
   margin-inline-end: auto !important;
   margin-inline-start: auto !important;
   max-inline-size: 800px; /* approximately 80ch in 18px Fira Sans */
 }
-
-.sbdocs .sbdocs-content {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content {
   --utrecht-space-around: 1;
   margin-inline-end: auto;
   margin-inline-start: auto;
   max-inline-size: none;
 }
-
-.sbdocs h1,
-.sbdocs h1.sbdocs-title {
+.sbdocs:not(:has(.sbdocs-preview)) h1,
+.sbdocs:not(:has(.sbdocs-preview)) h1.sbdocs-title {
   --utrecht-space-around: 1;
   margin-inline-end: auto;
   margin-inline-start: auto;
@@ -9146,8 +9143,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-1-text-transform, inherit);
 }
-
-.sbdocs h2 {
+.sbdocs:not(:has(.sbdocs-preview)) h2 {
   --utrecht-space-around: 1;
   page-break-after: avoid;
   page-break-inside: avoid;
@@ -9162,8 +9158,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-2-text-transform, inherit);
 }
-
-.sbdocs h3 {
+.sbdocs:not(:has(.sbdocs-preview)) h3 {
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -9177,8 +9172,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-3-text-transform, inherit);
 }
-
-.sbdocs h4 {
+.sbdocs:not(:has(.sbdocs-preview)) h4 {
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -9192,9 +9186,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   page-break-after: avoid;
   text-transform: var(--utrecht-heading-4-text-transform, inherit);
 }
-
-.sbdocs p,
-.sbdocs .sbdocs-p {
+.sbdocs:not(:has(.sbdocs-preview)) p,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-p {
   --utrecht-space-around: 1;
   color: var(--utrecht-paragraph-color, var(--utrecht-document-color, inherit));
   font-family: var(--utrecht-paragraph-font-family, var(--utrecht-document-font-family, inherit));
@@ -9204,9 +9197,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-paragraph-margin-block-start, 0));
 }
-
-.sbdocs-content ul:not([class]),
-.sbdocs .sbdocs-ul {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content ul:not([class]),
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-ul {
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit));
   line-height: var(--utrecht-unordered-list-line-height, var(--utrecht-document-line-height, inherit));
@@ -9218,9 +9210,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   box-sizing: border-box;
   color: var(--utrecht-document-color);
 }
-
-.sbdocs-content ul:not([class]) > li,
-.sbdocs .sbdocs-ul > .sbdocs-li {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content ul:not([class]) > li,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-ul > .sbdocs-li {
   margin-block-end: var(--utrecht-unordered-list-item-margin-block-end);
   margin-block-start: var(--utrecht-unordered-list-item-margin-block-start);
   padding-inline-start: var(--utrecht-unordered-list-item-padding-inline-start, 1ch);
@@ -9228,9 +9219,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-family: inherit;
   font-size: inherit;
 }
-
-.sbdocs-content ol:not([class]),
-.sbdocs .sbdocs-ol {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content ol:not([class]),
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-ol {
   /* Configure `width` and `text-align` for `--center` */
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-ordered-list-font-size, var(--utrecht-unordered-list-font-size, var(--utrecht-document-font-size, inherit)));
@@ -9242,31 +9232,27 @@ however browsers don't seem to have implemented great looking supixel tweening y
   width: max-content;
   box-sizing: border-box;
 }
-
-.sbdocs-content ol:not([class]) > li,
-.sbdocs .sbdocs-ol > .sbdocs-li {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content ol:not([class]) > li,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-ol > .sbdocs-li {
   margin-block-end: var(--utrecht-ordered-list-item-margin-block-end, var(--utrecht-unordered-list-item-margin-block-end));
   margin-block-start: var(--utrecht-ordered-list-item-margin-block-start, var(--utrecht-unordered-list-item-margin-block-start));
   padding-inline-start: var(--utrecht-ordered-list-item-padding-inline-start, var(--utrecht-unordered-list-item-padding-inline-start, 1ch));
   font-family: inherit;
   font-size: inherit;
 }
-
-.sbdocs .sbdocs-code,
-.sbdocs samp,
-.sbdocs pre {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-code,
+.sbdocs:not(:has(.sbdocs-preview)) samp,
+.sbdocs:not(:has(.sbdocs-preview)) pre {
   font-feature-settings: "cv13", "cv20", "ss01", "ss02", "ss03";
   font-variant-ligatures: initial !important;
 }
-
-.sbdocs .sbdocs-code {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-code {
   border-inline-end: 0;
   border-inline-start: 0;
   border-width: 0;
 }
-
-.sbdocs .sbdocs-code,
-.sbdocs samp {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-code,
+.sbdocs:not(:has(.sbdocs-preview)) samp {
   /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
   background-color: var(--utrecht-code-background-color);
   color: var(--utrecht-code-color);
@@ -9284,8 +9270,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: 0;
   vertical-align: 1%;
 }
-
-.sbdocs pre:not(.prismjs, .sbdocs-pre) {
+.sbdocs:not(:has(.sbdocs-preview)) pre:not(.prismjs, .sbdocs-pre) {
   /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
   background-color: var(--utrecht-code-background-color);
   color: var(--utrecht-code-color);
@@ -9312,22 +9297,20 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-code-block-padding-inline-start);
   white-space: pre;
 }
-
-.sbdocs .prismjs {
+.sbdocs:not(:has(.sbdocs-preview)) .prismjs {
+  --utrecht-code-background-color: auto;
+  --utrecht-code-color: auto;
   font-size: var(--utrecht-code-block-font-size) !important;
   line-height: var(--utrecht-code-block-line-height) !important;
 }
-
-.sbdocs .sbdocs-pre > * {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-pre > * {
   border-radius: 0;
 }
-
-.sbdocs pre * .token {
+.sbdocs:not(:has(.sbdocs-preview)) pre * .token {
   font-family: inherit;
 }
-
-.sbdocs-content a,
-.sbdocs a.sbdocs-a {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content a,
+.sbdocs:not(:has(.sbdocs-preview)) a.sbdocs-a {
   --utrecht-icon-size: var(--utrecht-link-icon-size, 1em);
   color: var(--utrecht-link-color, blue);
   -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
@@ -9339,12 +9322,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-underline-offset: var(--utrecht-link-text-underline-offset);
   font-family: inherit;
 }
-.sbdocs-content a:visited,
-.sbdocs a.sbdocs-a:visited {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content a:visited,
+.sbdocs:not(:has(.sbdocs-preview)) a.sbdocs-a:visited {
   color: var(--utrecht-link-visited-color, var(--utrecht-link-color));
 }
-.sbdocs-content a:link:hover,
-.sbdocs a.sbdocs-a:link:hover {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content a:link:hover,
+.sbdocs:not(:has(.sbdocs-preview)) a.sbdocs-a:link:hover {
   color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
   -webkit-text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
           text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
@@ -9354,12 +9337,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
-.sbdocs-content a:link:active,
-.sbdocs a.sbdocs-a:link:active {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content a:link:active,
+.sbdocs:not(:has(.sbdocs-preview)) a.sbdocs-a:link:active {
   color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
-.sbdocs-content a:focus,
-.sbdocs a.sbdocs-a:focus {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content a:focus,
+.sbdocs:not(:has(.sbdocs-preview)) a.sbdocs-a:focus {
   background-color: var(--utrecht-link-focus-background-color, transparent);
   color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
   -webkit-text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
@@ -9381,24 +9364,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
-.sbdocs-content a:focus:not(:focus-visible),
-.sbdocs a.sbdocs-a:focus:not(:focus-visible) {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-content a:focus:not(:focus-visible),
+.sbdocs:not(:has(.sbdocs-preview)) a.sbdocs-a:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
-
-.sbdocs .sbdocs-preview,
-.sbdocs div:has(.docblock-argstable:only-child) {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-preview,
+.sbdocs:not(:has(.sbdocs-preview)) div:has(.docblock-argstable:only-child) {
   margin-inline-end: auto !important;
   margin-inline-start: auto !important;
   max-inline-size: calc(1084px + var(--utrecht-code-block-padding-inline-end) + var(--utrecht-code-block-padding-inline-start));
 }
-
-.sbdocs .sbdocs-pre {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-pre {
   /* 1084px is approximately 100 characters in Fira Code 18px */
 }
-.sbdocs .sbdocs-pre > .sbdocs-code:only-child, .sbdocs .sbdocs-pre > div, .sbdocs .sbdocs-pre > sbdocs-code {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-pre > .sbdocs-code:only-child, .sbdocs:not(:has(.sbdocs-preview)) .sbdocs-pre > div, .sbdocs:not(:has(.sbdocs-preview)) .sbdocs-pre > sbdocs-code {
   /* Use `monospace` as fallback both when the custom property isn't set and when the font is not available */
   background-color: var(--utrecht-code-background-color);
   color: var(--utrecht-code-color);
@@ -9432,27 +9413,20 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-end: var(--utrecht-code-block-padding-inline-end);
   padding-inline-start: var(--utrecht-code-block-padding-inline-start);
 }
-.sbdocs .sbdocs-pre pre.prismjs {
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-pre pre.prismjs {
   padding-block-end: 0;
   padding-block-start: 0;
   padding-inline-end: 0;
   padding-inline-start: 0;
 }
-
-.prismjs {
-  --utrecht-code-background-color: auto;
-  --utrecht-code-color: auto;
-}
-
-.sbdocs dfn {
+.sbdocs:not(:has(.sbdocs-preview)) dfn {
   font-style: normal;
   /* HTML element we add ourselves in markdown */
   /* styled to be less bold than <strong> */
   font-weight: 500;
 }
-
-.sbdocs table:not([class]),
-.sbdocs .sbdocs-table {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]),
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table {
   border-collapse: collapse;
   border-color: var(--utrecht-table-border-color, 0);
   border-style: solid;
@@ -9466,8 +9440,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   /* stylelint-disable no-descending-specificity */
   /* stylelint-enable no-descending-specificity */
 }
-.sbdocs table:not([class]) > caption,
-.sbdocs .sbdocs-table > caption {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > caption,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > caption {
   color: var(--utrecht-table-caption-color);
   font-family: var(--utrecht-table-caption-font-family);
   font-size: var(--utrecht-table-caption-font-size);
@@ -9477,8 +9451,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   page-break-after: avoid;
   text-align: var(--utrecht-table-caption-text-align, center);
 }
-.sbdocs table:not([class]) > thead,
-.sbdocs .sbdocs-table > thead {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead {
   --_utrecht-table-header-cell-vertical-align: bottom;
   background-color: var(--utrecht-table-header-background-color);
   color: var(--utrecht-table-header-color);
@@ -9486,24 +9460,24 @@ however browsers don't seem to have implemented great looking supixel tweening y
   page-break-inside: avoid;
   text-transform: var(--utrecht-table-header-text-transform);
 }
-.sbdocs table:not([class]) > tr, .sbdocs table:not([class]) > thead > tr, .sbdocs table:not([class]) > tbody > tr, .sbdocs table:not([class]) > tfoot > tr,
-.sbdocs .sbdocs-table > tr,
-.sbdocs .sbdocs-table > thead > tr,
-.sbdocs .sbdocs-table > tbody > tr,
-.sbdocs .sbdocs-table > tfoot > tr {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr {
   page-break-inside: avoid;
 }
-.sbdocs table:not([class]) > thead > tr:last-of-type,
-.sbdocs .sbdocs-table > thead > tr:last-of-type {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr:last-of-type,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr:last-of-type {
   border-block-end-color: var(--utrecht-table-header-border-block-end-color, transparent);
   border-block-end-style: solid;
   border-block-end-width: var(--utrecht-table-header-border-block-end-width, 0);
 }
-.sbdocs table:not([class]) > tr > th, .sbdocs table:not([class]) > thead > tr > th, .sbdocs table:not([class]) > tbody > tr > th, .sbdocs table:not([class]) > tfoot > tr > th,
-.sbdocs .sbdocs-table > tr > th,
-.sbdocs .sbdocs-table > thead > tr > th,
-.sbdocs .sbdocs-table > tbody > tr > th,
-.sbdocs .sbdocs-table > tfoot > tr > th {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr > th, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr > th, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr > th, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr > th {
   color: var(--utrecht-table-header-cell-color);
   font-size: var(--utrecht-table-header-cell-font-size);
   font-weight: var(--utrecht-table-header-cell-font-weight);
@@ -9511,11 +9485,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-transform: var(--utrecht-table-header-cell-text-transform);
   vertical-align: var(--_utrecht-table-header-cell-vertical-align, top);
 }
-.sbdocs table:not([class]) > tr > td, .sbdocs table:not([class]) > thead > tr > td, .sbdocs table:not([class]) > tbody > tr > td, .sbdocs table:not([class]) > tfoot > tr > td,
-.sbdocs .sbdocs-table > tr > td,
-.sbdocs .sbdocs-table > thead > tr > td,
-.sbdocs .sbdocs-table > tbody > tr > td,
-.sbdocs .sbdocs-table > tfoot > tr > td {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr > td, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr > td, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr > td, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr > td {
   border-block-end-color: var(--utrecht-table-row-border-block-end-color, transparent);
   border-block-end-style: solid;
   border-block-end-width: var(--utrecht-table-row-border-block-end-width, 0);
@@ -9527,40 +9501,40 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-align: start;
   vertical-align: top;
 }
-.sbdocs table:not([class]) > tr > td:last-child, .sbdocs table:not([class]) > thead > tr > td:last-child, .sbdocs table:not([class]) > tbody > tr > td:last-child, .sbdocs table:not([class]) > tfoot > tr > td:last-child,
-.sbdocs .sbdocs-table > tr > td:last-child,
-.sbdocs .sbdocs-table > thead > tr > td:last-child,
-.sbdocs .sbdocs-table > tbody > tr > td:last-child,
-.sbdocs .sbdocs-table > tfoot > tr > td:last-child {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr > td:last-child, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr > td:last-child, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr > td:last-child, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr > td:last-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr > td:last-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr > td:last-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr > td:last-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr > td:last-child {
   padding-inline-end: var(--utrecht-table-row-padding-inline-end, var(--utrecht-table-cell-padding-inline-end, 0));
 }
-.sbdocs table:not([class]) > tr > td:first-child, .sbdocs table:not([class]) > thead > tr > td:first-child, .sbdocs table:not([class]) > tbody > tr > td:first-child, .sbdocs table:not([class]) > tfoot > tr > td:first-child,
-.sbdocs .sbdocs-table > tr > td:first-child,
-.sbdocs .sbdocs-table > thead > tr > td:first-child,
-.sbdocs .sbdocs-table > tbody > tr > td:first-child,
-.sbdocs .sbdocs-table > tfoot > tr > td:first-child {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr > td:first-child, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr > td:first-child, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr > td:first-child, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr > td:first-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr > td:first-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr > td:first-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr > td:first-child,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr > td:first-child {
   padding-inline-start: var(--utrecht-table-row-padding-inline-start, var(--utrecht-table-cell-padding-inline-start, 0));
 }
-.sbdocs table:not([class]) > tr, .sbdocs table:not([class]) > thead > tr, .sbdocs table:not([class]) > tbody > tr, .sbdocs table:not([class]) > tfoot > tr,
-.sbdocs .sbdocs-table > tr,
-.sbdocs .sbdocs-table > thead > tr,
-.sbdocs .sbdocs-table > tbody > tr,
-.sbdocs .sbdocs-table > tfoot > tr {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr {
   background-color: transparent;
   border-top-width: 0;
 }
-.sbdocs table:not([class]) > tr > th, .sbdocs table:not([class]) > thead > tr > th, .sbdocs table:not([class]) > tbody > tr > th, .sbdocs table:not([class]) > tfoot > tr > th,
-.sbdocs .sbdocs-table > tr > th,
-.sbdocs .sbdocs-table > thead > tr > th,
-.sbdocs .sbdocs-table > tbody > tr > th,
-.sbdocs .sbdocs-table > tfoot > tr > th {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr > th, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr > th, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr > th, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr > th,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr > th {
   border: 0;
 }
-.sbdocs table:not([class]) > tr > td, .sbdocs table:not([class]) > thead > tr > td, .sbdocs table:not([class]) > tbody > tr > td, .sbdocs table:not([class]) > tfoot > tr > td,
-.sbdocs .sbdocs-table > tr > td,
-.sbdocs .sbdocs-table > thead > tr > td,
-.sbdocs .sbdocs-table > tbody > tr > td,
-.sbdocs .sbdocs-table > tfoot > tr > td {
+.sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tr > td, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > thead > tr > td, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tbody > tr > td, .sbdocs:not(:has(.sbdocs-preview)) table:not([class]) > tfoot > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > thead > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tbody > tr > td,
+.sbdocs:not(:has(.sbdocs-preview)) .sbdocs-table > tfoot > tr > td {
   background-color: none;
   border: 0;
 }
