@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 07 Apr 2023 12:08:12 GMT
+ * Generated on Sat, 15 Apr 2023 10:12:17 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 07 Apr 2023 12:08:14 GMT
+ * Generated on Sat, 15 Apr 2023 10:12:19 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -7881,6 +7881,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 .utrecht-paragraph__small {
   font-size: inherit;
+}
+
+.utrecht-paragraph__b {
+  font-weight: inherit;
 }
 
 .utrecht-paragraph--distanced {
