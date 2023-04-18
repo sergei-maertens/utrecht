@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 18 Apr 2023 13:31:21 GMT
+ * Generated on Tue, 18 Apr 2023 16:56:11 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 18 Apr 2023 13:31:23 GMT
+ * Generated on Tue, 18 Apr 2023 16:56:13 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -383,8 +383,6 @@
   --utrecht-blockquote-margin-inline-end: 1.6em;
   --utrecht-blockquote-margin-inline-start: 1.6em;
   --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
-  --utrecht-badge-status-text-transform: uppercase;
-  --utrecht-badge-status-letter-spacing: 0.15ch;
   --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
   --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
   --utrecht-badge-counter-font-size: 16px;
@@ -1240,8 +1238,6 @@
   --utrecht-blockquote-margin-inline-end: 1.6em;
   --utrecht-blockquote-margin-inline-start: 1.6em;
   --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
-  --utrecht-badge-status-text-transform: uppercase;
-  --utrecht-badge-status-letter-spacing: 0.15ch;
   --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
   --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
   --utrecht-badge-counter-font-size: 16px;
@@ -2116,8 +2112,6 @@
     --utrecht-blockquote-margin-inline-end: 1.6em;
     --utrecht-blockquote-margin-inline-start: 1.6em;
     --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
-    --utrecht-badge-status-text-transform: uppercase;
-    --utrecht-badge-status-letter-spacing: 0.15ch;
     --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
     --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
     --utrecht-badge-counter-font-size: 16px;
@@ -2986,8 +2980,6 @@
     --utrecht-blockquote-margin-inline-end: 1.6em;
     --utrecht-blockquote-margin-inline-start: 1.6em;
     --utrecht-badge-border-radius: 0; /* Default corner radius for badge components */
-    --utrecht-badge-status-text-transform: uppercase;
-    --utrecht-badge-status-letter-spacing: 0.15ch;
     --utrecht-badge-counter-padding-inline: 1ex; /* Default inline padding color for badge components */
     --utrecht-badge-counter-padding-block: 1ex; /* Default block padding for badge components */
     --utrecht-badge-counter-font-size: 16px;
