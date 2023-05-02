@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 30 Apr 2023 14:18:14 GMT
+ * Generated on Tue, 02 May 2023 11:36:10 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 30 Apr 2023 14:18:16 GMT
+ * Generated on Tue, 02 May 2023 11:36:12 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -82,6 +82,18 @@
   --utrecht-color-black: hsl(0 0% 0%);
   --utrecht-color-white: hsl(0 0% 100%);
   --utrecht-color-invalid: #990000;
+  --utrecht-color-secondary-grey: #757575; /* Grijs */
+  --utrecht-color-secondary-brown: #ad643b; /* Bruin */
+  --utrecht-color-secondary-navy: #1c4181; /* Marineblauw */
+  --utrecht-color-secondary-blue: #006dff; /* Blauw */
+  --utrecht-color-secondary-cyan: #009ed4; /* Cyaan */
+  --utrecht-color-secondary-green: #32ab27; /* Groen */
+  --utrecht-color-secondary-lime: #99d000; /* Lime */
+  --utrecht-color-secondary-yellow: #ffcc00; /* Geel */
+  --utrecht-color-secondary-orange: #ff6e00; /* Oranje */
+  --utrecht-color-secondary-red: #cc0000; /* Red */
+  --utrecht-color-secondary-magenta: #f02198; /* Magenta */
+  --utrecht-color-secondary-purple: #762cd1; /* Paars */
   --utrecht-color-green-90: hsl(90 30% 90%); /* Achtergrond licht groen */
   --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
   --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
@@ -942,6 +954,18 @@
   --utrecht-color-black: hsl(0 0% 0%);
   --utrecht-color-white: hsl(0 0% 100%);
   --utrecht-color-invalid: #990000;
+  --utrecht-color-secondary-grey: #757575; /* Grijs */
+  --utrecht-color-secondary-brown: #ad643b; /* Bruin */
+  --utrecht-color-secondary-navy: #1c4181; /* Marineblauw */
+  --utrecht-color-secondary-blue: #006dff; /* Blauw */
+  --utrecht-color-secondary-cyan: #009ed4; /* Cyaan */
+  --utrecht-color-secondary-green: #32ab27; /* Groen */
+  --utrecht-color-secondary-lime: #99d000; /* Lime */
+  --utrecht-color-secondary-yellow: #ffcc00; /* Geel */
+  --utrecht-color-secondary-orange: #ff6e00; /* Oranje */
+  --utrecht-color-secondary-red: #cc0000; /* Red */
+  --utrecht-color-secondary-magenta: #f02198; /* Magenta */
+  --utrecht-color-secondary-purple: #762cd1; /* Paars */
   --utrecht-color-green-90: hsl(90 30% 90%); /* Achtergrond licht groen */
   --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
   --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
@@ -1822,6 +1846,18 @@
     --utrecht-color-black: hsl(0 0% 0%);
     --utrecht-color-white: hsl(0 0% 100%);
     --utrecht-color-invalid: #990000;
+    --utrecht-color-secondary-grey: #757575; /* Grijs */
+    --utrecht-color-secondary-brown: #ad643b; /* Bruin */
+    --utrecht-color-secondary-navy: #1c4181; /* Marineblauw */
+    --utrecht-color-secondary-blue: #006dff; /* Blauw */
+    --utrecht-color-secondary-cyan: #009ed4; /* Cyaan */
+    --utrecht-color-secondary-green: #32ab27; /* Groen */
+    --utrecht-color-secondary-lime: #99d000; /* Lime */
+    --utrecht-color-secondary-yellow: #ffcc00; /* Geel */
+    --utrecht-color-secondary-orange: #ff6e00; /* Oranje */
+    --utrecht-color-secondary-red: #cc0000; /* Red */
+    --utrecht-color-secondary-magenta: #f02198; /* Magenta */
+    --utrecht-color-secondary-purple: #762cd1; /* Paars */
     --utrecht-color-green-90: hsl(90 30% 90%); /* Achtergrond licht groen */
     --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
     --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
@@ -2695,6 +2731,18 @@
     --utrecht-color-black: hsl(0 0% 0%);
     --utrecht-color-white: hsl(0 0% 100%);
     --utrecht-color-invalid: #990000;
+    --utrecht-color-secondary-grey: #757575; /* Grijs */
+    --utrecht-color-secondary-brown: #ad643b; /* Bruin */
+    --utrecht-color-secondary-navy: #1c4181; /* Marineblauw */
+    --utrecht-color-secondary-blue: #006dff; /* Blauw */
+    --utrecht-color-secondary-cyan: #009ed4; /* Cyaan */
+    --utrecht-color-secondary-green: #32ab27; /* Groen */
+    --utrecht-color-secondary-lime: #99d000; /* Lime */
+    --utrecht-color-secondary-yellow: #ffcc00; /* Geel */
+    --utrecht-color-secondary-orange: #ff6e00; /* Oranje */
+    --utrecht-color-secondary-red: #cc0000; /* Red */
+    --utrecht-color-secondary-magenta: #f02198; /* Magenta */
+    --utrecht-color-secondary-purple: #762cd1; /* Paars */
     --utrecht-color-green-90: hsl(90 30% 90%); /* Achtergrond licht groen */
     --utrecht-color-green-80: hsl(90 30% 80%); /* Licht groen */
     --utrecht-color-green-50: hsl(90 30% 50%); /* Standaard groen #80a659  */
