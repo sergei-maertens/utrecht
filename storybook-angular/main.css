@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 02 May 2023 13:02:13 GMT
+ * Generated on Tue, 02 May 2023 14:38:20 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 02 May 2023 13:02:15 GMT
+ * Generated on Tue, 02 May 2023 14:38:23 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3905,9 +3905,9 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  */
 .utrecht-badge-counter {
   /* Limit size to `max-content`, so the badge will not be stretched out of proportion inside a flexbox */
-  background-color: var(--utrecht-badge-counter-background-color, var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%)));
+  background-color: var(--utrecht-badge-counter-background-color, var(--utrecht-badge-background-color, hsl(0, 0%, 0%)));
   border-radius: var(--utrecht-badge-counter-border-radius, var(--utrecht-badge-border-radius, 0.5ch));
-  color: var(--utrecht-badge-counter-color, var(--utrecht-badge-color, hsl(0deg, 0%, 100%)));
+  color: var(--utrecht-badge-counter-color, var(--utrecht-badge-color, hsl(0, 0%, 100%)));
   display: inline-block;
   font-family: var(--utrecht-document-font-family, sans-serif);
   font-size: var(--utrecht-badge-counter-font-size);
@@ -3944,9 +3944,9 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  */
 .utrecht-badge-data {
   /* `line-height` has a default value, so `line-height` can be used on a parent element to add vertical space between badges */
-  background-color: var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%));
+  background-color: var(--utrecht-badge-background-color, hsl(0, 0%, 0%));
   border-radius: var(--utrecht-badge-border-radius, 0.5ch);
-  color: var(--utrecht-badge-color, hsl(0deg, 0%, 100%));
+  color: var(--utrecht-badge-color, hsl(0, 0%, 100%));
   display: inline-block;
   font-family: var(--utrecht-document-font-family, sans-serif);
   font-size: var(--utrecht-badge-font-size, inherit);
@@ -3990,9 +3990,9 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  */
 .utrecht-badge-status {
   /* `line-height` has a default value, so `line-height` can be used on a parent element to add vertical space between badges */
-  background-color: var(--utrecht-badge-background-color, hsl(0deg, 0%, 0%));
+  background-color: var(--utrecht-badge-background-color, hsl(0, 0%, 0%));
   border-radius: var(--utrecht-badge-border-radius, 0.5ch);
-  color: var(--utrecht-badge-color, hsl(0deg, 0%, 100%));
+  color: var(--utrecht-badge-color, hsl(0, 0%, 100%));
   display: inline-block;
   font-family: var(--utrecht-document-font-family, sans-serif);
   font-size: var(--utrecht-badge-font-size, inherit);
@@ -4009,17 +4009,17 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 }
 
 .utrecht-badge-status--danger {
-  background-color: var(--utrecht-feedback-danger-fill-background-color, hsl(0deg, 100%, 40%));
+  background-color: var(--utrecht-feedback-danger-fill-background-color, hsl(0, 100%, 40%));
   color: var(--utrecht-feedback-danger-fill-color, white);
 }
 
 .utrecht-badge-status--warning {
-  background-color: var(--utrecht-feedback-warning-fill-background-color, hsl(48deg, 100%, 50%));
+  background-color: var(--utrecht-feedback-warning-fill-background-color, hsl(48, 100%, 50%));
   color: var(--utrecht-feedback-warning-fill-color, white);
 }
 
 .utrecht-badge-status--safe {
-  background-color: var(--utrecht-feedback-safe-fill-background-color, hsl(90deg, 30%, 50%));
+  background-color: var(--utrecht-feedback-safe-fill-background-color, hsl(90, 30%, 50%));
   color: var(--utrecht-feedback-safe-fill-color, white);
 }
 
@@ -4029,32 +4029,32 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 }
 
 .utrecht-badge-status--valid {
-  background-color: var(--utrecht-feedback-valid-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(90deg, 30%, 50%)));
+  background-color: var(--utrecht-feedback-valid-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(90, 30%, 50%)));
   color: var(--utrecht-feedback-valid-fill-color, var(--utrecht-feedback-safe-fill-color, white));
 }
 
 .utrecht-badge-status--invalid {
-  background-color: var(--utrecht-feedback-invalid-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(39deg, 100%, 50%)));
+  background-color: var(--utrecht-feedback-invalid-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(39, 100%, 50%)));
   color: var(--utrecht-feedback-invalid-fill-color, var(--utrecht-feedback-danger-fill-color, white));
 }
 
 .utrecht-badge-status--error {
-  background-color: var(--utrecht-feedback-error-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(0deg, 100%, 30%)));
+  background-color: var(--utrecht-feedback-error-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(0, 100%, 30%)));
   color: var(--utrecht-feedback-error-fill-color, var(--utrecht-feedback-danger-fill-color, white));
 }
 
 .utrecht-badge-status--success {
-  background-color: var(--utrecht-feedback-success-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(90deg, 30%, 50%)));
+  background-color: var(--utrecht-feedback-success-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(90, 30%, 50%)));
   color: var(--utrecht-feedback-success-fill-color, var(--utrecht-feedback-safe-fill-color, white));
 }
 
 .utrecht-badge-status--active {
-  background-color: var(--utrecht-feedback-active-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(90deg, 30%, 50%)));
+  background-color: var(--utrecht-feedback-active-fill-background-color, var(--utrecht-feedback-safe-fill-background-color, hsl(90, 30%, 50%)));
   color: var(--utrecht-feedback-active-fill-color, var(--utrecht-feedback-safe-fill-color, white));
 }
 
 .utrecht-badge-status--inactive {
-  background-color: var(--utrecht-feedback-inactive-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(0deg, 100%, 40%)));
+  background-color: var(--utrecht-feedback-inactive-fill-background-color, var(--utrecht-feedback-danger-fill-background-color, hsl(0, 100%, 40%)));
   color: var(--utrecht-feedback-inactive-fill-color, var(--utrecht-feedback-danger-fill-color, white));
 }
 
