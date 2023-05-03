@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 02 May 2023 14:53:08 GMT
+ * Generated on Wed, 03 May 2023 13:38:13 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 02 May 2023 14:53:11 GMT
+ * Generated on Wed, 03 May 2023 13:38:15 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8782,7 +8782,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-size: var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, 1em));
   font-weight: initial; /* harden */
   height: initial; /* harden */
-  line-height: initial; /* harden */
+  line-height: var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));
   max-inline-size: var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));
   padding-block-end: var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));
   padding-block-start: var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));
