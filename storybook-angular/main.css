@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 04 May 2023 12:39:52 GMT
+ * Generated on Fri, 05 May 2023 09:06:57 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 04 May 2023 12:39:54 GMT
+ * Generated on Fri, 05 May 2023 09:07:00 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -712,6 +712,8 @@
   --utrecht-button-subtle-hover-border-color: var(--utrecht-color-blue-40);
   --utrecht-button-subtle-hover-background-color: var(--utrecht-color-white);
   --utrecht-button-subtle-disabled-color: var(--utrecht-color-grey-80);
+  --utrecht-button-subtle-active-color: var(--utrecht-color-white);
+  --utrecht-button-subtle-active-background-color: var(--utrecht-color-blue-35);
   --utrecht-button-subtle-color: var(--utrecht-color-blue-35);
   --utrecht-button-subtle-border-width: var(--utrecht-border-width-md);
   --utrecht-button-secondary-action-ready-focus-border-color: var(--utrecht-color-green-40);
@@ -735,6 +737,8 @@
   --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-color-white);
+  --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
+  --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
   --utrecht-button-secondary-action-color: var(--utrecht-color-blue-35);
   --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
   --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-35);
@@ -768,6 +772,9 @@
   --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
+  --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
+  --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
+  --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
   --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-35);
@@ -775,6 +782,8 @@
   --utrecht-button-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-disabled-background-color: var(--utrecht-color-grey-90);
   --utrecht-button-icon-gap: var(--utrecht-space-text-xs);
+  --utrecht-button-active-color: var(--utrecht-color-white);
+  --utrecht-button-active-background-color: var(--utrecht-color-grey-40);
   --utrecht-button-padding-inline-end: var(--utrecht-space-inline-md);
   --utrecht-button-padding-inline-start: var(--utrecht-space-inline-md);
   --utrecht-button-padding-block-end: var(--utrecht-space-block-xs);
@@ -1585,6 +1594,8 @@
   --utrecht-button-subtle-hover-border-color: var(--utrecht-color-blue-40);
   --utrecht-button-subtle-hover-background-color: var(--utrecht-color-white);
   --utrecht-button-subtle-disabled-color: var(--utrecht-color-grey-80);
+  --utrecht-button-subtle-active-color: var(--utrecht-color-white);
+  --utrecht-button-subtle-active-background-color: var(--utrecht-color-blue-35);
   --utrecht-button-subtle-color: var(--utrecht-color-blue-35);
   --utrecht-button-subtle-border-width: var(--utrecht-border-width-md);
   --utrecht-button-secondary-action-ready-focus-border-color: var(--utrecht-color-green-40);
@@ -1608,6 +1619,8 @@
   --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-color-white);
+  --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
+  --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
   --utrecht-button-secondary-action-color: var(--utrecht-color-blue-35);
   --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
   --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-35);
@@ -1641,6 +1654,9 @@
   --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
+  --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
+  --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
+  --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-color: var(--utrecht-color-white);
   --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
   --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-35);
@@ -1648,6 +1664,8 @@
   --utrecht-button-disabled-border-color: var(--utrecht-color-grey-80);
   --utrecht-button-disabled-background-color: var(--utrecht-color-grey-90);
   --utrecht-button-icon-gap: var(--utrecht-space-text-xs);
+  --utrecht-button-active-color: var(--utrecht-color-white);
+  --utrecht-button-active-background-color: var(--utrecht-color-grey-40);
   --utrecht-button-padding-inline-end: var(--utrecht-space-inline-md);
   --utrecht-button-padding-inline-start: var(--utrecht-space-inline-md);
   --utrecht-button-padding-block-end: var(--utrecht-space-block-xs);
@@ -2483,6 +2501,8 @@
     --utrecht-button-subtle-hover-border-color: var(--utrecht-color-blue-40);
     --utrecht-button-subtle-hover-background-color: var(--utrecht-color-white);
     --utrecht-button-subtle-disabled-color: var(--utrecht-color-grey-40);
+    --utrecht-button-subtle-active-color: var(--utrecht-color-white);
+    --utrecht-button-subtle-active-background-color: var(--utrecht-color-blue-35);
     --utrecht-button-subtle-color: var(--utrecht-color-blue-60);
     --utrecht-button-subtle-border-width: var(--utrecht-border-width-md);
     --utrecht-button-secondary-action-ready-focus-border-color: var(--utrecht-color-green-40);
@@ -2504,6 +2524,8 @@
     --utrecht-button-secondary-action-hover-border-color: var(--utrecht-color-blue-60);
     --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-40);
+    --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
+    --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
     --utrecht-button-secondary-action-color: var(--utrecht-color-blue-80);
     --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
     --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-80);
@@ -2536,6 +2558,9 @@
     --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
+    --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
+    --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
+    --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
     --utrecht-button-primary-action-color: var(--utrecht-color-grey-15);
     --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
     --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-80);
@@ -2543,6 +2568,8 @@
     --utrecht-button-disabled-border-color: var(--utrecht-color-grey-40);
     --utrecht-button-disabled-background-color: var(--utrecht-color-grey-40);
     --utrecht-button-icon-gap: var(--utrecht-space-text-xs);
+    --utrecht-button-active-color: var(--utrecht-color-white);
+    --utrecht-button-active-background-color: var(--utrecht-color-grey-40);
     --utrecht-button-padding-inline-end: var(--utrecht-space-inline-md);
     --utrecht-button-padding-inline-start: var(--utrecht-space-inline-md);
     --utrecht-button-padding-block-end: var(--utrecht-space-block-xs);
@@ -3370,6 +3397,8 @@
     --utrecht-button-subtle-hover-border-color: var(--utrecht-color-blue-40);
     --utrecht-button-subtle-hover-background-color: var(--utrecht-color-white);
     --utrecht-button-subtle-disabled-color: var(--utrecht-color-grey-40);
+    --utrecht-button-subtle-active-color: var(--utrecht-color-white);
+    --utrecht-button-subtle-active-background-color: var(--utrecht-color-blue-35);
     --utrecht-button-subtle-color: var(--utrecht-color-blue-60);
     --utrecht-button-subtle-border-width: var(--utrecht-border-width-md);
     --utrecht-button-secondary-action-ready-focus-border-color: var(--utrecht-color-green-40);
@@ -3391,6 +3420,8 @@
     --utrecht-button-secondary-action-hover-border-color: var(--utrecht-color-blue-60);
     --utrecht-button-secondary-action-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-button-secondary-action-disabled-border-color: var(--utrecht-color-grey-40);
+    --utrecht-button-secondary-action-active-color: var(--utrecht-color-white);
+    --utrecht-button-secondary-action-active-background-color: var(--utrecht-color-blue-35);
     --utrecht-button-secondary-action-color: var(--utrecht-color-blue-80);
     --utrecht-button-secondary-action-border-width: var(--utrecht-border-width-md);
     --utrecht-button-secondary-action-border-color: var(--utrecht-color-blue-80);
@@ -3423,6 +3454,9 @@
     --utrecht-button-primary-action-disabled-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-border-color: var(--utrecht-color-grey-80);
     --utrecht-button-primary-action-disabled-background-color: var(--utrecht-color-grey-90);
+    --utrecht-button-primary-action-active-color: var(--utrecht-color-blue-35);
+    --utrecht-button-primary-action-active-border-color: var(--utrecht-color-blue-35);
+    --utrecht-button-primary-action-active-background-color: var(--utrecht-color-white);
     --utrecht-button-primary-action-color: var(--utrecht-color-grey-15);
     --utrecht-button-primary-action-border-width: var(--utrecht-border-width-md); /* Although the border is not visible, it is needed to match the size of the secondary-action-button appearance */
     --utrecht-button-primary-action-background-color: var(--utrecht-color-blue-80);
@@ -3430,6 +3464,8 @@
     --utrecht-button-disabled-border-color: var(--utrecht-color-grey-40);
     --utrecht-button-disabled-background-color: var(--utrecht-color-grey-40);
     --utrecht-button-icon-gap: var(--utrecht-space-text-xs);
+    --utrecht-button-active-color: var(--utrecht-color-white);
+    --utrecht-button-active-background-color: var(--utrecht-color-grey-40);
     --utrecht-button-padding-inline-end: var(--utrecht-space-inline-md);
     --utrecht-button-padding-inline-start: var(--utrecht-space-inline-md);
     --utrecht-button-padding-block-end: var(--utrecht-space-block-xs);
@@ -4575,13 +4611,6 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-disabled-cursor);
 }
 
-.utrecht-button:active:not(:disabled, [aria-disabled=true], .utrecht-button--disabled),
-.utrecht-button--active {
-  background-color: var(--_utrecht-button-active-background-color);
-  border-color: var(--_utrecht-button-active-border-color);
-  color: var(--_utrecht-button-active-color);
-}
-
 .utrecht-button--focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
@@ -4653,6 +4682,13 @@ ol.utrecht-breadcrumb__list {
   border-color: var(--_utrecht-button-hover-border-color);
   color: var(--_utrecht-button-hover-color);
   scale: var(--utrecht-button-hover-scale, 1);
+}
+
+.utrecht-button:active:not(:disabled, [aria-disabled=true], .utrecht-button--disabled),
+.utrecht-button--active {
+  background-color: var(--_utrecht-button-active-background-color);
+  border-color: var(--_utrecht-button-active-border-color);
+  color: var(--_utrecht-button-active-color);
 }
 
 .utrecht-button--primary-action {
@@ -5459,18 +5495,13 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-disabled-cursor);
 }
 
-.utrecht-button-link--html-a:link:active {
-  background-color: var(--_utrecht-button-active-background-color);
-  border-color: var(--_utrecht-button-active-border-color);
-  color: var(--_utrecht-button-active-color);
-}
-.utrecht-button-link--html-a:link:focus {
+.utrecht-button-link--html-a:focus {
   background-color: var(--_utrecht-button-focus-background-color);
   border-color: var(--_utrecht-button-focus-border-color);
   color: var(--_utrecht-button-focus-color);
   scale: var(--utrecht-button-focus-scale, 1);
 }
-.utrecht-button-link--html-a:link:focus-visible {
+.utrecht-button-link--html-a:focus-visible {
   /* the pseudo-class for `:focus-visible` is implemented via the mixin */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
@@ -5484,11 +5515,16 @@ ol.utrecht-breadcrumb__list {
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
-.utrecht-button-link--html-a:link:hover {
+.utrecht-button-link--html-a:hover {
   background-color: var(--_utrecht-button-hover-background-color);
   border-color: var(--_utrecht-button-hover-border-color);
   color: var(--_utrecht-button-hover-color);
   scale: var(--utrecht-button-hover-scale, 1);
+}
+.utrecht-button-link--html-a:active {
+  background-color: var(--_utrecht-button-active-background-color);
+  border-color: var(--_utrecht-button-active-border-color);
+  color: var(--_utrecht-button-active-color);
 }
 
 .utrecht-button-link--primary-action {
@@ -6781,10 +6817,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 
-.utrecht-link-button--active, .utrecht-link-button--html-button:not(:disabled):active {
-  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
-}
-
 .utrecht-link-button--disabled {
   color: var(--utrecht-link-placeholder-color, var(--utrecht-link-color));
   cursor: var(--utrecht-action-disabled-cursor);
@@ -6815,6 +6847,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-offset: var(--utrecht-focus-outline-offset, revert);
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
+}
+
+.utrecht-link-button--active, .utrecht-link-button--html-button:not(:disabled):active {
+  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
 
 .utrecht-link-button--inline {
@@ -7033,7 +7069,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-link-visited-color, var(--utrecht-link-color));
 }
 
-.utrecht-link:link:hover,
+.utrecht-link:hover,
 .utrecht-link--hover {
   color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
   -webkit-text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
@@ -7043,11 +7079,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
-}
-
-.utrecht-link:link:active,
-.utrecht-link--active {
-  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
 
 .utrecht-link--focus {
@@ -7103,6 +7134,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
+}
+
+.utrecht-link:active,
+.utrecht-link--active {
+  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
 }
 
 .utrecht-link--telephone {
@@ -7296,7 +7332,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-start: var(--utrecht-space-block-sm);
 }
 
-.utrecht-menulijst__item a:link {
+.utrecht-menulijst__item a {
   background-image: var(--utrecht-menulijst-item-background-image, none);
   background-position: 0 0.25em;
   background-repeat: no-repeat;
