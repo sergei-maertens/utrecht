@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 05 May 2023 09:20:31 GMT
+ * Generated on Sun, 07 May 2023 17:19:36 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 05 May 2023 09:20:33 GMT
+ * Generated on Sun, 07 May 2023 17:19:38 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -912,8 +912,7 @@
   --utrecht-feedback-valid-fill-background-color: var(--utrecht-feedback-valid-background-color);
 }
 .utrecht-theme,
-.utrecht-theme ::backdrop,
-.utrecht-theme ::selection {
+.utrecht-theme ::backdrop {
   --denhaag-process-steps-sub-step-marker-size: 12px;
   --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
@@ -1804,9 +1803,7 @@
 .utrecht-theme utrecht-page-footer,
 .utrecht-theme .utrecht-page-footer,
 .utrecht-theme ::backdrop utrecht-page-footer,
-.utrecht-theme ::backdrop .utrecht-page-footer,
-.utrecht-theme ::selection utrecht-page-footer,
-.utrecht-theme ::selection .utrecht-page-footer {
+.utrecht-theme ::backdrop .utrecht-page-footer {
   --utrecht-heading-2-color: var(--utrecht-color-white);
   --utrecht-heading-2-font-size: 1em;
   --utrecht-heading-2-text-transform: uppercase;
@@ -2709,10 +2706,8 @@
   }
   .utrecht-theme--media-query,
   .utrecht-theme--media-query ::backdrop,
-  .utrecht-theme--media-query ::selection,
   .utrecht-theme--media-query-color-scheme,
-  .utrecht-theme--media-query-color-scheme ::backdrop,
-  .utrecht-theme--media-query-color-scheme ::selection {
+  .utrecht-theme--media-query-color-scheme ::backdrop {
     --denhaag-process-steps-sub-step-marker-size: 12px;
     --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
