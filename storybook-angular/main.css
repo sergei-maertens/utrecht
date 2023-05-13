@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 12 May 2023 12:08:42 GMT
+ * Generated on Sat, 13 May 2023 13:43:03 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 12 May 2023 12:08:45 GMT
+ * Generated on Sat, 13 May 2023 13:43:04 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3851,7 +3851,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   color: var(--utrecht-backdrop-color);
   opacity: var(--_utrecht-backdrop-opacity);
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .utrecht-alert-dialog::backdrop {
@@ -3864,7 +3864,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   color: var(--utrecht-backdrop-color);
   opacity: var(--_utrecht-backdrop-opacity);
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 @keyframes utrecht-backdrop-fade-in {
   from {
@@ -4142,7 +4142,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   color: var(--utrecht-backdrop-color);
   opacity: var(--_utrecht-backdrop-opacity);
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   bottom: 0;
   display: block;
   left: 0;
@@ -4595,7 +4595,7 @@ ol.utrecht-breadcrumb__list {
   padding-inline-start: var(--utrecht-button-padding-inline-start);
   text-transform: var(--utrecht-button-text-transform);
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .utrecht-button--distanced {
@@ -5222,13 +5222,16 @@ ol.utrecht-breadcrumb__list {
  */
 .utrecht-color-sample {
   background-color: var(--utrecht-color-sample-background-color, currentColor);
-  block-size: 2em;
+  block-size: var(--utrecht-color-sample-block-size, 2em);
   border-color: var(--utrecht-color-sample-border-color, var(--utrecht-color-sample-default-border-color));
+  border-radius: var(--utrecht-color-sample-border-radius, 0);
   border-style: solid;
   border-width: var(--utrecht-color-sample-border-width, 0);
   box-sizing: border-box;
   display: inline-block;
-  inline-size: 2em;
+  inline-size: var(--utrecht-color-sample-inline-size, 2em);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 @media (forced-colors: active) {
   .utrecht-color-sample {
@@ -5471,7 +5474,7 @@ ol.utrecht-breadcrumb__list {
   padding-inline-start: var(--utrecht-button-padding-inline-start);
   text-transform: var(--utrecht-button-text-transform);
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: var(--utrecht-action-navigate-cursor, pointer);
   text-decoration: none;
 }
@@ -5644,7 +5647,7 @@ ol.utrecht-breadcrumb__list {
   margin-inline-start: 0;
   cursor: var(--utrecht-action-activate-cursor, revert);
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 /* stylelint-disable-next-line block-no-empty */
@@ -6288,7 +6291,7 @@ ol.utrecht-breadcrumb__list {
   padding-inline-start: var(--utrecht-form-toggle-padding-inline-start);
   position: relative;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   width: var(--utrecht-form-toggle-width, 6em);
 }
 
@@ -6830,7 +6833,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-button-padding-inline-start);
   text-transform: var(--utrecht-button-text-transform);
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .utrecht-link-button--hover, .utrecht-link-button--html-button:not(:disabled):hover {
@@ -8109,7 +8112,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   vertical-align: top;
 }
 
