@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 15 May 2023 10:27:10 GMT
+ * Generated on Tue, 16 May 2023 05:34:43 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 15 May 2023 10:27:12 GMT
+ * Generated on Tue, 16 May 2023 05:34:44 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6626,6 +6626,17 @@ ol.utrecht-breadcrumb__list {
   inset-block-start: var(--utrecht-icon-inset-block-start, 0);
   position: relative;
   width: var(--utrecht-icon-size);
+}
+
+.utrecht-icon svg {
+  /*
+   * Override the width of SVGs when they are hardcoded, and avoid oversized SVG icons.
+   * For example:
+   * 
+   *   <svg width="128px" height="128px">
+   */
+  height: 100%;
+  width: 100%;
 }
 
 /**
