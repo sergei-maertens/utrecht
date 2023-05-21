@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 21 May 2023 15:18:23 GMT
+ * Generated on Sun, 21 May 2023 20:18:24 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 21 May 2023 15:18:25 GMT
+ * Generated on Sun, 21 May 2023 20:18:26 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -4597,6 +4597,22 @@ ol.utrecht-breadcrumb__list {
   -webkit-user-select: none;
   user-select: none;
 }
+@media screen and (-ms-high-contrast: active), screen and (forced-colors: active) {
+  .utrecht-button {
+    --_utrecht-button-disabled-border-color: GrayText;
+    --_utrecht-button-disabled-color: GrayText;
+    /*
+     * `<button>` has these styles by default, but other elements styles as button do not:
+     *
+     * - `<div role="button">` needs this.
+     * - `<a role="button">` needs this.
+     */
+    background-color: ButtonFace;
+    border-color: buttonborder;
+    color: ButtonText;
+    /* TODO: Find a way to express the `pressed` state */
+  }
+}
 
 .utrecht-button--distanced {
   margin-block-end: var(--utrecht-button-margin-block-end);
@@ -5479,6 +5495,22 @@ ol.utrecht-breadcrumb__list {
   user-select: none;
   cursor: var(--utrecht-action-navigate-cursor, pointer);
   text-decoration: none;
+}
+@media screen and (-ms-high-contrast: active), screen and (forced-colors: active) {
+  .utrecht-button-link {
+    --_utrecht-button-disabled-border-color: GrayText;
+    --_utrecht-button-disabled-color: GrayText;
+    /*
+     * `<button>` has these styles by default, but other elements styles as button do not:
+     *
+     * - `<div role="button">` needs this.
+     * - `<a role="button">` needs this.
+     */
+    background-color: ButtonFace;
+    border-color: buttonborder;
+    color: ButtonText;
+    /* TODO: Find a way to express the `pressed` state */
+  }
 }
 
 .utrecht-button-link--active {
