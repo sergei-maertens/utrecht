@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 21 May 2023 20:34:12 GMT
+ * Generated on Wed, 24 May 2023 14:10:33 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 21 May 2023 20:34:13 GMT
+ * Generated on Wed, 24 May 2023 14:10:36 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -5746,16 +5746,16 @@ ol.utrecht-breadcrumb__list {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  block-size: var(--utrecht-checkbox-size, 1em);
   border-color: var(--utrecht-checkbox-border-color);
   border-style: solid;
   border-width: var(--utrecht-checkbox-border-width);
   cursor: var(--utrecht-action-activate-cursor, revert);
-  height: var(--utrecht-checkbox-size);
+  inline-size: var(--utrecht-checkbox-size, 1em);
   margin-block-start: var(--utrecht-checkbox-margin-block-start);
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
   vertical-align: top;
-  width: var(--utrecht-checkbox-size);
 }
 
 .utrecht-checkbox--custom.utrecht-checkbox--checked,
