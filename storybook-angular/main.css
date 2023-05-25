@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 24 May 2023 17:27:34 GMT
+ * Generated on Thu, 25 May 2023 13:52:23 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 24 May 2023 17:27:36 GMT
+ * Generated on Thu, 25 May 2023 13:52:25 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -254,9 +254,8 @@
   --utrecht-form-toggle-thumb-min-inline-size: 18px;
   --utrecht-form-toggle-thumb-margin-inline-end: .25em;
   --utrecht-form-toggle-thumb-margin-inline-start: .25em;
-  --utrecht-form-toggle-track-border-radius: 10em;
   --utrecht-form-toggle-border-width: 2px;
-  --utrecht-form-toggle-border-radius: 0;
+  --utrecht-form-toggle-border-radius: 10em;
   --utrecht-form-toggle-border-color: transparent;
   --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
   --utrecht-form-label-font-size: 1em;
@@ -629,6 +628,7 @@
   --utrecht-form-toggle-thumb-disabled-background-color: var(--utrecht-color-white);
   --utrecht-form-toggle-thumb-background-color: var(--utrecht-color-white);
   --utrecht-form-toggle-track-disabled-background-color: var(--utrecht-color-grey-90);
+  --utrecht-form-toggle-track-border-radius: var(--utrecht-form-toggle-border-radius);
   --utrecht-form-toggle-color: var(--utrecht-color-black);
   --utrecht-form-toggle-background-color: var(--utrecht-color-white);
   --utrecht-form-label-radio-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -1142,9 +1142,8 @@
   --utrecht-form-toggle-thumb-min-inline-size: 18px;
   --utrecht-form-toggle-thumb-margin-inline-end: .25em;
   --utrecht-form-toggle-thumb-margin-inline-start: .25em;
-  --utrecht-form-toggle-track-border-radius: 10em;
   --utrecht-form-toggle-border-width: 2px;
-  --utrecht-form-toggle-border-radius: 0;
+  --utrecht-form-toggle-border-radius: 10em;
   --utrecht-form-toggle-border-color: transparent;
   --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
   --utrecht-form-label-font-size: 1em;
@@ -1517,6 +1516,7 @@
   --utrecht-form-toggle-thumb-disabled-background-color: var(--utrecht-color-white);
   --utrecht-form-toggle-thumb-background-color: var(--utrecht-color-white);
   --utrecht-form-toggle-track-disabled-background-color: var(--utrecht-color-grey-90);
+  --utrecht-form-toggle-track-border-radius: var(--utrecht-form-toggle-border-radius);
   --utrecht-form-toggle-color: var(--utrecht-color-black);
   --utrecht-form-toggle-background-color: var(--utrecht-color-white);
   --utrecht-form-label-radio-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -2051,7 +2051,7 @@
     --utrecht-form-toggle-thumb-margin-inline-start: .25em;
     --utrecht-form-toggle-track-border-radius: 10em;
     --utrecht-form-toggle-border-width: 2px;
-    --utrecht-form-toggle-border-radius: 0;
+    --utrecht-form-toggle-border-radius: 10em;
     --utrecht-form-toggle-border-color: transparent;
     --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
     --utrecht-form-label-font-size: 1em;
@@ -2952,7 +2952,7 @@
     --utrecht-form-toggle-thumb-margin-inline-start: .25em;
     --utrecht-form-toggle-track-border-radius: 10em;
     --utrecht-form-toggle-border-width: 2px;
-    --utrecht-form-toggle-border-radius: 0;
+    --utrecht-form-toggle-border-radius: 10em;
     --utrecht-form-toggle-border-color: transparent;
     --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
     --utrecht-form-label-font-size: 1em;
@@ -6309,8 +6309,19 @@ ol.utrecht-breadcrumb__list {
  * @license EUPL-1.2
  * Copyright (c) 2021 Robbert Broersma
  */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/* stylelint-disable-next-line block-no-empty */
 .utrecht-form-toggle {
   align-items: center;
+  block-size: var(--utrecht-form-toggle-height, 2em);
   border-color: var(--utrecht-form-toggle-border-color, currentColor);
   border-radius: var(--utrecht-form-toggle-border-radius, 999rem);
   border-style: var(--utrecht-form-toggle-border-style, solid);
@@ -6318,7 +6329,7 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-form-toggle-color);
   cursor: var(--utrecht-action-activate-cursor);
   display: flex;
-  height: var(--utrecht-form-toggle-height, 2em);
+  inline-size: var(--utrecht-form-toggle-width, 6em);
   padding-block-end: var(--utrecht-form-toggle-padding-block-end);
   padding-block-start: var(--utrecht-form-toggle-padding-block-start);
   padding-inline-end: var(--utrecht-form-toggle-padding-inline-end);
@@ -6326,13 +6337,34 @@ ol.utrecht-breadcrumb__list {
   position: relative;
   -webkit-user-select: none;
   user-select: none;
-  width: var(--utrecht-form-toggle-width, 6em);
+}
+@media screen and (-ms-high-contrast: active), screen and (forced-colors: active) {
+  .utrecht-form-toggle {
+    --utrecht-form-toggle-background-color: ButtonFace;
+    --utrecht-form-toggle-border-color: buttonborder;
+    --utrecht-form-toggle-border-width: 1px;
+    --utrecht-form-toggle-border-radius: var(--utrecht-form-toggle-track-border-radius);
+    --utrecht-form-toggle-thumb-background-color: ButtonText;
+    --utrecht-form-toggle-thumb-disabled-background-color: GrayText;
+    /* TODO: Apply `GrayText` to the border-color */
+    border-color: var(--utrecht-form-toggle-track-disabled-border-color, var(--utrecht-form-toggle-track-border-color));
+    border-width: min(var(--utrecht-form-toggle-border-width, 1px), 1px);
+    /* TODO: Find a way to express the `pressed` state */
+  }
 }
 
-.utrecht-form-toggle--focus {
-  border-color: var(--utrecht-form-toggle-focus-border-color, var(--utrecht-form-toggle-border-color, currentColor));
-  border-style: var(--utrecht-form-toggle-focus-border-style, var(--utrecht-form-toggle-border-style, solid));
-  border-width: var(--utrecht-form-toggle-focus-border-width, var(--utrecht-form-toggle-border-width, 1px));
+.utrecht-form-toggle--focus-visible, .utrecht-form-toggle--html-div:focus-visible {
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 
 .utrecht-form-toggle--hover {
@@ -6340,7 +6372,7 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-form-toggle-hover-color, var(--utrecht-form-toggle-color));
 }
 
-.utrecht-form-toggle--disabled {
+.utrecht-form-toggle--disabled, .utrecht-form-toggle--html-div:disabled {
   border-color: var(--utrecht-form-toggle-disabled-border-color, var(--utrecht-form-toggle-border-color, currentColor));
   border-style: var(--utrecht-form-toggle-disabled-border-style, var(--utrecht-form-toggle-border-style, solid));
   border-width: var(--utrecht-form-toggle-disabled-border-width, var(--utrecht-form-toggle-border-width, 1px));
@@ -6375,10 +6407,10 @@ ol.utrecht-breadcrumb__list {
 .utrecht-form-toggle__track {
   align-items: center;
   background-color: var(--utrecht-form-toggle-accent-color);
+  block-size: 100%;
   border-radius: var(--utrecht-form-toggle-track-border-radius, var(--utrecht-form-toggle-border-radius));
   display: flex;
-  height: 100%;
-  width: 100%;
+  inline-size: 100%;
 }
 
 .utrecht-form-toggle__track--checked, .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:checked ~ .utrecht-form-toggle__track {
@@ -6392,10 +6424,11 @@ ol.utrecht-breadcrumb__list {
 
 .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox {
   /* Source: https://kittygiraudel.com/snippets/sr-only-class/ */
+  block-size: 1px !important;
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
   clip-path: inset(50%) !important;
-  height: 1px !important;
+  inline-size: 1px !important;
   /* stylelint-disable-next-line property-disallowed-list */
   margin: -1px !important;
   overflow: hidden !important;
@@ -6403,12 +6436,6 @@ ol.utrecht-breadcrumb__list {
   padding: 0 !important;
   position: absolute !important;
   white-space: nowrap !important;
-  width: 1px !important;
-}
-.utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:focus ~ .utrecht-form-toggle__track {
-  outline-color: var(--utrecht-form-toggle-focus-border-color, var(--utrecht-form-toggle-border-color, currentColor));
-  outline-style: var(--utrecht-form-toggle-focus-border-style, var(--utrecht-form-toggle-border-style, solid));
-  outline-width: var(--utrecht-form-toggle-focus-border-width, var(--utrecht-form-toggle-border-width, 1px));
 }
 /**
  * @license EUPL-1.2
