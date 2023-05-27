@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sat, 27 May 2023 21:10:15 GMT
+ * Generated on Sat, 27 May 2023 21:27:00 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sat, 27 May 2023 21:10:17 GMT
+ * Generated on Sat, 27 May 2023 21:27:02 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -9177,6 +9177,24 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-textbox--password {
   font-variant-ligatures: none;
   font-variant-numeric: slashed-zero;
+}
+
+/**
+ * This class name is experimental.
+ */
+.utrecht-textbox--placeholder-ltr::placeholder, .utrecht-textbox--placeholder-ltr:placeholder-shown {
+  /* For <input dir="rtr" placeholder="+31 555 1234">,
+   * behave as `dir="auto"` when the placeholder is shown. */
+  direction: ltr;
+}
+
+/**
+ * This class name is experimental.
+ */
+.utrecht-textbox--placeholder-rtl::placeholder, .utrecht-textbox--placeholder-rtl:placeholder-shown {
+  /* For <input dir="rtr" placeholder="+31 555 1234">,
+   * behave as `dir="auto"` when the placeholder is shown. */
+  direction: rtl;
 }
 
 .utrecht-textbox--url {
