@@ -1,2 +1,0 @@
-import{r as o,h as t,H as s}from"./preview-e7268e28.js";import"./component-library-vue-59f1c9b6.js";import"./vue.esm-bundler-eab5bada.js";import"./iframe-87517707.js";import"../sb-preview/runtime.mjs";const e=":host{page-break-inside:avoid;display:table-row}",a=class{constructor(r){o(this,r)}render(){return t(s,{role:"row"},t("slot",null))}};a.style=e;export{a as utrecht_table_row};
-//# sourceMappingURL=utrecht-table-row.entry-9b5ac7c9.js.map
