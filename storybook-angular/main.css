@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 28 May 2023 10:23:40 GMT
+ * Generated on Mon, 29 May 2023 10:56:46 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 28 May 2023 10:23:41 GMT
+ * Generated on Mon, 29 May 2023 10:56:48 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -894,6 +894,15 @@
   --utrecht-checkbox-color: var(--utrecht-form-control-color);
   --utrecht-checkbox-border-color: var(--utrecht-form-control-border-color);
   --utrecht-checkbox-background-color: var(--utrecht-form-control-background-color);
+  --utrecht-button-subtle-pressed-color: var(--utrecht-button-subtle-active-color);
+  --utrecht-button-subtle-pressed-background-color: var(--utrecht-button-subtle-active-background-color);
+  --utrecht-button-secondary-action-pressed-color: var(--utrecht-button-secondary-action-active-color);
+  --utrecht-button-secondary-action-pressed-background-color: var(--utrecht-button-secondary-action-active-background-color);
+  --utrecht-button-primary-action-pressed-color: var(--utrecht-button-primary-action-active-color);
+  --utrecht-button-primary-action-pressed-border-color: var(--utrecht-button-primary-action-active-border-color);
+  --utrecht-button-primary-action-pressed-background-color: var(--utrecht-button-primary-action-active-background-color);
+  --utrecht-button-pressed-color: var(--utrecht-button-active-color);
+  --utrecht-button-pressed-background-color: var(--utrecht-button-active-background-color);
   --of-layout-bg: var(--of-layout-background);
   --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
   --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
@@ -1782,6 +1791,15 @@
   --utrecht-checkbox-color: var(--utrecht-form-control-color);
   --utrecht-checkbox-border-color: var(--utrecht-form-control-border-color);
   --utrecht-checkbox-background-color: var(--utrecht-form-control-background-color);
+  --utrecht-button-subtle-pressed-color: var(--utrecht-button-subtle-active-color);
+  --utrecht-button-subtle-pressed-background-color: var(--utrecht-button-subtle-active-background-color);
+  --utrecht-button-secondary-action-pressed-color: var(--utrecht-button-secondary-action-active-color);
+  --utrecht-button-secondary-action-pressed-background-color: var(--utrecht-button-secondary-action-active-background-color);
+  --utrecht-button-primary-action-pressed-color: var(--utrecht-button-primary-action-active-color);
+  --utrecht-button-primary-action-pressed-border-color: var(--utrecht-button-primary-action-active-border-color);
+  --utrecht-button-primary-action-pressed-background-color: var(--utrecht-button-primary-action-active-background-color);
+  --utrecht-button-pressed-color: var(--utrecht-button-active-color);
+  --utrecht-button-pressed-background-color: var(--utrecht-button-active-background-color);
   --of-layout-bg: var(--of-layout-background);
   --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
   --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
@@ -2691,6 +2709,8 @@
     --utrecht-checkbox-color: var(--utrecht-form-control-color);
     --utrecht-checkbox-border-color: var(--utrecht-form-control-border-color);
     --utrecht-checkbox-background-color: var(--utrecht-form-control-background-color);
+    --utrecht-button-subtle-pressed-color: var(--utrecht-button-subtle-active-color);
+    --utrecht-button-subtle-pressed-background-color: var(--utrecht-button-subtle-active-background-color);
     --utrecht-button-secondary-action-ready-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-warning-focus-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-warning-hover-background-color: var(--utrecht-page-background-color);
@@ -2698,9 +2718,16 @@
     --utrecht-button-secondary-action-danger-focus-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-danger-hover-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-danger-background-color: var(--utrecht-page-background-color);
+    --utrecht-button-secondary-action-pressed-color: var(--utrecht-button-secondary-action-active-color);
+    --utrecht-button-secondary-action-pressed-background-color: var(--utrecht-button-secondary-action-active-background-color);
     --utrecht-button-secondary-action-hover-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-background-color: var(--utrecht-page-background-color);
+    --utrecht-button-primary-action-pressed-color: var(--utrecht-button-primary-action-active-color);
+    --utrecht-button-primary-action-pressed-border-color: var(--utrecht-button-primary-action-active-border-color);
+    --utrecht-button-primary-action-pressed-background-color: var(--utrecht-button-primary-action-active-background-color);
+    --utrecht-button-pressed-color: var(--utrecht-button-active-color);
+    --utrecht-button-pressed-background-color: var(--utrecht-button-active-background-color);
     --of-layout-bg: var(--of-layout-background);
     --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
     --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
@@ -3592,6 +3619,8 @@
     --utrecht-checkbox-color: var(--utrecht-form-control-color);
     --utrecht-checkbox-border-color: var(--utrecht-form-control-border-color);
     --utrecht-checkbox-background-color: var(--utrecht-form-control-background-color);
+    --utrecht-button-subtle-pressed-color: var(--utrecht-button-subtle-active-color);
+    --utrecht-button-subtle-pressed-background-color: var(--utrecht-button-subtle-active-background-color);
     --utrecht-button-secondary-action-ready-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-warning-focus-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-warning-hover-background-color: var(--utrecht-page-background-color);
@@ -3599,9 +3628,16 @@
     --utrecht-button-secondary-action-danger-focus-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-danger-hover-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-danger-background-color: var(--utrecht-page-background-color);
+    --utrecht-button-secondary-action-pressed-color: var(--utrecht-button-secondary-action-active-color);
+    --utrecht-button-secondary-action-pressed-background-color: var(--utrecht-button-secondary-action-active-background-color);
     --utrecht-button-secondary-action-hover-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-disabled-background-color: var(--utrecht-page-background-color);
     --utrecht-button-secondary-action-background-color: var(--utrecht-page-background-color);
+    --utrecht-button-primary-action-pressed-color: var(--utrecht-button-primary-action-active-color);
+    --utrecht-button-primary-action-pressed-border-color: var(--utrecht-button-primary-action-active-border-color);
+    --utrecht-button-primary-action-pressed-background-color: var(--utrecht-button-primary-action-active-background-color);
+    --utrecht-button-pressed-color: var(--utrecht-button-active-color);
+    --utrecht-button-pressed-background-color: var(--utrecht-button-active-background-color);
     --of-layout-bg: var(--of-layout-background);
     --utrecht-radio-button-invalid-border-color: var(--utrecht-form-control-invalid-border-color);
     --utrecht-form-field-invalid-border-inline-start-color: var(--utrecht-form-control-invalid-border-color);
@@ -4453,6 +4489,42 @@ ol.utrecht-breadcrumb__list {
     --_utrecht-button-hint-disabled-color,
     var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color)))
   );
+  --_utrecht-button-pressed-background-color: var(
+    --_utrecht-button-hint-pressed-background-color,
+    var(
+      --_utrecht-button-hint-background-color,
+      var(
+        --_utrecht-button-appearance-pressed-background-color,
+        var(
+          --_utrecht-button-appearance-background-color,
+          var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color))
+        )
+      )
+    )
+  );
+  --_utrecht-button-pressed-border-color: var(
+    --_utrecht-button-hint-pressed-border-color,
+    var(
+      --_utrecht-button-hint-border-color,
+      var(
+        --_utrecht-button-appearance-pressed-border-color,
+        var(
+          --_utrecht-button-appearance-border-color,
+          var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color))
+        )
+      )
+    )
+  );
+  --_utrecht-button-pressed-color: var(
+    --_utrecht-button-hint-pressed-color,
+    var(
+      --_utrecht-button-hint-color,
+      var(
+        --_utrecht-button-appearance-pressed-color,
+        var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color)))
+      )
+    )
+  );
   --_utrecht-button-focus-background-color: var(
     --_utrecht-button-hint-focus-background-color,
     var(
@@ -4631,15 +4703,9 @@ ol.utrecht-breadcrumb__list {
 }
 
 .utrecht-button--pressed {
-  /* Copy `active` styles for now.
-  Later we can decide to:
-  - merge `active` and `pressed` and name the state `pressed`, or:
-  - merge `active` and `pressed` and name the state `active`, or:
-  - add `pressed` design tokens
-  */
-  background-color: var(--_utrecht-button-active-background-color);
-  border-color: var(--_utrecht-button-active-border-color);
-  color: var(--_utrecht-button-active-color);
+  background-color: var(--_utrecht-button-pressed-background-color);
+  border-color: var(--_utrecht-button-pressed-border-color);
+  color: var(--_utrecht-button-pressed-color);
 }
 
 .utrecht-button:disabled,
@@ -4750,6 +4816,9 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-primary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-primary-action-hover-color);
+  --_utrecht-button-appearance-pressed-background-color: var(--utrecht-button-primary-action-pressed-background-color);
+  --_utrecht-button-appearance-pressed-border-color: var(--utrecht-button-primary-action-pressed-border-color);
+  --_utrecht-button-appearance-pressed-color: var(--utrecht-button-primary-action-pressed-color);
 }
 
 .utrecht-button--secondary-action {
@@ -4772,6 +4841,9 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-background-color: var(--utrecht-button-secondary-action-hover-background-color);
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-secondary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-secondary-action-hover-color);
+  --_utrecht-button-appearance-pressed-background-color: var(--utrecht-button-secondary-action-pressed-background-color);
+  --_utrecht-button-appearance-pressed-border-color: var(--utrecht-button-secondary-action-pressed-border-color);
+  --_utrecht-button-appearance-pressed-color: var(--utrecht-button-secondary-action-pressed-color);
 }
 
 .utrecht-button--subtle {
@@ -4794,6 +4866,9 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-background-color: var(--utrecht-button-subtle-hover-background-color);
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-subtle-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-subtle-hover-color);
+  --_utrecht-button-appearance-pressed-background-color: var(--utrecht-button-subtle-pressed-background-color);
+  --_utrecht-button-appearance-pressed-border-color: var(--utrecht-button-subtle-pressed-border-color);
+  --_utrecht-button-appearance-pressed-color: var(--utrecht-button-subtle-pressed-color);
 }
 
 .utrecht-button--primary-action.utrecht-button--danger {
@@ -4814,6 +4889,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-primary-action-danger-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-primary-action-danger-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-primary-action-danger-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-primary-action-danger-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-primary-action-danger-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-primary-action-danger-pressed-color);
 }
 
 .utrecht-button--primary-action.utrecht-button--ready {
@@ -4834,6 +4914,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-primary-action-ready-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-primary-action-ready-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-primary-action-ready-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-primary-action-ready-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-primary-action-ready-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-primary-action-ready-pressed-color);
 }
 
 .utrecht-button--primary-action.utrecht-button--warning {
@@ -4854,6 +4939,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-primary-action-warning-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-primary-action-warning-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-primary-action-warning-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-primary-action-warning-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-primary-action-warning-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-primary-action-warning-pressed-color);
 }
 
 .utrecht-button--secondary-action.utrecht-button--danger {
@@ -4874,6 +4964,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-secondary-action-danger-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-secondary-action-danger-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-secondary-action-danger-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-secondary-action-danger-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-secondary-action-danger-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-secondary-action-danger-pressed-color);
 }
 
 .utrecht-button--secondary-action.utrecht-button--ready {
@@ -4894,6 +4989,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-secondary-action-ready-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-secondary-action-ready-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-secondary-action-ready-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-secondary-action-ready-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-secondary-action-ready-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-secondary-action-ready-pressed-color);
 }
 
 .utrecht-button--secondary-action.utrecht-button--warning {
@@ -4914,6 +5014,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-secondary-action-warning-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-secondary-action-warning-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-secondary-action-warning-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-secondary-action-warning-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-secondary-action-warning-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-secondary-action-warning-pressed-color);
 }
 
 .utrecht-button--subtle.utrecht-button--danger {
@@ -4934,6 +5039,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-subtle-danger-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-subtle-danger-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-subtle-danger-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-subtle-danger-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-subtle-danger-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-subtle-danger-pressed-color);
 }
 
 .utrecht-button--subtle.utrecht-button--ready {
@@ -4954,6 +5064,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-subtle-ready-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-subtle-ready-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-subtle-ready-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-subtle-ready-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-subtle-ready-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-subtle-ready-pressed-color);
 }
 
 .utrecht-button--subtle.utrecht-button--warning {
@@ -4974,6 +5089,11 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-hint-hover-background-color: var(--utrecht-button-subtle-warning-hover-background-color);
   --_utrecht-button-hint-hover-border-color: var(--utrecht-button-subtle-warning-hover-border-color);
   --_utrecht-button-hint-hover-color: var(--utrecht-button-subtle-warning-hover-color);
+  --_utrecht-button-hint-pressed-background-color: var(
+    --utrecht-button-subtle-warning-pressed-background-color
+  );
+  --_utrecht-button-hint-pressed-border-color: var(--utrecht-button-subtle-warning-pressed-border-color);
+  --_utrecht-button-hint-pressed-color: var(--utrecht-button-subtle-warning-pressed-color);
 }
 
 /**
@@ -5350,6 +5470,42 @@ ol.utrecht-breadcrumb__list {
     --_utrecht-button-hint-disabled-color,
     var(--_utrecht-button-appearance-disabled-color, var(--utrecht-button-disabled-color, var(--utrecht-button-color)))
   );
+  --_utrecht-button-pressed-background-color: var(
+    --_utrecht-button-hint-pressed-background-color,
+    var(
+      --_utrecht-button-hint-background-color,
+      var(
+        --_utrecht-button-appearance-pressed-background-color,
+        var(
+          --_utrecht-button-appearance-background-color,
+          var(--utrecht-button-pressed-background-color, var(--utrecht-button-background-color))
+        )
+      )
+    )
+  );
+  --_utrecht-button-pressed-border-color: var(
+    --_utrecht-button-hint-pressed-border-color,
+    var(
+      --_utrecht-button-hint-border-color,
+      var(
+        --_utrecht-button-appearance-pressed-border-color,
+        var(
+          --_utrecht-button-appearance-border-color,
+          var(--utrecht-button-pressed-border-color, var(--utrecht-button-border-color))
+        )
+      )
+    )
+  );
+  --_utrecht-button-pressed-color: var(
+    --_utrecht-button-hint-pressed-color,
+    var(
+      --_utrecht-button-hint-color,
+      var(
+        --_utrecht-button-appearance-pressed-color,
+        var(--_utrecht-button-appearance-color, var(--utrecht-button-pressed-color, var(--utrecht-button-color)))
+      )
+    )
+  );
   --_utrecht-button-focus-background-color: var(
     --_utrecht-button-hint-focus-background-color,
     var(
@@ -5607,6 +5763,9 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-background-color: var(--utrecht-button-primary-action-hover-background-color);
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-primary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-primary-action-hover-color);
+  --_utrecht-button-appearance-pressed-background-color: var(--utrecht-button-primary-action-pressed-background-color);
+  --_utrecht-button-appearance-pressed-border-color: var(--utrecht-button-primary-action-pressed-border-color);
+  --_utrecht-button-appearance-pressed-color: var(--utrecht-button-primary-action-pressed-color);
 }
 
 .utrecht-button-link--secondary-action {
@@ -5629,6 +5788,9 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-background-color: var(--utrecht-button-secondary-action-hover-background-color);
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-secondary-action-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-secondary-action-hover-color);
+  --_utrecht-button-appearance-pressed-background-color: var(--utrecht-button-secondary-action-pressed-background-color);
+  --_utrecht-button-appearance-pressed-border-color: var(--utrecht-button-secondary-action-pressed-border-color);
+  --_utrecht-button-appearance-pressed-color: var(--utrecht-button-secondary-action-pressed-color);
 }
 
 .utrecht-button-link--subtle {
@@ -5651,6 +5813,9 @@ ol.utrecht-breadcrumb__list {
   --_utrecht-button-appearance-hover-background-color: var(--utrecht-button-subtle-hover-background-color);
   --_utrecht-button-appearance-hover-border-color: var(--utrecht-button-subtle-hover-border-color);
   --_utrecht-button-appearance-hover-color: var(--utrecht-button-subtle-hover-color);
+  --_utrecht-button-appearance-pressed-background-color: var(--utrecht-button-subtle-pressed-background-color);
+  --_utrecht-button-appearance-pressed-border-color: var(--utrecht-button-subtle-pressed-border-color);
+  --_utrecht-button-appearance-pressed-color: var(--utrecht-button-subtle-pressed-color);
 }
 
 /**

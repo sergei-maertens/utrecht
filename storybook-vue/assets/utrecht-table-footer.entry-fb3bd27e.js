@@ -1,2 +1,0 @@
-import{r,h as t,H as e}from"./preview-66db5b6e.js";import"./component-library-vue-1c2c5725.js";import"./vue.esm-bundler-e2716445.js";import"./iframe-9f5767dd.js";import"../sb-preview/runtime.mjs";const s=":host{display:table-footer-group}",l=class{constructor(o){r(this,o)}render(){return t(e,{role:"rowgroup"},t("slot",null))}};l.style=s;export{l as utrecht_table_footer};
-//# sourceMappingURL=utrecht-table-footer.entry-fb3bd27e.js.map
