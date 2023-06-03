@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 02 Jun 2023 12:06:36 GMT
+ * Generated on Sat, 03 Jun 2023 20:05:13 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 02 Jun 2023 12:06:39 GMT
+ * Generated on Sat, 03 Jun 2023 20:05:17 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -4003,6 +4003,11 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2020-2022 Gemeente Utrecht
  * Copyright (c) 2020-2022 Frameless B.V.
  */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
 .utrecht-badge-counter {
   /* Limit size to `max-content`, so the badge will not be stretched out of proportion inside a flexbox */
   background-color: var(--utrecht-badge-counter-background-color, var(--utrecht-badge-background-color, hsl(0, 0%, 0%)));
@@ -4025,6 +4030,14 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   text-align: center;
   text-decoration: none; /* no inheritance */
   white-space: nowrap;
+}
+@media screen and (-ms-high-contrast: active), screen and (forced-colors: active) {
+  .utrecht-badge-counter {
+    border-color: currentColor;
+    border-style: solid;
+    /* Warning: there layout difference because of the added 1px border */
+    border-width: 1px;
+  }
 }
 
 /**
@@ -4060,6 +4073,14 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   text-decoration: none; /* no inheritance */
   letter-spacing: var(--utrecht-badge-data-letter-spacing, inherit);
   text-transform: var(--utrecht-badge-data-text-transform, inherit);
+}
+@media screen and (-ms-high-contrast: active), screen and (forced-colors: active) {
+  .utrecht-badge-data {
+    border-color: currentColor;
+    border-style: solid;
+    /* Warning: there layout difference because of the added 1px border */
+    border-width: 1px;
+  }
 }
 
 /**
@@ -4106,6 +4127,14 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   text-decoration: none; /* no inheritance */
   letter-spacing: var(--utrecht-badge-status-letter-spacing, inherit);
   text-transform: var(--utrecht-badge-status-text-transform, inherit);
+}
+@media screen and (-ms-high-contrast: active), screen and (forced-colors: active) {
+  .utrecht-badge-status {
+    border-color: currentColor;
+    border-style: solid;
+    /* Warning: there layout difference because of the added 1px border */
+    border-width: 1px;
+  }
 }
 
 .utrecht-badge-status--danger {
