@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 04 Jun 2023 09:19:38 GMT
+ * Generated on Sun, 04 Jun 2023 13:02:34 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 04 Jun 2023 09:19:41 GMT
+ * Generated on Sun, 04 Jun 2023 13:02:37 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3724,12 +3724,12 @@
   background-color: var(--utrecht-accordion-button-icon-background-color);
   background-position: center;
   background-repeat: no-repeat;
+  block-size: var(--utrecht-accordion-button-icon-size);
   content: "";
-  height: var(--utrecht-accordion-button-icon-size);
+  inline-size: var(--utrecht-accordion-button-icon-size);
   inset-block-start: 0;
   inset-inline-end: 0;
   position: absolute;
-  width: var(--utrecht-accordion-button-icon-size);
 }
 .utrecht-accordion__button[aria-expanded=false]::after {
   background-image: var(--utrecht-accordion-icon-arrow-down, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.39' height='14.39'%3E%3Cpath fill='none' stroke='%231D1D1D' stroke-width='3' stroke-miterlimit='10' d='M15.866 4.135l-5.32 5.322-5.322-5.322'/%3E%3C/svg%3E"));
@@ -4404,18 +4404,18 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after,
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before {
+  block-size: 0;
   border-block-end-width: var(--utrecht-breadcrumb-block-size);
   border-block-start-width: var(--utrecht-breadcrumb-block-size);
   border-color: transparent;
   border-style: solid;
   content: " ";
   display: block;
-  height: 0;
+  inline-size: 0;
   left: 100%;
   margin-block-start: calc(-1 * var(--utrecht-breadcrumb-block-size));
   position: absolute;
   top: 50%;
-  width: 0;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after {
   border-inline-start-color: var(--utrecht-breadcrumb-link-background-color);
@@ -5176,8 +5176,8 @@ ol.utrecht-breadcrumb__list {
  */
 .utrecht-calendar {
   background-color: var(--utrecht-calendar-background-color);
-  width: -moz-fit-content;
-  width: fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
 }
 
 .utrecht-calendar__table {
@@ -5187,18 +5187,18 @@ ol.utrecht-breadcrumb__list {
 }
 
 .utrecht-calendar__table-weeks-item {
+  inline-size: var(--utrecht-calendar-table-weeks-item-width);
   line-height: var(--utrecht-calendar-table-weeks-item-line-height, inherit);
   padding-block-end: var(--utrecht-calendar-table-weeks-item-padding-block-end);
   padding-block-start: var(--utrecht-calendar-table-weeks-item-padding-block-start);
-  width: var(--utrecht-calendar-table-weeks-item-width);
 }
 
 .utrecht-calendar__table-days-item-day {
   --utrecht-calendar-button-border-color: var(--utrecht-calendar-table-days-item-day-border-color);
   --utrecht-calendar-button-border-width: var(--utrecht-calendar-table-days-item-day-border-width);
   --utrecht-calendar-button-color: var(--utrecht-calendar-table-days-item-day-color);
-  height: var(--utrecht-calendar-table-days-item-day-size);
-  width: var(--utrecht-calendar-table-days-item-day-size);
+  block-size: var(--utrecht-calendar-table-days-item-day-size);
+  inline-size: var(--utrecht-calendar-table-days-item-day-size);
 }
 
 .utrecht-calendar__table-days-item-day:hover {
@@ -5304,8 +5304,8 @@ ol.utrecht-breadcrumb__list {
 }
 
 .utrecht-calendar__icon {
-  height: var(--utrecht-calendar-icon-size);
-  width: var(--utrecht-calendar-icon-size);
+  block-size: var(--utrecht-calendar-icon-size);
+  inline-size: var(--utrecht-calendar-icon-size);
 }
 
 /**
@@ -6875,12 +6875,12 @@ ol.utrecht-breadcrumb__list {
  * Copyright (c) 2021-2022 Frameless B.V.
  */
 .utrecht-icon {
+  block-size: var(--utrecht-icon-size);
   color: var(--utrecht-icon-color);
   display: inline-block;
-  height: var(--utrecht-icon-size);
+  inline-size: var(--utrecht-icon-size);
   inset-block-start: var(--utrecht-icon-inset-block-start, 0);
   position: relative;
-  width: var(--utrecht-icon-size);
 }
 
 .utrecht-icon svg {
@@ -6890,7 +6890,9 @@ ol.utrecht-breadcrumb__list {
    * 
    *   <svg width="128px" height="128px">
    */
+  /* stylelint-disable-next-line property-disallowed-list */
   height: 100%;
+  /* stylelint-disable-next-line property-disallowed-list */
   width: 100%;
 }
 
@@ -6905,7 +6907,9 @@ ol.utrecht-breadcrumb__list {
  * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-img {
+  /* stylelint-disable-next-line property-disallowed-list */
   height: auto;
+  /* stylelint-disable-next-line property-disallowed-list */
   width: auto;
 }
 
@@ -6974,9 +6978,9 @@ ol.utrecht-breadcrumb__list {
 }
 
 .utrecht-link-list__item > a::before {
+  block-size: 1em;
   content: "";
   display: inline-block;
-  height: 1em;
 }
 
 /**
@@ -7192,15 +7196,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-icon-color: currentColor;
   align-items: center;
   background-color: var(--utrecht-link-social-background-color);
+  block-size: var(--utrecht-link-social-size);
   border-color: var(--utrecht-link-social-border-color);
   border-radius: 50%;
   border-style: solid;
   border-width: var(--utrecht-link-social-border-width);
   color: var(--utrecht-link-social-color);
   display: inline-flex;
-  height: var(--utrecht-link-social-size);
+  inline-size: var(--utrecht-link-social-size);
   justify-content: center;
-  width: var(--utrecht-link-social-size);
 }
 
 .utrecht-link-social:hover,
@@ -7591,6 +7595,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-icon-size: var(--utrecht-map-marker-icon-size);
   align-items: center;
   background-color: var(--utrecht-map-marker-background-color);
+  block-size: var(--utrecht-map-marker-size);
   border-color: var(--utrecht-map-marker-border-color);
   border-radius: 50%;
   border-style: solid;
@@ -7598,9 +7603,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   box-shadow: 13px 3px 3px -2px var(--utrecht-map-marker-box-shadow-color);
   color: var(--utrecht-map-marker-color);
   display: flex;
-  height: var(--utrecht-map-marker-size);
+  inline-size: var(--utrecht-map-marker-size);
   justify-content: center;
-  width: var(--utrecht-map-marker-size);
 }
 
 /**
@@ -7684,11 +7688,11 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-sidenav-marker-outline-width: 2px;
   border-block-end: 1px solid var(--utrecht-color-grey-80);
   border-block-start: 1px solid var(--utrecht-color-grey-80);
+  inline-size: 19rem;
   margin-block-end: 0;
   margin-block-start: 0;
   padding-block-end: 0;
   padding-block-start: 0;
-  width: 19rem;
 }
 
 .utrecht-sidenav__list {
@@ -7767,15 +7771,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-sidenav__link--parent,
 .utrecht-sidenav__link--child)::after {
   background: var(--utrecht-sidenav-connection-color);
+  block-size: calc(var(--utrecht-sidenav-connection-block-size) - var(--utrecht-sidenav-marker-height) - 2 * var(--utrecht-sidenav-marker-outline-width));
   bottom: 0;
   content: "";
   display: block;
-  height: calc(var(--utrecht-sidenav-connection-block-size) - var(--utrecht-sidenav-marker-height) - 2 * var(--utrecht-sidenav-marker-outline-width));
+  inline-size: var(--utrecht-sidenav-connection-inline-size);
   left: 3px;
   overflow: hidden;
   position: absolute;
   top: calc(var(--utrecht-sidenav-marker-offset));
-  width: var(--utrecht-sidenav-connection-inline-size);
   z-index: 5;
 }
 
@@ -7789,27 +7793,27 @@ however browsers don't seem to have implemented great looking supixel tweening y
 /* Little fix to move the dot to the right */
 .utrecht-sidenav__marker, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link::before {
   background-color: var(--utrecht-sidenav-item-marker-color);
+  block-size: var(--utrecht-sidenav-marker-height);
   border-radius: 100%;
   content: "";
-  height: var(--utrecht-sidenav-marker-height);
+  inline-size: 8px;
   left: var(--utrecht-sidenav-marker-offset);
   overflow: hidden;
   position: absolute;
   top: 20px; /* Hard value? */
   transform: translateY(-50%) translateX(calc(-1 * var(--utrecht-sidenav-marker-offset)));
-  width: 8px;
   z-index: 10;
 }
 
 /* Add dot bullets on child links */
 .utrecht-sidenav__marker--child, .utrecht-sidenav--pseudo-elements .utrecht-sidenav__link--child::before {
   background-color: transparent;
+  block-size: 4px;
   border: 2px solid var(--utrecht-sidenav-link-color);
-  height: 4px;
+  inline-size: 4px;
   left: 1.2rem;
   top: 16px;
   transform: translateY(-50%) translateX(-19.5px);
-  width: 4px;
 }
 
 /* selector must override .utrecht-sidenav__marker--child */
@@ -8713,12 +8717,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   color: var(--utrecht-select-color, var(--utrecht-form-control-color));
   font-family: var(--utrecht-select-font-family, var(--utrecht-form-control-font-family));
   font-size: var(--utrecht-select-font-size, var(--utrecht-form-control-font-size));
+  inline-size: 100%;
   max-inline-size: var(--utrecht-select-max-inline-size, var(--utrecht-form-control-max-inline-size));
   padding-block-end: var(--utrecht-select-padding-block-end, var(--utrecht-form-control-padding-block-end));
   padding-block-start: var(--utrecht-select-padding-block-start, var(--utrecht-form-control-padding-block-start));
   padding-inline-end: var(--utrecht-select-padding-inline-end, var(--utrecht-form-control-padding-inline-end));
   padding-inline-start: var(--utrecht-select-padding-inline-start, var(--utrecht-form-control-padding-inline-start));
-  width: 100%;
 }
 
 .utrecht-select--disabled {
@@ -8980,10 +8984,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-width: var(--utrecht-table-border-width, 0);
   font-family: var(--utrecht-table-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-table-font-size, inherit);
+  inline-size: 100%;
   line-height: var(--utrecht-table-line-height, inherit);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-table-margin-block-start, 0));
-  width: 100%;
 }
 
 .utrecht-table--distanced {
@@ -9140,6 +9144,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-textarea {
   /* Fall back to `resize: vertical` for browsers that don't support `resize: block` */
   background-color: var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));
+  block-size: initial; /* harden */
   border-width: var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));
   border-bottom-width: var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));
   border-color: var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));
@@ -9150,7 +9155,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-family: var(--utrecht-textarea-font-family, var(--utrecht-form-control-font-family));
   font-size: var(--utrecht-textarea-font-size, var(--utrecht-form-control-font-size, inherit));
   font-weight: initial; /* harden */
-  height: initial; /* harden */
+  inline-size: 100%;
   line-height: var(--utrecht-textarea-line-height, initial);
   max-inline-size: var(--utrecht-textarea-max-inline-size, var(--utrecht-form-control-max-inline-size));
   min-block-size: var(--utrecht-textarea-min-block-size);
@@ -9160,7 +9165,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-inline-start: var(--utrecht-textarea-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));
   resize: vertical;
   resize: block;
-  width: 100%;
 }
 
 .utrecht-textarea--invalid {
@@ -9291,6 +9295,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-textbox {
   background-color: var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));
+  block-size: initial; /* harden */
   border-width: var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));
   border-bottom-width: var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));
   border-color: var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));
@@ -9301,14 +9306,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-family: var(--utrecht-textbox-font-family, var(--utrecht-form-control-font-family));
   font-size: var(--utrecht-textbox-font-size, var(--utrecht-form-control-font-size, inherit));
   font-weight: initial; /* harden */
-  height: initial; /* harden */
+  inline-size: 100%;
   line-height: var(--utrecht-textbox-line-height, var(--utrecht-form-control-line-height, initial));
   max-inline-size: var(--utrecht-textbox-max-inline-size, var(--utrecht-form-control-max-inline-size));
   padding-block-end: var(--utrecht-textbox-padding-block-end, var(--utrecht-form-control-padding-block-end, 0));
   padding-block-start: var(--utrecht-textbox-padding-block-start, var(--utrecht-form-control-padding-block-start, 0));
   padding-inline-end: var(--utrecht-textbox-padding-inline-end, var(--utrecht-form-control-padding-inline-end, initial));
   padding-inline-start: var(--utrecht-textbox-padding-inline-start, var(--utrecht-form-control-padding-inline-start, initial));
-  width: 100%;
 }
 
 .utrecht-textbox--invalid {
