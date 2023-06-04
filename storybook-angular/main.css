@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 04 Jun 2023 13:15:22 GMT
+ * Generated on Sun, 04 Jun 2023 19:31:38 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 04 Jun 2023 13:15:25 GMT
+ * Generated on Sun, 04 Jun 2023 19:31:41 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3742,9 +3742,9 @@
 }
 
 .utrecht-accordion__body {
+  border-block-start: none;
   border-color: var(--utrecht-accordion-body-border-color);
   border-style: solid;
-  border-top: none;
   border-width: var(--utrecht-accordion-body-border-width);
   padding-block-end: var(--utrecht-accordion-body-padding-block-end);
   padding-block-start: var(--utrecht-accordion-body-padding-block-start);
@@ -4208,12 +4208,12 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   opacity: var(--_utrecht-backdrop-opacity);
   -webkit-user-select: none;
   user-select: none;
-  bottom: 0;
   display: block;
-  left: 0;
+  inset-block-end: 0;
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
   z-index: var(--utrecht-backdrop-z-index);
 }
 @keyframes utrecht-backdrop-fade-in {
@@ -4412,10 +4412,10 @@ ol.utrecht-breadcrumb__list {
   content: " ";
   display: block;
   inline-size: 0;
-  left: 100%;
+  inset-block-start: 50%;
+  inset-inline-start: 100%;
   margin-block-start: calc(-1 * var(--utrecht-breadcrumb-block-size));
   position: absolute;
-  top: 50%;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after {
   border-inline-start-color: var(--utrecht-breadcrumb-link-background-color);
@@ -4663,19 +4663,19 @@ ol.utrecht-breadcrumb__list {
     )
   );
   --_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));
-  --_utrecht-button-border-bottom-width: var(
+  --_utrecht-button-border-block-end-width: var(
     --utrecht-button-border-bottom-width,
     var(--_utrecht-button-border-width, 0)
   );
   --utrecht-icon-size: var(--utrecht-button-icon-size, 1em);
   align-items: center;
   background-color: var(--_utrecht-button-background-color);
+  border-block-end-color: var(--_utrecht-button-border-bottom-color);
+  border-block-end-width: var(--_utrecht-button-border-block-end-width);
   border-color: var(--_utrecht-button-border-color);
-  border-bottom-color: var(--_utrecht-button-border-bottom-color);
   border-radius: var(--utrecht-button-border-radius);
   border-style: solid;
   border-width: var(--_utrecht-button-border-width);
-  border-bottom-width: var(--_utrecht-button-border-bottom-width);
   box-sizing: border-box;
   color: var(--_utrecht-button-color);
   cursor: var(--utrecht-action-activate-cursor);
@@ -5644,19 +5644,19 @@ ol.utrecht-breadcrumb__list {
     )
   );
   --_utrecht-button-border-width: var(--_utrecht-button-appearance-border-width, var(--utrecht-button-border-width, 0));
-  --_utrecht-button-border-bottom-width: var(
+  --_utrecht-button-border-block-end-width: var(
     --utrecht-button-border-bottom-width,
     var(--_utrecht-button-border-width, 0)
   );
   --utrecht-icon-size: var(--utrecht-button-icon-size, 1em);
   align-items: center;
   background-color: var(--_utrecht-button-background-color);
+  border-block-end-color: var(--_utrecht-button-border-bottom-color);
+  border-block-end-width: var(--_utrecht-button-border-block-end-width);
   border-color: var(--_utrecht-button-border-color);
-  border-bottom-color: var(--_utrecht-button-border-bottom-color);
   border-radius: var(--utrecht-button-border-radius);
   border-style: solid;
   border-width: var(--_utrecht-button-border-width);
-  border-bottom-width: var(--_utrecht-button-border-bottom-width);
   box-sizing: border-box;
   color: var(--_utrecht-button-color);
   cursor: var(--utrecht-action-activate-cursor);
@@ -6158,9 +6158,9 @@ ol.utrecht-breadcrumb__list {
     var(--utrecht-data-list-rows-column-inline-size, 80%)
   );
   --_utrecht-auto-col: minmax(var(--_utrecht-minmax), max-content);
-  border-bottom-color: var(--utrecht-data-list-rows-border-bottom-color, transparent);
-  border-bottom-style: solid;
-  border-bottom-width: var(--utrecht-data-list-rows-border-bottom-width, 0);
+  border-block-end-color: var(--utrecht-data-list-rows-border-bottom-color, transparent);
+  border-block-end-style: solid;
+  border-block-end-width: var(--utrecht-data-list-rows-border-bottom-width, 0);
   display: grid;
   gap: 0 var(--utrecht-data-list-rows-gap);
   grid-auto-columns: 1fr;
@@ -6414,7 +6414,7 @@ ol.utrecht-breadcrumb__list {
   border: 0;
   margin-inline-end: 0;
   margin-inline-start: 0;
-  min-width: 0;
+  min-inline-size: 0;
   padding-block-end: 0;
   padding-block-start: 0.01em;
   padding-inline-end: 0;
@@ -6915,12 +6915,16 @@ ol.utrecht-breadcrumb__list {
 
 .utrecht-img--scale-down {
   /* use this class name with caution, text contained in image might become too small to read */
+  /* stylelint-disable-next-line property-disallowed-list */
   max-height: 100%;
+  /* stylelint-disable-next-line property-disallowed-list */
   max-width: 100%;
 }
 
 .utrecht-img--photo {
+  /* stylelint-disable-next-line property-disallowed-list */
   max-height: 100%;
+  /* stylelint-disable-next-line property-disallowed-list */
   max-width: 100%;
 }
 
@@ -7618,8 +7622,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-menulijst {
-  border-bottom: var(--utrecht-border-width-md) solid var(--utrecht-color-grey-90);
-  border-top: var(--utrecht-border-width-md) solid var(--utrecht-color-grey-90);
+  border-block-end: var(--utrecht-border-width-md) solid var(--utrecht-color-grey-90);
+  border-block-start: var(--utrecht-border-width-md) solid var(--utrecht-color-grey-90);
   font-family: var(--utrecht-document-font-family);
   padding-block-end: var(--utrecht-space-block-sm);
   padding-block-start: var(--utrecht-space-block-sm);
@@ -7772,14 +7776,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-sidenav__link--child)::after {
   background: var(--utrecht-sidenav-connection-color);
   block-size: calc(var(--utrecht-sidenav-connection-block-size) - var(--utrecht-sidenav-marker-height) - 2 * var(--utrecht-sidenav-marker-outline-width));
-  bottom: 0;
   content: "";
   display: block;
   inline-size: var(--utrecht-sidenav-connection-inline-size);
-  left: 3px;
+  inset-block-end: 0;
+  inset-block-start: calc(var(--utrecht-sidenav-marker-offset));
+  inset-inline-start: 3px;
   overflow: hidden;
   position: absolute;
-  top: calc(var(--utrecht-sidenav-marker-offset));
   z-index: 5;
 }
 
@@ -7797,10 +7801,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-radius: 100%;
   content: "";
   inline-size: 8px;
-  left: var(--utrecht-sidenav-marker-offset);
+  inset-block-start: 20px; /* Hard value? */
+  inset-inline-start: var(--utrecht-sidenav-marker-offset);
   overflow: hidden;
   position: absolute;
-  top: 20px; /* Hard value? */
   transform: translateY(-50%) translateX(calc(-1 * var(--utrecht-sidenav-marker-offset)));
   z-index: 10;
 }
@@ -7811,8 +7815,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   block-size: 4px;
   border: 2px solid var(--utrecht-sidenav-link-color);
   inline-size: 4px;
-  left: 1.2rem;
-  top: 16px;
+  inset-block-start: 16px;
+  inset-inline-start: 1.2rem;
   transform: translateY(-50%) translateX(-19.5px);
 }
 
@@ -8698,6 +8702,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 /* stylelint-disable-next-line block-no-empty */
+/* TODO: Enable ordering properties when the plugin supports logical CSS properties
+ * https://github.com/hudochenkov/stylelint-order/pull/162 */
+/* stylelint-disable order/properties-alphabetical-order */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-select {
   -webkit-appearance: none;
@@ -8761,9 +8768,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
     )
   );
   background-color: var(--utrecht-select-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--_utrecht-select-border-width);
-  border-bottom-width: var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));
+  border-block-end-width: var(--utrecht-select-invalid-border-block-end-width, var(--utrecht-form-control-invalid-border-block-end-width, var(--utrecht-select-border-block-end-width, var(--utrecht-form-control-border-block-end-width, var(--_utrecht-select-border-width)))));
+  border-color: var(--utrecht-select-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
 }
 
 /* stylelint-disable-next-line block-no-empty */
@@ -9141,12 +9148,15 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 /* stylelint-disable-next-line block-no-empty */
+/* TODO: Enable ordering properties when the plugin supports logical CSS properties
+ * https://github.com/hudochenkov/stylelint-order/pull/162 */
+/* stylelint-disable order/properties-alphabetical-order */
 .utrecht-textarea {
   /* Fall back to `resize: vertical` for browsers that don't support `resize: block` */
   background-color: var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color));
   block-size: initial; /* harden */
   border-width: var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width));
-  border-bottom-width: var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));
+  border-block-end-width: var(--utrecht-textarea-border-bottom-width, var(--utrecht-textarea-border-width, var(--utrecht-form-control-border-width)));
   border-color: var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color));
   border-radius: var(--utrecht-textarea-border-radius, var(--utrecht-form-control-border-radius, 0));
   border-style: solid;
@@ -9176,9 +9186,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
     )
   );
   background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--_utrecht-textarea-border-width);
-  border-bottom-width: var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));
+  border-block-end-width: var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));
+  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 
@@ -9257,9 +9267,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
     )
   );
   background-color: var(--utrecht-textarea-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--_utrecht-textarea-border-width);
-  border-bottom-width: var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));
+  border-block-end-width: var(--utrecht-textarea-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textarea-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textarea-border-width)))));
+  border-color: var(--utrecht-textarea-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textarea-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
 }
 .utrecht-textarea--html-textarea:read-only {
@@ -9293,11 +9303,14 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 /* stylelint-disable-next-line block-no-empty */
+/* TODO: Enable ordering properties when the plugin supports logical CSS properties
+ * https://github.com/hudochenkov/stylelint-order/pull/162 */
+/* stylelint-disable order/properties-alphabetical-order */
 .utrecht-textbox {
   background-color: var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color));
   block-size: initial; /* harden */
   border-width: var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width));
-  border-bottom-width: var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));
+  border-block-end-width: var(--utrecht-textbox-border-bottom-width, var(--utrecht-textbox-border-width, var(--utrecht-form-control-border-width)));
   border-color: var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color));
   border-radius: var(--utrecht-textbox-border-radius, var(--utrecht-form-control-border-radius, 0));
   border-style: solid;
@@ -9324,9 +9337,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
     )
   );
   background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--_utrecht-textbox-border-width);
-  border-bottom-width: var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));
+  border-block-end-width: var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));
+  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
 
@@ -9437,9 +9450,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
     )
   );
   background-color: var(--utrecht-textbox-invalid-background-color, var(--utrecht-form-control-invalid-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   border-width: var(--_utrecht-textbox-border-width);
-  border-bottom-width: var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));
+  border-block-end-width: var(--utrecht-textbox-invalid-border-bottom-width, var(--utrecht-form-control-invalid-border-bottom-width, var(--utrecht-textbox-border-bottom-width, var(--utrecht-form-control-border-bottom-width, var(--_utrecht-textbox-border-width)))));
+  border-color: var(--utrecht-textbox-invalid-border-color, var(--utrecht-form-control-invalid-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textbox-invalid-color, var(--utrecht-form-control-invalid-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
 }
 .utrecht-textbox--html-input:read-only {
