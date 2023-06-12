@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 07 Jun 2023 14:27:44 GMT
+ * Generated on Mon, 12 Jun 2023 18:23:16 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 07 Jun 2023 14:27:46 GMT
+ * Generated on Mon, 12 Jun 2023 18:23:20 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6862,6 +6862,22 @@ ol.utrecht-breadcrumb__list {
 }
 .utrecht-heading-group > * {
   --utrecht-space-around: 0;
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+.utrecht-iban-data {
+  /* lining-nums: avoid "oldstyle-nums" where some numbers have descenders */
+  /* slashed-zero: avoid confusion between LATIN LETTER O (U+004F) and DIGIT ZERO (U+0030) */
+  /* tabular-nums: vertically align IBAN values */
+  font-variant-numeric: lining-nums slashed-zero tabular-nums;
+  white-space: nowrap;
 }
 
 /**
