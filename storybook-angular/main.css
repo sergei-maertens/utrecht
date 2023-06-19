@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 14:17:56 GMT
+ * Generated on Mon, 19 Jun 2023 18:55:06 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 14:17:59 GMT
+ * Generated on Mon, 19 Jun 2023 18:55:09 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6950,6 +6950,7 @@ ol.utrecht-breadcrumb__list {
   block-size: var(--utrecht-icon-size);
   color: var(--utrecht-icon-color);
   display: inline-block;
+  font-size: var(--utrecht-icon-size);
   inline-size: var(--utrecht-icon-size);
   inset-block-start: var(--utrecht-icon-inset-block-start, 0);
   position: relative;
