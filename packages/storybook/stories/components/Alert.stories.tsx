@@ -2,6 +2,7 @@
 
 import type { Meta, StoryObj } from '@storybook/react';
 import readme from '@utrecht/components/alert/README.md?raw';
+import alertActions from '@utrecht/components/alert/_alert-actions.md?raw';
 import tokensDefinition from '@utrecht/components/alert/tokens.json';
 import tokens from '@utrecht/design-tokens/dist/index.json';
 import React from 'react';
@@ -9,6 +10,13 @@ import { Alert } from './Alert';
 import { Heading2 } from './Heading2';
 import { Paragraph } from './Paragraph';
 import { designTokenStory } from './util';
+import {
+  Button,
+  ButtonGroup,
+  Link,
+  UnorderedList,
+  UnorderedListItem,
+} from '../../../component-library-react/src/css-module';
 import '@utrecht/components/alert/css/index.scss';
 
 const meta = {
@@ -63,11 +71,21 @@ export const Info: Story = {
   args: {
     type: 'info',
   },
+  parameters: {
+    status: {
+      type: 'ALPHA',
+    },
+  },
 };
 
 export const OK: Story = {
   args: {
     type: 'ok',
+  },
+  parameters: {
+    status: {
+      type: 'ALPHA',
+    },
   },
 };
 
@@ -75,11 +93,78 @@ export const Warning: Story = {
   args: {
     type: 'warning',
   },
+  parameters: {
+    status: {
+      type: 'ALPHA',
+    },
+  },
 };
 
 export const Error: Story = {
   args: {
     type: 'error',
+  },
+  parameters: {
+    status: {
+      type: 'ALPHA',
+    },
+  },
+};
+
+export const CallToActionLinks: Story = {
+  parameters: {
+    docs: {
+      description: {
+        story: `De link-teksten in dit voorbeeld zijn speciaal zo geschreven dat het ook duidelijke instructies zijn wanneer je niet weet dat het links zijn.
+
+Als je de link-teksten goed schrijft dan is de alert ook duidelijk wanneer een _screen reader_ de alert aankondigt.`,
+      },
+    },
+    status: {
+      type: 'WORK IN PROGRESS',
+    },
+  },
+  args: {
+    type: 'error',
+    children: (
+      <>
+        <Heading2>Probleem met ingevulde gegevens</Heading2>
+        <UnorderedList>
+          <UnorderedListItem>
+            <Link href="#given-name">Vul je voornaam in.</Link>
+          </UnorderedListItem>
+          <UnorderedListItem>
+            <Link href="#postal-code">Vul een postcode in, bijvoorbeeld: 1011 AB.</Link>
+          </UnorderedListItem>
+        </UnorderedList>
+      </>
+    ),
+  },
+};
+
+export const ActionsWarning: Story = {
+  parameters: {
+    docs: {
+      description: {
+        story: alertActions,
+      },
+    },
+    status: {
+      type: 'WORK IN PROGRESS',
+    },
+  },
+  args: {
+    type: 'warning',
+    children: (
+      <Paragraph>
+        De sessie is afgelopen, omdat je 15 minuten niets hebt gedaan. Je kan weer opnieuw beginnen.
+      </Paragraph>
+    ),
+    actions: (
+      <ButtonGroup>
+        <Button appearance="primary-action-button">Opnieuw beginnen</Button>
+      </ButtonGroup>
+    ),
   },
 };
 
