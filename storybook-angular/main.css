@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 20:10:51 GMT
+ * Generated on Thu, 22 Jun 2023 10:22:11 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 20:10:55 GMT
+ * Generated on Thu, 22 Jun 2023 10:22:15 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8872,6 +8872,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-offset: var(--utrecht-focus-outline-offset, revert);
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
+}
+
+.utrecht-select--busy {
+  cursor: var(--utrecht-action-busy-cursor, busy);
 }
 
 .utrecht-select--invalid {
