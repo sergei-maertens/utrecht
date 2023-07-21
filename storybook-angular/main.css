@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jul 2023 15:42:43 GMT
+ * Generated on Fri, 21 Jul 2023 14:02:17 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jul 2023 15:42:45 GMT
+ * Generated on Fri, 21 Jul 2023 14:02:20 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8125,14 +8125,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   padding-block-start: var(--utrecht-page-footer-padding-block-start);
   padding-inline-end: var(--utrecht-page-footer-padding-inline-end);
   padding-inline-start: var(--utrecht-page-footer-padding-inline-start);
-}
-
-.utrecht-page-footer .utrecht-link--telephone {
-  color: #fff;
-}
-
-.utrecht-page-footer .utrecht-paragraph {
-  color: #fff;
 }
 
 .utrecht-page-footer__address--reset-address {
