@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 24 Jul 2023 06:09:18 GMT
+ * Generated on Fri, 28 Jul 2023 19:34:55 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 24 Jul 2023 06:09:22 GMT
+ * Generated on Fri, 28 Jul 2023 19:34:59 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6732,6 +6732,20 @@ ol.utrecht-breadcrumb__list {
   color: var(--utrecht-form-toggle-disabled-color, black);
 }
 
+.utrecht-form-toggle__track--focus-visible {
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
+}
+
 .utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox {
   /* Source: https://kittygiraudel.com/snippets/sr-only-class/ */
   block-size: 1px !important;
@@ -6746,6 +6760,19 @@ ol.utrecht-breadcrumb__list {
   padding: 0 !important;
   position: absolute !important;
   white-space: nowrap !important;
+}
+.utrecht-form-toggle--html-checkbox .utrecht-form-toggle__checkbox:focus-visible ~ .utrecht-form-toggle__track {
+  /* - The browser default focus ring should apply when these CSS custom properties are not set.
+   * - Make the `box-shadow` value available, so components that have their own `box-shadow`
+   *   can combine it with the focus ring box shadow.
+   */
+  --_utrecht-focus-ring-box-shadow: 0 0 0 var(--utrecht-focus-outline-width, 0)
+    var(--utrecht-focus-inverse-outline-color, transparent);
+  box-shadow: var(--_utrecht-focus-ring-box-shadow);
+  outline-color: var(--utrecht-focus-outline-color, revert);
+  outline-offset: var(--utrecht-focus-outline-offset, revert);
+  outline-style: var(--utrecht-focus-outline-style, revert);
+  outline-width: var(--utrecht-focus-outline-width, revert);
 }
 /**
  * @license EUPL-1.2
