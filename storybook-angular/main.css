@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 20 Aug 2023 11:11:28 GMT
+ * Generated on Sun, 20 Aug 2023 13:56:53 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 20 Aug 2023 11:11:31 GMT
+ * Generated on Sun, 20 Aug 2023 13:56:56 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -9119,13 +9119,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-select--html-select {
-  /* <select> does not support :read-only */
-}
-.utrecht-select--html-select:disabled {
-  background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
-  color: var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+  /* <select> does not have a `readonly` attribute */
 }
 .utrecht-select--html-select:focus {
   background-color: var(--utrecht-select-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
@@ -9147,6 +9141,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
+}
+.utrecht-select--html-select:disabled {
+  background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
+  cursor: var(--utrecht-action-disabled-cursor);
 }
 
 /**
@@ -9725,11 +9725,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   opacity: 100%;
 }
 
-.utrecht-textarea--html-textarea:disabled {
-  background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
-  color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+.utrecht-textarea--html-textarea {
+  /* The `textarea:read-only` pseudo selector applies to both `<textarea readonly>` and `<textarea disabled>` */
+  /*
+   * The `textarea:disabled` pseudo selector applies to `<textarea disabled>`, but not to `<textarea aria-disabled="true">`
+   *
+   * We consider `disabled` more specific than `read-only`, so the `:disabled` selector should come after the `:read-only` selector.
+   */
 }
 .utrecht-textarea--html-textarea:focus {
   background-color: var(--utrecht-textarea-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
@@ -9770,6 +9772,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textarea-border, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textarea-read-only-border, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textarea-border, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textarea-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
+}
+.utrecht-textarea--html-textarea:disabled {
+  background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
+  cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-textarea--html-textarea::placeholder {
   color: var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
@@ -9908,11 +9916,13 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-variant-ligatures: none;
 }
 
-.utrecht-textbox--html-input:disabled {
-  background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
-  border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
-  color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+.utrecht-textbox--html-input {
+  /* The `input:read-only` pseudo selector applies to both `<input readonly>` and `<input disabled>` */
+  /*
+   * The `input:disabled` pseudo selector applies to `<input disabled>`, but not to `<input aria-disabled="true">`
+   *
+   * We consider `disabled` more specific than `read-only`, so the `:disabled` selector should come after the `:read-only` selector.
+   */
 }
 .utrecht-textbox--html-input:focus {
   background-color: var(--utrecht-textbox-focus-background-color, var(--utrecht-form-control-focus-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
@@ -9953,6 +9963,12 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textbox-read-only-background-color, var(--utrecht-form-control-read-only-background-color, var(--utrecht-textbox-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textbox-read-only-border-color, var(--utrecht-form-control-read-only-border-color, var(--utrecht-textbox-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textbox-read-only-color, var(--utrecht-form-control-read-only-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
+}
+.utrecht-textbox--html-input:disabled {
+  background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
+  border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
+  color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
+  cursor: var(--utrecht-action-disabled-cursor);
 }
 .utrecht-textbox--html-input::placeholder {
   color: var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
