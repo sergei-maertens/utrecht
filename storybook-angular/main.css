@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 23 Aug 2023 10:27:14 GMT
+ * Generated on Wed, 23 Aug 2023 13:18:44 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 23 Aug 2023 10:27:17 GMT
+ * Generated on Wed, 23 Aug 2023 13:18:48 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -855,10 +855,10 @@
   --utrecht-alert-info-color: var(--utrecht-color-black);
   --utrecht-alert-info-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-icon-info-color: var(--utrecht-color-blue-35);
-  --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
   --utrecht-alert-icon-ok-color: var(--utrecht-color-green-40);
   --utrecht-alert-icon-warning-color: var(--utrecht-color-yellow-40);
   --utrecht-alert-icon-error-color: var(--utrecht-color-red-40);
+  --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
   --utrecht-alert-icon-color: var(--utrecht-color-blue-35);
   --utrecht-alert-ok-color: var(--utrecht-color-black);
   --utrecht-alert-ok-background-color: var(--utrecht-color-green-90);
@@ -1793,10 +1793,10 @@
   --utrecht-alert-info-color: var(--utrecht-color-black);
   --utrecht-alert-info-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-icon-info-color: var(--utrecht-color-blue-35);
-  --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
   --utrecht-alert-icon-ok-color: var(--utrecht-color-green-40);
   --utrecht-alert-icon-warning-color: var(--utrecht-color-yellow-40);
   --utrecht-alert-icon-error-color: var(--utrecht-color-red-40);
+  --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
   --utrecht-alert-icon-color: var(--utrecht-color-blue-35);
   --utrecht-alert-ok-color: var(--utrecht-color-black);
   --utrecht-alert-ok-background-color: var(--utrecht-color-green-90);
@@ -2754,10 +2754,10 @@
     --utrecht-alert-info-color: var(--utrecht-color-white);
     --utrecht-alert-info-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-icon-info-color: var(--utrecht-color-blue-35);
-    --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
     --utrecht-alert-icon-ok-color: var(--utrecht-color-green-40);
     --utrecht-alert-icon-warning-color: var(--utrecht-color-yellow-40);
     --utrecht-alert-icon-error-color: var(--utrecht-color-red-40);
+    --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
     --utrecht-alert-icon-color: var(--utrecht-color-blue-35);
     --utrecht-alert-ok-color: var(--utrecht-color-white);
     --utrecht-alert-error-color: var(--utrecht-color-white);
@@ -3705,10 +3705,10 @@
     --utrecht-alert-info-color: var(--utrecht-color-white);
     --utrecht-alert-info-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-icon-info-color: var(--utrecht-color-blue-35);
-    --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
     --utrecht-alert-icon-ok-color: var(--utrecht-color-green-40);
     --utrecht-alert-icon-warning-color: var(--utrecht-color-yellow-40);
     --utrecht-alert-icon-error-color: var(--utrecht-color-red-40);
+    --utrecht-alert-icon-gap: var(--utrecht-space-column-md);
     --utrecht-alert-icon-color: var(--utrecht-color-blue-35);
     --utrecht-alert-ok-color: var(--utrecht-color-white);
     --utrecht-alert-error-color: var(--utrecht-color-white);
