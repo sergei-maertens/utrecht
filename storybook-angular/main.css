@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 29 Aug 2023 23:17:43 GMT
+ * Generated on Tue, 29 Aug 2023 23:38:25 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 29 Aug 2023 23:17:46 GMT
+ * Generated on Tue, 29 Aug 2023 23:38:28 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3944,6 +3944,7 @@
 .utrecht-alert {
   background-color: var(--_utrecht-alert-background-color, var(--utrecht-alert-background-color));
   border-color: var(--_utrecht-alert-border-color, var(--utrecht-alert-border-color));
+  border-radius: var(--utrecht-alert-border-radius, 0);
   border-style: solid;
   border-width: var(--_utrecht-alert-border-width, var(--utrecht-alert-border-width, 0));
   color: var(--_utrecht-alert-color, var(--utrecht-alert-color));
@@ -4032,6 +4033,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   --utrecht-alert-dialog-margin-block-end: auto;
   background-color: var(--_utrecht-alert-background-color, var(--utrecht-alert-background-color));
   border-color: var(--_utrecht-alert-border-color, var(--utrecht-alert-border-color));
+  border-radius: var(--utrecht-alert-border-radius, 0);
   border-style: solid;
   border-width: var(--_utrecht-alert-border-width, var(--utrecht-alert-border-width, 0));
   color: var(--_utrecht-alert-color, var(--utrecht-alert-color));
