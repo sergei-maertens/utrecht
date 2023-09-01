@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 29 Aug 2023 23:57:35 GMT
+ * Generated on Fri, 01 Sep 2023 14:41:05 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 29 Aug 2023 23:57:38 GMT
+ * Generated on Fri, 01 Sep 2023 14:41:07 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -46,7 +46,6 @@
   --utrecht-border-radius-sm: 2px;
   --utrecht-border-width-md: 2px;
   --utrecht-border-width-sm: 1px;
-  --utrecht-typography-text-transform-uppercase: uppercase;
   --utrecht-typography-line-height-lg: 2;
   --utrecht-typography-line-height-md: 1.5;
   --utrecht-typography-line-height-sm: 1.25;
@@ -158,15 +157,13 @@
   --utrecht-search-bar-input-background-position-x: .5em;
   --utrecht-search-bar-button-hover-scale: 1;
   --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-  --utrecht-search-bar-button-text-transform: uppercase;
   --utrecht-search-bar-button-letter-spacing: .05em;
   --utrecht-radio-button-margin-inline-end: 12px;
   --utrecht-radio-button-border-radius: 0;
-  --utrecht-radio-button-invalid-border-width: 3px;
+  --utrecht-radio-button-invalid-border-width: 2px;
   --utrecht-radio-button-icon-size: 42%;
   --utrecht-radio-button-size: 24px;
-  --utrecht-radio-button-border-width: 3px;
-  --utrecht-pre-heading-text-transform: uppercase;
+  --utrecht-radio-button-border-width: 2px;
   --utrecht-paragraph-margin-block-end: 0;
   --utrecht-pagination-relative-link-distanced-margin-inline-start: 0.5em;
   --utrecht-pagination-relative-link-distanced-margin-inline-end: 0.5em;
@@ -260,7 +257,6 @@
   --utrecht-form-toggle-border-color: transparent;
   --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
   --utrecht-form-label-font-size: 1em;
-  --utrecht-form-fieldset-legend-text-transform: uppercase;
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
   --utrecht-form-field-invalid-border-inline-start-width: 3px;
@@ -346,9 +342,9 @@
   --utrecht-code-block-line-height: 24px;
   --utrecht-code-block-font-size: 16px;
   --utrecht-checkbox-margin-block-start: 0;
-  --utrecht-checkbox-focus-border-width: 3px;
+  --utrecht-checkbox-focus-border-width: 2px;
   --utrecht-checkbox-size: 24px;
-  --utrecht-checkbox-border-width: 1px;
+  --utrecht-checkbox-border-width: 2px;
   --utrecht-checkbox-border-radius: 0;
   --utrecht-calendar-icon-size: 24px;
   --utrecht-calendar-navigation-label-min-inline-size: 200px;
@@ -616,13 +612,11 @@
   --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-  --utrecht-heading-6-text-transform: var(--utrecht-typography-text-transform-uppercase);
   --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
   --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-5-text-transform: var(--utrecht-typography-text-transform-uppercase);
   --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -984,7 +978,6 @@
   --utrecht-border-radius-sm: 2px;
   --utrecht-border-width-md: 2px;
   --utrecht-border-width-sm: 1px;
-  --utrecht-typography-text-transform-uppercase: uppercase;
   --utrecht-typography-line-height-lg: 2;
   --utrecht-typography-line-height-md: 1.5;
   --utrecht-typography-line-height-sm: 1.25;
@@ -1096,15 +1089,13 @@
   --utrecht-search-bar-input-background-position-x: .5em;
   --utrecht-search-bar-button-hover-scale: 1;
   --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-  --utrecht-search-bar-button-text-transform: uppercase;
   --utrecht-search-bar-button-letter-spacing: .05em;
   --utrecht-radio-button-margin-inline-end: 12px;
   --utrecht-radio-button-border-radius: 0;
-  --utrecht-radio-button-invalid-border-width: 3px;
+  --utrecht-radio-button-invalid-border-width: 2px;
   --utrecht-radio-button-icon-size: 42%;
   --utrecht-radio-button-size: 24px;
-  --utrecht-radio-button-border-width: 3px;
-  --utrecht-pre-heading-text-transform: uppercase;
+  --utrecht-radio-button-border-width: 2px;
   --utrecht-paragraph-margin-block-end: 0;
   --utrecht-pagination-relative-link-distanced-margin-inline-start: 0.5em;
   --utrecht-pagination-relative-link-distanced-margin-inline-end: 0.5em;
@@ -1198,7 +1189,6 @@
   --utrecht-form-toggle-border-color: transparent;
   --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
   --utrecht-form-label-font-size: 1em;
-  --utrecht-form-fieldset-legend-text-transform: uppercase;
   --utrecht-form-fieldset-legend-line-height: 1.4;
   --utrecht-form-fieldset-legend-font-size: 1rem;
   --utrecht-form-field-invalid-border-inline-start-width: 3px;
@@ -1284,9 +1274,9 @@
   --utrecht-code-block-line-height: 24px;
   --utrecht-code-block-font-size: 16px;
   --utrecht-checkbox-margin-block-start: 0;
-  --utrecht-checkbox-focus-border-width: 3px;
+  --utrecht-checkbox-focus-border-width: 2px;
   --utrecht-checkbox-size: 24px;
-  --utrecht-checkbox-border-width: 1px;
+  --utrecht-checkbox-border-width: 2px;
   --utrecht-checkbox-border-radius: 0;
   --utrecht-calendar-icon-size: 24px;
   --utrecht-calendar-navigation-label-min-inline-size: 200px;
@@ -1554,13 +1544,11 @@
   --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-  --utrecht-heading-6-text-transform: var(--utrecht-typography-text-transform-uppercase);
   --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
   --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-5-text-transform: var(--utrecht-typography-text-transform-uppercase);
   --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -1909,7 +1897,6 @@
 .utrecht-theme ::-webkit-backdrop utrecht-page-footer, .utrecht-theme ::-webkit-backdrop .utrecht-page-footer {
   --utrecht-heading-2-color: var(--utrecht-color-white);
   --utrecht-heading-2-font-size: 1em;
-  --utrecht-heading-2-text-transform: uppercase;
   --utrecht-heading-3-color: var(--utrecht-color-white);
   --utrecht-heading-3-font-size: 1.125em;
   --utrecht-heading-3-font-weight: normal;
@@ -1920,7 +1907,6 @@
 .utrecht-theme ::backdrop .utrecht-page-footer {
   --utrecht-heading-2-color: var(--utrecht-color-white);
   --utrecht-heading-2-font-size: 1em;
-  --utrecht-heading-2-text-transform: uppercase;
   --utrecht-heading-3-color: var(--utrecht-color-white);
   --utrecht-heading-3-font-size: 1.125em;
   --utrecht-heading-3-font-weight: normal;
@@ -1942,7 +1928,6 @@
     --utrecht-border-radius-sm: 2px;
     --utrecht-border-width-md: 2px;
     --utrecht-border-width-sm: 1px;
-    --utrecht-typography-text-transform-uppercase: uppercase;
     --utrecht-typography-line-height-lg: 2;
     --utrecht-typography-line-height-md: 1.5;
     --utrecht-typography-line-height-sm: 1.25;
@@ -2054,15 +2039,13 @@
     --utrecht-search-bar-input-background-position-x: .5em;
     --utrecht-search-bar-button-hover-scale: 1;
     --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-    --utrecht-search-bar-button-text-transform: uppercase;
     --utrecht-search-bar-button-letter-spacing: .05em;
     --utrecht-radio-button-margin-inline-end: 12px;
     --utrecht-radio-button-border-radius: 0;
-    --utrecht-radio-button-invalid-border-width: 3px;
+    --utrecht-radio-button-invalid-border-width: 2px;
     --utrecht-radio-button-icon-size: 42%;
     --utrecht-radio-button-size: 24px;
-    --utrecht-radio-button-border-width: 3px;
-    --utrecht-pre-heading-text-transform: uppercase;
+    --utrecht-radio-button-border-width: 2px;
     --utrecht-paragraph-margin-block-end: 0;
     --utrecht-pagination-relative-link-distanced-margin-inline-start: 0.5em;
     --utrecht-pagination-relative-link-distanced-margin-inline-end: 0.5em;
@@ -2157,7 +2140,6 @@
     --utrecht-form-toggle-border-color: transparent;
     --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
     --utrecht-form-label-font-size: 1em;
-    --utrecht-form-fieldset-legend-text-transform: uppercase;
     --utrecht-form-fieldset-legend-line-height: 1.4;
     --utrecht-form-fieldset-legend-font-size: 1rem;
     --utrecht-form-field-invalid-border-inline-start-width: 3px;
@@ -2243,9 +2225,9 @@
     --utrecht-code-block-line-height: 24px;
     --utrecht-code-block-font-size: 16px;
     --utrecht-checkbox-margin-block-start: 0;
-    --utrecht-checkbox-focus-border-width: 3px;
+    --utrecht-checkbox-focus-border-width: 2px;
     --utrecht-checkbox-size: 24px;
-    --utrecht-checkbox-border-width: 1px;
+    --utrecht-checkbox-border-width: 2px;
     --utrecht-checkbox-border-radius: 0;
     --utrecht-calendar-icon-size: 24px;
     --utrecht-calendar-navigation-label-min-inline-size: 200px;
@@ -2517,13 +2499,11 @@
     --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-    --utrecht-heading-6-text-transform: var(--utrecht-typography-text-transform-uppercase);
     --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
     --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-5-text-transform: var(--utrecht-typography-text-transform-uppercase);
     --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -2893,7 +2873,6 @@
     --utrecht-border-radius-sm: 2px;
     --utrecht-border-width-md: 2px;
     --utrecht-border-width-sm: 1px;
-    --utrecht-typography-text-transform-uppercase: uppercase;
     --utrecht-typography-line-height-lg: 2;
     --utrecht-typography-line-height-md: 1.5;
     --utrecht-typography-line-height-sm: 1.25;
@@ -3005,15 +2984,13 @@
     --utrecht-search-bar-input-background-position-x: .5em;
     --utrecht-search-bar-button-hover-scale: 1;
     --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-    --utrecht-search-bar-button-text-transform: uppercase;
     --utrecht-search-bar-button-letter-spacing: .05em;
     --utrecht-radio-button-margin-inline-end: 12px;
     --utrecht-radio-button-border-radius: 0;
-    --utrecht-radio-button-invalid-border-width: 3px;
+    --utrecht-radio-button-invalid-border-width: 2px;
     --utrecht-radio-button-icon-size: 42%;
     --utrecht-radio-button-size: 24px;
-    --utrecht-radio-button-border-width: 3px;
-    --utrecht-pre-heading-text-transform: uppercase;
+    --utrecht-radio-button-border-width: 2px;
     --utrecht-paragraph-margin-block-end: 0;
     --utrecht-pagination-relative-link-distanced-margin-inline-start: 0.5em;
     --utrecht-pagination-relative-link-distanced-margin-inline-end: 0.5em;
@@ -3108,7 +3085,6 @@
     --utrecht-form-toggle-border-color: transparent;
     --utrecht-form-toggle-accent-color: hsla(0, 0%, 48%, 1);
     --utrecht-form-label-font-size: 1em;
-    --utrecht-form-fieldset-legend-text-transform: uppercase;
     --utrecht-form-fieldset-legend-line-height: 1.4;
     --utrecht-form-fieldset-legend-font-size: 1rem;
     --utrecht-form-field-invalid-border-inline-start-width: 3px;
@@ -3194,9 +3170,9 @@
     --utrecht-code-block-line-height: 24px;
     --utrecht-code-block-font-size: 16px;
     --utrecht-checkbox-margin-block-start: 0;
-    --utrecht-checkbox-focus-border-width: 3px;
+    --utrecht-checkbox-focus-border-width: 2px;
     --utrecht-checkbox-size: 24px;
-    --utrecht-checkbox-border-width: 1px;
+    --utrecht-checkbox-border-width: 2px;
     --utrecht-checkbox-border-radius: 0;
     --utrecht-calendar-icon-size: 24px;
     --utrecht-calendar-navigation-label-min-inline-size: 200px;
@@ -3468,13 +3444,11 @@
     --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-    --utrecht-heading-6-text-transform: var(--utrecht-typography-text-transform-uppercase);
     --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
     --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-5-text-transform: var(--utrecht-typography-text-transform-uppercase);
     --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -6141,6 +6115,10 @@ ol.utrecht-breadcrumb__list {
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-checkbox--custom,
 .utrecht-custom-checkbox {
+  /*
+   * Use 24x24px as hardcoded minimum target size, to meet WCAG 2.5.8 standards.
+   * https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
+   */
   -webkit-appearance: none;
   appearance: none;
   background-position: center;
@@ -6153,6 +6131,8 @@ ol.utrecht-breadcrumb__list {
   cursor: var(--utrecht-action-activate-cursor, revert);
   inline-size: var(--utrecht-checkbox-size, 1em);
   margin-block-start: var(--utrecht-checkbox-margin-block-start);
+  min-block-size: 24px;
+  min-inline-size: 24px;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
   vertical-align: top;
@@ -6651,7 +6631,6 @@ ol.utrecht-breadcrumb__list {
   line-height: var(--utrecht-form-fieldset-legend-line-height);
   page-break-after: avoid;
   page-break-inside: avoid;
-  text-transform: var(--utrecht-form-fieldset-legend-text-transform);
 }
 
 .utrecht-form-fieldset__legend--disabled {
@@ -6892,7 +6871,6 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));
   page-break-after: avoid;
-  text-transform: var(--utrecht-heading-1-text-transform, inherit);
 }
 
 .utrecht-heading-1--distanced {
@@ -6927,7 +6905,6 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));
   page-break-after: avoid;
-  text-transform: var(--utrecht-heading-2-text-transform, inherit);
 }
 
 .utrecht-heading-2--distanced {
@@ -6962,7 +6939,6 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));
   page-break-after: avoid;
-  text-transform: var(--utrecht-heading-3-text-transform, inherit);
 }
 
 .utrecht-heading-3--distanced {
@@ -6997,7 +6973,6 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));
   page-break-after: avoid;
-  text-transform: var(--utrecht-heading-4-text-transform, inherit);
 }
 
 .utrecht-heading-4--distanced {
@@ -7032,7 +7007,6 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));
   page-break-after: avoid;
-  text-transform: var(--utrecht-heading-5-text-transform, inherit);
 }
 
 .utrecht-heading-5--distanced {
@@ -7067,7 +7041,6 @@ ol.utrecht-breadcrumb__list {
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));
   page-break-after: avoid;
-  text-transform: var(--utrecht-heading-6-text-transform, inherit);
 }
 
 .utrecht-heading-6--distanced {
@@ -8622,7 +8595,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-start, 0));
   order: var(--utrecht-pre-heading-order, 0);
-  text-transform: var(--utrecht-pre-heading-text-transform, inherit);
 }
 
 .utrecht-pre-heading--distanced {
@@ -8645,6 +8617,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-radio-button {
+  /*
+   * Use 24x24px as hardcoded minimum target size, to meet WCAG 2.5.8 standards.
+   * https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
+   */
   /*
    * For the `radial-gradient()` use a 5% gradient size to improve anti-aliasing.
    * With a 0% gradient, the circle will have jagged edges.
@@ -8685,6 +8661,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   cursor: var(--utrecht-action-activate-cursor);
   inline-size: var(--utrecht-radio-button-size, 1em);
   margin-inline-end: var(--utrecht-radio-button-margin-inline-end);
+  min-block-size: 24px;
+  min-inline-size: 24px;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
   -webkit-user-select: none;
@@ -8967,7 +8945,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-button-primary-action-background-color: var(--utrecht-search-bar-button-background-color);
   --utrecht-button-primary-action-color: var(--utrecht-search-bar-button-color);
   --utrecht-button-primary-action-hover-background-color: var(--utrecht-search-bar-button-hover-background-color);
-  --utrecht-button-text-transform: var(--utrecht-search-bar-button-text-transform);
   --utrecht-textbox-border-color: var(--utrecht-search-bar-input-border-color);
   --utrecht-textbox-padding-inline-start: var(--utrecht-search-bar-input-padding-inline-start);
   --utrecht-textbox-border-bottom-width: var(--utrecht-search-bar-input-border-bottom-width);
