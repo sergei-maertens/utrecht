@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 04 Sep 2023 20:44:15 GMT
+ * Generated on Mon, 04 Sep 2023 21:03:10 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 04 Sep 2023 20:44:18 GMT
+ * Generated on Mon, 04 Sep 2023 21:03:13 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -10316,8 +10316,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
 /* allow `nldesignsystem` prefix */
 /* stylelint-disable custom-property-pattern */
 .docs-story {
+  /* Avoid "Show code"/"Hide code" button to become invisible for stories that render no visible content, using `min-block-size` */
   background-color: var(--utrecht-document-background-color);
   color: var(--utrecht-document-color);
+  min-block-size: 2em;
 }
 
 .utrecht-reduced-motion {
