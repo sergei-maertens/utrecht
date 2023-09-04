@@ -1,9 +1,0 @@
-import{a as m,F as p,j as e}from"./jsx-runtime-e6a661ac.js";import"./chunk-S4VUQJ4A-ba6576ab.js";import{D as u,P as d,A as l,b as f,d as g}from"./index-17ff9d85.js";import{v as h}from"./index-3ff0ec10.js";import{t as y,d as S}from"./util-2abfc310.js";import"./index-61bf1805.js";import"./_commonjsHelpers-de833af9.js";import"./iframe-59e8d806.js";import"../sb-preview/runtime.js";import"./react-18-0f8fd3cb.js";import"./index-2801d3c9.js";import"./index-d475d2ea.js";import"./index-d37d4223.js";import"./extends-98964cd2.js";import"./getPrototypeOf-a3ec403f.js";import"./index-afe93f9d.js";import"./index-356e4a49.js";import"./defineProperty-75c483e5.js";import"./clsx.m-1229b3e0.js";import"./index-8d47fad6.js";const k=`<!-- @license CC0-1.0 -->
-
-# Surface component
-
-The surface component can be used to style the background color of the entire viewport.
-
-The CSS class name is \`utrecht-surface\`.
-`,x={surface:{"background-color":{$extensions:{"nl.nldesignsystem.css.property":{syntax:"<color>",inherits:!0}}},color:{$extensions:{"nl.nldesignsystem.css.property":{syntax:"<color>",inherits:!0}}}}},T={utrecht:x},D={title:"React Component/Surface",id:"react-surface",component:h,args:{children:"The Quick Brown Fox Jumps Over The Lazy Dog"},parameters:{tokensPrefix:"utrecht-surface",tokens:y,tokensDefinition:T,docs:{page:()=>m(p,{children:[e(u,{children:k}),e(d,{}),e(l,{story:f}),e(g,{})]})}}},r={},o=S(D);var t,s,n;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(n=(s=r.parameters)==null?void 0:s.docs)==null?void 0:n.source}}};var a,i,c;o.parameters={...o.parameters,docs:{...(a=o.parameters)==null?void 0:a.docs,source:{originalSource:"designTokenStory(meta)",...(c=(i=o.parameters)==null?void 0:i.docs)==null?void 0:c.source}}};const Q=["Default","DesignTokens"];export{r as Default,o as DesignTokens,Q as __namedExportsOrder,D as default};
-//# sourceMappingURL=Surface.stories-031fd9ee.js.map

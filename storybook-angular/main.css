@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Fri, 01 Sep 2023 14:58:15 GMT
+ * Generated on Mon, 04 Sep 2023 20:44:15 GMT
  */
 /**
  * Do not edit directly
- * Generated on Fri, 01 Sep 2023 14:58:19 GMT
+ * Generated on Mon, 04 Sep 2023 20:44:18 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -35,8 +35,6 @@
   --denhaag-process-steps-sub-step-marker-size: 12px;
   --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
-  --utrecht-topnav-link-focus-text-decoration: none;
-  --utrecht-topnav-link-focus-border-type: dotted;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
   --utrecht-border-radius-none: 0;
@@ -205,6 +203,8 @@
   --utrecht-ordered-list-padding-inline-start: 28.8px;
   --utrecht-ordered-list-margin-block-end: 1em;
   --utrecht-ordered-list-margin-block-start: 0;
+  --utrecht-topnav-link-focus-text-decoration: none;
+  --utrecht-topnav-link-focus-border-type: dotted;
   --utrecht-mapcontrolbutton-focus-text-decoration: none;
   --utrecht-mapcontrolbutton-border-radius: 2px;
   --utrecht-mapcontrolbutton-margin-inline-end: 0;
@@ -446,24 +446,6 @@
   --denhaag-process-steps-step-heading-color: var(--utrecht-color-black);
   --denhaag-process-steps-font-family: var(--utrecht-typography-sans-serif-font-family);
   --utrecht-toptask-nav-gap: var(--utrecht-space-column-md);
-  --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
-  --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
-  --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
-  --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
-  --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
-  --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
-  --utrecht-topnav-link-color: var(--utrecht-color-white);
-  --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
-  --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
-  --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
-  --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
-  --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
-  --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
-  --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
-  --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
-  --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
-  --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
-  --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
   --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
   --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
@@ -576,6 +558,24 @@
   --utrecht-page-footer-background-image: linear-gradient(45deg, var(--utrecht-color-red-40), var(--utrecht-color-red-40) 50%, hsl(5 54% 59%) 50%);
   --utrecht-page-footer-background-color: var(--utrecht-color-red-40);
   --utrecht-page-footer-color: var(--utrecht-color-white);
+  --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
+  --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
+  --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
+  --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
+  --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
+  --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
+  --utrecht-topnav-link-color: var(--utrecht-color-white);
+  --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
+  --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
+  --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
+  --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
+  --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
+  --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
+  --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
+  --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
+  --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
+  --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
+  --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-mark-color: var(--utrecht-color-black);
   --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
   --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
@@ -967,8 +967,6 @@
   --denhaag-process-steps-sub-step-marker-size: 12px;
   --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
-  --utrecht-topnav-link-focus-text-decoration: none;
-  --utrecht-topnav-link-focus-border-type: dotted;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
   --utrecht-border-radius-none: 0;
@@ -1137,6 +1135,8 @@
   --utrecht-ordered-list-padding-inline-start: 28.8px;
   --utrecht-ordered-list-margin-block-end: 1em;
   --utrecht-ordered-list-margin-block-start: 0;
+  --utrecht-topnav-link-focus-text-decoration: none;
+  --utrecht-topnav-link-focus-border-type: dotted;
   --utrecht-mapcontrolbutton-focus-text-decoration: none;
   --utrecht-mapcontrolbutton-border-radius: 2px;
   --utrecht-mapcontrolbutton-margin-inline-end: 0;
@@ -1378,24 +1378,6 @@
   --denhaag-process-steps-step-heading-color: var(--utrecht-color-black);
   --denhaag-process-steps-font-family: var(--utrecht-typography-sans-serif-font-family);
   --utrecht-toptask-nav-gap: var(--utrecht-space-column-md);
-  --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
-  --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
-  --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
-  --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
-  --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
-  --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
-  --utrecht-topnav-link-color: var(--utrecht-color-white);
-  --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
-  --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
-  --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
-  --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
-  --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
-  --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
-  --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
-  --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
-  --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
-  --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
-  --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
   --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
   --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
@@ -1508,6 +1490,24 @@
   --utrecht-page-footer-background-image: linear-gradient(45deg, var(--utrecht-color-red-40), var(--utrecht-color-red-40) 50%, hsl(5 54% 59%) 50%);
   --utrecht-page-footer-background-color: var(--utrecht-color-red-40);
   --utrecht-page-footer-color: var(--utrecht-color-white);
+  --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
+  --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
+  --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
+  --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
+  --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
+  --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
+  --utrecht-topnav-link-color: var(--utrecht-color-white);
+  --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
+  --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
+  --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
+  --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
+  --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
+  --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
+  --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
+  --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
+  --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
+  --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
+  --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-mark-color: var(--utrecht-color-black);
   --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
   --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
@@ -1917,8 +1917,6 @@
     --denhaag-process-steps-sub-step-marker-size: 12px;
     --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
-    --utrecht-topnav-link-focus-text-decoration: none;
-    --utrecht-topnav-link-focus-border-type: dotted;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
     --utrecht-border-radius-none: 0;
@@ -2087,6 +2085,8 @@
     --utrecht-ordered-list-padding-inline-start: 28.8px;
     --utrecht-ordered-list-margin-block-end: 1em;
     --utrecht-ordered-list-margin-block-start: 0;
+    --utrecht-topnav-link-focus-text-decoration: none;
+    --utrecht-topnav-link-focus-border-type: dotted;
     --utrecht-mapcontrolbutton-focus-text-decoration: none;
     --utrecht-mapcontrolbutton-border-radius: 2px;
     --utrecht-mapcontrolbutton-margin-inline-end: 0;
@@ -2331,24 +2331,6 @@
     --denhaag-process-steps-step-heading-color: var(--utrecht-color-black);
     --denhaag-process-steps-font-family: var(--utrecht-typography-sans-serif-font-family);
     --utrecht-toptask-nav-gap: var(--utrecht-space-column-md);
-    --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
-    --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
-    --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
-    --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
-    --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
-    --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
-    --utrecht-topnav-link-color: var(--utrecht-color-white);
-    --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
-    --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
-    --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
-    --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
-    --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
-    --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
-    --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
-    --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
-    --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
-    --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
-    --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
     --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
     --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
@@ -2463,6 +2445,24 @@
     --utrecht-page-footer-background-image: linear-gradient(45deg, var(--utrecht-color-red-40), var(--utrecht-color-red-40) 50%, hsl(5 54% 59%) 50%);
     --utrecht-page-footer-background-color: var(--utrecht-color-red-40);
     --utrecht-page-footer-color: var(--utrecht-color-white);
+    --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
+    --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
+    --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
+    --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
+    --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
+    --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
+    --utrecht-topnav-link-color: var(--utrecht-color-white);
+    --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
+    --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
+    --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
+    --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
+    --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
+    --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
+    --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
+    --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
+    --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
+    --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
+    --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-mark-color: var(--utrecht-color-black);
     --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
     --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
@@ -2862,8 +2862,6 @@
     --denhaag-process-steps-sub-step-marker-size: 12px;
     --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
-    --utrecht-topnav-link-focus-text-decoration: none;
-    --utrecht-topnav-link-focus-border-type: dotted;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
     --utrecht-border-radius-none: 0;
@@ -3032,6 +3030,8 @@
     --utrecht-ordered-list-padding-inline-start: 28.8px;
     --utrecht-ordered-list-margin-block-end: 1em;
     --utrecht-ordered-list-margin-block-start: 0;
+    --utrecht-topnav-link-focus-text-decoration: none;
+    --utrecht-topnav-link-focus-border-type: dotted;
     --utrecht-mapcontrolbutton-focus-text-decoration: none;
     --utrecht-mapcontrolbutton-border-radius: 2px;
     --utrecht-mapcontrolbutton-margin-inline-end: 0;
@@ -3276,24 +3276,6 @@
     --denhaag-process-steps-step-heading-color: var(--utrecht-color-black);
     --denhaag-process-steps-font-family: var(--utrecht-typography-sans-serif-font-family);
     --utrecht-toptask-nav-gap: var(--utrecht-space-column-md);
-    --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
-    --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
-    --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
-    --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
-    --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
-    --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
-    --utrecht-topnav-link-color: var(--utrecht-color-white);
-    --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
-    --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
-    --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
-    --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
-    --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
-    --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
-    --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
-    --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
-    --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
-    --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
-    --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-menulijst-item-hover-color: var(--utrecht-color-blue-40);
     --utrecht-menulijst-item-color: var(--utrecht-color-blue-35);
     --utrecht-unordered-list-marker-color: var(--utrecht-color-red-40);
@@ -3408,6 +3390,24 @@
     --utrecht-page-footer-background-image: linear-gradient(45deg, var(--utrecht-color-red-40), var(--utrecht-color-red-40) 50%, hsl(5 54% 59%) 50%);
     --utrecht-page-footer-background-color: var(--utrecht-color-red-40);
     --utrecht-page-footer-color: var(--utrecht-color-white);
+    --utrecht-topnav-link-hover-background-color: var(--utrecht-color-black);
+    --utrecht-topnav-link-focus-outline-color: var(--utrecht-color-black);
+    --utrecht-topnav-link-focus-background-color: var(--utrecht-color-yellow-80);
+    --utrecht-topnav-link-focus-box-shadow-color: var(--utrecht-color-yellow-80);
+    --utrecht-topnav-link-focus-color: var(--utrecht-color-black);
+    --utrecht-topnav-link-background-color: var(--utrecht-color-blue-40);
+    --utrecht-topnav-link-color: var(--utrecht-color-white);
+    --utrecht-topnav-list-border-color: var(--utrecht-color-grey-40);
+    --utrecht-topnav-list-background-color: var(--utrecht-color-grey-15);
+    --utrecht-sidenav-link-hover-color: var(--utrecht-color-blue-40);
+    --utrecht-sidenav-link-color: var(--utrecht-color-blue-40);
+    --utrecht-sidenav-item-marker-hover-color: var(--utrecht-color-blue-50);
+    --utrecht-sidenav-item-marker-color: var(--utrecht-color-grey-80);
+    --utrecht-sidenav-item-hover-color: var(--utrecht-color-blue-40);
+    --utrecht-sidenav-item-margin-inline-end: var(--utrecht-space-inline-3xs);
+    --utrecht-sidenav-item-margin-inline-start: var(--utrecht-space-inline-3xs);
+    --utrecht-sidenav-item-margin-block-end: var(--utrecht-space-block-xs);
+    --utrecht-sidenav-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-mark-color: var(--utrecht-color-black);
     --utrecht-mark-background-color: var(--utrecht-color-yellow-60);
     --utrecht-mapcontrolbutton-hover-color: var(--utrecht-color-white);
@@ -8141,6 +8141,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   text-decoration: none;
 }
 
+.utrecht-topnav__link--hover,
 .utrecht-topnav__link:hover {
   background-color: var(--utrecht-topnav-link-hover-background-color);
   color: var(--utrecht-topnav-link-color);
@@ -10323,6 +10324,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-motion-max-animation-duration: 0;
 }
 
+.no-style-decorator *,
 .no-style .docs-story,
 .no-style .docs-story * {
   all: revert !important;
