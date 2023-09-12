@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 11 Sep 2023 08:21:23 GMT
+ * Generated on Tue, 12 Sep 2023 16:33:31 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 11 Sep 2023 08:21:27 GMT
+ * Generated on Tue, 12 Sep 2023 16:33:34 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -48,10 +48,6 @@
   --utrecht-typography-line-height-md: 1.5;
   --utrecht-typography-line-height-sm: 1.25;
   --utrecht-typography-line-height-xs: 1;
-  --utrecht-typography-letter-spacing-lg: 3px;
-  --utrecht-typography-letter-spacing-md: 1px;
-  --utrecht-typography-letter-spacing-sm: 0.8px;
-  --utrecht-typography-letter-spacing-normal: normal;
   --utrecht-typography-font-style-inherit: inherit;
   --utrecht-typography-font-style-normal: normal;
   --utrecht-typography-weight-scale-normal-font-weight: 400;
@@ -155,7 +151,6 @@
   --utrecht-search-bar-input-background-position-x: .5em;
   --utrecht-search-bar-button-hover-scale: 1;
   --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-  --utrecht-search-bar-button-letter-spacing: .05em;
   --utrecht-radio-button-margin-inline-end: 12px;
   --utrecht-radio-button-border-radius: 0;
   --utrecht-radio-button-invalid-border-width: 2px;
@@ -612,32 +607,26 @@
   --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-  --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
   --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-5-font-size: var(--utrecht-typography-scale-sm-font-size);
   --utrecht-heading-5-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-4-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-4-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-4-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-4-font-size: var(--utrecht-typography-scale-lg-font-size);
   --utrecht-heading-4-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-3-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-3-line-height: var(--utrecht-typography-line-height-sm);
   --utrecht-heading-3-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-3-font-size: var(--utrecht-typography-scale-xl-font-size);
   --utrecht-heading-3-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-2-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-2-line-height: var(--utrecht-typography-line-height-sm);
   --utrecht-heading-2-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-heading-2-font-size: var(--utrecht-typography-scale-xl-font-size);
   --utrecht-heading-2-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-1-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-1-line-height: var(--utrecht-typography-line-height-sm);
   --utrecht-heading-1-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-heading-1-font-size: var(--utrecht-typography-scale-3xl-font-size);
@@ -980,10 +969,6 @@
   --utrecht-typography-line-height-md: 1.5;
   --utrecht-typography-line-height-sm: 1.25;
   --utrecht-typography-line-height-xs: 1;
-  --utrecht-typography-letter-spacing-lg: 3px;
-  --utrecht-typography-letter-spacing-md: 1px;
-  --utrecht-typography-letter-spacing-sm: 0.8px;
-  --utrecht-typography-letter-spacing-normal: normal;
   --utrecht-typography-font-style-inherit: inherit;
   --utrecht-typography-font-style-normal: normal;
   --utrecht-typography-weight-scale-normal-font-weight: 400;
@@ -1087,7 +1072,6 @@
   --utrecht-search-bar-input-background-position-x: .5em;
   --utrecht-search-bar-button-hover-scale: 1;
   --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-  --utrecht-search-bar-button-letter-spacing: .05em;
   --utrecht-radio-button-margin-inline-end: 12px;
   --utrecht-radio-button-border-radius: 0;
   --utrecht-radio-button-invalid-border-width: 2px;
@@ -1544,32 +1528,26 @@
   --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
   --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-  --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
   --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
   --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-5-font-size: var(--utrecht-typography-scale-sm-font-size);
   --utrecht-heading-5-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-4-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-4-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-4-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-4-font-size: var(--utrecht-typography-scale-lg-font-size);
   --utrecht-heading-4-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-3-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-3-line-height: var(--utrecht-typography-line-height-sm);
   --utrecht-heading-3-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
   --utrecht-heading-3-font-size: var(--utrecht-typography-scale-xl-font-size);
   --utrecht-heading-3-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-2-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-2-line-height: var(--utrecht-typography-line-height-sm);
   --utrecht-heading-2-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-heading-2-font-size: var(--utrecht-typography-scale-xl-font-size);
   --utrecht-heading-2-font-family: var(--utrecht-typography-sans-serif-font-family);
-  --utrecht-heading-1-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
   --utrecht-heading-1-line-height: var(--utrecht-typography-line-height-sm);
   --utrecht-heading-1-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-heading-1-font-size: var(--utrecht-typography-scale-3xl-font-size);
@@ -1930,10 +1908,6 @@
     --utrecht-typography-line-height-md: 1.5;
     --utrecht-typography-line-height-sm: 1.25;
     --utrecht-typography-line-height-xs: 1;
-    --utrecht-typography-letter-spacing-lg: 3px;
-    --utrecht-typography-letter-spacing-md: 1px;
-    --utrecht-typography-letter-spacing-sm: 0.8px;
-    --utrecht-typography-letter-spacing-normal: normal;
     --utrecht-typography-font-style-inherit: inherit;
     --utrecht-typography-font-style-normal: normal;
     --utrecht-typography-weight-scale-normal-font-weight: 400;
@@ -2037,7 +2011,6 @@
     --utrecht-search-bar-input-background-position-x: .5em;
     --utrecht-search-bar-button-hover-scale: 1;
     --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-    --utrecht-search-bar-button-letter-spacing: .05em;
     --utrecht-radio-button-margin-inline-end: 12px;
     --utrecht-radio-button-border-radius: 0;
     --utrecht-radio-button-invalid-border-width: 2px;
@@ -2499,32 +2472,26 @@
     --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-    --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
     --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-5-font-size: var(--utrecht-typography-scale-sm-font-size);
     --utrecht-heading-5-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-4-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-4-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-4-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-4-font-size: var(--utrecht-typography-scale-lg-font-size);
     --utrecht-heading-4-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-3-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-3-line-height: var(--utrecht-typography-line-height-sm);
     --utrecht-heading-3-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-3-font-size: var(--utrecht-typography-scale-xl-font-size);
     --utrecht-heading-3-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-2-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-2-line-height: var(--utrecht-typography-line-height-sm);
     --utrecht-heading-2-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-heading-2-font-size: var(--utrecht-typography-scale-xl-font-size);
     --utrecht-heading-2-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-1-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-1-line-height: var(--utrecht-typography-line-height-sm);
     --utrecht-heading-1-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-heading-1-font-size: var(--utrecht-typography-scale-3xl-font-size);
@@ -2875,10 +2842,6 @@
     --utrecht-typography-line-height-md: 1.5;
     --utrecht-typography-line-height-sm: 1.25;
     --utrecht-typography-line-height-xs: 1;
-    --utrecht-typography-letter-spacing-lg: 3px;
-    --utrecht-typography-letter-spacing-md: 1px;
-    --utrecht-typography-letter-spacing-sm: 0.8px;
-    --utrecht-typography-letter-spacing-normal: normal;
     --utrecht-typography-font-style-inherit: inherit;
     --utrecht-typography-font-style-normal: normal;
     --utrecht-typography-weight-scale-normal-font-weight: 400;
@@ -2982,7 +2945,6 @@
     --utrecht-search-bar-input-background-position-x: .5em;
     --utrecht-search-bar-button-hover-scale: 1;
     --utrecht-search-bar-button-hover-background-color: hsl(359 65% 58%);
-    --utrecht-search-bar-button-letter-spacing: .05em;
     --utrecht-radio-button-margin-inline-end: 12px;
     --utrecht-radio-button-border-radius: 0;
     --utrecht-radio-button-invalid-border-width: 2px;
@@ -3444,32 +3406,26 @@
     --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
     --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
-    --utrecht-heading-6-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-6-font-size: var(--utrecht-typography-scale-sm-font-size);
     --utrecht-heading-6-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-5-letter-spacing: var(--utrecht-typography-letter-spacing-sm);
     --utrecht-heading-5-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-5-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-5-font-size: var(--utrecht-typography-scale-sm-font-size);
     --utrecht-heading-5-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-4-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-4-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-4-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-4-font-size: var(--utrecht-typography-scale-lg-font-size);
     --utrecht-heading-4-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-3-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-3-line-height: var(--utrecht-typography-line-height-sm);
     --utrecht-heading-3-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
     --utrecht-heading-3-font-size: var(--utrecht-typography-scale-xl-font-size);
     --utrecht-heading-3-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-2-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-2-line-height: var(--utrecht-typography-line-height-sm);
     --utrecht-heading-2-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-heading-2-font-size: var(--utrecht-typography-scale-xl-font-size);
     --utrecht-heading-2-font-family: var(--utrecht-typography-sans-serif-font-family);
-    --utrecht-heading-1-letter-spacing: var(--utrecht-typography-letter-spacing-normal);
     --utrecht-heading-1-line-height: var(--utrecht-typography-line-height-sm);
     --utrecht-heading-1-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-heading-1-font-size: var(--utrecht-typography-scale-3xl-font-size);
@@ -4866,7 +4822,6 @@ ol.utrecht-breadcrumb__list {
   gap: var(--utrecht-button-icon-gap);
   inline-size: var(--utrecht-button-inline-size, auto);
   justify-content: center;
-  letter-spacing: var(--utrecht-button-letter-spacing);
   line-height: var(--utrecht-button-line-height);
   min-block-size: var(--utrecht-button-min-block-size, 44px);
   min-inline-size: var(--utrecht-button-min-inline-size, 44px);
@@ -5847,7 +5802,6 @@ ol.utrecht-breadcrumb__list {
   gap: var(--utrecht-button-icon-gap);
   inline-size: var(--utrecht-button-inline-size, auto);
   justify-content: center;
-  letter-spacing: var(--utrecht-button-letter-spacing);
   line-height: var(--utrecht-button-line-height);
   min-block-size: var(--utrecht-button-min-block-size, 44px);
   min-inline-size: var(--utrecht-button-min-inline-size, 44px);
@@ -6866,7 +6820,6 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-heading-1-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
   font-size: var(--utrecht-heading-1-font-size, revert);
   font-weight: var(--utrecht-heading-1-font-weight, var(--utrecht-heading-font-weight, bold));
-  letter-spacing: var(--utrecht-heading-1-letter-spacing);
   line-height: var(--utrecht-heading-1-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-1-margin-block-start, 0));
@@ -6900,7 +6853,6 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-heading-2-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
   font-size: var(--utrecht-heading-2-font-size, revert);
   font-weight: var(--utrecht-heading-2-font-weight, var(--utrecht-heading-font-weight, bold));
-  letter-spacing: var(--utrecht-heading-2-letter-spacing);
   line-height: var(--utrecht-heading-2-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-2-margin-block-start, 0));
@@ -6934,7 +6886,6 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-heading-3-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
   font-size: var(--utrecht-heading-3-font-size, revert);
   font-weight: var(--utrecht-heading-3-font-weight, var(--utrecht-heading-font-weight, bold));
-  letter-spacing: var(--utrecht-heading-3-letter-spacing);
   line-height: var(--utrecht-heading-3-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-3-margin-block-start, 0));
@@ -6968,7 +6919,6 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-heading-4-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
   font-size: var(--utrecht-heading-4-font-size, revert);
   font-weight: var(--utrecht-heading-4-font-weight, var(--utrecht-heading-font-weight, bold));
-  letter-spacing: var(--utrecht-heading-4-letter-spacing);
   line-height: var(--utrecht-heading-4-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-4-margin-block-start, 0));
@@ -7002,7 +6952,6 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-heading-5-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
   font-size: var(--utrecht-heading-5-font-size, revert);
   font-weight: var(--utrecht-heading-5-font-weight, var(--utrecht-heading-font-weight, bold));
-  letter-spacing: var(--utrecht-heading-5-letter-spacing);
   line-height: var(--utrecht-heading-5-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-5-margin-block-start, 0));
@@ -7036,7 +6985,6 @@ ol.utrecht-breadcrumb__list {
   font-family: var(--utrecht-heading-6-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
   font-size: var(--utrecht-heading-6-font-size, revert);
   font-weight: var(--utrecht-heading-6-font-weight, var(--utrecht-heading-font-weight, bold));
-  letter-spacing: var(--utrecht-heading-6-letter-spacing);
   line-height: var(--utrecht-heading-6-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-heading-6-margin-block-start, 0));
@@ -7320,7 +7268,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   gap: var(--utrecht-button-icon-gap);
   inline-size: var(--utrecht-button-inline-size, auto);
   justify-content: center;
-  letter-spacing: var(--utrecht-button-letter-spacing);
   line-height: inherit;
   min-block-size: var(--utrecht-button-min-block-size, 44px);
   min-inline-size: var(--utrecht-button-min-inline-size, 44px);
@@ -8591,7 +8538,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   font-family: var(--utrecht-pre-heading-font-family, var(--utrecht-heading-font-family, var(--utrecht-document-font-family)));
   font-size: var(--utrecht-pre-heading-font-size);
   font-weight: var(--utrecht-pre-heading-font-weight, var(--utrecht-heading-font-weight, bold));
-  letter-spacing: var(--utrecht-pre-heading-letter-spacing);
   line-height: var(--utrecht-pre-heading-line-height);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-pre-heading-margin-block-start, 0));
@@ -8942,7 +8888,6 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --utrecht-button-hover-scale: var(--utrecht-search-bar-hover-transform);
   --utrecht-button-font-size: var(--utrecht-search-bar-button-font-size);
   --utrecht-button-font-weight: var(--utrecht-search-bar-button-font-weight);
-  --utrecht-button-letter-spacing: var(--utrecht-search-bar-button-letter-spacing);
   --utrecht-button-primary-action-background-color: var(--utrecht-search-bar-button-background-color);
   --utrecht-button-primary-action-color: var(--utrecht-search-bar-button-color);
   --utrecht-button-primary-action-hover-background-color: var(--utrecht-search-bar-button-hover-background-color);
