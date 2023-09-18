@@ -1,0 +1,2 @@
+import{r as c,h as t}from"./p-9bc062fc.js";const r=".utrecht-icon-container{display:inline-block;color:var(--utrecht-icon-color);width:var(--utrecht-icon-size);height:var(--utrecht-icon-size)}";const o=class{constructor(t){c(this,t)}render(){return t("div",{class:"utrecht-icon-container"},t("slot",null))}};o.style=r;export{o as utrecht_icon_container};
+//# sourceMappingURL=p-1a04bb4d.entry.js.map
