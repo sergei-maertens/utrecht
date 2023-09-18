@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 18 Sep 2023 09:36:16 GMT
+ * Generated on Mon, 18 Sep 2023 22:51:26 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 18 Sep 2023 09:36:20 GMT
+ * Generated on Mon, 18 Sep 2023 22:51:29 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -378,6 +378,7 @@
   --utrecht-button-border-width: 1px;
   --utrecht-button-border-radius: 0;
   --utrecht-breadcrumb-divider-inline-size: 1px;
+  --utrecht-breadcrumb-separator-icon-size: 1em;
   --utrecht-breadcrumb-block-size: 34px;
   --utrecht-blockquote-margin-block-end: 1.6em;
   --utrecht-blockquote-margin-block-start: 1.6em;
@@ -812,6 +813,8 @@
   --utrecht-button-color: var(--utrecht-color-grey-40);
   --utrecht-button-border-color: var(--utrecht-color-grey-40);
   --utrecht-button-background-color: var(--utrecht-color-white);
+  --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
   --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
   --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
   --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
@@ -1299,6 +1302,7 @@
   --utrecht-button-border-width: 1px;
   --utrecht-button-border-radius: 0;
   --utrecht-breadcrumb-divider-inline-size: 1px;
+  --utrecht-breadcrumb-separator-icon-size: 1em;
   --utrecht-breadcrumb-block-size: 34px;
   --utrecht-blockquote-margin-block-end: 1.6em;
   --utrecht-blockquote-margin-block-start: 1.6em;
@@ -1733,6 +1737,8 @@
   --utrecht-button-color: var(--utrecht-color-grey-40);
   --utrecht-button-border-color: var(--utrecht-color-grey-40);
   --utrecht-button-background-color: var(--utrecht-color-white);
+  --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
   --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
   --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
   --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
@@ -2239,6 +2245,7 @@
     --utrecht-button-border-width: 1px;
     --utrecht-button-border-radius: 0;
     --utrecht-breadcrumb-divider-inline-size: 1px;
+    --utrecht-breadcrumb-separator-icon-size: 1em;
     --utrecht-breadcrumb-block-size: 34px;
     --utrecht-blockquote-margin-block-end: 1.6em;
     --utrecht-blockquote-margin-block-start: 1.6em;
@@ -2673,6 +2680,8 @@
     --utrecht-button-color: var(--utrecht-color-grey-80);
     --utrecht-button-border-color: var(--utrecht-color-grey-40);
     --utrecht-button-background-color: var(--utrecht-color-grey-30);
+    --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
     --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
     --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
     --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
@@ -3173,6 +3182,7 @@
     --utrecht-button-border-width: 1px;
     --utrecht-button-border-radius: 0;
     --utrecht-breadcrumb-divider-inline-size: 1px;
+    --utrecht-breadcrumb-separator-icon-size: 1em;
     --utrecht-breadcrumb-block-size: 34px;
     --utrecht-blockquote-margin-block-end: 1.6em;
     --utrecht-blockquote-margin-block-start: 1.6em;
@@ -3607,6 +3617,8 @@
     --utrecht-button-color: var(--utrecht-color-grey-80);
     --utrecht-button-border-color: var(--utrecht-color-grey-40);
     --utrecht-button-background-color: var(--utrecht-color-grey-30);
+    --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
     --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
     --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
     --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
@@ -4432,68 +4444,16 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021 Robbert Broersma
  */
 /* stylelint-disable-next-line block-no-empty */
-.utrecht-breadcrumb--arrows {
-  /* https://css-tricks.com/triangle-breadcrumbs/ */
-  --utrecht-breadcrumb-arrow-size: 24px;
-  overflow: hidden;
-}
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link {
-  padding-inline-end: 0;
-  position: relative;
-}
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after,
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before {
-  block-size: 0;
-  border-block-end-width: var(--utrecht-breadcrumb-block-size);
-  border-block-start-width: var(--utrecht-breadcrumb-block-size);
-  border-color: transparent;
-  border-style: solid;
-  content: " ";
-  display: block;
-  inline-size: 0;
-  inset-block-start: 50%;
-  inset-inline-start: 100%;
-  margin-block-start: calc(-1 * var(--utrecht-breadcrumb-block-size));
-  position: absolute;
-}
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after {
-  border-inline-start-color: var(--utrecht-breadcrumb-link-background-color);
-  border-inline-start-width: var(--utrecht-breadcrumb-arrow-size);
-  z-index: 2;
-}
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before {
-  border-inline-start-color: var(--utrecht-document-background-color);
-  border-inline-start-width: var(--utrecht-breadcrumb-arrow-size);
-  margin-block-start: calc(-1 * var(--utrecht-breadcrumb-block-size));
-  margin-inline-start: 1px;
-  z-index: 1;
-}
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link--focus,
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link:focus {
-  background-color: var(--utrecht-breadcrumb-link-focus-background-color);
-}
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link--focus::after,
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link:focus::after {
-  border-inline-start-color: var(--utrecht-breadcrumb-link-focus-background-color);
-}
-.utrecht-breadcrumb--arrows .utrecht-breadcrumb__item ~ .utrecht-breadcrumb__item .utrecht-breadcrumb__link {
-  padding-inline-start: calc(var(--utrecht-breadcrumb-item-padding-inline-start) + var(--utrecht-breadcrumb-arrow-size));
-}
-
-.utrecht-breadcrumb__item ~ .utrecht-breadcrumb__item {
-  margin-inline-start: var(--utrecht-breadcrumb-item-divider-inline-size);
-}
-
 .utrecht-breadcrumb {
   --utrecht-focus-background-color: var(--utrecht-breadcrumb-link-focus-background-color);
   --utrecht-link-background-color: var(--utrecht-breadcrumb-link-background-color);
-  --utrecht-link-color: var(--utrecht-breadcrumb-link-color);
   --utrecht-link-focus-color: var(--utrecht-breadcrumb-link-focus-color, var(--utrecht-breadcrumb-link-color));
   --utrecht-link-focus-text-decoration: var(--utrecht-link-text-decoration);
   --utrecht-link-hover-color: var(--utrecht-breadcrumb-link-color);
   --utrecht-link-hover-text-decoration: var(--utrecht-link-text-decoration);
   --utrecht-link-visited-color: var(--utrecht-breadcrumb-link-color);
   --utrecht-link-visited-text-decoration: var(--utrecht-link-text-decoration);
+  --utrecht-link-color: var(--utrecht-breadcrumb-link-color);
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-breadcrumb-font-size);
   text-transform: var(--utrecht-document-text-transform, inherit);
@@ -4528,7 +4488,26 @@ ol.utrecht-breadcrumb__list {
   padding-inline-start: var(--utrecht-breadcrumb-item-padding-inline-start, 8px);
 }
 
+.utrecht-breadcrumb__link--disabled {
+  --utrecht-link-placeholder-color: var(--utrecht-breadcrumb-link-disabled-color, var(--utrecht-breadcrumb-link-color));
+  background-color: var(--utrecht-breadcrumb-link-disabled-background-color, var(--utrecht-breadcrumb-link-background-color));
+  color: var(--utrecht-link-placeholder-color);
+}
+
 /* stylelint-disable-next-line block-no-empty */
+.utrecht-breadcrumb__separator {
+  /*
+   * Overwrite `style` attribute using "private" CSS variable for <li> hack:
+   * <li aria-hidden="true" hidden style="display: var(--_utrecht-breadcrumb-separator-display, block)">
+   */
+  --_utrecht-breadcrumb-separator-display: flex;
+  --utrecht-icon-size: var(--utrecht-breadcrumb-separator-icon-size);
+  --utrecht-icon-color: var(--utrecht-breadcrumb-separator-icon-color);
+  align-items: center;
+  display: var(--_utrecht-breadcrumb-separator-display);
+  inline-size: var(--utrecht-breadcrumb-separator-inline-size);
+}
+
 .utrecht-breadcrumb--arrows {
   /* https://css-tricks.com/triangle-breadcrumbs/ */
   --utrecht-breadcrumb-arrow-size: 24px;
