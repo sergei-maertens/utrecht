@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sun, 24 Sep 2023 06:37:24 GMT
+ * Generated on Sun, 24 Sep 2023 12:30:44 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sun, 24 Sep 2023 06:37:27 GMT
+ * Generated on Sun, 24 Sep 2023 12:30:48 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6352,6 +6352,25 @@ ol.utrecht-breadcrumb__list {
 
 /**
  * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+.utrecht-figure {
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-end, 0));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-figure-margin-block-start, 0));
+}
+
+.utrecht-figure__caption {
+  color: var(--utrecht-figure-caption-color);
+  font-size: var(--utrecht-figure-caption-font-size);
+  line-height: var(--utrecht-figure-caption-line-height);
+}
+
+/**
+ * @license EUPL-1.2
  * Copyright (c) 2020-2022 Gemeente Utrecht
  * Copyright (c) 2020-2022 Frameless B.V.
  */
@@ -7212,6 +7231,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
 `text-decoration-skip` also makes the transition more challenging to implement.
 
 */
+/**
+ * Simulate forced-colors mode.
+ */
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
@@ -7229,13 +7251,16 @@ however browsers don't seem to have implemented great looking supixel tweening y
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-link-button {
   --utrecht-icon-size: var(--utrecht-link-icon-size, 1em);
-  color: var(--utrecht-link-color, blue);
-  -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
-          text-decoration: var(--utrecht-link-text-decoration, underline);
-  text-decoration-color: var(--utrecht-link-text-decoration-color, currentColor);
+  color: var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)));
+  /* Only underline `<a href="...">...</a>`, which matches `a:any-link`.
+   * Do not underline `<a name="">Anchor</a>`.
+   */
+  --_utrecht-link-forced-colors-color: linktext;
+  text-decoration-color: var(--_utrecht-link-state-text-decoration-color, var(--utrecht-link-text-decoration-color, currentColor));
+  text-decoration-line: var(--_utrecht-link-state-text-decoration, var(--utrecht-link-text-decoration, underline));
   -webkit-text-decoration-skip-ink: all;
           text-decoration-skip-ink: all;
-  text-decoration-thickness: max(var(--utrecht-link-text-decoration-thickness), 1px);
+  text-decoration-thickness: max(var(--_utrecht-link-state-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
   text-underline-offset: var(--utrecht-link-text-underline-offset);
   --utrecht-icon-size: var(--utrecht-button-icon-size, 1em);
   align-items: center;
@@ -7260,32 +7285,33 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-link-button--hover, .utrecht-link-button--html-button:not(:disabled):hover {
-  color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
-  -webkit-text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
-          text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
+  --_utrecht-link-forced-colors-color: linktext;
+  --_utrecht-link-state-color: var(--utrecht-link-hover-color);
+  --_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);
+  --_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);
   -webkit-text-decoration-skip: none;
           text-decoration-skip: none;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 
 .utrecht-link-button--disabled {
-  color: var(--utrecht-link-placeholder-color, var(--utrecht-link-color));
-  cursor: var(--utrecht-action-disabled-cursor);
-  text-decoration: none;
+  --_utrecht-link-forced-colors-color: GrayText;
+  --_utrecht-link-state-color: var(--utrecht-link-placeholder-color);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
+  font-weight: var(--utrecht-link-placeholder-font-weight);
+  text-decoration-line: none;
 }
 
 .utrecht-link-button--focus, .utrecht-link-button--html-button:not(:disabled):focus {
+  --_utrecht-link-state-color: var(--utrecht-link-focus-color);
+  --_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);
+  --_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);
   background-color: var(--utrecht-link-focus-background-color, transparent);
-  color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
-  -webkit-text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
-          text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
   -webkit-text-decoration-skip: none;
           text-decoration-skip: none;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 
 .utrecht-link-button--focus-visible, .utrecht-link-button--html-button:focus-visible {
@@ -7303,7 +7329,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-link-button--active, .utrecht-link-button--html-button:not(:disabled):active {
-  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
+  --_utrecht-link-forced-colors-color: activetext;
+  --_utrecht-link-state-color: var(--utrecht-link-active-color);
 }
 
 .utrecht-link-button--inline {
@@ -7324,7 +7351,8 @@ however browsers don't seem to have implemented great looking supixel tweening y
   - style `pressed` like the link state `current`, or:
   - add `pressed` design tokens
   */
-  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
+  --_utrecht-link-forced-colors-color: activetext;
+  --_utrecht-link-state-color: var(--utrecht-link-active-color);
 }
 
 .utrecht-link-button--html-button {
@@ -7486,6 +7514,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
 `text-decoration-skip` also makes the transition more challenging to implement.
 
 */
+/**
+ * Simulate forced-colors mode.
+ */
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
@@ -7497,13 +7528,19 @@ however browsers don't seem to have implemented great looking supixel tweening y
  */
 .utrecht-link {
   --utrecht-icon-size: var(--utrecht-link-icon-size, 1em);
-  color: var(--utrecht-link-color, blue);
-  -webkit-text-decoration: var(--utrecht-link-text-decoration, underline);
-          text-decoration: var(--utrecht-link-text-decoration, underline);
-  text-decoration-color: var(--utrecht-link-text-decoration-color, currentColor);
+  color: var(--_utrecht-link-state-color, var(--utrecht-link-color, var(--_utrecht-link-forced-colors-color)));
+}
+
+.utrecht-link:any-link {
+  /* Only underline `<a href="...">...</a>`, which matches `a:any-link`.
+   * Do not underline `<a name="">Anchor</a>`.
+   */
+  --_utrecht-link-forced-colors-color: linktext;
+  text-decoration-color: var(--_utrecht-link-state-text-decoration-color, var(--utrecht-link-text-decoration-color, currentColor));
+  text-decoration-line: var(--_utrecht-link-state-text-decoration, var(--utrecht-link-text-decoration, underline));
   -webkit-text-decoration-skip-ink: all;
           text-decoration-skip-ink: all;
-  text-decoration-thickness: max(var(--utrecht-link-text-decoration-thickness), 1px);
+  text-decoration-thickness: max(var(--_utrecht-link-state-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
   text-underline-offset: var(--utrecht-link-text-underline-offset);
 }
 
@@ -7511,39 +7548,39 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-image: var(--utrecht-link-icon-left-background-image, none);
   background-position: 0 0.25em;
   background-repeat: no-repeat;
-  color: var(--utrecht-link-color, blue);
+  color: var(--utrecht-link-color, LinkText);
   font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   padding-inline-start: var(--utrecht-space-block-md);
-  text-decoration: none;
+  text-decoration-line: none;
 }
 
-.utrecht-link:visited,
 .utrecht-link--visited {
-  color: var(--utrecht-link-visited-color, var(--utrecht-link-color));
+  --_utrecht-link-forced-colors-color: visitedtext;
+  --_utrecht-link-state-color: var(--utrecht-link-visited-color);
 }
 
-.utrecht-link:hover,
+/* `:hover` should only apply to links with `href`, not on disabled links */
+.utrecht-link--html-a:any-link:hover,
 .utrecht-link--hover {
-  color: var(--utrecht-link-hover-color, var(--utrecht-link-color));
-  -webkit-text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
-          text-decoration: var(--utrecht-link-hover-text-decoration, var(--utrecht-link-text-decoration, underline));
+  --_utrecht-link-forced-colors-color: linktext;
+  --_utrecht-link-state-color: var(--utrecht-link-hover-color);
+  --_utrecht-link-state-text-decoration: var(--utrecht-link-hover-text-decoration);
+  --_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);
   -webkit-text-decoration-skip: none;
           text-decoration-skip: none;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  text-decoration-thickness: max(var(--utrecht-link-hover-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 
 .utrecht-link--focus {
+  --_utrecht-link-state-color: var(--utrecht-link-focus-color);
+  --_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);
+  --_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);
   background-color: var(--utrecht-link-focus-background-color, transparent);
-  color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
-  -webkit-text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
-          text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
   -webkit-text-decoration-skip: none;
           text-decoration-skip: none;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
 }
 
 .utrecht-link--focus-visible {
@@ -7560,16 +7597,17 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
 
-.utrecht-link:focus {
+/* `:focus` should only apply to links with `href`, not on disabled links */
+.utrecht-link--html-span:focus,
+.utrecht-link--html-a:any-link:focus {
+  --_utrecht-link-state-color: var(--utrecht-link-focus-color);
+  --_utrecht-link-state-text-decoration: var(--utrecht-link-focus-text-decoration);
+  --_utrecht-link-state-text-decoration-thickness: var(--utrecht-link-focus-text-decoration-thickness);
   background-color: var(--utrecht-link-focus-background-color, transparent);
-  color: var(--utrecht-link-focus-color, var(--utrecht-link-color));
-  -webkit-text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
-          text-decoration: var(--utrecht-link-focus-text-decoration, var(--utrecht-link-text-decoration, underline));
   -webkit-text-decoration-skip: none;
           text-decoration-skip: none;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  text-decoration-thickness: max(var(--utrecht-link-focus-text-decoration-thickness, var(--utrecht-link-text-decoration-thickness)), 1px);
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
    *   can combine it with the focus ring box shadow.
@@ -7583,25 +7621,33 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-width: var(--utrecht-focus-outline-width, revert);
 }
 
-.utrecht-link:focus:not(:focus-visible) {
+.utrecht-link--html-span:focus:not(:focus-visible),
+.utrecht-link--html-a:any-link:focus:not(:focus-visible) {
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
 }
 
-.utrecht-link:active,
+.utrecht-link--html-span:active,
+.utrecht-link--html-a:any-link:active,
 .utrecht-link--active {
-  color: var(--utrecht-link-active-color, var(--utrecht-link-color));
+  --_utrecht-link-forced-colors-color: activetext;
+  --_utrecht-link-state-color: var(--utrecht-link-active-color);
 }
 
 .utrecht-link--telephone {
   white-space: nowrap;
 }
 
-.utrecht-link--box-content {
+.utrecht-link--current {
+  cursor: var(--utrecht-action-inert-cursor, normal);
+  font-weight: var(--utrecht-link-current-font-weight);
+}
+
+.utrecht-link--box-content:any-link {
   color: unset;
   display: inline-block;
-  text-decoration: unset;
+  text-decoration-line: unset;
   -webkit-text-decoration-skip-ink: unset;
           text-decoration-skip-ink: unset;
   text-decoration-thickness: unset;
@@ -7609,9 +7655,29 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-link--placeholder {
-  color: var(--utrecht-link-placeholder-color, var(--utrecht-link-color));
-  cursor: var(--utrecht-action-disabled-cursor);
-  text-decoration: none;
+  --_utrecht-link-forced-colors-color: GrayText;
+  --_utrecht-link-state-color: var(--utrecht-link-placeholder-color);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
+  font-weight: var(--utrecht-link-placeholder-font-weight);
+  text-decoration-line: none;
+}
+
+/**
+ * Simulate forced-colors mode.
+ */
+.utrecht-link--forced-colors {
+  /* Some others choose `transparent` to trigger `currentColor` for `inverse-outline-color`,
+   * however this doesn't guarantee significant contrast between `outline-color` and `inverse-outline-color`.
+   * That's why we use `Highlight` vs `HighlightText`.
+   */
+  --utrecht-focus-outline-color: Highlight;
+  --utrecht-focus-inverse-outline-color: HighlightText;
+  --utrecht-link-color: linktext;
+  --utrecht-link-hover-color: linktext;
+  --utrecht-link-focus-color: linktext;
+  --utrecht-link-active-color: activetext;
+  --utrecht-link-visited-color: visitedtext;
+  --utrecht-link-placeholder-color: GrayText;
 }
 
 /**
@@ -7758,6 +7824,47 @@ however browsers don't seem to have implemented great looking supixel tweening y
   display: flex;
   inline-size: var(--utrecht-map-marker-size);
   justify-content: center;
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ */
+.utrecht-mark {
+  background-color: var(--utrecht-mark-background-color, revert);
+  color: var(--utrecht-mark-color, revert);
+}
+@media print {
+  .utrecht-mark {
+    outline-color: currentColor;
+    outline-style: dotted;
+    outline-width: 0.1em;
+  }
+}
+@media screen and (-ms-high-contrast: active) {
+  .utrecht-mark {
+    background-color: Highlight;
+    color: HighlightText;
+  }
+}
+
+/* class name available only for Storybook */
+.utrecht-mark--print {
+  outline-color: currentColor;
+  outline-style: dotted;
+  outline-width: 0.1em;
+}
+
+/* class name available only for Storybook */
+.utrecht-mark--windows-high-contrast {
+  background-color: Highlight;
+  color: HighlightText;
 }
 
 /**
@@ -10232,6 +10339,9 @@ however browsers don't seem to have implemented great looking supixel tweening y
 `text-decoration-skip` also makes the transition more challenging to implement.
 
 */
+/**
+ * Simulate forced-colors mode.
+ */
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
 /* stylelint-disable-next-line block-no-empty */
