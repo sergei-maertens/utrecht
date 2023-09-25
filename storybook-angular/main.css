@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 25 Sep 2023 11:28:07 GMT
+ * Generated on Mon, 25 Sep 2023 11:28:38 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 25 Sep 2023 11:28:10 GMT
+ * Generated on Mon, 25 Sep 2023 11:28:41 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -35,6 +35,7 @@
   --denhaag-process-steps-sub-step-marker-size: 12px;
   --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
+  --utrecht-stack-focus-z-index: 1;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
   --utrecht-border-radius-none: 0;
@@ -379,7 +380,7 @@
   --utrecht-button-border-radius: 0;
   --utrecht-breadcrumb-divider-inline-size: 1px;
   --utrecht-breadcrumb-separator-icon-size: 1em;
-  --utrecht-breadcrumb-block-size: 34px;
+  --utrecht-breadcrumb-min-block-size: 34px;
   --utrecht-blockquote-margin-block-end: 1.6em;
   --utrecht-blockquote-margin-block-start: 1.6em;
   --utrecht-blockquote-content-font-size: 1.125rem;
@@ -813,12 +814,16 @@
   --utrecht-button-color: var(--utrecht-color-grey-40);
   --utrecht-button-border-color: var(--utrecht-color-grey-40);
   --utrecht-button-background-color: var(--utrecht-color-white);
-  --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
-  --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
-  --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-arrows-link-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
+  --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
+  --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+  --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
+  --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
   --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
+  --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
   --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
-  --utrecht-breadcrumb-link-background-color: var(--utrecht-color-grey-90);
   --utrecht-breadcrumb-item-padding-inline-start: var(--utrecht-space-inline-md);
   --utrecht-breadcrumb-item-padding-inline-end: var(--utrecht-space-inline-md);
   --utrecht-breadcrumb-item-padding-block-end: var(--utrecht-space-block-xs);
@@ -959,6 +964,7 @@
   --denhaag-process-steps-sub-step-marker-size: 12px;
   --denhaag-process-steps-step-marker-size: 28px;
   --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
+  --utrecht-stack-focus-z-index: 1;
   --utrecht-border-style-dotted: dotted;
   --utrecht-border-style-solid: solid;
   --utrecht-border-radius-none: 0;
@@ -1303,7 +1309,7 @@
   --utrecht-button-border-radius: 0;
   --utrecht-breadcrumb-divider-inline-size: 1px;
   --utrecht-breadcrumb-separator-icon-size: 1em;
-  --utrecht-breadcrumb-block-size: 34px;
+  --utrecht-breadcrumb-min-block-size: 34px;
   --utrecht-blockquote-margin-block-end: 1.6em;
   --utrecht-blockquote-margin-block-start: 1.6em;
   --utrecht-blockquote-content-font-size: 1.125rem;
@@ -1737,12 +1743,16 @@
   --utrecht-button-color: var(--utrecht-color-grey-40);
   --utrecht-button-border-color: var(--utrecht-color-grey-40);
   --utrecht-button-background-color: var(--utrecht-color-white);
-  --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
-  --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
-  --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-arrows-link-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
+  --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
+  --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
+  --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+  --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
+  --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
   --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
+  --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
   --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
-  --utrecht-breadcrumb-link-background-color: var(--utrecht-color-grey-90);
   --utrecht-breadcrumb-item-padding-inline-start: var(--utrecht-space-inline-md);
   --utrecht-breadcrumb-item-padding-inline-end: var(--utrecht-space-inline-md);
   --utrecht-breadcrumb-item-padding-block-end: var(--utrecht-space-block-xs);
@@ -1901,6 +1911,7 @@
     --denhaag-process-steps-sub-step-marker-size: 12px;
     --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
+    --utrecht-stack-focus-z-index: 1;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
     --utrecht-border-radius-none: 0;
@@ -2246,7 +2257,7 @@
     --utrecht-button-border-radius: 0;
     --utrecht-breadcrumb-divider-inline-size: 1px;
     --utrecht-breadcrumb-separator-icon-size: 1em;
-    --utrecht-breadcrumb-block-size: 34px;
+    --utrecht-breadcrumb-min-block-size: 34px;
     --utrecht-blockquote-margin-block-end: 1.6em;
     --utrecht-blockquote-margin-block-start: 1.6em;
     --utrecht-blockquote-content-font-size: 1.125rem;
@@ -2680,12 +2691,16 @@
     --utrecht-button-color: var(--utrecht-color-grey-80);
     --utrecht-button-border-color: var(--utrecht-color-grey-40);
     --utrecht-button-background-color: var(--utrecht-color-grey-30);
-    --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
-    --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
-    --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-arrows-link-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
+    --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
+    --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+    --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
+    --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
+    --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
     --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
-    --utrecht-breadcrumb-link-background-color: var(--utrecht-color-grey-90);
     --utrecht-breadcrumb-item-padding-inline-start: var(--utrecht-space-inline-md);
     --utrecht-breadcrumb-item-padding-inline-end: var(--utrecht-space-inline-md);
     --utrecht-breadcrumb-item-padding-block-end: var(--utrecht-space-block-xs);
@@ -2838,6 +2853,7 @@
     --denhaag-process-steps-sub-step-marker-size: 12px;
     --denhaag-process-steps-step-marker-size: 28px;
     --utrecht-toptask-nav-link-grid-max-inline-size: 240px;
+    --utrecht-stack-focus-z-index: 1;
     --utrecht-border-style-dotted: dotted;
     --utrecht-border-style-solid: solid;
     --utrecht-border-radius-none: 0;
@@ -3183,7 +3199,7 @@
     --utrecht-button-border-radius: 0;
     --utrecht-breadcrumb-divider-inline-size: 1px;
     --utrecht-breadcrumb-separator-icon-size: 1em;
-    --utrecht-breadcrumb-block-size: 34px;
+    --utrecht-breadcrumb-min-block-size: 34px;
     --utrecht-blockquote-margin-block-end: 1.6em;
     --utrecht-blockquote-margin-block-start: 1.6em;
     --utrecht-blockquote-content-font-size: 1.125rem;
@@ -3617,12 +3633,16 @@
     --utrecht-button-color: var(--utrecht-color-grey-80);
     --utrecht-button-border-color: var(--utrecht-color-grey-40);
     --utrecht-button-background-color: var(--utrecht-color-grey-30);
-    --utrecht-breadcrumb-link-current-color: var(--utrecht-color-black);
-    --utrecht-breadcrumb-link-current-background-color: var(--utrecht-color-grey-90);
-    --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-arrows-link-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
+    --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
+    --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
+    --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+    --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
+    --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
+    --utrecht-breadcrumb-link-focus-color: var(--utrecht-color-black);
     --utrecht-breadcrumb-link-color: var(--utrecht-color-black);
-    --utrecht-breadcrumb-link-background-color: var(--utrecht-color-grey-90);
     --utrecht-breadcrumb-item-padding-inline-start: var(--utrecht-space-inline-md);
     --utrecht-breadcrumb-item-padding-inline-end: var(--utrecht-space-inline-md);
     --utrecht-breadcrumb-item-padding-block-end: var(--utrecht-space-block-xs);
@@ -4454,6 +4474,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   --utrecht-link-visited-color: var(--utrecht-breadcrumb-link-color);
   --utrecht-link-visited-text-decoration: var(--utrecht-link-text-decoration);
   --utrecht-link-color: var(--utrecht-breadcrumb-link-color);
+  --utrecht-link-placeholder-color: var(--utrecht-link-breadcrumb-link-disabled-color);
   font-family: var(--utrecht-document-font-family, inherit);
   font-size: var(--utrecht-breadcrumb-font-size);
   text-transform: var(--utrecht-document-text-transform, inherit);
@@ -4464,15 +4485,21 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 }
 
 .utrecht-breadcrumb__list {
-  block-size: var(--utrecht-breadcrumb-block-size);
   display: flex;
+  flex-wrap: wrap;
+  min-block-size: var(--utrecht-breadcrumb-min-block-size);
 }
 
-ol.utrecht-breadcrumb__list {
+.utrecht-breadcrumb__list--html-ol {
   list-style: none;
   margin-block-end: 0;
   margin-block-start: 0;
   padding-inline-start: 0;
+}
+
+.utrecht-breadcrumb__list--html-p {
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 .utrecht-breadcrumb__item {
@@ -4480,8 +4507,10 @@ ol.utrecht-breadcrumb__list {
 }
 
 .utrecht-breadcrumb__link {
+  --utrecht-icon-size: var(--utrecht-breadcrumb-link-icon-size);
+  --utrecht-link-icon-size: var(--utrecht-breadcrumb-link-icon-size);
   background-color: var(--utrecht-breadcrumb-link-background-color);
-  display: block;
+  display: inline-block;
   padding-block-end: var(--utrecht-breadcrumb-item-padding-block-end, 8px);
   padding-block-start: var(--utrecht-breadcrumb-item-padding-block-start, 8px);
   padding-inline-end: var(--utrecht-breadcrumb-item-padding-inline-end, 8px);
@@ -4492,6 +4521,12 @@ ol.utrecht-breadcrumb__list {
   --utrecht-link-placeholder-color: var(--utrecht-breadcrumb-link-disabled-color, var(--utrecht-breadcrumb-link-color));
   background-color: var(--utrecht-breadcrumb-link-disabled-background-color, var(--utrecht-breadcrumb-link-background-color));
   color: var(--utrecht-link-placeholder-color);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
+}
+
+.utrecht-breadcrumb__link--current:any-link {
+  /* `current` should override `disabled` */
+  cursor: var(--utrecht-action-inert-cursor, default);
 }
 
 /* stylelint-disable-next-line block-no-empty */
@@ -4500,28 +4535,45 @@ ol.utrecht-breadcrumb__list {
    * Overwrite `style` attribute using "private" CSS variable for <li> hack:
    * <li aria-hidden="true" hidden style="display: var(--_utrecht-breadcrumb-separator-display, block)">
    */
-  --_utrecht-breadcrumb-separator-display: flex;
+  --_utrecht-breadcrumb-separator-display: inline-flex;
   --utrecht-icon-size: var(--utrecht-breadcrumb-separator-icon-size);
   --utrecht-icon-color: var(--utrecht-breadcrumb-separator-icon-color);
   align-items: center;
   display: var(--_utrecht-breadcrumb-separator-display);
-  inline-size: var(--utrecht-breadcrumb-separator-inline-size);
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+}
+
+.utrecht-breadcrumb__separator--html-li {
+  /*
+   * Overwrite `style` attribute using "private" CSS variable for <li> hack:
+   * <li aria-hidden="true" hidden style="display: var(--_utrecht-breadcrumb-separator-display, block)">
+   */
+  --_utrecht-breadcrumb-separator-display: inline-flex;
+  --utrecht-icon-size: var(--utrecht-breadcrumb-separator-icon-size);
+  --utrecht-icon-color: var(--utrecht-breadcrumb-separator-icon-color);
+  align-items: center;
+  display: var(--_utrecht-breadcrumb-separator-display);
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
 }
 
 .utrecht-breadcrumb--arrows {
   /* https://css-tricks.com/triangle-breadcrumbs/ */
   --utrecht-breadcrumb-arrow-size: 24px;
+  min-block-size: var(--utrecht-breadcrumb-min-block-size);
   overflow: hidden;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link {
+  background-color: var(--utrecht-breadcrumb-arrows-link-background-color);
   padding-inline-end: 0;
   position: relative;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after,
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before {
   block-size: 0;
-  border-block-end-width: var(--utrecht-breadcrumb-block-size);
-  border-block-start-width: var(--utrecht-breadcrumb-block-size);
+  border-block-end-width: var(--utrecht-breadcrumb-min-block-size);
+  border-block-start-width: var(--utrecht-breadcrumb-min-block-size);
   border-color: transparent;
   border-style: solid;
   content: " ";
@@ -4529,29 +4581,31 @@ ol.utrecht-breadcrumb__list {
   inline-size: 0;
   inset-block-start: 50%;
   inset-inline-start: 100%;
-  margin-block-start: calc(-1 * var(--utrecht-breadcrumb-block-size));
+  margin-block-start: calc(-1 * var(--utrecht-breadcrumb-min-block-size));
   position: absolute;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::after {
-  border-inline-start-color: var(--utrecht-breadcrumb-link-background-color);
+  border-inline-start-color: var(--utrecht-breadcrumb-arrows-link-background-color);
   border-inline-start-width: var(--utrecht-breadcrumb-arrow-size);
   z-index: 2;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link::before {
   border-inline-start-color: var(--utrecht-document-background-color);
   border-inline-start-width: var(--utrecht-breadcrumb-arrow-size);
-  margin-block-start: calc(-1 * var(--utrecht-breadcrumb-block-size));
+  margin-block-start: calc(-1 * var(--utrecht-breadcrumb-min-block-size));
   margin-inline-start: 1px;
   z-index: 1;
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link--focus,
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link:focus {
-  background-color: var(--utrecht-breadcrumb-link-focus-background-color);
+  --utrecht-link-focus-background-color: var(--utrecht-breadcrumb-arrows-link-focus-background-color);
+  background-color: var(--utrecht-breadcrumb-arrows-link-focus-background-color);
 }
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link--focus::after,
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__link:focus::after {
-  border-inline-start-color: var(--utrecht-breadcrumb-link-focus-background-color);
+  border-inline-start-color: var(--utrecht-breadcrumb-arrows-link-focus-background-color);
 }
+.utrecht-breadcrumb--arrows .utrecht-breadcrumb__link ~ .utrecht-breadcrumb__link,
 .utrecht-breadcrumb--arrows .utrecht-breadcrumb__item ~ .utrecht-breadcrumb__item .utrecht-breadcrumb__link {
   padding-inline-start: calc(var(--utrecht-breadcrumb-item-padding-inline-start) + var(--utrecht-breadcrumb-arrow-size));
 }
@@ -7315,6 +7369,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-link-button--focus-visible, .utrecht-link-button--html-button:focus-visible {
+  /*
+   * WCAG SC 2.4.12: Focus Not Obscured
+   * Use `z-index` to ensure the focus ring is stacked above adjecent elements with a `background`
+   */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
    *   can combine it with the focus ring box shadow.
@@ -7326,6 +7384,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-offset: var(--utrecht-focus-outline-offset, revert);
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
+  z-index: var(--utrecht-stack-focus-z-index, 1);
 }
 
 .utrecht-link-button--active, .utrecht-link-button--html-button:not(:disabled):active {
@@ -7584,6 +7643,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
 }
 
 .utrecht-link--focus-visible {
+  /*
+   * WCAG SC 2.4.12: Focus Not Obscured
+   * Use `z-index` to ensure the focus ring is stacked above adjecent elements with a `background`
+   */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
    *   can combine it with the focus ring box shadow.
@@ -7595,6 +7658,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-offset: var(--utrecht-focus-outline-offset, revert);
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
+  z-index: var(--utrecht-stack-focus-z-index, 1);
 }
 
 /* `:focus` should only apply to links with `href`, not on disabled links */
@@ -7608,6 +7672,10 @@ however browsers don't seem to have implemented great looking supixel tweening y
           text-decoration-skip: none;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+  /*
+   * WCAG SC 2.4.12: Focus Not Obscured
+   * Use `z-index` to ensure the focus ring is stacked above adjecent elements with a `background`
+   */
   /* - The browser default focus ring should apply when these CSS custom properties are not set.
    * - Make the `box-shadow` value available, so components that have their own `box-shadow`
    *   can combine it with the focus ring box shadow.
@@ -7619,6 +7687,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   outline-offset: var(--utrecht-focus-outline-offset, revert);
   outline-style: var(--utrecht-focus-outline-style, revert);
   outline-width: var(--utrecht-focus-outline-width, revert);
+  z-index: var(--utrecht-stack-focus-z-index, 1);
 }
 
 .utrecht-link--html-span:focus:not(:focus-visible),
