@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 25 Sep 2023 11:51:06 GMT
+ * Generated on Mon, 25 Sep 2023 13:14:30 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 25 Sep 2023 11:51:10 GMT
+ * Generated on Mon, 25 Sep 2023 13:14:33 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -608,6 +608,10 @@
   --utrecht-link-social-background-color: var(--utrecht-color-red-40);
   --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
+  --utrecht-index-char-nav-link-current-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+  --utrecht-index-char-nav-gap: var(--utrecht-space-column-sm);
+  --utrecht-index-char-nav-margin-block-end: var(--utrecht-space-block-md);
+  --utrecht-index-char-nav-margin-block-start: var(--utrecht-space-block-lg);
   --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -1537,6 +1541,10 @@
   --utrecht-link-social-background-color: var(--utrecht-color-red-40);
   --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
+  --utrecht-index-char-nav-link-current-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+  --utrecht-index-char-nav-gap: var(--utrecht-space-column-sm);
+  --utrecht-index-char-nav-margin-block-end: var(--utrecht-space-block-md);
+  --utrecht-index-char-nav-margin-block-start: var(--utrecht-space-block-lg);
   --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
   --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
   --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -2489,6 +2497,10 @@
     --utrecht-link-social-background-color: var(--utrecht-color-red-40);
     --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
+    --utrecht-index-char-nav-link-current-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+    --utrecht-index-char-nav-gap: var(--utrecht-space-column-sm);
+    --utrecht-index-char-nav-margin-block-end: var(--utrecht-space-block-md);
+    --utrecht-index-char-nav-margin-block-start: var(--utrecht-space-block-lg);
     --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -3431,6 +3443,10 @@
     --utrecht-link-social-background-color: var(--utrecht-color-red-40);
     --utrecht-link-list-item-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-link-list-item-margin-block-start: var(--utrecht-space-block-xs);
+    --utrecht-index-char-nav-link-current-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
+    --utrecht-index-char-nav-gap: var(--utrecht-space-column-sm);
+    --utrecht-index-char-nav-margin-block-end: var(--utrecht-space-block-md);
+    --utrecht-index-char-nav-margin-block-start: var(--utrecht-space-block-lg);
     --utrecht-heading-font-weight: var(--utrecht-typography-weight-scale-bold-font-weight);
     --utrecht-heading-6-line-height: var(--utrecht-typography-line-height-md);
     --utrecht-heading-6-font-weight: var(--utrecht-typography-weight-scale-normal-font-weight);
@@ -4101,6 +4117,36 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   --_utrecht-alert-border-color: var(--utrecht-alert-warning-border-color);
   --_utrecht-alert-border-width: var(--utrecht-alert-warning-border-width);
   --_utrecht-alert-color: var(--utrecht-alert-warning-color);
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/* stylelint-disable-next-line block-no-empty */
+.utrecht-index-char-nav {
+  --utrecht-button-padding-inline-start: 1ch;
+  --utrecht-button-padding-inline-end: 1ch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--utrecht-index-char-nav-gap);
+  margin-block-end: var(--utrecht-index-char-nav-margin-block-end);
+  margin-block-start: var(--utrecht-index-char-nav-margin-block-start);
+}
+
+.utrecht-index-char-nav__link--current {
+  --utrecht-button-primary-action-font-weight: var(--utrecht-index-char-nav-link-current-font-weight);
+  --utrecht-button-link-primary-action-font-weight: var(--utrecht-index-char-nav-link-current-font-weight);
+}
+
+.utrecht-index-char-nav__link--disabled {
+  pointer-events: none;
 }
 
 /**
