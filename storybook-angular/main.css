@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 15:32:52 GMT
+ * Generated on Wed, 27 Sep 2023 20:17:32 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 15:32:55 GMT
+ * Generated on Wed, 27 Sep 2023 20:17:36 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -824,7 +824,7 @@
   --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
   --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
   --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
-  --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+  --utrecht-breadcrumb-separator-color: var(--utrecht-color-grey-40);
   --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
   --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
   --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
@@ -1759,7 +1759,7 @@
   --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
   --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
   --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
-  --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+  --utrecht-breadcrumb-separator-color: var(--utrecht-color-grey-40);
   --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
   --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
   --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
@@ -2713,7 +2713,7 @@
     --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
     --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
     --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
-    --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+    --utrecht-breadcrumb-separator-color: var(--utrecht-color-grey-40);
     --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
     --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
@@ -3661,7 +3661,7 @@
     --utrecht-breadcrumb-arrows-link-focus-color: var(--utrecht-color-black);
     --utrecht-breadcrumb-arrows-link-focus-background-color: var(--utrecht-color-yellow-60);
     --utrecht-breadcrumb-arrows-link-background-color: var(--utrecht-color-grey-90);
-    --utrecht-breadcrumb-separator-icon-color: var(--utrecht-color-grey-40);
+    --utrecht-breadcrumb-separator-color: var(--utrecht-color-grey-40);
     --utrecht-breadcrumb-link-icon-size: var(--utrecht-icon-scale-md);
     --utrecht-breadcrumb-link-disabled-color: var(--utrecht-color-grey-40);
     --utrecht-breadcrumb-link-focus-background-color: var(--utrecht-color-yellow-60);
@@ -4591,11 +4591,14 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
    */
   --_utrecht-breadcrumb-separator-display: inline-flex;
   --utrecht-icon-size: var(--utrecht-breadcrumb-separator-icon-size);
-  --utrecht-icon-color: var(--utrecht-breadcrumb-separator-icon-color);
   align-items: center;
+  color: var(--utrecht-breadcrumb-separator-color);
+  cursor: var(--utrecht-action-inert-cursor, default);
   display: var(--_utrecht-breadcrumb-separator-display);
   inline-size: -moz-fit-content;
   inline-size: fit-content;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .utrecht-breadcrumb__separator--html-li {
@@ -4605,11 +4608,14 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
    */
   --_utrecht-breadcrumb-separator-display: inline-flex;
   --utrecht-icon-size: var(--utrecht-breadcrumb-separator-icon-size);
-  --utrecht-icon-color: var(--utrecht-breadcrumb-separator-icon-color);
   align-items: center;
+  color: var(--utrecht-breadcrumb-separator-color);
+  cursor: var(--utrecht-action-inert-cursor, default);
   display: var(--_utrecht-breadcrumb-separator-display);
   inline-size: -moz-fit-content;
   inline-size: fit-content;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .utrecht-breadcrumb--arrows {
