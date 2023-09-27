@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 15:08:26 GMT
+ * Generated on Wed, 27 Sep 2023 15:07:23 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 15:08:29 GMT
+ * Generated on Wed, 27 Sep 2023 15:07:26 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -209,10 +209,8 @@
   --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
   --utrecht-map-marker-border-width: 3px;
   --utrecht-map-marker-size: 48px;
-  --utrecht-logo-min-inline-size: 110.57px;
-  --utrecht-logo-min-block-size: 58.97px;
-  --utrecht-logo-max-inline-size: 192px;
-  --utrecht-logo-max-block-size: 103px;
+  --utrecht-logo-max-inline-size: 110.57px;
+  --utrecht-logo-max-block-size: 58.97px;
   --utrecht-list-social-item-margin-inline-end: 10px;
   --utrecht-link-icon-size: 1.2em;
   --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -1144,10 +1142,8 @@
   --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
   --utrecht-map-marker-border-width: 3px;
   --utrecht-map-marker-size: 48px;
-  --utrecht-logo-min-inline-size: 110.57px;
-  --utrecht-logo-min-block-size: 58.97px;
-  --utrecht-logo-max-inline-size: 192px;
-  --utrecht-logo-max-block-size: 103px;
+  --utrecht-logo-max-inline-size: 110.57px;
+  --utrecht-logo-max-block-size: 58.97px;
   --utrecht-list-social-item-margin-inline-end: 10px;
   --utrecht-link-icon-size: 1.2em;
   --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -2097,10 +2093,8 @@
     --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
     --utrecht-map-marker-border-width: 3px;
     --utrecht-map-marker-size: 48px;
-    --utrecht-logo-min-inline-size: 110.57px;
-    --utrecht-logo-min-block-size: 58.97px;
-    --utrecht-logo-max-inline-size: 192px;
-    --utrecht-logo-max-block-size: 103px;
+    --utrecht-logo-max-inline-size: 110.57px;
+    --utrecht-logo-max-block-size: 58.97px;
     --utrecht-list-social-item-margin-inline-end: 10px;
     --utrecht-link-icon-size: 1.2em;
     --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -3045,10 +3039,8 @@
     --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
     --utrecht-map-marker-border-width: 3px;
     --utrecht-map-marker-size: 48px;
-    --utrecht-logo-min-inline-size: 110.57px;
-    --utrecht-logo-min-block-size: 58.97px;
-    --utrecht-logo-max-inline-size: 192px;
-    --utrecht-logo-max-block-size: 103px;
+    --utrecht-logo-max-inline-size: 110.57px;
+    --utrecht-logo-max-block-size: 58.97px;
     --utrecht-list-social-item-margin-inline-end: 10px;
     --utrecht-link-icon-size: 1.2em;
     --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -7828,18 +7820,22 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 .utrecht-logo {
-  display: block;
   max-block-size: var(--utrecht-logo-max-block-size, 192px);
   max-inline-size: var(--utrecht-logo-max-inline-size, 96px);
   min-block-size: var(--utrecht-logo-min-block-size);
   min-inline-size: var(--utrecht-logo-min-inline-size);
 }
 
-/* The element in side `<div class="utrecht-logo">` can be an `<img>`, `<svg>` or even a custom element. */
-.utrecht-logo > * {
-  block-size: 100%;
-  display: inline-block;
-  inline-size: auto;
+.utrecht-logo__decoration-1 {
+  fill: var(--utrecht-logo-decoration-1-color, #fff);
+}
+
+.utrecht-logo__decoration-2 {
+  fill: var(--utrecht-logo-decoration-2-color, #c00);
+}
+
+.utrecht-logo__decoration-3 {
+  fill: var(--utrecht-logo-decoration-3-color, #ffb70b);
 }
 
 /**
