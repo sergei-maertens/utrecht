@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 25 Sep 2023 13:38:21 GMT
+ * Generated on Wed, 27 Sep 2023 15:08:26 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 25 Sep 2023 13:38:25 GMT
+ * Generated on Wed, 27 Sep 2023 15:08:29 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -209,8 +209,10 @@
   --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
   --utrecht-map-marker-border-width: 3px;
   --utrecht-map-marker-size: 48px;
-  --utrecht-logo-max-inline-size: 110.57px;
-  --utrecht-logo-max-block-size: 58.97px;
+  --utrecht-logo-min-inline-size: 110.57px;
+  --utrecht-logo-min-block-size: 58.97px;
+  --utrecht-logo-max-inline-size: 192px;
+  --utrecht-logo-max-block-size: 103px;
   --utrecht-list-social-item-margin-inline-end: 10px;
   --utrecht-link-icon-size: 1.2em;
   --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -1142,8 +1144,10 @@
   --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
   --utrecht-map-marker-border-width: 3px;
   --utrecht-map-marker-size: 48px;
-  --utrecht-logo-max-inline-size: 110.57px;
-  --utrecht-logo-max-block-size: 58.97px;
+  --utrecht-logo-min-inline-size: 110.57px;
+  --utrecht-logo-min-block-size: 58.97px;
+  --utrecht-logo-max-inline-size: 192px;
+  --utrecht-logo-max-block-size: 103px;
   --utrecht-list-social-item-margin-inline-end: 10px;
   --utrecht-link-icon-size: 1.2em;
   --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -2093,8 +2097,10 @@
     --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
     --utrecht-map-marker-border-width: 3px;
     --utrecht-map-marker-size: 48px;
-    --utrecht-logo-max-inline-size: 110.57px;
-    --utrecht-logo-max-block-size: 58.97px;
+    --utrecht-logo-min-inline-size: 110.57px;
+    --utrecht-logo-min-block-size: 58.97px;
+    --utrecht-logo-max-inline-size: 192px;
+    --utrecht-logo-max-block-size: 103px;
     --utrecht-list-social-item-margin-inline-end: 10px;
     --utrecht-link-icon-size: 1.2em;
     --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -3039,8 +3045,10 @@
     --utrecht-map-marker-box-shadow-color: rgb(0 0 0 / 20%);
     --utrecht-map-marker-border-width: 3px;
     --utrecht-map-marker-size: 48px;
-    --utrecht-logo-max-inline-size: 110.57px;
-    --utrecht-logo-max-block-size: 58.97px;
+    --utrecht-logo-min-inline-size: 110.57px;
+    --utrecht-logo-min-block-size: 58.97px;
+    --utrecht-logo-max-inline-size: 192px;
+    --utrecht-logo-max-block-size: 103px;
     --utrecht-list-social-item-margin-inline-end: 10px;
     --utrecht-link-icon-size: 1.2em;
     --utrecht-link-hover-text-decoration-thickness: 3px;
@@ -4893,7 +4901,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   border-width: var(--_utrecht-button-border-width);
   box-sizing: border-box;
   color: var(--_utrecht-button-color);
-  cursor: var(--utrecht-action-activate-cursor);
+  cursor: var(--utrecht-action-activate-cursor, revert);
   display: inline-flex;
   font-family: var(--utrecht-button-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));
@@ -4938,11 +4946,11 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 
 .utrecht-button--submit {
   /* lower priority specificty than busy and disabled cursor */
-  cursor: var(--utrecht-action-submit-cursor);
+  cursor: var(--utrecht-action-submit-cursor, revert);
 }
 
 .utrecht-button--busy {
-  cursor: var(--utrecht-action-busy-cursor);
+  cursor: var(--utrecht-action-busy-cursor, wait);
 }
 
 .utrecht-button--pressed {
@@ -4956,7 +4964,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   background-color: var(--_utrecht-button-disabled-background-color);
   border-color: var(--_utrecht-button-disabled-border-color);
   color: var(--_utrecht-button-disabled-color);
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 .utrecht-button--focus-visible {
@@ -5873,7 +5881,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   border-width: var(--_utrecht-button-border-width);
   box-sizing: border-box;
   color: var(--_utrecht-button-color);
-  cursor: var(--utrecht-action-activate-cursor);
+  cursor: var(--utrecht-action-activate-cursor, revert);
   display: inline-flex;
   font-family: var(--utrecht-button-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-button-font-size, var(--utrecht-document-font-family, inherit));
@@ -5950,7 +5958,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   background-color: var(--_utrecht-button-disabled-background-color);
   border-color: var(--_utrecht-button-disabled-border-color);
   color: var(--_utrecht-button-disabled-color);
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 .utrecht-button-link--html-a:focus {
@@ -6183,7 +6191,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 .utrecht-custom-checkbox--disabled {
   border-color: var(--utrecht-checkbox-disabled-border-color, var(--utrecht-checkbox-border-color));
   border-width: var(--utrecht-checkbox-disabled-border-width, var(--utrecht-checkbox-border-width));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 .utrecht-checkbox--custom.utrecht-checkbox--disabled:checked,
 .utrecht-custom-checkbox--disabled:checked {
@@ -6253,7 +6261,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 .utrecht-custom-checkbox--html-input:disabled {
   border-color: var(--utrecht-checkbox-disabled-border-color, var(--utrecht-checkbox-border-color));
   border-width: var(--utrecht-checkbox-disabled-border-width, var(--utrecht-checkbox-border-width));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 .utrecht-checkbox--custom.utrecht-checkbox--html-input:disabled:checked,
 .utrecht-custom-checkbox--html-input:disabled:checked {
@@ -6758,7 +6766,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   border-style: var(--utrecht-form-toggle-border-style, solid);
   border-width: var(--utrecht-form-toggle-border-width, 1px);
   color: var(--utrecht-form-toggle-color);
-  cursor: var(--utrecht-action-activate-cursor);
+  cursor: var(--utrecht-action-activate-cursor, revert);
   display: flex;
   inline-size: var(--utrecht-form-toggle-width, 6em);
   padding-block-end: var(--utrecht-form-toggle-padding-block-end);
@@ -6807,7 +6815,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   border-color: var(--utrecht-form-toggle-disabled-border-color, var(--utrecht-form-toggle-border-color, currentColor));
   border-style: var(--utrecht-form-toggle-disabled-border-style, var(--utrecht-form-toggle-border-style, solid));
   border-width: var(--utrecht-form-toggle-disabled-border-width, var(--utrecht-form-toggle-border-width, 1px));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 .utrecht-form-toggle__thumb {
@@ -7820,22 +7828,18 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Robbert Broersma
  */
 .utrecht-logo {
+  display: block;
   max-block-size: var(--utrecht-logo-max-block-size, 192px);
   max-inline-size: var(--utrecht-logo-max-inline-size, 96px);
   min-block-size: var(--utrecht-logo-min-block-size);
   min-inline-size: var(--utrecht-logo-min-inline-size);
 }
 
-.utrecht-logo__decoration-1 {
-  fill: var(--utrecht-logo-decoration-1-color, #fff);
-}
-
-.utrecht-logo__decoration-2 {
-  fill: var(--utrecht-logo-decoration-2-color, #c00);
-}
-
-.utrecht-logo__decoration-3 {
-  fill: var(--utrecht-logo-decoration-3-color, #ffb70b);
+/* The element in side `<div class="utrecht-logo">` can be an `<img>`, `<svg>` or even a custom element. */
+.utrecht-logo > * {
+  block-size: 100%;
+  display: inline-block;
+  inline-size: auto;
 }
 
 /**
@@ -8806,7 +8810,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   border-radius: 50%;
   border-style: solid;
   border-width: var(--_utrecht-radio-button-border-width);
-  cursor: var(--utrecht-action-activate-cursor);
+  cursor: var(--utrecht-action-activate-cursor, revert);
   inline-size: var(--utrecht-radio-button-size, 1em);
   margin-inline-end: var(--utrecht-radio-button-margin-inline-end);
   min-block-size: 24px;
@@ -8936,7 +8940,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);
   --_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);
   --_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 .utrecht-radio-button--invalid {
@@ -8995,7 +8999,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --_utrecht-radio-button-hover-border-color: var(--_utrecht-radio-button-border-color);
   --_utrecht-radio-button-hover-border-width: var(--_utrecht-radio-button-border-width);
   --_utrecht-radio-button-hover-color: var(--_utrecht-radio-button-color);
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 .utrecht-radio-button--html-input:invalid, .utrecht-radio-button--html-input[aria-invalid=true] {
   border-color: var(--utrecht-radio-button-invalid-border-color, var(--utrecht-radio-button-border-color));
@@ -9202,7 +9206,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 .utrecht-select--focus {
@@ -9272,7 +9276,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-select-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-select-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-select-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-select-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-select-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-select-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 /**
@@ -9823,7 +9827,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 .utrecht-textarea--focus {
@@ -9910,7 +9914,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textarea-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textarea-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textarea-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 .utrecht-textarea--html-textarea::placeholder {
   color: var(--utrecht-textarea-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
@@ -9982,7 +9986,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
 .utrecht-textbox--focus {
@@ -10101,7 +10105,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   background-color: var(--utrecht-textbox-disabled-background-color, var(--utrecht-form-control-disabled-background-color, var(--utrecht-textarea-background-color, var(--utrecht-form-control-background-color))));
   border-color: var(--utrecht-textbox-disabled-border-color, var(--utrecht-form-control-disabled-border-color, var(--utrecht-textarea-border-color, var(--utrecht-form-control-border-color))));
   color: var(--utrecht-textbox-disabled-color, var(--utrecht-form-control-disabled-color, var(--utrecht-textarea-color, var(--utrecht-form-control-color))));
-  cursor: var(--utrecht-action-disabled-cursor);
+  cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 .utrecht-textbox--html-input::placeholder {
   color: var(--utrecht-textbox-placeholder-color, var(--utrecht-form-control-placeholder-color, var(--utrecht-textbox-color, var(--utrecht-form-control-color))));
