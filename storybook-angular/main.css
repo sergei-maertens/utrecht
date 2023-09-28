@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 28 Sep 2023 07:22:36 GMT
+ * Generated on Thu, 28 Sep 2023 07:22:57 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 28 Sep 2023 07:22:39 GMT
+ * Generated on Thu, 28 Sep 2023 07:23:00 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -4578,9 +4578,14 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   cursor: var(--utrecht-action-disabled-cursor, not-allowed);
 }
 
-.utrecht-breadcrumb__link--current:any-link {
-  /* `current` should override `disabled` */
+.utrecht-breadcrumb__link--current {
+  /*
+   * `current` should apply to `disabled` links too, and it should override `disabled`.
+   * The override is the reason why this selector is not ordered alphabetically.
+   */
+  --utrecht-link-current-font-weight: var(--utrecht-breadcrumb-nav-link-current-font-weight, inherit);
   cursor: var(--utrecht-action-inert-cursor, default);
+  font-weight: var(--utrecht-breadcrumb-nav-link-current-font-weight, inherit);
 }
 
 /* stylelint-disable-next-line block-no-empty */
