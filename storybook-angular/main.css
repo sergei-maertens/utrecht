@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 21:11:24 GMT
+ * Generated on Thu, 28 Sep 2023 07:22:36 GMT
  */
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 21:11:28 GMT
+ * Generated on Thu, 28 Sep 2023 07:22:39 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -7175,6 +7175,8 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
    */
   /* stylelint-disable-next-line property-disallowed-list */
   height: 100%;
+  /* Remove tooltip from SVG `<title>` element using `pointer-events: none` */
+  pointer-events: none;
   /* stylelint-disable-next-line property-disallowed-list */
   width: 100%;
 }
