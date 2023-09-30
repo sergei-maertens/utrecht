@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sat, 30 Sep 2023 08:28:20 GMT
+ * Generated on Sat, 30 Sep 2023 17:19:43 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sat, 30 Sep 2023 08:28:23 GMT
+ * Generated on Sat, 30 Sep 2023 17:19:47 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -333,6 +333,8 @@
   --utrecht-action-navigate-cursor: pointer;
   --utrecht-action-disabled-cursor: not-allowed;
   --utrecht-action-busy-cursor: wait;
+  --utrecht-column-layout-column-width: 350px;
+  --utrecht-column-layout-column-rule-width: 2px;
   --utrecht-code-block-padding-inline-end: 20px;
   --utrecht-code-block-padding-inline-start: 20px;
   --utrecht-code-block-padding-block-end: 20px;
@@ -702,6 +704,8 @@
   --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
   --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
   --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+  --utrecht-column-layout-gap: var(--utrecht-space-column-md);
+  --utrecht-column-layout-column-rule-color: var(--utrecht-color-grey-80);
   --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
   --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
   --utrecht-code-block-color: var(--utrecht-color-black);
@@ -1268,6 +1272,8 @@
   --utrecht-action-navigate-cursor: pointer;
   --utrecht-action-disabled-cursor: not-allowed;
   --utrecht-action-busy-cursor: wait;
+  --utrecht-column-layout-column-width: 350px;
+  --utrecht-column-layout-column-rule-width: 2px;
   --utrecht-code-block-padding-inline-end: 20px;
   --utrecht-code-block-padding-inline-start: 20px;
   --utrecht-code-block-padding-block-end: 20px;
@@ -1637,6 +1643,8 @@
   --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
   --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
   --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+  --utrecht-column-layout-gap: var(--utrecht-space-column-md);
+  --utrecht-column-layout-column-rule-color: var(--utrecht-color-grey-80);
   --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
   --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
   --utrecht-code-block-color: var(--utrecht-color-black);
@@ -2222,6 +2230,8 @@
     --utrecht-action-navigate-cursor: pointer;
     --utrecht-action-disabled-cursor: not-allowed;
     --utrecht-action-busy-cursor: wait;
+    --utrecht-column-layout-column-width: 350px;
+    --utrecht-column-layout-column-rule-width: 2px;
     --utrecht-code-block-padding-inline-end: 20px;
     --utrecht-code-block-padding-inline-start: 20px;
     --utrecht-code-block-padding-block-end: 20px;
@@ -2594,6 +2604,8 @@
     --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
     --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
     --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+    --utrecht-column-layout-gap: var(--utrecht-space-column-md);
+    --utrecht-column-layout-column-rule-color: var(--utrecht-color-grey-80);
     --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
     --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
     --utrecht-code-block-color: var(--utrecht-color-black);
@@ -3170,6 +3182,8 @@
     --utrecht-action-navigate-cursor: pointer;
     --utrecht-action-disabled-cursor: not-allowed;
     --utrecht-action-busy-cursor: wait;
+    --utrecht-column-layout-column-width: 350px;
+    --utrecht-column-layout-column-rule-width: 2px;
     --utrecht-code-block-padding-inline-end: 20px;
     --utrecht-code-block-padding-inline-start: 20px;
     --utrecht-code-block-padding-block-end: 20px;
@@ -3542,6 +3556,8 @@
     --utrecht-feedback-warning-color: var(--utrecht-color-yellow-50);
     --utrecht-feedback-danger-fill-color: var(--utrecht-color-white);
     --utrecht-feedback-danger-color: var(--utrecht-color-red-40);
+    --utrecht-column-layout-gap: var(--utrecht-space-column-md);
+    --utrecht-column-layout-column-rule-color: var(--utrecht-color-grey-80);
     --utrecht-code-block-margin-block-end: var(--utrecht-space-block-lg);
     --utrecht-code-block-margin-block-start: var(--utrecht-space-block-lg);
     --utrecht-code-block-color: var(--utrecht-color-black);
@@ -6149,6 +6165,28 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2020-2022 Gemeente Utrecht
+ * Copyright (c) 2020-2022 Frameless B.V.
+ */
+.utrecht-column-layout {
+  column-gap: var(--utrecht-column-layout-gap, 2em);
+  column-width: var(--utrecht-column-layout-column-width, 40ch);
+  display: block;
+}
+
+.utrecht-column-layout--rule {
+  column-rule-color: var(--utrecht-column-layout-column-rule-color);
+  column-rule-style: solid;
+  column-rule-width: var(--utrecht-column-layout-column-rule-width, 0);
 }
 
 /**
