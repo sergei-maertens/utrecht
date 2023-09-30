@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Thu, 28 Sep 2023 07:44:58 GMT
+ * Generated on Sat, 30 Sep 2023 08:03:52 GMT
  */
 /**
  * Do not edit directly
- * Generated on Thu, 28 Sep 2023 07:45:02 GMT
+ * Generated on Sat, 30 Sep 2023 08:03:56 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -8057,6 +8057,28 @@ however browsers don't seem to have implemented great looking supixel tweening y
   /* undo focus ring */
   box-shadow: none;
   outline-style: revert;
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 The Knights Who Say NIH! B.V.
+ * Copyright (c) 2021 Gemeente Utrecht
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Gemeente Utrecht
+ * Copyright (c) 2021 Robbert Broersma
+ */
+.utrecht-multiline-data {
+  white-space: pre-line;
+  /* stylelint-disable-next-line property-no-unknown */
+  white-space-collapse: preserve-breaks;
+}
+
+.utrecht-multiline-data--html-pre {
+  font-family: inherit;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 /**
