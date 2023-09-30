@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sat, 30 Sep 2023 17:37:45 GMT
+ * Generated on Sat, 30 Sep 2023 21:36:54 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sat, 30 Sep 2023 17:37:48 GMT
+ * Generated on Sat, 30 Sep 2023 21:36:56 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6388,6 +6388,12 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021-2022 Gemeente Utrecht
  * Copyright (c) 2021-2022 Frameless B.V.
  */
+/* `@mixin utrecht-data-list--html-dl` is not necessary.
+ * Default styles include only `display` and `margin`, and those properties are configured by default.
+ */
+/* `@mixin utrecht-data-list__item-key--html-dt` is not necessary, `<dt>` has no default styles. */
+/* stylelint-disable-next-line block-no-empty */
+/* stylelint-disable-next-line block-no-empty */
 .utrecht-data-list {
   /* also set `margin-block` to reset browser styling of <dl> */
   display: block;
@@ -6411,7 +6417,11 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   min-block-size: calc(var(--utrecht-data-list-item-value-line-height) * 1rem);
 }
 
-.utrecht-data-list__actions--html-dd,
+.utrecht-data-list__actions--html-dd {
+  /* reset browser styling of <dd> */
+  margin-inline-start: 0;
+}
+
 .utrecht-data-list__item-value--html-dd {
   /* reset browser styling of <dd> */
   margin-inline-start: 0;
@@ -6437,11 +6447,12 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   border-block-end-color: var(--utrecht-data-list-rows-border-bottom-color, transparent);
   border-block-end-style: solid;
   border-block-end-width: var(--utrecht-data-list-rows-border-bottom-width, 0);
+  column-gap: var(--utrecht-data-list-rows-gap);
   display: grid;
-  gap: 0 var(--utrecht-data-list-rows-gap);
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(auto-fit, var(--_utrecht-auto-col));
   margin-block-start: var(--utrecht-data-list-rows-item-margin-block-start);
+  row-gap: 0;
 }
 .utrecht-data-list--rows .utrecht-data-list__item:first-of-type {
   margin-block-start: 0;
