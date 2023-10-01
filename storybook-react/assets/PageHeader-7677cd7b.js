@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime-29545a09.js";import{c as d}from"./clsx.m-1229b3e0.js";import{r as p}from"./index-76fb7be0.js";const e=p.forwardRef(({children:a,className:r,...o},s)=>t("header",{...o,ref:s,className:d("utrecht-page-header",r),children:a}));e.displayName="PageHeader";try{e.displayName="PageHeader",e.__docgenInfo={description:"",displayName:"PageHeader",props:{}}}catch{}export{e as P};
+//# sourceMappingURL=PageHeader-7677cd7b.js.map

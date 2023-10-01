@@ -1,0 +1,2 @@
+import{j as s}from"./jsx-runtime-29545a09.js";import{c as p}from"./clsx.m-1229b3e0.js";import{r as c}from"./index-76fb7be0.js";const o=c.forwardRef(({children:r,className:e,...a},t)=>s("footer",{...a,ref:t,className:p("utrecht-page-footer",e),children:r}));o.displayName="PageFooter";try{o.displayName="PageFooter",o.__docgenInfo={description:"",displayName:"PageFooter",props:{}}}catch{}export{o as P};
+//# sourceMappingURL=PageFooter-7d026905.js.map

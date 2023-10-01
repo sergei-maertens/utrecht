@@ -1,0 +1,2 @@
+import{j as p}from"./jsx-runtime-29545a09.js";import{c as t}from"./clsx.m-1229b3e0.js";import{r as i}from"./index-76fb7be0.js";const r=i.forwardRef(({children:e,className:a,...o},s)=>p("p",{...o,ref:s,className:t("utrecht-pre-heading",a),children:e}));r.displayName="PreHeading";try{r.displayName="PreHeading",r.__docgenInfo={description:"",displayName:"PreHeading",props:{}}}catch{}export{r as P};
+//# sourceMappingURL=PreHeading-9292c9ad.js.map

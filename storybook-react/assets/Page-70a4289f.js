@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime-29545a09.js";import{c as p}from"./clsx.m-1229b3e0.js";import{r as c}from"./index-76fb7be0.js";const a=c.forwardRef(({children:r,className:e,...o},s)=>t("div",{...o,ref:s,className:p("utrecht-page",e),children:r}));a.displayName="Page";try{a.displayName="Page",a.__docgenInfo={description:"",displayName:"Page",props:{}}}catch{}export{a as P};
+//# sourceMappingURL=Page-70a4289f.js.map

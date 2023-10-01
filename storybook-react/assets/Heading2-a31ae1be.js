@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime-29545a09.js";import{c as i}from"./clsx.m-1229b3e0.js";import{r as c}from"./index-76fb7be0.js";const a=c.forwardRef(({children:r,className:e,...o},s)=>t("h2",{...o,ref:s,className:i("utrecht-heading-2",e),children:r}));a.displayName="Heading2";try{a.displayName="Heading2",a.__docgenInfo={description:"",displayName:"Heading2",props:{}}}catch{}export{a as H};
+//# sourceMappingURL=Heading2-a31ae1be.js.map

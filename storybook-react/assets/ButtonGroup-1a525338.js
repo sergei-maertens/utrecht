@@ -1,0 +1,2 @@
+import{j as s}from"./jsx-runtime-29545a09.js";import{c as e}from"./clsx.m-1229b3e0.js";import{r as c}from"./index-76fb7be0.js";const o=c.forwardRef(({children:r,className:t,...p},a)=>s("p",{...p,ref:a,className:e("utrecht-button-group",t),children:r}));o.displayName="ButtonGroup";try{o.displayName="ButtonGroup",o.__docgenInfo={description:"",displayName:"ButtonGroup",props:{}}}catch{}export{o as B};
+//# sourceMappingURL=ButtonGroup-1a525338.js.map
