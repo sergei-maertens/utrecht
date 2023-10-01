@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Sat, 30 Sep 2023 21:55:10 GMT
+ * Generated on Sun, 01 Oct 2023 08:32:48 GMT
  */
 /**
  * Do not edit directly
- * Generated on Sat, 30 Sep 2023 21:55:13 GMT
+ * Generated on Sun, 01 Oct 2023 08:32:51 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -3873,6 +3873,7 @@
  */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-accordion__section {
+  break-inside: avoid;
   margin-block-end: var(--utrecht-accordion-section-margin-block-end);
   margin-block-start: var(--utrecht-accordion-section-margin-block-start);
 }
@@ -6598,6 +6599,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  */
 /* stylelint-disable-next-line block-no-empty */
 .utrecht-form-field {
+  break-inside: avoid;
   font-family: var(--utrecht-document-font-family, inherit);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-end, 0));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-margin-block-start, 0));
@@ -6744,6 +6746,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 }
 
 .utrecht-form-fieldset__legend {
+  break-inside: avoid;
   color: var(--utrecht-form-fieldset-legend-color, var(--utrecht-document-color, inherit));
   font-family: var(--utrecht-form-fieldset-legend-font-family, var(--utrecht-document-font-family));
   font-size: var(--utrecht-form-fieldset-legend-font-size);
@@ -6980,6 +6983,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021-2022 Frameless B.V.
  */
 .utrecht-heading-1 {
+  break-inside: avoid-column;
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-1-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -7013,6 +7017,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021-2022 Frameless B.V.
  */
 .utrecht-heading-2 {
+  break-inside: avoid-column;
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-2-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -7046,6 +7051,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021-2022 Frameless B.V.
  */
 .utrecht-heading-3 {
+  break-inside: avoid-column;
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-3-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -7079,6 +7085,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021-2022 Frameless B.V.
  */
 .utrecht-heading-4 {
+  break-inside: avoid-column;
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-4-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -7112,6 +7119,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021-2022 Frameless B.V.
  */
 .utrecht-heading-5 {
+  break-inside: avoid-column;
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-5-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -7145,6 +7153,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2021-2022 Frameless B.V.
  */
 .utrecht-heading-6 {
+  break-inside: avoid-column;
   page-break-after: avoid;
   page-break-inside: avoid;
   color: var(--utrecht-heading-6-color, var(--utrecht-heading-color, var(--utrecht-document-color, inherit)));
@@ -9572,6 +9581,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 
 .utrecht-table--html-table > caption,
 .utrecht-table__caption {
+  break-inside: avoid;
   color: var(--utrecht-table-caption-color);
   font-family: var(--utrecht-table-caption-font-family);
   font-size: var(--utrecht-table-caption-font-size);
@@ -9587,6 +9597,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
   --_utrecht-table-header-cell-vertical-align: bottom;
   --_utrecht-table-header-cell-z-index: 8;
   background-color: var(--utrecht-table-header-background-color);
+  break-inside: avoid;
   color: var(--utrecht-table-header-color);
   font-weight: var(--utrecht-table-header-font-weight);
   page-break-inside: avoid;
@@ -9650,6 +9661,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
 .utrecht-table--html-table > tbody > tr,
 .utrecht-table--html-table > tfoot > tr,
 .utrecht-table__row {
+  break-inside: avoid;
   page-break-inside: avoid;
 }
 
@@ -10367,6 +10379,7 @@ however browsers don't seem to have implemented great looking supixel tweening y
  * Copyright (c) 2021 Gemeente Utrecht
  */
 .utrecht-url {
+  break-inside: avoid;
   font-variant-ligatures: none;
   -webkit-hyphens: none;
           hyphens: none;

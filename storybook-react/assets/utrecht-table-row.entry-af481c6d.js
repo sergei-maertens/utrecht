@@ -1,0 +1,2 @@
+import{r as o,h as r,H as s}from"./index.esm-4255a608.js";import"./defineProperty-75c483e5.js";import"./getPrototypeOf-a3ec403f.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";import"./index-d3ea75b5.js";import"./iframe-cb0e671c.js";import"../sb-preview/runtime.js";const e=":host{break-inside:avoid;page-break-inside:avoid;display:table-row}",i=class{constructor(t){o(this,t)}render(){return r(s,{role:"row"},r("slot",null))}};i.style=e;export{i as utrecht_table_row};
+//# sourceMappingURL=utrecht-table-row.entry-af481c6d.js.map
