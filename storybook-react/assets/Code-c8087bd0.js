@@ -1,0 +1,2 @@
+import{j as c}from"./jsx-runtime-29545a09.js";import{c as t}from"./clsx.m-1229b3e0.js";import{r as d}from"./index-76fb7be0.js";const o=d.forwardRef(({children:r,className:e,...a},s)=>c("code",{ref:s,className:t("utrecht-code",e),...a,children:r}));o.displayName="Code";try{o.displayName="Code",o.__docgenInfo={description:"",displayName:"Code",props:{}}}catch{}export{o as C};
+//# sourceMappingURL=Code-c8087bd0.js.map

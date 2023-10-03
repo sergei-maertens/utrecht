@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 03 Oct 2023 07:33:32 GMT
+ * Generated on Tue, 03 Oct 2023 09:38:02 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 03 Oct 2023 07:33:35 GMT
+ * Generated on Tue, 03 Oct 2023 09:38:06 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -917,6 +917,7 @@
   --utrecht-link-visited-color: var(--utrecht-link-color);
   --utrecht-link-hover-color: var(--utrecht-link-focus-color);
   --utrecht-link-active-color: var(--utrecht-link-color);
+  --utrecht-form-field-error-message-color: var(--utrecht-feedback-invalid-color);
   --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
   --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
   --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
@@ -1856,6 +1857,7 @@
   --utrecht-link-visited-color: var(--utrecht-link-color);
   --utrecht-link-hover-color: var(--utrecht-link-focus-color);
   --utrecht-link-active-color: var(--utrecht-link-color);
+  --utrecht-form-field-error-message-color: var(--utrecht-feedback-invalid-color);
   --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
   --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
   --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
@@ -2814,6 +2816,7 @@
     --utrecht-link-visited-color: var(--utrecht-link-color);
     --utrecht-link-hover-color: var(--utrecht-link-focus-color);
     --utrecht-link-active-color: var(--utrecht-link-color);
+    --utrecht-form-field-error-message-color: var(--utrecht-feedback-invalid-color);
     --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
     --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
     --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
@@ -3766,6 +3769,7 @@
     --utrecht-link-visited-color: var(--utrecht-link-color);
     --utrecht-link-hover-color: var(--utrecht-link-focus-color);
     --utrecht-link-active-color: var(--utrecht-link-color);
+    --utrecht-form-field-error-message-color: var(--utrecht-feedback-invalid-color);
     --utrecht-form-field-description-warning-color: var(--utrecht-feedback-warning-color);
     --utrecht-form-field-description-invalid-color: var(--utrecht-feedback-invalid-color);
     --utrecht-form-control-invalid-border-color: var(--utrecht-feedback-invalid-border-color);
@@ -6590,6 +6594,28 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
 
 .utrecht-form-field-description--warning {
   color: var(--utrecht-form-field-description-warning-color, var(--utrecht-feedback-warning-color));
+}
+
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Robbert Broersma
+ */
+.utrecht-form-field-error-message {
+  --utrecht-document-color: currentColor;
+  color: var(--utrecht-form-field-error-message-color);
+  display: block;
+  font-family: var(--utrecht-document-font-family, inherit);
+  font-size: var(--utrecht-form-field-error-message-font-size, inherit);
+  font-style: var(--utrecht-form-field-error-message-font-style);
+  margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-error-message-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
+  margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-error-message-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
+}
+.utrecht-form-field-error-message > * {
+  --utrecht-space-around: 1;
 }
 
 /**
