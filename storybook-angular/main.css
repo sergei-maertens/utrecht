@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 03 Oct 2023 13:49:21 GMT
+ * Generated on Tue, 03 Oct 2023 14:06:50 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 03 Oct 2023 13:49:26 GMT
+ * Generated on Tue, 03 Oct 2023 14:06:53 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6607,6 +6607,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  */
 .utrecht-form-field-error-message {
   --utrecht-document-color: currentColor;
+  background-color: var(--utrecht-error-message-background-color);
   color: var(--utrecht-form-field-error-message-color);
   display: block;
   font-family: var(--utrecht-document-font-family, inherit);
@@ -6614,6 +6615,10 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
   font-style: var(--utrecht-form-field-error-message-font-style);
   margin-block-end: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-error-message-margin-block-end, var(--utrecht-paragraph-margin-block-end, 0)));
   margin-block-start: calc(var(--utrecht-space-around, 0) * var(--utrecht-form-field-error-message-margin-block-start, var(--utrecht-paragraph-margin-block-start, 0)));
+  padding-block-end: var(--utrecht-error-message-padding-block-end);
+  padding-block-start: var(--utrecht-error-message-padding-block-start);
+  padding-inline-end: var(--utrecht-error-message-padding-inline-end);
+  padding-inline-start: var(--utrecht-error-message-padding-inline-start);
 }
 .utrecht-form-field-error-message > * {
   --utrecht-space-around: 1;
