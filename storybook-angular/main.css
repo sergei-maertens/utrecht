@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Tue, 03 Oct 2023 09:53:36 GMT
+ * Generated on Tue, 03 Oct 2023 12:07:12 GMT
  */
 /**
  * Do not edit directly
- * Generated on Tue, 03 Oct 2023 09:53:39 GMT
+ * Generated on Tue, 03 Oct 2023 12:07:16 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -6556,6 +6556,7 @@ so do not apply these styles to an HTML `<dialog>` element without `open` attrib
  * Copyright (c) 2020-2022 Frameless B.V.
  */
 .utrecht-form {
+  display: block;
   max-inline-size: var(--utrecht-form-max-inline-size);
 }
 
