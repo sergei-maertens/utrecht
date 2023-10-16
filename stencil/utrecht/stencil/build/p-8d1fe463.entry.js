@@ -1,0 +1,2 @@
+import{r,h as t,H as o}from"./p-2d1f0646.js";const e=":host{--_utrecht-table-header-cell-z-index:2;display:table-row-group}";const s=class{constructor(t){r(this,t)}render(){return t(o,{role:"rowgroup"},t("slot",null))}};s.style=e;export{s as utrecht_table_body};
+//# sourceMappingURL=p-8d1fe463.entry.js.map

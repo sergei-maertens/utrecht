@@ -1,0 +1,2 @@
+import{r as t,h as a}from"./p-2d1f0646.js";const r=":host{display:contents}dl{display:block;margin-block-end:calc(var(--utrecht-space-around, 0) * var(--utrecht-data-list-margin-block-end, 0));margin-block-start:calc(var(--utrecht-space-around, 0) * var(--utrecht-data-list-margin-block-start, 0))}:host([hidden]){display:none !important}";const s=class{constructor(a){t(this,a)}render(){return a("dl",null,a("slot",null))}};s.style=r;export{s as utrecht_data_list};
+//# sourceMappingURL=p-99aa9d86.entry.js.map
