@@ -5,11 +5,11 @@
  */
 /**
  * Do not edit directly
- * Generated on Mon, 16 Oct 2023 12:41:10 GMT
+ * Generated on Wed, 18 Oct 2023 14:02:38 GMT
  */
 /**
  * Do not edit directly
- * Generated on Mon, 16 Oct 2023 12:41:14 GMT
+ * Generated on Wed, 18 Oct 2023 14:02:41 GMT
  */
 /**
  * @license SEE LICENSE.md
@@ -882,8 +882,7 @@
   --utrecht-alert-color: var(--utrecht-color-black);
   --utrecht-alert-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
-  --utrecht-accordion-section-margin-block-end: var(--utrecht-space-block-xs);
-  --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-xs);
+  --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-2xs);
   --utrecht-accordion-panel-padding-inline-end: var(--utrecht-space-block-md);
   --utrecht-accordion-panel-padding-inline-start: var(--utrecht-space-block-md);
   --utrecht-accordion-panel-padding-block-end: var(--utrecht-space-block-xs);
@@ -1832,8 +1831,7 @@
   --utrecht-alert-color: var(--utrecht-color-black);
   --utrecht-alert-background-color: var(--utrecht-color-blue-90);
   --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
-  --utrecht-accordion-section-margin-block-end: var(--utrecht-space-block-xs);
-  --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-xs);
+  --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-2xs);
   --utrecht-accordion-panel-padding-inline-end: var(--utrecht-space-block-md);
   --utrecht-accordion-panel-padding-inline-start: var(--utrecht-space-block-md);
   --utrecht-accordion-panel-padding-block-end: var(--utrecht-space-block-xs);
@@ -2801,8 +2799,7 @@
     --utrecht-alert-color: var(--utrecht-color-white);
     --utrecht-alert-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
-    --utrecht-accordion-section-margin-block-end: var(--utrecht-space-block-xs);
-    --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-xs);
+    --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-2xs);
     --utrecht-accordion-panel-padding-inline-end: var(--utrecht-space-block-md);
     --utrecht-accordion-panel-padding-inline-start: var(--utrecht-space-block-md);
     --utrecht-accordion-panel-padding-block-end: var(--utrecht-space-block-xs);
@@ -3764,8 +3761,7 @@
     --utrecht-alert-color: var(--utrecht-color-white);
     --utrecht-alert-background-color: var(--utrecht-color-blue-35);
     --utrecht-alert-dialog-max-inline-size: var(--utrecht-article-max-inline-size);
-    --utrecht-accordion-section-margin-block-end: var(--utrecht-space-block-xs);
-    --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-xs);
+    --utrecht-accordion-section-margin-block-start: var(--utrecht-space-block-2xs);
     --utrecht-accordion-panel-padding-inline-end: var(--utrecht-space-block-md);
     --utrecht-accordion-panel-padding-inline-start: var(--utrecht-space-block-md);
     --utrecht-accordion-panel-padding-block-end: var(--utrecht-space-block-xs);
@@ -3976,6 +3972,10 @@
   padding-block-start: var(--utrecht-accordion-panel-padding-block-start);
   padding-inline-end: var(--utrecht-accordion-panel-padding-inline-end);
   padding-inline-start: var(--utrecht-accordion-panel-padding-inline-start);
+}
+
+.utrecht-accordion__header {
+  --utrecht-space-around: 0;
 }
 
 /**
